@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 14, 2026 16:41 UTC",
+  "last_updated": "June 14, 2026 16:55 UTC",
   "hitting": {
     "batting_avg": [
       {
@@ -885,6 +885,58 @@
         "name": "Bryan Woo",
         "team": "SEA",
         "value": "82.0"
+      }
+    ],
+    "home_runs_allowed": [
+      {
+        "name": "Mike Burrows",
+        "team": "HOU",
+        "value": "18"
+      },
+      {
+        "name": "Jeffrey Springs",
+        "team": "ATH",
+        "value": "16"
+      },
+      {
+        "name": "Tanner Bibee",
+        "team": "CLE",
+        "value": "15"
+      },
+      {
+        "name": "Nathan Eovaldi",
+        "team": "TEX",
+        "value": "15"
+      },
+      {
+        "name": "Ryan Weathers",
+        "team": "NYY",
+        "value": "15"
+      },
+      {
+        "name": "Erick Fedde",
+        "team": "CWS",
+        "value": "14"
+      },
+      {
+        "name": "Logan Gilbert",
+        "team": "SEA",
+        "value": "13"
+      },
+      {
+        "name": "Gavin Williams",
+        "team": "CLE",
+        "value": "13"
+      },
+      {
+        "name": "Jacob deGrom",
+        "team": "TEX",
+        "value": "13"
+      },
+      {
+        "name": "Aaron Civale",
+        "team": "ATH",
+        "value": "12"
       }
     ],
     "saves": [
