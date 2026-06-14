@@ -131,7 +131,9 @@ leaderboards = {
     "strikeouts": get_pitching_leaders("strikeOuts"),
     "whip": get_pitching_leaders("whip"),
     "innings": get_pitching_leaders("inningsPitched"),
-    "saves": get_pitching_leaders("saves")
+    "quality_starts": get_pitching_leaders("qualityStarts"),
+    "saves": get_pitching_leaders("saves"),
+    "holds": get_pitching_leaders("holds")
 }}
 
 with open("leaderboards.json", "w") as f:
