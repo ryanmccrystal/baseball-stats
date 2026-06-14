@@ -1,0 +1,473 @@
+{
+  "hitting": {
+    "batting_avg": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": ".327"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "TB",
+        "value": ".325"
+      },
+      {
+        "name": "Josh Jung",
+        "team": "TEX",
+        "value": ".307"
+      },
+      {
+        "name": "Ernie Clement",
+        "team": "TOR",
+        "value": ".305"
+      },
+      {
+        "name": "Riley Greene",
+        "team": "DET",
+        "value": ".297"
+      },
+      {
+        "name": "Willson Contreras",
+        "team": "BOS",
+        "value": ".296"
+      },
+      {
+        "name": "Randy Arozarena",
+        "team": "SEA",
+        "value": ".291"
+      },
+      {
+        "name": "Ceddanne Rafaela",
+        "team": "BOS",
+        "value": ".291"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": ".291"
+      },
+      {
+        "name": "Ezequiel Duran",
+        "team": "TEX",
+        "value": ".288"
+      }
+    ],
+    "home_runs": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": "24"
+      },
+      {
+        "name": "Byron Buxton",
+        "team": "MIN",
+        "value": "22"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "team": "CWS",
+        "value": "20"
+      },
+      {
+        "name": "Shea Langeliers",
+        "team": "ATH",
+        "value": "18"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": "18"
+      },
+      {
+        "name": "Christian Walker",
+        "team": "HOU",
+        "value": "18"
+      },
+      {
+        "name": "Aaron Judge",
+        "team": "NYY",
+        "value": "17"
+      },
+      {
+        "name": "Pete Alonso",
+        "team": "BAL",
+        "value": "16"
+      },
+      {
+        "name": "Dillon Dingler",
+        "team": "DET",
+        "value": "16"
+      },
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": "16"
+      }
+    ],
+    "rbi": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": "54"
+      },
+      {
+        "name": "Christian Walker",
+        "team": "HOU",
+        "value": "52"
+      },
+      {
+        "name": "Dillon Dingler",
+        "team": "DET",
+        "value": "50"
+      },
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": "50"
+      },
+      {
+        "name": "Pete Alonso",
+        "team": "BAL",
+        "value": "48"
+      },
+      {
+        "name": "Jonathan Aranda",
+        "team": "TB",
+        "value": "48"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "TB",
+        "value": "46"
+      },
+      {
+        "name": "Cody Bellinger",
+        "team": "NYY",
+        "value": "45"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": "45"
+      },
+      {
+        "name": "Miguel Vargas",
+        "team": "CWS",
+        "value": "44"
+      }
+    ],
+    "stolen_bases": [
+      {
+        "name": "Jos\u00e9 Ram\u00edrez",
+        "team": "CLE",
+        "value": "24"
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "team": "KC",
+        "value": "24"
+      },
+      {
+        "name": "Randy Arozarena",
+        "team": "SEA",
+        "value": "19"
+      },
+      {
+        "name": "Jazz Chisholm Jr.",
+        "team": "NYY",
+        "value": "18"
+      },
+      {
+        "name": "Jos\u00e9 Caballero",
+        "team": "NYY",
+        "value": "15"
+      },
+      {
+        "name": "Chandler Simpson",
+        "team": "TB",
+        "value": "14"
+      },
+      {
+        "name": "Josh Naylor",
+        "team": "SEA",
+        "value": "13"
+      },
+      {
+        "name": "Luisangel Acu\u00f1a",
+        "team": "CWS",
+        "value": "12"
+      },
+      {
+        "name": "Brayan Rocchio",
+        "team": "CLE",
+        "value": "12"
+      },
+      {
+        "name": "Travis Bazzana",
+        "team": "CLE",
+        "value": "11"
+      }
+    ],
+    "obp": [
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": ".437"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": ".435"
+      },
+      {
+        "name": "Taylor Ward",
+        "team": "BAL",
+        "value": ".407"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "TB",
+        "value": ".402"
+      },
+      {
+        "name": "Mike Trout",
+        "team": "LAA",
+        "value": ".391"
+      },
+      {
+        "name": "Willson Contreras",
+        "team": "BOS",
+        "value": ".391"
+      },
+      {
+        "name": "Riley Greene",
+        "team": "DET",
+        "value": ".387"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": ".387"
+      },
+      {
+        "name": "Kevin McGonigle",
+        "team": "DET",
+        "value": ".383"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "team": "CWS",
+        "value": ".378"
+      }
+    ],
+    "runs": [
+      {
+        "name": "Mike Trout",
+        "team": "LAA",
+        "value": "51"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": "50"
+      },
+      {
+        "name": "Miguel Vargas",
+        "team": "CWS",
+        "value": "50"
+      },
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": "49"
+      },
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": "48"
+      },
+      {
+        "name": "Zach Neto",
+        "team": "LAA",
+        "value": "48"
+      },
+      {
+        "name": "Randy Arozarena",
+        "team": "SEA",
+        "value": "47"
+      },
+      {
+        "name": "Byron Buxton",
+        "team": "MIN",
+        "value": "47"
+      },
+      {
+        "name": "Shea Langeliers",
+        "team": "ATH",
+        "value": "46"
+      },
+      {
+        "name": "Taylor Ward",
+        "team": "BAL",
+        "value": "45"
+      }
+    ],
+    "hits": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": "84"
+      },
+      {
+        "name": "Ernie Clement",
+        "team": "TOR",
+        "value": "83"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "TB",
+        "value": "80"
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "team": "KC",
+        "value": "80"
+      },
+      {
+        "name": "Josh Jung",
+        "team": "TEX",
+        "value": "77"
+      },
+      {
+        "name": "Randy Arozarena",
+        "team": "SEA",
+        "value": "76"
+      },
+      {
+        "name": "Riley Greene",
+        "team": "DET",
+        "value": "76"
+      },
+      {
+        "name": "Shea Langeliers",
+        "team": "ATH",
+        "value": "75"
+      },
+      {
+        "name": "Wilyer Abreu",
+        "team": "BOS",
+        "value": "73"
+      },
+      {
+        "name": "Julio Rodr\u00edguez",
+        "team": "SEA",
+        "value": "73"
+      }
+    ],
+    "doubles": [
+      {
+        "name": "Ernie Clement",
+        "team": "TOR",
+        "value": "20"
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "team": "KC",
+        "value": "19"
+      },
+      {
+        "name": "Randy Arozarena",
+        "team": "SEA",
+        "value": "18"
+      },
+      {
+        "name": "Jos\u00e9 Ram\u00edrez",
+        "team": "CLE",
+        "value": "18"
+      },
+      {
+        "name": "Tyler Soderstrom",
+        "team": "ATH",
+        "value": "18"
+      },
+      {
+        "name": "Riley Greene",
+        "team": "DET",
+        "value": "16"
+      },
+      {
+        "name": "Josh Jung",
+        "team": "TEX",
+        "value": "16"
+      },
+      {
+        "name": "Taylor Ward",
+        "team": "BAL",
+        "value": "16"
+      },
+      {
+        "name": "Wilyer Abreu",
+        "team": "BOS",
+        "value": "15"
+      },
+      {
+        "name": "Ezequiel Duran",
+        "team": "TEX",
+        "value": "15"
+      }
+    ],
+    "triples": [
+      {
+        "name": "Chandler Simpson",
+        "team": "TB",
+        "value": "4"
+      },
+      {
+        "name": "Cody Bellinger",
+        "team": "NYY",
+        "value": "3"
+      },
+      {
+        "name": "Kevin McGonigle",
+        "team": "DET",
+        "value": "3"
+      },
+      {
+        "name": "Leody Taveras",
+        "team": "BAL",
+        "value": "3"
+      },
+      {
+        "name": "Sam Antonacci",
+        "team": "CWS",
+        "value": "2"
+      },
+      {
+        "name": "Andrew Benintendi",
+        "team": "CWS",
+        "value": "2"
+      },
+      {
+        "name": "Kerry Carpenter",
+        "team": "DET",
+        "value": "2"
+      },
+      {
+        "name": "Evan Carter",
+        "team": "TEX",
+        "value": "2"
+      },
+      {
+        "name": "Jazz Chisholm Jr.",
+        "team": "NYY",
+        "value": "2"
+      },
+      {
+        "name": "Kody Clemens",
+        "team": "MIN",
+        "value": "2"
+      }
+    ]
+  },
+  "pitching": {}
+}
