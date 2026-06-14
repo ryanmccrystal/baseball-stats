@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLB Leaderboards</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 40px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        pre {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>AL Batting Avg</h2>
+
+<pre id="leaders">Loading...</pre>
+
+<script>
+fetch('./al_batting_avg.json')
+  .then(response => response.json())
+  .then(data => {
+
+    let output = "";
+
+    data.forEach(player => {
+      let line =
+        (player.name + ", " + player.team)
+        .padEnd(30) +
+        player.avg;
+
+      output += line + "\n";
+    });
+
+    document.getElementById("leaders").textContent = output;
+  })
+  .catch(error => {
+    document.getElementById("leaders").textContent =
+      "Error loading leaderboard: " + error;
+  });
+</script>
+
+</body>
+</html>
