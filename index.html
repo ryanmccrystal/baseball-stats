@@ -13,22 +13,23 @@
             margin-bottom: 15px;
         }
 
-        table {
-            border-collapse: collapse;
+        .leaderboard {
+            width: 450px;
         }
 
-        th, td {
-            padding: 4px 20px 4px 0;
+        .player-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
         }
 
-        th {
+        .name {
             text-align: left;
-            border-bottom: 1px solid black;
         }
 
-        td:last-child,
-        th:last-child {
+        .avg {
             text-align: right;
+            min-width: 50px;
         }
     </style>
 </head>
@@ -37,37 +38,26 @@
 
 <h2>AL Batting Avg</h2>
 
-<table id="leaders">
-    <thead>
-        <tr>
-            <th>Player</th>
-            <th>Team</th>
-            <th>AVG</th>
-        </tr>
-    </thead>
-
-    <tbody>
-    </tbody>
-</table>
+<div id="leaders" class="leaderboard"></div>
 
 <script>
 fetch('./al_batting_avg.json')
     .then(response => response.json())
     .then(data => {
 
-        let tbody = document.querySelector("#leaders tbody");
+        let leaders = document.getElementById("leaders");
 
         data.forEach(player => {
 
-            let row = document.createElement("tr");
+            let row = document.createElement("div");
+            row.className = "player-row";
 
             row.innerHTML = `
-                <td>${player.name}</td>
-                <td>${player.team}</td>
-                <td>${player.avg}</td>
+                <span class="name">${player.name}, ${player.team}</span>
+                <span class="avg">${player.avg}</span>
             `;
 
-            tbody.appendChild(row);
+            leaders.appendChild(row);
         });
     });
 </script>
