@@ -14,6 +14,11 @@
             margin-bottom: 25px;
         }
 
+        #lastUpdated {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
         h2 {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -62,6 +67,8 @@ hr {
 <body>
 
 <h1>American League Leaders</h1>
+   
+<div id="lastUpdated"></div>
 
 <h2>Hitting</h2>
 
@@ -77,7 +84,12 @@ hr {
 
 fetch('./leaderboards.json')
     .then(response => response.json())
-    .then(data => {
+    .then(data => { 
+
+        document.getElementById("lastUpdated")
+    .textContent =
+    "Last Updated: " +
+    data.last_updated;
 
         const hittingTitles = {
             batting_avg: "AL Batting Avg",
