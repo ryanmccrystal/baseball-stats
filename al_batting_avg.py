@@ -132,7 +132,7 @@ leaderboards = {
     "whip": get_pitching_leaders("whip"),
     "innings": get_pitching_leaders("inningsPitched"),
     "saves": get_pitching_leaders("saves")
-}
+},
 
 with open("leaderboards.json", "w") as f:
     json.dump(leaderboards, f, indent=2)
