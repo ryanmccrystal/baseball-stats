@@ -135,6 +135,7 @@ leaderboards = {
     "strikeouts": get_pitching_leaders("strikeOuts"),
     "whip": get_pitching_leaders("whip"),
     "innings": get_pitching_leaders("inningsPitched"),
+    "home_runs_allowed": get_pitching_leaders("homeRuns"),
     "saves": get_pitching_leaders("saves"),
     "holds": get_pitching_leaders("holds")
 }}
