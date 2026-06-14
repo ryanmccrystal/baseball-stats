@@ -260,6 +260,110 @@
         "value": ".378"
       }
     ],
+    "slg": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": ".658"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": ".603"
+      },
+      {
+        "name": "Byron Buxton",
+        "team": "MIN",
+        "value": ".596"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "team": "CWS",
+        "value": ".560"
+      },
+      {
+        "name": "Willson Contreras",
+        "team": "BOS",
+        "value": ".541"
+      },
+      {
+        "name": "Shea Langeliers",
+        "team": "ATH",
+        "value": ".539"
+      },
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": ".534"
+      },
+      {
+        "name": "Aaron Judge",
+        "team": "NYY",
+        "value": ".533"
+      },
+      {
+        "name": "Dillon Dingler",
+        "team": "DET",
+        "value": ".525"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "TB",
+        "value": ".524"
+      }
+    ],
+    "ops": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": "1.093"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": ".990"
+      },
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": ".971"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "team": "CWS",
+        "value": ".938"
+      },
+      {
+        "name": "Willson Contreras",
+        "team": "BOS",
+        "value": ".932"
+      },
+      {
+        "name": "Byron Buxton",
+        "team": "MIN",
+        "value": ".927"
+      },
+      {
+        "name": "Yandy D\u00edaz",
+        "team": "TB",
+        "value": ".926"
+      },
+      {
+        "name": "Aaron Judge",
+        "team": "NYY",
+        "value": ".908"
+      },
+      {
+        "name": "Shea Langeliers",
+        "team": "ATH",
+        "value": ".883"
+      },
+      {
+        "name": "Miguel Vargas",
+        "team": "CWS",
+        "value": ".865"
+      }
+    ],
     "runs": [
       {
         "name": "Mike Trout",
@@ -466,6 +570,58 @@
         "name": "Kody Clemens",
         "team": "MIN",
         "value": "2"
+      }
+    ],
+    "xbh": [
+      {
+        "name": "Yordan Alvarez",
+        "team": "HOU",
+        "value": "37"
+      },
+      {
+        "name": "Ben Rice",
+        "team": "NYY",
+        "value": "35"
+      },
+      {
+        "name": "Byron Buxton",
+        "team": "MIN",
+        "value": "35"
+      },
+      {
+        "name": "Shea Langeliers",
+        "team": "ATH",
+        "value": "33"
+      },
+      {
+        "name": "Tyler Soderstrom",
+        "team": "ATH",
+        "value": "31"
+      },
+      {
+        "name": "Dillon Dingler",
+        "team": "DET",
+        "value": "31"
+      },
+      {
+        "name": "Christian Walker",
+        "team": "HOU",
+        "value": "31"
+      },
+      {
+        "name": "Pete Alonso",
+        "team": "BAL",
+        "value": "29"
+      },
+      {
+        "name": "Nick Kurtz",
+        "team": "ATH",
+        "value": "29"
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "team": "KC",
+        "value": "28"
       }
     ]
   },
