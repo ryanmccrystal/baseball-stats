@@ -4,70 +4,113 @@
     <title>MLB Leaderboards</title>
 
     <style>
+
         body {
             font-family: "Times New Roman", Times, serif;
-            margin: 40px;
+            margin: 30px;
         }
 
-        h2 {
-            margin-bottom: 15px;
+        h1 {
+            margin-bottom: 25px;
         }
 
-        .leaderboard {
-            width: 450px;
+        .grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
         }
 
-        .player-row {
+        .card {
+            padding: 10px;
+        }
+
+        .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            border-bottom: 1px solid black;
+            padding-bottom: 4px;
+        }
+
+        .row {
             display: flex;
-            margin-bottom: 4px;
+            justify-content: space-between;
+            margin-bottom: 3px;
         }
 
-        .name {
-            width: 220px;
+        .player {
+            margin-right: 10px;
         }
 
-        .avg {
-            width: 50px;
-            text-align: right;
+        .value {
+            white-space: nowrap;
         }
 
-        .name {
-            text-align: left;
-        }
-
-        .avg {
-            text-align: right;
-            min-width: 50px;
-        }
     </style>
 </head>
 
 <body>
 
-<h2>AL Batting Avg</h2>
+<h1>American League Leaders</h1>
 
-<div id="leaders" class="leaderboard"></div>
+<div id="leaderboards" class="grid"></div>
 
 <script>
-fetch('./al_batting_avg.json')
+
+const TITLES = {
+    batting_avg: "AL Batting Avg",
+    home_runs: "AL Home Runs",
+    rbi: "AL RBI",
+    stolen_bases: "AL Stolen Bases",
+    obp: "AL On-Base %",
+    runs: "AL Runs",
+    hits: "AL Hits",
+    doubles: "AL Doubles",
+    triples: "AL Triples"
+};
+
+fetch('./leaderboards.json')
     .then(response => response.json())
     .then(data => {
 
-        let leaders = document.getElementById("leaders");
+        const container =
+            document.getElementById("leaderboards");
 
-        data.forEach(player => {
+        const hitting = data.hitting;
 
-            let row = document.createElement("div");
-            row.className = "player-row";
+        Object.keys(TITLES).forEach(key => {
 
-            row.innerHTML = `
-                <span class="name">${player.name}, ${player.team}</span>
-                <span class="avg">${player.avg}</span>
-            `;
+            const card =
+                document.createElement("div");
 
-            leaders.appendChild(row);
+            card.className = "card";
+
+            let html =
+                `<div class="title">${TITLES[key]}</div>`;
+
+            hitting[key].forEach(player => {
+
+                html += `
+                    <div class="row">
+                        <span class="player">
+                            ${player.name}, ${player.team}
+                        </span>
+
+                        <span class="value">
+                            ${player.value}
+                        </span>
+                    </div>
+                `;
+            });
+
+            card.innerHTML = html;
+
+            container.appendChild(card);
+
         });
+
     });
+
 </script>
 
 </body>
