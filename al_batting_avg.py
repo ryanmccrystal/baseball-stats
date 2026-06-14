@@ -91,7 +91,7 @@ leaderboards = {
         "runs": get_leaders("runs"),
         "hits": get_leaders("hits"),
         "doubles": get_leaders("doubles"),
-        "triples": get_leaders("triples")
+        "triples": get_leaders("triples"),
         "xbh": get_xbh_leaders()
     },
 
