@@ -1,38 +1,33 @@
 [
   {
-    "name": "Yandy D\u00edaz",
-    "team": "TB",
-    "avg": ".329"
-  },
-  {
     "name": "Yordan Alvarez",
     "team": "HOU",
-    "avg": ".321"
+    "avg": ".327"
+  },
+  {
+    "name": "Yandy D\u00edaz",
+    "team": "TB",
+    "avg": ".325"
   },
   {
     "name": "Josh Jung",
     "team": "TEX",
-    "avg": ".308"
+    "avg": ".307"
   },
   {
     "name": "Ernie Clement",
     "team": "TOR",
-    "avg": ".306"
+    "avg": ".305"
   },
   {
     "name": "Riley Greene",
     "team": "DET",
-    "avg": ".298"
+    "avg": ".297"
   },
   {
     "name": "Willson Contreras",
     "team": "BOS",
-    "avg": ".293"
-  },
-  {
-    "name": "Ben Rice",
-    "team": "NYY",
-    "avg": ".291"
+    "avg": ".296"
   },
   {
     "name": "Randy Arozarena",
@@ -40,13 +35,18 @@
     "avg": ".291"
   },
   {
-    "name": "Ezequiel Duran",
-    "team": "TEX",
-    "avg": ".290"
-  },
-  {
     "name": "Ceddanne Rafaela",
     "team": "BOS",
-    "avg": ".287"
+    "avg": ".291"
+  },
+  {
+    "name": "Ben Rice",
+    "team": "NYY",
+    "avg": ".291"
+  },
+  {
+    "name": "Ezequiel Duran",
+    "team": "TEX",
+    "avg": ".288"
   }
 ]
