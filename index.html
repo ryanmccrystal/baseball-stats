@@ -2,49 +2,74 @@
 <html>
 <head>
     <title>MLB Leaderboards</title>
+
     <style>
         body {
-            font-family: monospace;
+            font-family: "Times New Roman", Times, serif;
             margin: 40px;
         }
 
         h2 {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
-        pre {
-            font-size: 16px;
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 4px 20px 4px 0;
+        }
+
+        th {
+            text-align: left;
+            border-bottom: 1px solid black;
+        }
+
+        td:last-child,
+        th:last-child {
+            text-align: right;
         }
     </style>
 </head>
+
 <body>
 
 <h2>AL Batting Avg</h2>
 
-<pre id="leaders">Loading...</pre>
+<table id="leaders">
+    <thead>
+        <tr>
+            <th>Player</th>
+            <th>Team</th>
+            <th>AVG</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    </tbody>
+</table>
 
 <script>
 fetch('./al_batting_avg.json')
-  .then(response => response.json())
-  .then(data => {
+    .then(response => response.json())
+    .then(data => {
 
-    let output = "";
+        let tbody = document.querySelector("#leaders tbody");
 
-    data.forEach(player => {
-      let line =
-        (player.name + ", " + player.team)
-        .padEnd(30) +
-        player.avg;
+        data.forEach(player => {
 
-      output += line + "\n";
+            let row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td>${player.name}</td>
+                <td>${player.team}</td>
+                <td>${player.avg}</td>
+            `;
+
+            tbody.appendChild(row);
+        });
     });
-
-    document.getElementById("leaders").textContent = output;
-  })
-  .catch(error => {
-    document.getElementById("leaders").textContent =
-      "Error loading leaderboard: " + error;
-  });
 </script>
 
 </body>
