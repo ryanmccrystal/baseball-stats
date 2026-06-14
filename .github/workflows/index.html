@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Baseball Stats</title>
+
+    <style>
+        body {
+            font-family: monospace;
+            margin: 40px;
+        }
+
+        pre {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<pre id="leaders">Loading...</pre>
+
+<script>
+fetch('al_batting_avg.json')
+  .then(response => response.json())
+  .then(data => {
+
+    let output = "AL Batting Avg\n";
+    output += "---------------------------------\n";
+
+    data.forEach(player => {
+
+      const line =
+        `${player.name}, ${player.team}`.padEnd(28)
+        + player.avg;
+
+      output += line + "\n";
+    });
+
+    document.getElementById('leaders').textContent = output;
+  });
+</script>
+
+</body>
+</html>
