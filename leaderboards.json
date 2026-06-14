@@ -937,6 +937,58 @@
         "team": "BAL",
         "value": "7"
       }
+    ],
+    "holds": [
+      {
+        "name": "Erik Sabrowski",
+        "team": "CLE",
+        "value": "17"
+      },
+      {
+        "name": "Tyler Rogers",
+        "team": "TOR",
+        "value": "15"
+      },
+      {
+        "name": "Kevin Kelly",
+        "team": "TB",
+        "value": "14"
+      },
+      {
+        "name": "Eduard Bazardo",
+        "team": "SEA",
+        "value": "12"
+      },
+      {
+        "name": "Sam Bachman",
+        "team": "LAA",
+        "value": "11"
+      },
+      {
+        "name": "Fernando Cruz",
+        "team": "NYY",
+        "value": "11"
+      },
+      {
+        "name": "Hunter Gaddis",
+        "team": "CLE",
+        "value": "11"
+      },
+      {
+        "name": "Tim Herrin",
+        "team": "CLE",
+        "value": "11"
+      },
+      {
+        "name": "Justin Sterner",
+        "team": "ATH",
+        "value": "11"
+      },
+      {
+        "name": "Scott Barlow",
+        "team": "ATH",
+        "value": "10"
+      }
     ]
   }
 }
