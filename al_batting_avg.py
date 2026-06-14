@@ -40,6 +40,44 @@ def get_leaders(category, top_n=10):
 
     return results[:top_n]
 
+def get_xbh_leaders(top_n=10):
+
+    doubles = get_leaders("doubles", 100)
+    triples = get_leaders("triples", 100)
+    homers = get_leaders("homeRuns", 100)
+
+    players = {}
+
+    for leaderboard in [doubles, triples, homers]:
+
+        for player in leaderboard:
+
+            key = player["name"]
+
+            if key not in players:
+                players[key] = {
+                    "name": player["name"],
+                    "team": player["team"],
+                    "xbh": 0
+                }
+
+            players[key]["xbh"] += int(player["value"])
+
+    results = list(players.values())
+
+    results.sort(
+        key=lambda x: x["xbh"],
+        reverse=True
+    )
+
+    return [
+        {
+            "name": p["name"],
+            "team": p["team"],
+            "value": str(p["xbh"])
+        }
+        for p in results[:top_n]
+    ]
 
 leaderboards = {
     "hitting": {
@@ -54,6 +92,7 @@ leaderboards = {
         "hits": get_leaders("hits"),
         "doubles": get_leaders("doubles"),
         "triples": get_leaders("triples")
+        "xbh": get_xbh_leaders()
     },
 
     "pitching": {}
