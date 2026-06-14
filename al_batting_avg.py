@@ -1,5 +1,6 @@
 import statsapi
 import json
+from datetime import datetime, timezone
 
 AL_TEAMS = {
     "BAL", "BOS", "NYY", "TB", "TOR",
@@ -110,6 +111,9 @@ def get_xbh_leaders(top_n=10):
     ]
 
 leaderboards = {
+    "last_updated":
+        datetime.now(timezone.utc)
+        .strftime("%B %d, %Y %H:%M UTC"),
     "hitting": {
         "batting_avg": get_leaders("battingAverage"),
         "home_runs": get_leaders("homeRuns"),
