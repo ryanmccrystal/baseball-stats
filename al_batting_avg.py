@@ -40,6 +40,36 @@ def get_leaders(category, top_n=10):
 
     return results[:top_n]
 
+def get_pitching_leaders(category, top_n=10):
+
+    leaders = statsapi.get(
+        "stats_leaders",
+        {
+            "leaderCategories": category,
+            "statGroup": "pitching",
+            "leaderGameTypes": "R",
+            "limit": 100
+        }
+    )
+
+    results = []
+
+    for player in leaders["leagueLeaders"][0]["leaders"]:
+
+        team_name = player["team"]["name"]
+        team_abbr = team_lookup.get(team_name, team_name)
+
+        if team_abbr not in AL_TEAMS:
+            continue
+
+        results.append({
+            "name": player["person"]["fullName"],
+            "team": team_abbr,
+            "value": player["value"]
+        })
+
+    return results[:top_n]
+
 def get_xbh_leaders(top_n=10):
 
     doubles = get_leaders("doubles", 100)
@@ -95,7 +125,13 @@ leaderboards = {
         "xbh": get_xbh_leaders()
     },
 
-    "pitching": {}
+   "pitching": {
+    "era": get_pitching_leaders("earnedRunAverage"),
+    "wins": get_pitching_leaders("wins"),
+    "strikeouts": get_pitching_leaders("strikeOuts"),
+    "whip": get_pitching_leaders("whip"),
+    "innings": get_pitching_leaders("inningsPitched"),
+    "saves": get_pitching_leaders("saves")
 }
 
 with open("leaderboards.json", "w") as f:
