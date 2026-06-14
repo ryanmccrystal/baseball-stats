@@ -48,6 +48,8 @@ leaderboards = {
         "rbi": get_leaders("runsBattedIn"),
         "stolen_bases": get_leaders("stolenBases"),
         "obp": get_leaders("onBasePercentage"),
+        "slg": get_leaders("sluggingPercentage"),
+        "ops": get_leaders("ops"),
         "runs": get_leaders("runs"),
         "hits": get_leaders("hits"),
         "doubles": get_leaders("doubles"),
