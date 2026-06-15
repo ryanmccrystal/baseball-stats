@@ -29,6 +29,12 @@ hr {
     margin-bottom: 30px;
 }
 
+        .major-divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 3px solid black;
+}
+
         .grid {
             display: grid;
             grid-template-columns:
@@ -70,15 +76,27 @@ hr {
    
 <div id="lastUpdated"></div>
 
-<h2>Hitting</h2>
+<h2>American League Hitting</h2>
 
-<div id="hitting" class="grid"></div>
+<div id="al-hitting" class="grid"></div>
 
 <hr>
 
-<h2>Pitching</h2>
+<h2>American League Pitching</h2>
 
-<div id="pitching" class="grid"></div>
+<div id="al-pitching" class="grid"></div>
+
+<hr class="major-divider">
+
+<h2>National League Hitting</h2>
+
+<div id="nl-hitting" class="grid"></div>
+
+<hr>
+
+<h2>National League Pitching</h2>
+
+<div id="nl-pitching" class="grid"></div>
 
 <script>
 
@@ -155,18 +173,28 @@ fetch('./leaderboards.json')
         }
 
         buildSection(
-            "hitting",
-            hittingTitles,
-            data.hitting
-        );
+    "al-hitting",
+    hittingTitles,
+    data.al.hitting
+);
 
-        buildSection(
-            "pitching",
-            pitchingTitles,
-            data.pitching
-        );
+buildSection(
+    "al-pitching",
+    pitchingTitles,
+    data.al.pitching
+);
 
-    });
+buildSection(
+    "nl-hitting",
+    hittingTitles,
+    data.nl.hitting
+);
+
+buildSection(
+    "nl-pitching",
+    pitchingTitles,
+    data.nl.pitching
+);
 
 </script>
 
