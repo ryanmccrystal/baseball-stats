@@ -110,29 +110,29 @@ fetch('./leaderboards.json')
             data.last_updated;
 
         const hittingTitles = {
-            batting_avg: "AL Batting Avg",
-            home_runs: "AL Home Runs",
-            rbi: "AL RBI",
-            stolen_bases: "AL Stolen Bases",
-            obp: "AL On-Base %",
-            slg: "AL SLG",
-            ops: "AL OPS",
-            runs: "AL Runs",
-            hits: "AL Hits",
-            doubles: "AL Doubles",
-            triples: "AL Triples",
-            xbh: "AL XBH"
+            batting_avg: "Batting Avg",
+            home_runs: "Home Runs",
+            rbi: "RBI",
+            stolen_bases: "Stolen Bases",
+            obp: "On-Base %",
+            slg: "SLG",
+            ops: "OPS",
+            runs: "Runs",
+            hits: "Hits",
+            doubles: "Doubles",
+            triples: "Triples",
+            xbh: "XBH"
         };
 
         const pitchingTitles = {
-            era: "AL ERA",
-            wins: "AL Wins",
-            strikeouts: "AL Strikeouts",
-            whip: "AL WHIP",
-            innings: "AL IP",
-            home_runs_allowed: "AL HR Allowed",
-            saves: "AL Saves",
-            holds: "AL Holds"
+            era: "ERA",
+            wins: "Wins",
+            strikeouts: "Strikeouts",
+            whip: "WHIP",
+            innings: "IP",
+            home_runs_allowed: "HR Allowed",
+            saves: "Saves",
+            holds: "Holds"
         };
 
         function buildSection(containerId, titles, dataGroup) {
@@ -195,6 +195,8 @@ buildSection(
     pitchingTitles,
     data.nl.pitching
 );
+
+    });
 
 </script>
 
