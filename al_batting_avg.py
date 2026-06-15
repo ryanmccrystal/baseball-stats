@@ -18,10 +18,10 @@ teams = statsapi.get("teams", {"sportId": 1})["teams"]
 team_lookup = {team["name"]: team["abbreviation"] for team in teams}
 
 team_lookup.update({
-    "Arizona Diamondbacks": "ARI"
-    "San Francisco Giants": "SFG"
-    "San Diego Padres": "SDP"
-    "Kansas City Royals": "KCR"
+    "Arizona Diamondbacks": "ARI",
+    "San Francisco Giants": "SFG",
+    "San Diego Padres": "SDP",
+    "Kansas City Royals": "KCR",
     "Tampa Bay Rays"" "TBR"
 })
 
