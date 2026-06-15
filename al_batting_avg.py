@@ -17,6 +17,8 @@ NL_TEAMS = {
 teams = statsapi.get("teams", {"sportId": 1})["teams"]
 team_lookup = {team["name"]: team["abbreviation"] for team in teams}
 
+print(team_lookup)
+
 
 def get_leaders(category, league_teams, top_n=10):
     leaders = statsapi.get(
