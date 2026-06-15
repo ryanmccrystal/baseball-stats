@@ -36,14 +36,6 @@ for player in leaders["leagueLeaders"][0]["leaders"]:
     team_name = player["team"]["name"]
     team_abbr = team_lookup.get(team_name, team_name)
 
-    if "Arizona" in team_name:
-        print(
-            "ARIZONA DEBUG:",
-            team_name,
-            "->",
-            team_abbr
-        )
-
     if team_abbr not in league_teams:
         continue
 
