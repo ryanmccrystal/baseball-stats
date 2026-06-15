@@ -11,7 +11,7 @@ AL_TEAMS = {
 NL_TEAMS = {
     "ATL", "MIA", "NYM", "PHI", "WSH",
     "CHC", "CIN", "MIL", "PIT", "STL",
-    "ARZ", "COL", "LAD", "SD", "SF"
+    "ARI", "COL", "LAD", "SD", "SF"
 }
 
 teams = statsapi.get("teams", {"sportId": 1})["teams"]
