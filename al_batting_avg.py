@@ -8,11 +8,17 @@ AL_TEAMS = {
     "HOU", "LAA", "ATH", "SEA", "TEX"
 }
 
+NL_TEAMS = {
+    "ATL", "MIA", "NYM", "PHI", "WSH",
+    "CHC", "CIN", "MIL", "PIT", "STL",
+    "ARI", "COL", "LAD", "SD", "SF"
+}
+
 teams = statsapi.get("teams", {"sportId": 1})["teams"]
 team_lookup = {team["name"]: team["abbreviation"] for team in teams}
 
 
-def get_leaders(category, top_n=10):
+def get_leaders(category, league_teams, top_n=10):
     leaders = statsapi.get(
         "stats_leaders",
         {
@@ -30,7 +36,7 @@ def get_leaders(category, top_n=10):
         team_name = player["team"]["name"]
         team_abbr = team_lookup.get(team_name, team_name)
 
-        if team_abbr not in AL_TEAMS:
+        if team_abbr not in league_teams:
             continue
 
         results.append({
@@ -41,7 +47,7 @@ def get_leaders(category, top_n=10):
 
     return results[:top_n]
 
-def get_pitching_leaders(category, top_n=10):
+def get_pitching_leaders(category, league_teams, top_n=10):
 
     leaders = statsapi.get(
         "stats_leaders",
@@ -60,7 +66,7 @@ def get_pitching_leaders(category, top_n=10):
         team_name = player["team"]["name"]
         team_abbr = team_lookup.get(team_name, team_name)
 
-        if team_abbr not in AL_TEAMS:
+        if team_abbr not in league_teams:
             continue
 
         results.append({
@@ -71,11 +77,11 @@ def get_pitching_leaders(category, top_n=10):
 
     return results[:top_n]
 
-def get_xbh_leaders(top_n=10):
+def get_xbh_leaders(league_teams, top_n=10):
 
-    doubles = get_leaders("doubles", 100)
-    triples = get_leaders("triples", 100)
-    homers = get_leaders("homeRuns", 100)
+    doubles = get_leaders("doubles", league_teams, 100)
+    triples = get_leaders("triples", league_teams, 100)
+    homers = get_leaders("homeRuns", league_teams, 100)
 
     players = {}
 
@@ -114,31 +120,65 @@ leaderboards = {
     "last_updated":
         datetime.now(timezone.utc)
         .strftime("%B %d, %Y %H:%M UTC"),
-    "hitting": {
-        "batting_avg": get_leaders("battingAverage"),
-        "home_runs": get_leaders("homeRuns"),
-        "rbi": get_leaders("runsBattedIn"),
-        "stolen_bases": get_leaders("stolenBases"),
-        "obp": get_leaders("onBasePercentage"),
-        "slg": get_leaders("sluggingPercentage"),
-        "ops": get_leaders("ops"),
-        "runs": get_leaders("runs"),
-        "hits": get_leaders("hits"),
-        "doubles": get_leaders("doubles"),
-        "triples": get_leaders("triples"),
-        "xbh": get_xbh_leaders()
+
+    "al": {
+
+        "hitting": {
+            "batting_avg": get_leaders("battingAverage", AL_TEAMS),
+            "home_runs": get_leaders("homeRuns", AL_TEAMS),
+            "rbi": get_leaders("runsBattedIn", AL_TEAMS),
+            "stolen_bases": get_leaders("stolenBases", AL_TEAMS),
+            "obp": get_leaders("onBasePercentage", AL_TEAMS),
+            "slg": get_leaders("sluggingPercentage", AL_TEAMS),
+            "ops": get_leaders("ops", AL_TEAMS),
+            "runs": get_leaders("runs", AL_TEAMS),
+            "hits": get_leaders("hits", AL_TEAMS),
+            "doubles": get_leaders("doubles", AL_TEAMS),
+            "triples": get_leaders("triples", AL_TEAMS),
+            "xbh": get_xbh_leaders(AL_TEAMS)
+        },
+
+        "pitching": {
+            "era": get_pitching_leaders("earnedRunAverage", AL_TEAMS),
+            "wins": get_pitching_leaders("wins", AL_TEAMS),
+            "strikeouts": get_pitching_leaders("strikeOuts", AL_TEAMS),
+            "whip": get_pitching_leaders("whip", AL_TEAMS),
+            "innings": get_pitching_leaders("inningsPitched", AL_TEAMS),
+            "home_runs_allowed": get_pitching_leaders("homeRuns", AL_TEAMS),
+            "saves": get_pitching_leaders("saves", AL_TEAMS),
+            "holds": get_pitching_leaders("holds", AL_TEAMS)
+        }
     },
 
-   "pitching": {
-    "era": get_pitching_leaders("earnedRunAverage"),
-    "wins": get_pitching_leaders("wins"),
-    "strikeouts": get_pitching_leaders("strikeOuts"),
-    "whip": get_pitching_leaders("whip"),
-    "innings": get_pitching_leaders("inningsPitched"),
-    "home_runs_allowed": get_pitching_leaders("homeRuns"),
-    "saves": get_pitching_leaders("saves"),
-    "holds": get_pitching_leaders("holds")
-}}
+    "nl": {
+
+        "hitting": {
+            "batting_avg": get_leaders("battingAverage", NL_TEAMS),
+            "home_runs": get_leaders("homeRuns", NL_TEAMS),
+            "rbi": get_leaders("runsBattedIn", NL_TEAMS),
+            "stolen_bases": get_leaders("stolenBases", NL_TEAMS),
+            "obp": get_leaders("onBasePercentage", NL_TEAMS),
+            "slg": get_leaders("sluggingPercentage", NL_TEAMS),
+            "ops": get_leaders("ops", NL_TEAMS),
+            "runs": get_leaders("runs", NL_TEAMS),
+            "hits": get_leaders("hits", NL_TEAMS),
+            "doubles": get_leaders("doubles", NL_TEAMS),
+            "triples": get_leaders("triples", NL_TEAMS),
+            "xbh": get_xbh_leaders(NL_TEAMS)
+        },
+
+        "pitching": {
+            "era": get_pitching_leaders("earnedRunAverage", NL_TEAMS),
+            "wins": get_pitching_leaders("wins", NL_TEAMS),
+            "strikeouts": get_pitching_leaders("strikeOuts", NL_TEAMS),
+            "whip": get_pitching_leaders("whip", NL_TEAMS),
+            "innings": get_pitching_leaders("inningsPitched", NL_TEAMS),
+            "home_runs_allowed": get_pitching_leaders("homeRuns", NL_TEAMS),
+            "saves": get_pitching_leaders("saves", NL_TEAMS),
+            "holds": get_pitching_leaders("holds", NL_TEAMS)
+        }
+    }
+}
 
 with open("leaderboards.json", "w") as f:
     json.dump(leaderboards, f, indent=2)
