@@ -31,7 +31,7 @@ def get_leaders(category, league_teams, top_n=10):
 
     results = []
 
-    for player in leaders["leagueLeaders"][0]["leaders"]:
+for player in leaders["leagueLeaders"][0]["leaders"]:
 
     team_name = player["team"]["name"]
     team_abbr = team_lookup.get(team_name, team_name)
