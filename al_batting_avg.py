@@ -3,21 +3,27 @@ import json
 from datetime import datetime, timezone
 
 AL_TEAMS = {
-    "BAL", "BOS", "NYY", "TB", "TOR",
-    "CLE", "CWS", "DET", "KC", "MIN",
+    "BAL", "BOS", "NYY", "TBR", "TOR",
+    "CLE", "CWS", "DET", "KCR", "MIN",
     "HOU", "LAA", "ATH", "SEA", "TEX"
 }
 
 NL_TEAMS = {
     "ATL", "MIA", "NYM", "PHI", "WSH",
     "CHC", "CIN", "MIL", "PIT", "STL",
-    "ARZ", "COL", "LAD", "SD", "SF"
+    "ARI", "COL", "LAD", "SDP", "SFG"
 }
 
 teams = statsapi.get("teams", {"sportId": 1})["teams"]
 team_lookup = {team["name"]: team["abbreviation"] for team in teams}
 
-print(team_lookup)
+team_lookup.update({
+    "Arizona Diamondbacks": "ARI"
+    "San Francisco Giants": "SFG"
+    "San Diego Padres": "SDP"
+    "Kansas City Royals": "KCR"
+    "Tampa Bay Rays"" "TBR"
+})
 
 
 def get_leaders(category, league_teams, top_n=10):
