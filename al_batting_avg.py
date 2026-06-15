@@ -22,7 +22,7 @@ team_lookup.update({
     "San Francisco Giants": "SFG",
     "San Diego Padres": "SDP",
     "Kansas City Royals": "KCR",
-    "Tampa Bay Rays"" "TBR"
+    "Tampa Bay Rays": "TBR"
 })
 
 
