@@ -34,6 +34,11 @@ team_lookup.update({
     "Tampa Bay Rays": "TBR"
 })
 
+team_id_lookup = {
+    team["id"]: team["abbreviation"]
+    for team in teams
+}
+
 
 def get_leaders(category, league_teams, top_n=10):
     leaders = statsapi.get(
