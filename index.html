@@ -77,6 +77,24 @@ hr {
     margin-right: 5px;
 }
 
+    .standings-row {
+        display: grid;
+        grid-template-columns: 60px 70px 50px;
+        align-items: center;
+    }
+
+    .team {
+        text-align: left;
+    }
+
+    .record {
+        text-align: center;
+    }
+
+    .gb {
+        text-align: right;
+    }
+
     </style>
 </head>
 
@@ -170,24 +188,20 @@ fetch('./leaderboards.json')
             `<div class="title">${division}</div>`;
 
         html += `
-            <div class="row">
+            <div class="row standings-row">
                 <strong>Team</strong>
-                <strong>W-L&nbsp;&nbsp;&nbsp;GB</strong>
+                <strong>W-L</strong>
+                <strong>GB</strong>
             </div>
         `;
 
         standings[division].forEach(team => {
 
             html += `
-                <div class="row">
-                    <span class="player">
-                        ${team.team}
-                    </span>
-
-                    <span class="value">
-                        ${team.wins}-${team.losses}
-                        ${team.gb}
-                    </span>
+                <div class="row standings-row">
+                    <span class="team">${team.team}</span>
+                    <span class="record">${team.wins}-${team.losses}</span>
+                    <span class="gb">${team.gb}</span>
                 </div>
             `;
         });
