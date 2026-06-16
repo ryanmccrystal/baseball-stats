@@ -99,20 +99,17 @@ hr {
 <hr>
 
 <h2 id="al-pitching">American League Pitching</h2>
-
-<div id="al-pitching" class="grid"></div>
+<div id="al-pitching-grid" class="grid"></div>
 
 <hr class="major-divider">
 
 <h2 id="nl-hitting">National League Hitting</h2>
-
-<div id="nl-hitting" class="grid"></div>
+<div id="nl-hitting-grid" class="grid"></div>
 
 <hr>
 
 <h2 id="nl-pitching">National League Pitching</h2>
-
-<div id="nl-pitching" class="grid"></div>
+<div id="nl-pitching-grid" class="grid"></div>
 
 <script>
 
@@ -189,25 +186,25 @@ fetch('./leaderboards.json')
         }
 
         buildSection(
-    "al-hitting",
+    "al-hitting-grid",
     hittingTitles,
     data.al.hitting
 );
 
 buildSection(
-    "al-pitching",
+    "al-pitching-grid",
     pitchingTitles,
     data.al.pitching
 );
 
 buildSection(
-    "nl-hitting",
+    "nl-hitting-grid",
     hittingTitles,
     data.nl.hitting
 );
 
 buildSection(
-    "nl-pitching",
+    "nl-pitching-grid",
     pitchingTitles,
     data.nl.pitching
 );
