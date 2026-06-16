@@ -95,6 +95,12 @@ hr {
         text-align: right;
     }
 
+    .standings-header {
+        border-bottom: 1px solid black;
+        padding-bottom: 3px;
+        margin-bottom: 5px;
+    } 
+
     </style>
 </head>
 
@@ -188,10 +194,10 @@ fetch('./leaderboards.json')
             `<div class="title">${division}</div>`;
 
         html += `
-            <div class="row standings-row">
-                <strong>Team</strong>
-                <strong>W-L</strong>
-                <strong>GB</strong>
+            <div class="standings-row standings-header">
+                <span class="team"><strong>Team</strong></span>
+                <span class="record"><strong>W-L</strong></span>
+                <span class="gb"><strong>GB</strong></span>
             </div>
         `;
 
