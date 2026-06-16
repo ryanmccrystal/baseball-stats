@@ -124,10 +124,41 @@ def get_xbh_leaders(league_teams, top_n=10):
         for p in results[:top_n]
     ]
 
+def get_standings():
+
+    standings = statsapi.get(
+        "standings",
+        {
+            "leagueId": "103,104"
+        }
+    )
+
+    results = {}
+
+    for division in standings["records"]:
+
+        division_name = division["division"]["name"]
+
+        teams = []
+
+        for team in division["teamRecords"]:
+
+            teams.append({
+                "team": team["team"]["abbreviation"],
+                "wins": team["wins"],
+                "losses": team["losses"],
+                "gb": team["gamesBack"]
+            })
+
+        results[division_name] = teams
+
+    return results
+
 leaderboards = {
     "last_updated":
         datetime.now(timezone.utc)
         .strftime("%B %d, %Y %H:%M UTC"),
+     "standings": get_standings(),
 
     "al": {
 
