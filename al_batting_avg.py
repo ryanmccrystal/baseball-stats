@@ -14,6 +14,15 @@ NL_TEAMS = {
     "ARI", "COL", "LAD", "SDP", "SFG"
 }
 
+DIVISION_NAMES = {
+    201: "AL East",
+    202: "AL Central",
+    200: "AL West",
+    204: "NL East",
+    205: "NL Central",
+    203: "NL West"
+}
+
 teams = statsapi.get("teams", {"sportId": 1})["teams"]
 team_lookup = {team["name"]: team["abbreviation"] for team in teams}
 
@@ -137,12 +146,16 @@ def get_standings():
 
     for division in standings["records"]:
 
-        print(division["division"])
-        division_name = "TEMP"
+        division_id = division["division"]["id"]
+        division_name = DIVISION_NAMES[division_id]
 
         teams = []
 
         for team in division["teamRecords"]:
+
+            print(team["team"])
+
+            break
 
             teams.append({
                 "team": team["team"]["abbreviation"],
