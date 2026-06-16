@@ -79,7 +79,7 @@ hr {
 
     .standings-row {
         display: grid;
-        grid-template-columns: 60px 70px 50px;
+        grid-template-columns: 1fr 60px 40px;
         align-items: center;
     }
 
@@ -194,10 +194,10 @@ fetch('./leaderboards.json')
             `<div class="title">${division}</div>`;
 
         html += `
-            <div class="standings-row standings-header">
-                <span class="team"><strong>Team</strong></span>
-                <span class="record"><strong>W-L</strong></span>
-                <span class="gb"><strong>GB</strong></span>
+            <div class="row standings-row">
+                <div class="team"><strong>Team</strong></div>
+                <div class="record"><strong>W-L</strong></div>
+                <div class="gb"><strong>GB</strong></div>
             </div>
         `;
 
