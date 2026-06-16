@@ -158,9 +158,14 @@ def get_standings():
 
         for team in division["teamRecords"]:
 
-            print(team["team"])
+        team_abbr = team_id_lookup[team["team"]["id"]]
 
-            break
+        teams.append({
+            "team": team_abbr,
+            "wins": team["wins"],
+            "losses": team["losses"],
+            "gb": team["gamesBack"]
+        })
 
             teams.append({
                 "team": team["team"]["abbreviation"],
