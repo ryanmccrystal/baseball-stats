@@ -137,7 +137,8 @@ def get_standings():
 
     for division in standings["records"]:
 
-        division_name = division["division"]["name"]
+        print(division["division"])
+        division_name = "TEMP"
 
         teams = []
 
