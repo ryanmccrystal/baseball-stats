@@ -1,12 +1,198 @@
 {
-  "last_updated": "June 16, 2026 17:34 UTC",
+  "last_updated": "June 16, 2026 17:47 UTC",
   "standings": {
-    "AL East": [],
-    "AL Central": [],
-    "AL West": [],
-    "NL East": [],
-    "NL Central": [],
-    "NL West": []
+    "AL East": [
+      {
+        "team": "NYY",
+        "wins": 43,
+        "losses": 27,
+        "gb": "-"
+      },
+      {
+        "team": "TB",
+        "wins": 41,
+        "losses": 28,
+        "gb": "1.5"
+      },
+      {
+        "team": "TOR",
+        "wins": 34,
+        "losses": 38,
+        "gb": "10.0"
+      },
+      {
+        "team": "BAL",
+        "wins": 34,
+        "losses": 39,
+        "gb": "10.5"
+      },
+      {
+        "team": "BOS",
+        "wins": 29,
+        "losses": 40,
+        "gb": "13.5"
+      }
+    ],
+    "AL Central": [
+      {
+        "team": "CWS",
+        "wins": 38,
+        "losses": 32,
+        "gb": "-"
+      },
+      {
+        "team": "CLE",
+        "wins": 39,
+        "losses": 33,
+        "gb": "-"
+      },
+      {
+        "team": "MIN",
+        "wins": 34,
+        "losses": 40,
+        "gb": "6.0"
+      },
+      {
+        "team": "DET",
+        "wins": 30,
+        "losses": 42,
+        "gb": "9.0"
+      },
+      {
+        "team": "KC",
+        "wins": 29,
+        "losses": 44,
+        "gb": "10.5"
+      }
+    ],
+    "AL West": [
+      {
+        "team": "SEA",
+        "wins": 37,
+        "losses": 36,
+        "gb": "-"
+      },
+      {
+        "team": "ATH",
+        "wins": 36,
+        "losses": 36,
+        "gb": "0.5"
+      },
+      {
+        "team": "TEX",
+        "wins": 35,
+        "losses": 37,
+        "gb": "1.5"
+      },
+      {
+        "team": "HOU",
+        "wins": 33,
+        "losses": 41,
+        "gb": "4.5"
+      },
+      {
+        "team": "LAA",
+        "wins": 29,
+        "losses": 44,
+        "gb": "8.0"
+      }
+    ],
+    "NL East": [
+      {
+        "team": "ATL",
+        "wins": 46,
+        "losses": 25,
+        "gb": "-"
+      },
+      {
+        "team": "PHI",
+        "wins": 39,
+        "losses": 33,
+        "gb": "7.5"
+      },
+      {
+        "team": "WSH",
+        "wins": 38,
+        "losses": 35,
+        "gb": "9.0"
+      },
+      {
+        "team": "MIA",
+        "wins": 36,
+        "losses": 37,
+        "gb": "11.0"
+      },
+      {
+        "team": "NYM",
+        "wins": 32,
+        "losses": 40,
+        "gb": "14.5"
+      }
+    ],
+    "NL Central": [
+      {
+        "team": "MIL",
+        "wins": 43,
+        "losses": 26,
+        "gb": "-"
+      },
+      {
+        "team": "STL",
+        "wins": 39,
+        "losses": 31,
+        "gb": "4.5"
+      },
+      {
+        "team": "CHC",
+        "wins": 38,
+        "losses": 35,
+        "gb": "7.0"
+      },
+      {
+        "team": "PIT",
+        "wins": 36,
+        "losses": 37,
+        "gb": "9.0"
+      },
+      {
+        "team": "CIN",
+        "wins": 34,
+        "losses": 37,
+        "gb": "10.0"
+      }
+    ],
+    "NL West": [
+      {
+        "team": "LAD",
+        "wins": 46,
+        "losses": 27,
+        "gb": "-"
+      },
+      {
+        "team": "SD",
+        "wins": 37,
+        "losses": 34,
+        "gb": "8.0"
+      },
+      {
+        "team": "AZ",
+        "wins": 37,
+        "losses": 35,
+        "gb": "8.5"
+      },
+      {
+        "team": "SF",
+        "wins": 29,
+        "losses": 43,
+        "gb": "16.5"
+      },
+      {
+        "team": "COL",
+        "wins": 27,
+        "losses": 46,
+        "gb": "19.0"
+      }
+    ]
   },
   "al": {
     "hitting": {
