@@ -92,6 +92,12 @@ hr {
 
 <div id="lastUpdated"></div>
 
+<h1 id="standings">MLB Standings</h1>
+
+<div id="standings-grid" class="grid"></div>
+
+<hr class="major-divider">
+    
 <h1>American League Leaders</h1>
 
 <h2 id="al-hitting">American League Hitting</h2>
@@ -148,6 +154,51 @@ fetch('./leaderboards.json')
             holds: "Holds"
         };
 
+         function buildStandings(standings) {
+
+    const container =
+        document.getElementById("standings-grid");
+
+    Object.keys(standings).forEach(division => {
+
+        const card =
+            document.createElement("div");
+
+        card.className = "card";
+
+        let html =
+            `<div class="title">${division}</div>`;
+
+        html += `
+            <div class="row">
+                <strong>Team</strong>
+                <strong>W-L&nbsp;&nbsp;&nbsp;GB</strong>
+            </div>
+        `;
+
+        standings[division].forEach(team => {
+
+            html += `
+                <div class="row">
+                    <span class="player">
+                        ${team.team}
+                    </span>
+
+                    <span class="value">
+                        ${team.wins}-${team.losses}
+                        ${team.gb}
+                    </span>
+                </div>
+            `;
+        });
+
+        card.innerHTML = html;
+
+        container.appendChild(card);
+
+    });
+}
+
         function buildSection(containerId, titles, dataGroup) {
 
             const container =
@@ -185,6 +236,8 @@ fetch('./leaderboards.json')
             });
         }
 
+buildStandings(data.standings);
+         
         buildSection(
     "al-hitting-grid",
     hittingTitles,
