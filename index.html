@@ -178,12 +178,27 @@ fetch('./leaderboards.json')
             holds: "Holds"
         };
 
-         function buildStandings(standings) {
+         function buildStandings(
+            standings,
+            alWildcard,
+            nlWildcard
+        ) {
 
     const container =
         document.getElementById("standings-grid");
 
-    Object.keys(standings).forEach(division => {
+    const order = [
+        "AL East",
+        "AL Central",
+        "AL West",
+        "AL Wild Card",
+        "NL East",
+        "NL Central",
+        "NL West",
+        "NL Wild Card"
+    ];
+
+    order.forEach(division => {
 
         const card =
             document.createElement("div");
@@ -201,13 +216,25 @@ fetch('./leaderboards.json')
             </div>
         `;
 
-        standings[division].forEach(team => {
+        let teams;
+
+        if (division === "AL Wild Card") {
+            teams = alWildcard;
+        }
+        else if (division === "NL Wild Card") {
+            teams = nlWildcard;
+        }
+        else {
+            teams = standings[division];
+        }
+
+teams.forEach(team => {
 
             html += `
                 <div class="row standings-row">
                     <span class="team">${team.team}</span>
                     <span class="record">${team.wins}-${team.losses}</span>
-                    <span class="gb">${team.gb}</span>
+                   <span class="gb">${team.gb ?? ""}</span>
                 </div>
             `;
         });
@@ -256,7 +283,11 @@ fetch('./leaderboards.json')
             });
         }
 
-buildStandings(data.standings);
+buildStandings(
+    data.standings,
+    data.al_wildcard,
+    data.nl_wildcard
+);
          
         buildSection(
     "al-hitting-grid",
