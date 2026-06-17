@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 17, 2026 13:46 UTC",
+  "last_updated": "June 17, 2026 15:01 UTC",
   "standings": {
     "AL East": [
       {
@@ -194,6 +194,82 @@
       }
     ]
   },
+  "al_wildcard": [
+    {
+      "team": "TB",
+      "wins": 41,
+      "losses": 29,
+      "pct": 0.5857142857142857
+    },
+    {
+      "team": "CLE",
+      "wins": 39,
+      "losses": 34,
+      "pct": 0.5342465753424658
+    },
+    {
+      "team": "ATH",
+      "wins": 36,
+      "losses": 37,
+      "pct": 0.4931506849315068
+    },
+    {
+      "team": "TOR",
+      "wins": 35,
+      "losses": 38,
+      "pct": 0.4794520547945205
+    },
+    {
+      "team": "TEX",
+      "wins": 35,
+      "losses": 38,
+      "pct": 0.4794520547945205
+    },
+    {
+      "team": "MIN",
+      "wins": 35,
+      "losses": 40,
+      "pct": 0.4666666666666667
+    }
+  ],
+  "nl_wildcard": [
+    {
+      "team": "STL",
+      "wins": 40,
+      "losses": 31,
+      "pct": 0.5633802816901409
+    },
+    {
+      "team": "PHI",
+      "wins": 40,
+      "losses": 33,
+      "pct": 0.547945205479452
+    },
+    {
+      "team": "WSH",
+      "wins": 39,
+      "losses": 35,
+      "pct": 0.527027027027027
+    },
+    {
+      "team": "SD",
+      "wins": 37,
+      "losses": 35,
+      "pct": 0.5138888888888888
+    },
+    {
+      "team": "CHC",
+      "wins": 38,
+      "losses": 36,
+      "pct": 0.5135135135135135
+    },
+    {
+      "team": "AZ",
+      "wins": 37,
+      "losses": 36,
+      "pct": 0.5068493150684932
+    }
+  ],
   "al": {
     "hitting": {
       "batting_avg": [
