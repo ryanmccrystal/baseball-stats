@@ -149,6 +149,31 @@ def get_standings():
 
     results = {}
 
+    for division in standings["records"]:
+
+        division_id = division["division"]["id"]
+        division_name = DIVISION_NAMES[division_id]
+
+        teams = []
+
+        for team in division["teamRecords"]:
+
+            team_abbr = team_id_lookup[
+                team["team"]["id"]
+            ]
+
+            teams.append({
+                "team": team_abbr,
+                "wins": team["wins"],
+                "losses": team["losses"],
+                "gb": team["gamesBack"]
+            })
+
+        results[division_name] = teams
+
+    return results
+
+
 def get_wildcard_standings(standings, league):
 
     if league == "AL":
@@ -191,30 +216,6 @@ def get_wildcard_standings(standings, league):
     )
 
     return teams[:6]
-
-    for division in standings["records"]:
-
-        division_id = division["division"]["id"]
-        division_name = DIVISION_NAMES[division_id]
-
-        teams = []
-
-        for team in division["teamRecords"]:
-
-            team_abbr = team_id_lookup[
-                team["team"]["id"]
-            ]
-
-            teams.append({
-                "team": team_abbr,
-                "wins": team["wins"],
-                "losses": team["losses"],
-                "gb": team["gamesBack"]
-            })
-
-        results[division_name] = teams
-
-    return results
 
 standings_data = get_standings()
 
