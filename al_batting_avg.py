@@ -211,11 +211,61 @@ def get_wildcard_standings(standings, league):
             })
 
     teams.sort(
-        key=lambda x: x["pct"],
-        reverse=True
-    )
+    key=lambda x: x["pct"],
+    reverse=True
+)
 
-    return teams[:6]
+cutoff = teams[2]
+
+cutoff_games =
+    cutoff["wins"] + cutoff["losses"]
+
+cutoff_pct =
+    cutoff["wins"] / cutoff_games
+
+
+for i, team in enumerate(teams):
+
+    if i < 3:
+
+        team["gb"] = "-"
+
+    else:
+
+        team_games =
+            team["wins"] + team["losses"]
+
+        gb = (
+            (
+                cutoff_pct
+                -
+                (
+                    team["wins"]
+                    /
+                    team_games
+                )
+            )
+            *
+            team_games
+        )
+
+        team["gb"] =
+            str(
+                round(
+                    gb,
+                    1
+                )
+            )
+
+return [
+    {
+        "team": t["team"],
+        "wins": t["wins"],
+        "losses": t["losses"],
+        "gb": t["gb"]
+    }
+    for t in teams[:6]
+]
 
 standings_data = get_standings()
 
