@@ -217,12 +217,8 @@ def get_wildcard_standings(standings, league):
 
 cutoff = teams[2]
 
-cutoff_games =
-    cutoff["wins"] + cutoff["losses"]
-
-cutoff_pct =
-    cutoff["wins"] / cutoff_games
-
+cutoff_games = cutoff["wins"] + cutoff["losses"]
+cutoff_pct = cutoff["wins"] / cutoff_games
 
 for i, team in enumerate(teams):
 
@@ -232,30 +228,14 @@ for i, team in enumerate(teams):
 
     else:
 
-        team_games =
-            team["wins"] + team["losses"]
+        team_games = team["wins"] + team["losses"]
 
         gb = (
-            (
-                cutoff_pct
-                -
-                (
-                    team["wins"]
-                    /
-                    team_games
-                )
-            )
-            *
-            team_games
-        )
+            cutoff_pct
+            - (team["wins"] / team_games)
+        ) * team_games
 
-        team["gb"] =
-            str(
-                round(
-                    gb,
-                    1
-                )
-            )
+        team["gb"] = str(round(gb, 1))
 
 return [
     {
