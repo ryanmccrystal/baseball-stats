@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 17, 2026 15:16 UTC",
+  "last_updated": "June 17, 2026 16:08 UTC",
   "standings": {
     "AL East": [
       {
@@ -199,37 +199,37 @@
       "team": "TB",
       "wins": 41,
       "losses": 29,
-      "pct": 0.5857142857142857
+      "gb": "-"
     },
     {
       "team": "CLE",
       "wins": 39,
       "losses": 34,
-      "pct": 0.5342465753424658
+      "gb": "-"
     },
     {
       "team": "ATH",
       "wins": 36,
       "losses": 37,
-      "pct": 0.4931506849315068
+      "gb": "-"
     },
     {
       "team": "TOR",
       "wins": 35,
       "losses": 38,
-      "pct": 0.4794520547945205
+      "gb": "1.0"
     },
     {
       "team": "TEX",
       "wins": 35,
       "losses": 38,
-      "pct": 0.4794520547945205
+      "gb": "1.0"
     },
     {
       "team": "MIN",
       "wins": 35,
       "losses": 40,
-      "pct": 0.4666666666666667
+      "gb": "2.0"
     }
   ],
   "nl_wildcard": [
@@ -237,37 +237,37 @@
       "team": "STL",
       "wins": 40,
       "losses": 31,
-      "pct": 0.5633802816901409
+      "gb": "-"
     },
     {
       "team": "PHI",
       "wins": 40,
       "losses": 33,
-      "pct": 0.547945205479452
+      "gb": "-"
     },
     {
       "team": "WSH",
       "wins": 39,
       "losses": 35,
-      "pct": 0.527027027027027
+      "gb": "-"
     },
     {
       "team": "SD",
       "wins": 37,
       "losses": 35,
-      "pct": 0.5138888888888888
+      "gb": "1.0"
     },
     {
       "team": "CHC",
       "wins": 38,
       "losses": 36,
-      "pct": 0.5135135135135135
+      "gb": "1.0"
     },
     {
       "team": "AZ",
       "wins": 37,
       "losses": 36,
-      "pct": 0.5068493150684932
+      "gb": "1.5"
     }
   ],
   "al": {
