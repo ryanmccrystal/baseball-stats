@@ -149,6 +149,49 @@ def get_standings():
 
     results = {}
 
+def get_wildcard_standings(standings, league):
+
+    if league == "AL":
+        divisions = [
+            "AL East",
+            "AL Central",
+            "AL West"
+        ]
+    else:
+        divisions = [
+            "NL East",
+            "NL Central",
+            "NL West"
+        ]
+
+    teams = []
+
+    for division in divisions:
+
+        division_teams = standings[division]
+
+        # Skip division leader
+        for team in division_teams[1:]:
+
+            wins = int(team["wins"])
+            losses = int(team["losses"])
+
+            pct = wins / (wins + losses)
+
+            teams.append({
+                "team": team["team"],
+                "wins": wins,
+                "losses": losses,
+                "pct": pct
+            })
+
+    teams.sort(
+        key=lambda x: x["pct"],
+        reverse=True
+    )
+
+    return teams[:6]
+
     for division in standings["records"]:
 
         division_id = division["division"]["id"]
@@ -173,11 +216,25 @@ def get_standings():
 
     return results
 
+standings_data = get_standings()
+
 leaderboards = {
     "last_updated":
         datetime.now(timezone.utc)
         .strftime("%B %d, %Y %H:%M UTC"),
-     "standings": get_standings(),
+     "standings": standings_data,
+
+    "al_wildcard":
+        get_wildcard_standings(
+            standings_data,
+            "AL"
+        ),
+
+    "nl_wildcard":
+        get_wildcard_standings(
+            standings_data,
+            "NL"
+        ),
 
     "al": {
 
