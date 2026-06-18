@@ -42,6 +42,16 @@ for game in schedule:
         "loser_score": loser_score
 })
 
+games.sort(
+    key=lambda g: (
+        not (
+            g["winner_name"] == "Guardians"
+            or
+            g["loser_name"] == "Guardians"
+        )
+    )
+)
+
 boxscores = {
     "games": games
 }
