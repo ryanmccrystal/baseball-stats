@@ -1,6 +1,13 @@
 {
   "games": [
     {
+      "gamePk": 823774,
+      "winner_name": "Brewers",
+      "winner_score": 9,
+      "loser_name": "Guardians",
+      "loser_score": 4
+    },
+    {
       "gamePk": 824503,
       "winner_name": "Mets",
       "winner_score": 9,
@@ -76,13 +83,6 @@
       "winner_score": 7,
       "loser_name": "Braves",
       "loser_score": 5
-    },
-    {
-      "gamePk": 823774,
-      "winner_name": "Brewers",
-      "winner_score": 9,
-      "loser_name": "Guardians",
-      "loser_score": 4
     },
     {
       "gamePk": 824668,
