@@ -55,8 +55,8 @@ fetch('./boxscores.json')
             div.className = "game";
 
             div.innerHTML =
-                `${game.away_name} ${game.away_score},
-                 ${game.home_name} ${game.home_score}`;
+                `${game.winner_name} ${game.winner_score},
+                 ${game.loser_name} ${game.loser_score}`;
 
             container.appendChild(div);
 
