@@ -23,6 +23,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - run: python al_batting_avg.py
+      - run: python boxscores.py
 
       - name: Commit changes
         run: |
