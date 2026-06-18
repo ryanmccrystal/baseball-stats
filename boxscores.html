@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MLB Box Scores</title>
 
+    <style>
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 30px;
+        }
+
+        .nav {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .game {
+            margin-bottom: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="nav">
+    <a href="index.html">Leaderboards</a> |
+    <a href="boxscores.html">Box Scores</a>
+</div>
+
+<h1>Yesterday's Games</h1>
+
+<div id="games"></div>
+
+<script>
+
+fetch('./boxscores.json')
+    .then(response => response.json())
+    .then(data => {
+
+        const container =
+            document.getElementById("games");
+
+        data.games.forEach(game => {
+
+            const div =
+                document.createElement("div");
+
+            div.className = "game";
+
+            div.innerHTML =
+                `${game.away_name} ${game.away_score},
+                 ${game.home_name} ${game.home_score}`;
+
+            container.appendChild(div);
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>
