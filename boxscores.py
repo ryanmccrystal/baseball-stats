@@ -102,6 +102,16 @@ for game in today_schedule:
         "home_name": nickname(game["home_name"])
     })
 
+today_games.sort(
+    key=lambda g: (
+        not (
+            g["away_name"] == "Guardians"
+            or
+            g["home_name"] == "Guardians"
+        )
+    )
+)
+
 boxscores = {
     "games": games,
     "today_games": today_games
