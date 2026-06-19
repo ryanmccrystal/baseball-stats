@@ -67,59 +67,73 @@
   "today_games": [
     {
       "away_name": "Guardians",
-      "home_name": "Astros"
+      "home_name": "Astros",
+      "game_time": "2026-06-20T00:10:00Z"
     },
     {
       "away_name": "Blue Jays",
-      "home_name": "Cubs"
+      "home_name": "Cubs",
+      "game_time": "2026-06-19T18:20:00Z"
     },
     {
       "away_name": "White Sox",
-      "home_name": "Tigers"
+      "home_name": "Tigers",
+      "game_time": "2026-06-19T22:40:00Z"
     },
     {
       "away_name": "Reds",
-      "home_name": "Yankees"
+      "home_name": "Yankees",
+      "game_time": "2026-06-19T23:05:00Z"
     },
     {
       "away_name": "Nationals",
-      "home_name": "Rays"
+      "home_name": "Rays",
+      "game_time": "2026-06-19T23:10:00Z"
     },
     {
       "away_name": "Giants",
-      "home_name": "Marlins"
+      "home_name": "Marlins",
+      "game_time": "2026-06-19T23:10:00Z"
     },
     {
       "away_name": "Brewers",
-      "home_name": "Braves"
+      "home_name": "Braves",
+      "game_time": "2026-06-19T23:15:00Z"
     },
     {
       "away_name": "Padres",
-      "home_name": "Rangers"
+      "home_name": "Rangers",
+      "game_time": "2026-06-20T00:05:00Z"
     },
     {
       "away_name": "Cardinals",
-      "home_name": "Royals"
+      "home_name": "Royals",
+      "game_time": "2026-06-20T00:15:00Z"
     },
     {
       "away_name": "Pirates",
-      "home_name": "Rockies"
+      "home_name": "Rockies",
+      "game_time": "2026-06-20T00:40:00Z"
     },
     {
       "away_name": "Angels",
-      "home_name": "Athletics"
+      "home_name": "Athletics",
+      "game_time": "2026-06-20T01:40:00Z"
     },
     {
       "away_name": "Twins",
-      "home_name": "DBacks"
+      "home_name": "DBacks",
+      "game_time": "2026-06-20T01:45:00Z"
     },
     {
       "away_name": "Orioles",
-      "home_name": "Dodgers"
+      "home_name": "Dodgers",
+      "game_time": "2026-06-20T02:10:00Z"
     },
     {
       "away_name": "Red Sox",
-      "home_name": "Mariners"
+      "home_name": "Mariners",
+      "game_time": "2026-06-20T02:10:00Z"
     }
   ]
 }
