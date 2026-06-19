@@ -84,8 +84,21 @@ data.today_games.forEach(game => {
 
     div.className = "game";
 
-    div.innerHTML =
-        `${game.away_name} at ${game.home_name}`;
+    const gameTime =
+    new Date(game.game_time);
+
+    const formattedTime =
+        gameTime.toLocaleTimeString(
+            "en-US",
+            {
+                hour: "numeric",
+                minute: "2-digit",
+                timeZone: "America/New_York"
+            }
+        );
+
+div.innerHTML =
+    `${formattedTime} ET ${game.away_name} at ${game.home_name}`;
 
     todayContainer.appendChild(div);
 
