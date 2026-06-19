@@ -95,8 +95,6 @@ today_schedule = statsapi.schedule(
 
 today_games = []
 
-print(today_schedule[0].keys())
-
 for game in today_schedule:
 
     today_games.append({
@@ -126,6 +124,8 @@ boxscores = {
     "games": games,
     "today_games": today_games
 }
+
+print(statsapi.lookup_player("Kevin Gausman"))
 
 with open("boxscores.json", "w") as f:
     json.dump(boxscores, f, indent=2)
