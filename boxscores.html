@@ -97,7 +97,14 @@ data.today_games.forEach(game => {
         );
 
 div.innerHTML =
-    `${formattedTime} ET ${game.away_name} at ${game.home_name}`;
+    `
+    ${formattedTime} ET ${game.away_name} at ${game.home_name}
+    <br>
+    ${game.away_pitcher}
+    <br>
+    ${game.home_pitcher}
+    <br><br>
+    `;
 
     todayContainer.appendChild(div);
 
