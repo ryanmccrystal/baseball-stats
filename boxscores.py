@@ -130,4 +130,5 @@ boxscores = {
 with open("boxscores.json", "w") as f:
     json.dump(boxscores, f, indent=2)
 
-print(f"Created boxscores.json with {len(games)} games")
+print(game.keys())
+break
