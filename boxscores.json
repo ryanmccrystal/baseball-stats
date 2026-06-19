@@ -66,6 +66,10 @@
   ],
   "today_games": [
     {
+      "away_name": "Guardians",
+      "home_name": "Astros"
+    },
+    {
       "away_name": "Blue Jays",
       "home_name": "Cubs"
     },
@@ -92,10 +96,6 @@
     {
       "away_name": "Padres",
       "home_name": "Rangers"
-    },
-    {
-      "away_name": "Guardians",
-      "home_name": "Astros"
     },
     {
       "away_name": "Cardinals",
