@@ -86,9 +86,28 @@ games.sort(
     )
 )
 
+today = date.today()
+
+today_schedule = statsapi.schedule(
+    start_date=today.strftime("%m/%d/%Y"),
+    end_date=today.strftime("%m/%d/%Y")
+)
+
+today_games = []
+
+for game in today_schedule:
+
+    today_games.append({
+        "away_name": nickname(game["away_name"]),
+        "home_name": nickname(game["home_name"])
+    })
+
 boxscores = {
-    "games": games
+    "games": games,
+    "today_games": today_games
 }
+
+
 
 with open("boxscores.json", "w") as f:
     json.dump(boxscores, f, indent=2)
