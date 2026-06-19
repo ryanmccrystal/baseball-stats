@@ -100,9 +100,15 @@ div.innerHTML =
     `
     ${formattedTime} ET ${game.away_name} at ${game.home_name}
     <br>
-    ${game.away_pitcher}
+    ${game.away_pitcher} |
+    ${game.away_stats.wins}-${game.away_stats.losses} |
+    ${game.away_stats.era} ERA |
+    ${game.away_stats.k9} K/9
     <br>
-    ${game.home_pitcher}
+    ${game.home_pitcher} |
+    ${game.home_stats.wins}-${game.home_stats.losses} |
+    ${game.home_stats.era} ERA |
+    ${game.home_stats.k9} K/9
     <br><br>
     `;
 
