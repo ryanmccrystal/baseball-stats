@@ -63,5 +63,63 @@
       "loser_name": "Giants",
       "loser_score": "0"
     }
+  ],
+  "today_games": [
+    {
+      "away_name": "Blue Jays",
+      "home_name": "Cubs"
+    },
+    {
+      "away_name": "White Sox",
+      "home_name": "Tigers"
+    },
+    {
+      "away_name": "Reds",
+      "home_name": "Yankees"
+    },
+    {
+      "away_name": "Nationals",
+      "home_name": "Rays"
+    },
+    {
+      "away_name": "Giants",
+      "home_name": "Marlins"
+    },
+    {
+      "away_name": "Brewers",
+      "home_name": "Braves"
+    },
+    {
+      "away_name": "Padres",
+      "home_name": "Rangers"
+    },
+    {
+      "away_name": "Guardians",
+      "home_name": "Astros"
+    },
+    {
+      "away_name": "Cardinals",
+      "home_name": "Royals"
+    },
+    {
+      "away_name": "Pirates",
+      "home_name": "Rockies"
+    },
+    {
+      "away_name": "Angels",
+      "home_name": "Athletics"
+    },
+    {
+      "away_name": "Twins",
+      "home_name": "DBacks"
+    },
+    {
+      "away_name": "Orioles",
+      "home_name": "Dodgers"
+    },
+    {
+      "away_name": "Red Sox",
+      "home_name": "Mariners"
+    }
   ]
 }
