@@ -97,11 +97,9 @@ today_games = []
 
 for game in today_schedule:
 
-    today_games.append({
-    "away_name": nickname(game["away_name"]),
-    "home_name": nickname(game["home_name"]),
-    "game_time": game["game_datetime"]
-})
+    print(game)
+
+    break
 
 today_games.sort(
     key=lambda g: (
