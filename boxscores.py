@@ -62,7 +62,11 @@ def get_pitcher_stats(name):
             "wins": stats["wins"],
             "losses": stats["losses"],
             "era": stats["era"],
-            "k9": stats["strikeoutsPer9Inn"]
+            "k9": stats["strikeoutsPer9Inn"],
+
+            "hand":
+                "R" if data["pitch_hand"] == "Right"
+                else "L"
         }
 
     except:
