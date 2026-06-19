@@ -39,6 +39,36 @@ def nickname(team_name):
 
     return names.get(team_name, team_name)
 
+def get_pitcher_stats(name):
+
+    if not name:
+        return None
+
+    try:
+
+        player_id = statsapi.lookup_player(
+            name
+        )[0]["id"]
+
+        data = statsapi.player_stat_data(
+            player_id,
+            group="[pitching]",
+            type="season"
+        )
+
+        stats = data["stats"][0]["stats"]
+
+        return {
+            "wins": stats["wins"],
+            "losses": stats["losses"],
+            "era": stats["era"],
+            "k9": stats["strikeoutsPer9Inn"]
+        }
+
+    except:
+
+        return None
+
 yesterday = date.today() - timedelta(days=1)
 
 schedule = statsapi.schedule(
@@ -97,17 +127,28 @@ today_games = []
 
 for game in today_schedule:
 
-    today_games.append({
-        "away_name": nickname(game["away_name"]),
-        "home_name": nickname(game["home_name"]),
-        "game_time": game["game_datetime"],
-    
-        "away_pitcher":
-            game["away_probable_pitcher"],
+away_stats = get_pitcher_stats(
+    game["away_probable_pitcher"]
+)
 
-        "home_pitcher":
-            game["home_probable_pitcher"]
-    })   
+home_stats = get_pitcher_stats(
+    game["home_probable_pitcher"]
+)
+
+today_games.append({
+    "away_name": nickname(game["away_name"]),
+    "home_name": nickname(game["home_name"]),
+    "game_time": game["game_datetime"],
+
+    "away_pitcher":
+        game["away_probable_pitcher"],
+
+    "home_pitcher":
+        game["home_probable_pitcher"],
+
+    "away_stats": away_stats,
+    "home_stats": home_stats
+})  
 
 today_games.sort(
     key=lambda g: (
