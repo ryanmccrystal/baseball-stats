@@ -125,30 +125,30 @@ today_schedule = statsapi.schedule(
 
 today_games = []
 
-for game in today_schedule:
+    for game in today_schedule:
 
-away_stats = get_pitcher_stats(
-    game["away_probable_pitcher"]
-)
+    away_stats = get_pitcher_stats(
+        game["away_probable_pitcher"]
+    )
 
-home_stats = get_pitcher_stats(
-    game["home_probable_pitcher"]
-)
+    home_stats = get_pitcher_stats(
+        game["home_probable_pitcher"]
+    )
 
-today_games.append({
-    "away_name": nickname(game["away_name"]),
-    "home_name": nickname(game["home_name"]),
-    "game_time": game["game_datetime"],
+    today_games.append({
+        "away_name": nickname(game["away_name"]),
+        "home_name": nickname(game["home_name"]),
+        "game_time": game["game_datetime"],
 
-    "away_pitcher":
-        game["away_probable_pitcher"],
+        "away_pitcher":
+            game["away_probable_pitcher"],
 
-    "home_pitcher":
-        game["home_probable_pitcher"],
+        "home_pitcher":
+            game["home_probable_pitcher"],
 
-    "away_stats": away_stats,
-    "home_stats": home_stats
-})  
+        "away_stats": away_stats,
+        "home_stats": home_stats
+    })  
 
 today_games.sort(
     key=lambda g: (
