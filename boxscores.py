@@ -125,7 +125,17 @@ boxscores = {
     "today_games": today_games
 }
 
-print(statsapi.lookup_player("Kevin Gausman"))
+player_id = statsapi.lookup_player(
+    "Kevin Gausman"
+)[0]["id"]
+
+print(
+    statsapi.player_stat_data(
+        player_id,
+        group="[pitching]",
+        type="season"
+    )
+)
 
 with open("boxscores.json", "w") as f:
     json.dump(boxscores, f, indent=2)
