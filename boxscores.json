@@ -1,109 +1,67 @@
 {
   "games": [
     {
-      "gamePk": 823774,
-      "winner_name": "Brewers",
-      "winner_score": 9,
-      "loser_name": "Guardians",
-      "loser_score": 4
-    },
-    {
-      "gamePk": 824503,
-      "winner_name": "Mets",
-      "winner_score": 9,
-      "loser_name": "Reds",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 822721,
-      "winner_name": "Royals",
-      "winner_score": 6,
-      "loser_name": "Nationals",
+      "gamePk": 823772,
+      "winner_name": "Guardians",
+      "winner_score": 4,
+      "loser_name": "Brewers",
       "loser_score": 2
     },
     {
-      "gamePk": 823450,
-      "winner_name": "Marlins",
-      "winner_score": 12,
+      "gamePk": 824748,
+      "winner_name": "Blue Jays",
+      "winner_score": 4,
+      "loser_name": "Red Sox",
+      "loser_score": 3
+    },
+    {
+      "gamePk": 822889,
+      "winner_name": "Twins",
+      "winner_score": 9,
+      "loser_name": "Rangers",
+      "loser_score": 3
+    },
+    {
+      "gamePk": 823125,
+      "winner_name": "Mariners",
+      "winner_score": 3,
+      "loser_name": "Orioles",
+      "loser_score": 0
+    },
+    {
+      "gamePk": 823448,
+      "winner_name": "Mets",
+      "winner_score": 6,
       "loser_name": "Phillies",
       "loser_score": 4
     },
     {
-      "gamePk": 824912,
-      "winner_name": "Giants",
-      "winner_score": 7,
-      "loser_name": "Braves",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 824178,
-      "winner_name": "Astros",
-      "winner_score": 4,
-      "loser_name": "Tigers",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 823044,
-      "winner_name": "Padres",
-      "winner_score": 6,
-      "loser_name": "Cardinals",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 823940,
-      "winner_name": "Dodgers",
+      "gamePk": 823533,
+      "winner_name": "White Sox",
       "winner_score": 5,
-      "loser_name": "Rays",
-      "loser_score": 4
-    },
-    {
-      "gamePk": 825072,
-      "winner_name": "DBacks",
-      "winner_score": 8,
-      "loser_name": "Angels",
+      "loser_name": "Yankees",
       "loser_score": 1
     },
     {
-      "gamePk": 824746,
-      "winner_name": "Blue Jays",
-      "winner_score": 3,
-      "loser_name": "Red Sox",
-      "loser_score": 0
-    },
-    {
-      "gamePk": 823536,
-      "winner_name": "Yankees",
-      "winner_score": 10,
-      "loser_name": "White Sox",
-      "loser_score": 5
-    },
-    {
-      "gamePk": 824913,
-      "winner_name": "Giants",
-      "winner_score": 7,
-      "loser_name": "Braves",
-      "loser_score": 5
-    },
-    {
-      "gamePk": 824668,
-      "winner_name": "Cubs",
-      "winner_score": 8,
-      "loser_name": "Rockies",
+      "gamePk": 824098,
+      "winner_name": "Royals",
+      "winner_score": 14,
+      "loser_name": "Cardinals",
       "loser_score": 6
     },
     {
-      "gamePk": 824992,
-      "winner_name": "Pirates",
-      "winner_score": 12,
-      "loser_name": "Athletics",
-      "loser_score": 4
+      "gamePk": 824989,
+      "winner_name": "Athletics",
+      "winner_score": 5,
+      "loser_name": "Angels",
+      "loser_score": 0
     },
     {
-      "gamePk": 823127,
-      "winner_name": "Orioles",
-      "winner_score": 5,
-      "loser_name": "Mariners",
-      "loser_score": 3
+      "gamePk": 824911,
+      "winner_name": "Braves",
+      "winner_score": "0",
+      "loser_name": "Giants",
+      "loser_score": "0"
     }
   ]
 }
