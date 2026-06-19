@@ -98,9 +98,10 @@ today_games = []
 for game in today_schedule:
 
     today_games.append({
-        "away_name": nickname(game["away_name"]),
-        "home_name": nickname(game["home_name"])
-    })
+    "away_name": nickname(game["away_name"]),
+    "home_name": nickname(game["home_name"]),
+    "game_time": game["game_datetime"]
+})
 
 today_games.sort(
     key=lambda g: (
@@ -108,7 +109,8 @@ today_games.sort(
             g["away_name"] == "Guardians"
             or
             g["home_name"] == "Guardians"
-        )
+        ),
+        g["game_time"]
     )
 )
 
