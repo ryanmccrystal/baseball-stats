@@ -125,7 +125,7 @@ today_schedule = statsapi.schedule(
 
 today_games = []
 
-    for game in today_schedule:
+for game in today_schedule:
 
     away_stats = get_pitcher_stats(
         game["away_probable_pitcher"]
@@ -148,7 +148,7 @@ today_games = []
 
         "away_stats": away_stats,
         "home_stats": home_stats
-    })  
+    })
 
 today_games.sort(
     key=lambda g: (
