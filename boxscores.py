@@ -182,17 +182,27 @@ for game in today_schedule:
         else "TBD"
     )
 
-    away_stats = (
-        get_pitcher_stats(away_pitcher)
-        if away_pitcher != "TBD"
-        else None
+    away_stats = get_pitcher_stats(
+        away_pitcher
     )
 
-    home_stats = (
-        get_pitcher_stats(home_pitcher)
-        if home_pitcher != "TBD"
-        else None
+    home_stats = get_pitcher_stats(
+        home_pitcher
     )
+
+    if away_stats:
+        away_stats["team_record"] = (
+            get_team_record_in_starts(
+                away_pitcher
+            )
+        )
+
+    if home_stats:
+        home_stats["team_record"] = (
+            get_team_record_in_starts(
+                home_pitcher
+            )
+        )
 
     today_games.append({
         "away_name": nickname(game["away_name"]),
