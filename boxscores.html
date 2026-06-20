@@ -51,6 +51,14 @@
             margin: 8px 0;
         }
 
+        .pitcher-header-row {
+            display: grid;
+            grid-template-columns: 220px 60px 60px 60px;
+            gap: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 
@@ -67,7 +75,12 @@
 
 <hr>
 
-<h1>Today's Probable Pitchers</h1>
+<div class="pitcher-header-row">
+    <strong>Today's Probable Pitchers</strong>
+    <strong>W-L</strong>
+    <strong>ERA</strong>
+    <strong>K/9</strong>
+</div>
 
 <div id="today-games"></div>
 
@@ -123,7 +136,7 @@ div.innerHTML =
         ${formattedTime} ET ${game.away_name} at ${game.home_name}
     </div>
 
-<div class="pitcher-row">
+
     <span>
         ${game.away_pitcher}
         ${game.away_stats ? ` (${game.away_stats.hand})` : ""}
