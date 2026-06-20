@@ -105,6 +105,13 @@ def get_team_record_in_starts(pitcher_name):
 
     return f"{wins}-{losses}"
 
+print(
+    "Cantillo starts:",
+    get_team_record_in_starts(
+        "Joey Cantillo"
+    )
+)
+
 yesterday = date.today() - timedelta(days=1)
 
 schedule = statsapi.schedule(
