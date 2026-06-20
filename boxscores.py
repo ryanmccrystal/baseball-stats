@@ -184,14 +184,14 @@ boxscores = {
 }
 
 player_id = statsapi.lookup_player(
-    "Kevin Gausman"
+    "Joey Cantillo"
 )[0]["id"]
 
 print(
     statsapi.player_stat_data(
         player_id,
         group="[pitching]",
-        type="season"
+        type="gameLog"
     )
 )
 
