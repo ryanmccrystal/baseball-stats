@@ -30,6 +30,21 @@
             margin-bottom: 15px;
         }
 
+        .pitcher-row {
+            display: grid;
+            grid-template-columns: 220px 60px 60px 60px;
+            gap: 10px;
+            margin-top: 2px;
+        }
+
+        .pitcher-name {
+            text-align: left;
+        }
+
+        .pitcher-stat {
+            text-align: right;
+        }
+
     </style>
 </head>
 
@@ -98,18 +113,32 @@ data.today_games.forEach(game => {
 
 div.innerHTML =
     `
-    ${formattedTime} ET ${game.away_name} at ${game.home_name}
+    <div>
+        ${formattedTime} ET ${game.away_name} at ${game.home_name}
+    </div>
+
+    <div class="pitcher-row">
+        <strong>Pitcher</strong>
+        <strong>W-L</strong>
+        <strong>ERA</strong>
+        <strong>K/9</strong>
+    </div>
+
+    <div class="pitcher-row">
+        <span>${game.away_pitcher} (${game.away_stats.hand})</span>
+        <span>${game.away_stats.wins}-${game.away_stats.losses}</span>
+        <span>${game.away_stats.era}</span>
+        <span>${game.away_stats.k9}</span>
+    </div>
+
+    <div class="pitcher-row">
+        <span>${game.home_pitcher} (${game.home_stats.hand})</span>
+        <span>${game.home_stats.wins}-${game.home_stats.losses}</span>
+        <span>${game.home_stats.era}</span>
+        <span>${game.home_stats.k9}</span>
+    </div>
+
     <br>
-    ${game.away_pitcher} (${game.away_stats.hand}) |
-    ${game.away_stats.wins}-${game.away_stats.losses} |
-    ${game.away_stats.era} ERA |
-    ${game.away_stats.k9} K/9
-    <br>
-    ${game.home_pitcher} (${game.home_stats.hand}) |
-    ${game.home_stats.wins}-${game.home_stats.losses} |
-    ${game.home_stats.era} ERA |
-    ${game.home_stats.k9} K/9
-    <br><br>
     `;
 
     todayContainer.appendChild(div);
