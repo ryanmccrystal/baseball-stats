@@ -187,13 +187,15 @@ player_id = statsapi.lookup_player(
     "Joey Cantillo"
 )[0]["id"]
 
-print(
-    statsapi.player_stat_data(
-        player_id,
-        group="[pitching]",
-        type="gameLog"
-    )
+gamelog = statsapi.get(
+    "people",
+    {
+        "personIds": player_id,
+        "hydrate": "stats(group=[pitching],type=[gameLog])"
+    }
 )
+
+print(gamelog)
 
 with open("boxscores.json", "w") as f:
     json.dump(boxscores, f, indent=2)
