@@ -65,7 +65,7 @@ def get_pitcher_stats(name):
             "k9": round(
                 float(stats["strikeoutsPer9Inn"]),
                 1
-            )
+            ),
 
             "hand":
                 "R" if data["pitch_hand"] == "Right"
