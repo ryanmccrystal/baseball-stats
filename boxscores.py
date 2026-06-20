@@ -73,6 +73,38 @@ def get_pitcher_stats(name):
 
         return None
 
+def get_team_record_in_starts(pitcher_name):
+
+    player = statsapi.lookup_player(pitcher_name)
+
+    if not player:
+        return "--"
+
+    player_id = player[0]["id"]
+
+    data = statsapi.get(
+        "people",
+        {
+            "personIds": player_id,
+            "hydrate": "stats(group=[pitching],type=[gameLog])"
+        }
+    )
+
+    starts = (
+        data["people"][0]
+        ["stats"][0]
+        ["splits"]
+    )
+
+    wins = sum(
+        1 for start in starts
+        if start["isWin"]
+    )
+
+    losses = len(starts) - wins
+
+    return f"{wins}-{losses}"
+
 yesterday = date.today() - timedelta(days=1)
 
 schedule = statsapi.schedule(
