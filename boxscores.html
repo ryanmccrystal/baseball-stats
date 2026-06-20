@@ -30,10 +30,20 @@
             margin-bottom: 15px;
         }
 
+        .pitcher-header-row,
         .pitcher-row {
             display: grid;
-            grid-template-columns: minmax(140px, 1fr) auto auto auto auto;
+            grid-template-columns: minmax(180px, 300px) 55px 55px 55px 70px;
             gap: 8px;
+        }
+
+        .pitcher-header-row {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .pitcher-row {
+            margin-top: 2px;
         }
 
         .pitcher-name {
@@ -48,14 +58,6 @@
             border: 0;
             border-top: 1px solid #ccc;
             margin: 8px 0;
-        }
-
-        .pitcher-header-row {
-            display: grid;
-            grid-template-columns: minmax(140px, 1fr) auto auto auto auto;
-            gap: 8px;
-            font-weight: bold;
-            margin-bottom: 10px;
         }
 
     </style>
