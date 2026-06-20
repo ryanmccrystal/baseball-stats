@@ -32,7 +32,7 @@
 
         .pitcher-row {
             display: grid;
-            grid-template-columns: minmax(0, 220px) 60px 60px 60px;
+            grid-template-columns: 300px 70px 70px 70px 90px;
             gap: 10px;
             margin-top: 2px;
         }
@@ -53,7 +53,7 @@
 
         .pitcher-header-row {
             display: grid;
-            grid-template-columns: minmax(0, 220px) 60px 60px 60px;
+            grid-template-columns: 300px 70px 70px 70px 90px;
             gap: 10px;
             margin-bottom: 10px;
             font-weight: bold;
@@ -76,10 +76,11 @@
 <hr>
 
 <div class="pitcher-header-row">
-    <strong>Today's Probable Pitchers</strong>
-    <strong>W-L</strong>
-    <strong>ERA</strong>
-    <strong>K/9</strong>
+    <span>Today's Probable Pitchers</span>
+    <span>W-L</span>
+    <span>ERA</span>
+    <span>K/9</span>
+    <span>Team Rec</span>
 </div>
 
 <div id="today-games"></div>
@@ -159,6 +160,13 @@ div.innerHTML =
             ? game.away_stats.k9
             : "--"}
     </span>
+
+    <span>
+        ${game.away_stats
+            ? game.away_stats.team_record
+            : "--"}
+    </span>
+    
 </div>
 
 <div class="pitcher-row">
@@ -184,6 +192,13 @@ div.innerHTML =
             ? game.home_stats.k9
             : "--"}
     </span>
+
+    <span>
+        ${game.home_stats
+            ? game.home_stats.team_record
+            : "--"}
+    </span>
+    
 </div>
 
     <hr class="game-divider">
