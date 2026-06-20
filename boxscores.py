@@ -131,12 +131,28 @@ today_games = []
 
 for game in today_schedule:
 
-    away_stats = get_pitcher_stats(
+    away_pitcher = (
         game["away_probable_pitcher"]
+        if game["away_probable_pitcher"]
+        else "TBD"
     )
 
-    home_stats = get_pitcher_stats(
+    home_pitcher = (
         game["home_probable_pitcher"]
+        if game["home_probable_pitcher"]
+        else "TBD"
+    )
+
+    away_stats = (
+        get_pitcher_stats(away_pitcher)
+        if away_pitcher != "TBD"
+        else None
+    )
+
+    home_stats = (
+        get_pitcher_stats(home_pitcher)
+        if home_pitcher != "TBD"
+        else None
     )
 
     today_games.append({
@@ -144,11 +160,8 @@ for game in today_schedule:
         "home_name": nickname(game["home_name"]),
         "game_time": game["game_datetime"],
 
-        "away_pitcher":
-            game["away_probable_pitcher"],
-
-        "home_pitcher":
-            game["home_probable_pitcher"],
+        "away_pitcher": away_pitcher,
+        "home_pitcher": home_pitcher,
 
         "away_stats": away_stats,
         "home_stats": home_stats
