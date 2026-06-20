@@ -62,10 +62,7 @@ def get_pitcher_stats(name):
             "wins": stats["wins"],
             "losses": stats["losses"],
             "era": stats["era"],
-            "k9": round(
-                float(stats["strikeoutsPer9Inn"]),
-                1
-            ),
+            "k9": f'{float(stats["strikeoutsPer9Inn"]):.1f}',
 
             "hand":
                 "R" if data["pitch_hand"] == "Right"
