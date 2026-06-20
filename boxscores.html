@@ -117,26 +117,55 @@ div.innerHTML =
         ${formattedTime} ET ${game.away_name} at ${game.home_name}
     </div>
 
-    <div class="pitcher-row">
-        <strong>Pitcher</strong>
-        <strong>W-L</strong>
-        <strong>ERA</strong>
-        <strong>K/9</strong>
-    </div>
+<div class="pitcher-row">
+    <span>
+        ${game.away_pitcher}
+        ${game.away_stats ? ` (${game.away_stats.hand})` : ""}
+    </span>
 
-    <div class="pitcher-row">
-        <span>${game.away_pitcher} (${game.away_stats.hand})</span>
-        <span>${game.away_stats.wins}-${game.away_stats.losses}</span>
-        <span>${game.away_stats.era}</span>
-        <span>${game.away_stats.k9}</span>
-    </div>
+    <span>
+        ${game.away_stats
+            ? `${game.away_stats.wins}-${game.away_stats.losses}`
+            : ""}
+    </span>
 
-    <div class="pitcher-row">
-        <span>${game.home_pitcher} (${game.home_stats.hand})</span>
-        <span>${game.home_stats.wins}-${game.home_stats.losses}</span>
-        <span>${game.home_stats.era}</span>
-        <span>${game.home_stats.k9}</span>
-    </div>
+    <span>
+        ${game.away_stats
+            ? game.away_stats.era
+            : ""}
+    </span>
+
+    <span>
+        ${game.away_stats
+            ? game.away_stats.k9
+            : ""}
+    </span>
+</div>
+
+<div class="pitcher-row">
+    <span>
+        ${game.home_pitcher}
+        ${game.home_stats ? ` (${game.home_stats.hand})` : ""}
+    </span>
+
+    <span>
+        ${game.home_stats
+            ? `${game.home_stats.wins}-${game.home_stats.losses}`
+            : ""}
+    </span>
+
+    <span>
+        ${game.home_stats
+            ? game.home_stats.era
+            : ""}
+    </span>
+
+    <span>
+        ${game.home_stats
+            ? game.home_stats.k9
+            : ""}
+    </span>
+</div>
 
     <br>
     `;
