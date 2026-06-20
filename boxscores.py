@@ -96,6 +96,11 @@ def get_team_record_in_starts(pitcher_name):
         ["splits"]
     )
 
+    starts = [
+        s for s in starts
+        if s["stat"]["gamesStarted"] == 1
+    ]
+
     wins = sum(
         1 for start in starts
         if start["isWin"]
