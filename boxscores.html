@@ -133,7 +133,7 @@ data.today_games.forEach(game => {
 div.innerHTML =
     `
     <div>
-        ${formattedTime} ET ${game.away_name} at ${game.home_name}
+        <strong>${game.away_name} at ${game.home_name}</strong> - ${formattedTime} ET
     </div>
 
 <div class="pitcher-row">
