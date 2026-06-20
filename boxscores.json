@@ -16,9 +16,9 @@
     },
     {
       "gamePk": 824264,
-      "winner_name": "Tigers",
-      "winner_score": 2,
-      "loser_name": "White Sox",
+      "winner_name": "White Sox",
+      "winner_score": 3,
+      "loser_name": "Tigers",
       "loser_score": 2
     },
     {
@@ -31,7 +31,7 @@
     {
       "gamePk": 822966,
       "winner_name": "Rays",
-      "winner_score": 3,
+      "winner_score": 4,
       "loser_name": "Nationals",
       "loser_score": 2
     },
@@ -51,9 +51,9 @@
     },
     {
       "gamePk": 822886,
-      "winner_name": "Rangers",
-      "winner_score": 0,
-      "loser_name": "Padres",
+      "winner_name": "Padres",
+      "winner_score": 1,
+      "loser_name": "Rangers",
       "loser_score": 0
     },
     {
@@ -87,9 +87,9 @@
     {
       "gamePk": 823936,
       "winner_name": "Dodgers",
-      "winner_score": "0",
+      "winner_score": 0,
       "loser_name": "Orioles",
-      "loser_score": "0"
+      "loser_score": 0
     },
     {
       "gamePk": 823124,
@@ -125,7 +125,7 @@
       "away_name": "White Sox",
       "home_name": "Tigers",
       "game_time": "2026-06-20T17:10:00Z",
-      "away_pitcher": "",
+      "away_pitcher": "TBD",
       "home_pitcher": "Troy Melton",
       "away_stats": null,
       "home_stats": {
@@ -204,7 +204,7 @@
       "home_name": "Rays",
       "game_time": "2026-06-20T20:10:00Z",
       "away_pitcher": "Cade Cavalli",
-      "home_pitcher": "",
+      "home_pitcher": "TBD",
       "away_stats": {
         "wins": 4,
         "losses": 4,
@@ -302,7 +302,7 @@
       "away_name": "Angels",
       "home_name": "Athletics",
       "game_time": "2026-06-21T02:05:00Z",
-      "away_pitcher": "",
+      "away_pitcher": "TBD",
       "home_pitcher": "J.T. Ginn",
       "away_stats": null,
       "home_stats": {
