@@ -220,7 +220,7 @@
       "home_name": "Blue Jays",
       "game_time": "2026-06-22T23:07:00Z",
       "away_pitcher": "Hunter Brown",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Dylan Cease",
       "away_stats": {
         "wins": 1,
         "losses": 0,
@@ -229,7 +229,14 @@
         "hand": "R",
         "team_record": "2-1"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 4,
+        "losses": 3,
+        "era": "2.71",
+        "k9": "13.6",
+        "hand": "R",
+        "team_record": "8-5"
+      }
     },
     {
       "away_name": "Cubs",
