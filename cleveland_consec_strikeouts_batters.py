@@ -162,6 +162,13 @@ for event_file in event_files:
                 "event": event
             })
 
+            if batter_id == "colob001":
+
+                print(
+                    current_date,
+                    event
+                    )
+
 print(
     f"\nCollected {len(all_pa)} Cleveland plate appearances"
 )
