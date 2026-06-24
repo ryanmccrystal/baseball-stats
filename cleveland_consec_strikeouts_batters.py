@@ -106,14 +106,7 @@ print(
 
 MIN_STREAK = 5
 
-results = []
-
-active_streaks = {}
-streak_start_date = {}
-streak_start_game = {}
-
-streak_last_date = {}
-streak_last_game = {}
+all_pa = []
 
 for event_file in event_files:
 
@@ -133,16 +126,7 @@ for event_file in event_files:
                 continue
 
             if line.startswith("info,date,"):
-
                 current_date = line.split(",")[2]
-
-                if current_date.startswith("2025"):
-
-                    print(
-                        current_date,
-                        os.path.basename(event_file)
-                    )
-
                 continue
 
             if line.startswith("info,visteam,"):
@@ -171,61 +155,82 @@ for event_file in event_files:
             if team_abbr != "CLE":
                 continue
 
-            if event.startswith("K"):
+            all_pa.append({
+                "date": current_date,
+                "game_id": current_game_id,
+                "batter_id": batter_id,
+                "event": event
+            })
 
-                if batter_id not in active_streaks:
+print(
+    f"\nCollected {len(all_pa)} Cleveland plate appearances"
+)
 
-                    active_streaks[batter_id] = 1
+all_pa.sort(
+    key=lambda x: (
+        x["date"],
+        x["game_id"]
+    )
+)
 
-                    streak_start_date[batter_id] = current_date
+results = []
 
-                    streak_start_game[batter_id] = current_game_id
+active_streaks = {}
+start_date = {}
+start_game = {}
 
-                    streak_last_date[batter_id] = current_date
+for pa in all_pa:
 
-                    streak_last_game[batter_id] = current_game_id
+    batter_id = pa["batter_id"]
+    event = pa["event"]
 
-                else:
+    if event.startswith("K"):
 
-                    active_streaks[batter_id] += 1
+        if batter_id not in active_streaks:
 
-                    streak_last_date[batter_id] = current_date
+            active_streaks[batter_id] = 1
 
-                    streak_last_game[batter_id] = current_game_id
+            start_date[batter_id] = pa["date"]
 
-            else:
+            start_game[batter_id] = pa["game_id"]
 
-                if (
-                    batter_id in active_streaks
-                    and active_streaks[batter_id] >= MIN_STREAK
-                ):
+        else:
 
-                    results.append({
-                        "player": canonical_name.get(
-                            batter_id,
-                            batter_id
-                        ),
-                        "streak": active_streaks[batter_id],
-                        "start_date": streak_start_date[batter_id],
-                        "end_date": current_date,
-                        "start_game": streak_start_game[batter_id],
-                        "end_game": current_game_id
-                    })
+            active_streaks[batter_id] += 1
 
-                active_streaks.pop(
+    else:
+
+        if (
+            batter_id in active_streaks
+            and active_streaks[batter_id] >= MIN_STREAK
+        ):
+
+            results.append({
+                "player": canonical_name.get(
                     batter_id,
-                    None
-                )
+                    batter_id
+                ),
+                "streak": active_streaks[batter_id],
+                "start_date": start_date[batter_id],
+                "end_date": pa["date"],
+                "start_game": start_game[batter_id],
+                "end_game": pa["game_id"]
+            })
 
-                streak_start_date.pop(
-                    batter_id,
-                    None
-                )
+        active_streaks.pop(
+            batter_id,
+            None
+        )
 
-                streak_start_game.pop(
-                    batter_id,
-                    None
-                )
+        start_date.pop(
+            batter_id,
+            None
+        )
+
+        start_game.pop(
+            batter_id,
+            None
+        )
 
 for batter_id, streak in active_streaks.items():
 
@@ -237,10 +242,10 @@ for batter_id, streak in active_streaks.items():
                 batter_id
             ),
             "streak": streak,
-            "start_date": streak_start_date[batter_id],
-            "end_date": streak_last_date[batter_id],
-            "start_game": streak_start_game[batter_id],
-            "end_game": streak_last_game[batter_id]
+            "start_date": start_date[batter_id],
+            "end_date": start_date[batter_id],
+            "start_game": start_game[batter_id],
+            "end_game": start_game[batter_id]
         })
 
 results.sort(
