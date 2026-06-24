@@ -112,6 +112,9 @@ active_streaks = {}
 streak_start_date = {}
 streak_start_game = {}
 
+streak_last_date = {}
+streak_last_game = {}
+
 for event_file in event_files:
 
     current_date = None
@@ -169,9 +172,17 @@ for event_file in event_files:
 
                     streak_start_game[batter_id] = current_game_id
 
+                    streak_last_date[batter_id] = current_date
+
+                    streak_last_game[batter_id] = current_game_id
+
                 else:
 
                     active_streaks[batter_id] += 1
+
+                    streak_last_date[batter_id] = current_date
+
+                    streak_last_game[batter_id] = current_game_id
 
             else:
 
@@ -218,9 +229,9 @@ for batter_id, streak in active_streaks.items():
             ),
             "streak": streak,
             "start_date": streak_start_date[batter_id],
-            "end_date": current_date,
+            "end_date": streak_last_date[batter_id],
             "start_game": streak_start_game[batter_id],
-            "end_game": current_game_id
+            "end_game": streak_last_game[batter_id]
         })
 
 results.sort(
