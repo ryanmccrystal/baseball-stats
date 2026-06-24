@@ -195,7 +195,11 @@ for pa in all_pa:
     batter_id = pa["batter_id"]
     event = pa["event"]
 
-    if event.startswith("K"):
+    # No Play does not affect streaks
+    if event == "NP":
+        continue
+
+    if event.startswith("K")::
 
         if batter_id not in active_streaks:
 
