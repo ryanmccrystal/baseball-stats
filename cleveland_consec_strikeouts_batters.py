@@ -103,3 +103,22 @@ for year in range(1910, 2026):
 print(
     f"Found {len(event_files)} event files"
 )
+
+print("\nReading first event file...\n")
+
+with open(event_files[0], encoding="latin-1") as f:
+
+    play_count = 0
+
+    for raw_line in f:
+
+        line = raw_line.strip()
+
+        if line.startswith("play,"):
+
+            print(line)
+
+            play_count += 1
+
+            if play_count == 20:
+                break
