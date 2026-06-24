@@ -51,7 +51,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 event_files = []
 
-for year in range(1910, 2026):
+for year in range(2025, 2026):
 
     zip_file = os.path.join(
         DATA_DIR,
@@ -104,9 +104,15 @@ print(
     f"Found {len(event_files)} event files"
 )
 
-print("\nSearching for strikeouts...\n")
+print("\nCleveland strikeouts in 2025:\n")
 
-for event_file in event_files[:20]:
+player_lookup = {}
+
+for event_file in event_files:
+
+    current_date = None
+    visteam = None
+    hometeam = None
 
     with open(event_file, encoding="latin-1") as f:
 
@@ -114,13 +120,41 @@ for event_file in event_files[:20]:
 
             line = raw_line.strip()
 
-            if not line.startswith("play,"):
+            if line.startswith("info,date,"):
+                current_date = line.split(",")[2]
                 continue
 
-            fields = line.split(",")
+            if line.startswith("info,visteam,"):
+                visteam = line.split(",")[2]
+                continue
 
-            event = fields[6]
+            if line.startswith("info,hometeam,"):
+                hometeam = line.split(",")[2]
+                continue
 
-            if "K" in event:
+            if line.startswith("play,"):
 
-                print(line)
+                fields = line.split(",")
+
+                batting_team = fields[2]
+                batter_id = fields[3]
+                event = fields[6]
+
+                team_abbr = (
+                    visteam
+                    if batting_team == "0"
+                    else hometeam
+                )
+
+                if team_abbr != "CLE":
+                    continue
+
+                if event.startswith("K"):
+
+                    print(
+                        current_date,
+                        canonical_name.get(
+                            batter_id,
+                            batter_id
+                        )
+                    )
