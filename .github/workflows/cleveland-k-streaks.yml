@@ -1,4 +1,4 @@
-name: Cleveland K Streaks
+name: Cleveland Consecutive Strikeouts
 
 on:
   workflow_dispatch:
