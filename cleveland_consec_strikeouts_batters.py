@@ -162,13 +162,6 @@ for event_file in event_files:
                 "event": event
             })
 
-            if batter_id == "colob001":
-
-                print(
-                    current_date,
-                    event
-                    )
-
 print(
     f"\nCollected {len(all_pa)} Cleveland plate appearances"
 )
@@ -179,6 +172,17 @@ all_pa.sort(
         x["game_id"]
     )
 )
+
+print("\nBartolo after sorting:\n")
+
+for pa in all_pa:
+
+    if pa["batter_id"] == "colob001":
+
+        print(
+            pa["date"],
+            pa["event"]
+        )
 
 results = []
 
