@@ -21,6 +21,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run strikeout research
-        run: |
-          python cleveland_k_streaks.py
+    - name: Run strikeout research
+      run: |
+        python cleveland_consec_strikeouts_batters.py
