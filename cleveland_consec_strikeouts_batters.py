@@ -104,21 +104,23 @@ print(
     f"Found {len(event_files)} event files"
 )
 
-print("\nReading first event file...\n")
+print("\nSearching for strikeouts...\n")
 
-with open(event_files[0], encoding="latin-1") as f:
+for event_file in event_files[:20]:
 
-    play_count = 0
+    with open(event_file, encoding="latin-1") as f:
 
-    for raw_line in f:
+        for raw_line in f:
 
-        line = raw_line.strip()
+            line = raw_line.strip()
 
-        if line.startswith("play,"):
+            if not line.startswith("play,"):
+                continue
 
-            print(line)
+            fields = line.split(",")
 
-            play_count += 1
+            event = fields[6]
 
-            if play_count == 20:
-                break
+            if "K" in event:
+
+                print(line)
