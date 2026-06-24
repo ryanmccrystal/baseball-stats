@@ -51,7 +51,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 event_files = []
 
-for year in range(2025, 2026):
+for year in range(1910, 2026):
 
     zip_file = os.path.join(
         DATA_DIR,
