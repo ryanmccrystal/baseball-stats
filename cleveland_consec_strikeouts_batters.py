@@ -133,7 +133,16 @@ for event_file in event_files:
                 continue
 
             if line.startswith("info,date,"):
+
                 current_date = line.split(",")[2]
+
+                if current_date.startswith("2025"):
+
+                    print(
+                        current_date,
+                        os.path.basename(event_file)
+                    )
+
                 continue
 
             if line.startswith("info,visteam,"):
