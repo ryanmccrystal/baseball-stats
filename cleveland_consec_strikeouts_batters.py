@@ -199,7 +199,7 @@ for pa in all_pa:
     if event == "NP":
         continue
 
-    if event.startswith("K")::
+    if event.startswith("K"):
 
         if batter_id not in active_streaks:
 
