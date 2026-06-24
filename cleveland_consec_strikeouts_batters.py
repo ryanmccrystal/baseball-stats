@@ -104,13 +104,18 @@ print(
     f"Found {len(event_files)} event files"
 )
 
-print("\nCleveland strikeouts in 2025:\n")
+MIN_STREAK = 5
 
-player_lookup = {}
+results = []
+
+active_streaks = {}
+streak_start_date = {}
+streak_start_game = {}
 
 for event_file in event_files:
 
     current_date = None
+    current_game_id = None
     visteam = None
     hometeam = None
 
@@ -119,6 +124,10 @@ for event_file in event_files:
         for raw_line in f:
 
             line = raw_line.strip()
+
+            if line.startswith("id,"):
+                current_game_id = line.split(",")[1]
+                continue
 
             if line.startswith("info,date,"):
                 current_date = line.split(",")[2]
@@ -132,29 +141,100 @@ for event_file in event_files:
                 hometeam = line.split(",")[2]
                 continue
 
-            if line.startswith("play,"):
+            if not line.startswith("play,"):
+                continue
 
-                fields = line.split(",")
+            fields = line.split(",")
 
-                batting_team = fields[2]
-                batter_id = fields[3]
-                event = fields[6]
+            batting_team = fields[2]
+            batter_id = fields[3]
+            event = fields[6]
 
-                team_abbr = (
-                    visteam
-                    if batting_team == "0"
-                    else hometeam
-                )
+            team_abbr = (
+                visteam
+                if batting_team == "0"
+                else hometeam
+            )
 
-                if team_abbr != "CLE":
-                    continue
+            if team_abbr != "CLE":
+                continue
 
-                if event.startswith("K"):
+            if event.startswith("K"):
 
-                    print(
-                        current_date,
-                        canonical_name.get(
+                if batter_id not in active_streaks:
+
+                    active_streaks[batter_id] = 1
+
+                    streak_start_date[batter_id] = current_date
+
+                    streak_start_game[batter_id] = current_game_id
+
+                else:
+
+                    active_streaks[batter_id] += 1
+
+            else:
+
+                if (
+                    batter_id in active_streaks
+                    and active_streaks[batter_id] >= MIN_STREAK
+                ):
+
+                    results.append({
+                        "player": canonical_name.get(
                             batter_id,
                             batter_id
-                        )
-                    )
+                        ),
+                        "streak": active_streaks[batter_id],
+                        "start_date": streak_start_date[batter_id],
+                        "end_date": current_date,
+                        "start_game": streak_start_game[batter_id],
+                        "end_game": current_game_id
+                    })
+
+                active_streaks.pop(
+                    batter_id,
+                    None
+                )
+
+                streak_start_date.pop(
+                    batter_id,
+                    None
+                )
+
+                streak_start_game.pop(
+                    batter_id,
+                    None
+                )
+
+for batter_id, streak in active_streaks.items():
+
+    if streak >= MIN_STREAK:
+
+        results.append({
+            "player": canonical_name.get(
+                batter_id,
+                batter_id
+            ),
+            "streak": streak,
+            "start_date": streak_start_date[batter_id],
+            "end_date": current_date,
+            "start_game": streak_start_game[batter_id],
+            "end_game": current_game_id
+        })
+
+results.sort(
+    key=lambda x: x["streak"],
+    reverse=True
+)
+
+print("\nTop Strikeout Streaks:\n")
+
+for row in results[:50]:
+
+    print(
+        f"{row['player']} | "
+        f"{row['streak']} | "
+        f"{row['start_date']} -> "
+        f"{row['end_date']}"
+    )
