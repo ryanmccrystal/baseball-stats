@@ -3,7 +3,7 @@
     {
       "gamePk": 824423,
       "winner_name": "Mariners",
-      "winner_score": 2,
+      "winner_score": 3,
       "loser_name": "Guardians",
       "loser_score": 1
     },
@@ -24,7 +24,7 @@
     {
       "gamePk": 824824,
       "winner_name": "Orioles",
-      "winner_score": 2,
+      "winner_score": 3,
       "loser_name": "Nationals",
       "loser_score": 1
     },
@@ -52,14 +52,14 @@
     {
       "gamePk": 824743,
       "winner_name": "Red Sox",
-      "winner_score": 5,
+      "winner_score": 6,
       "loser_name": "Yankees",
-      "loser_score": 0
+      "loser_score": 1
     },
     {
       "gamePk": 824582,
       "winner_name": "White Sox",
-      "winner_score": 11,
+      "winner_score": 13,
       "loser_name": "Royals",
       "loser_score": 1
     },
@@ -73,7 +73,7 @@
     {
       "gamePk": 823688,
       "winner_name": "Twins",
-      "winner_score": 4,
+      "winner_score": 7,
       "loser_name": "Rockies",
       "loser_score": 0
     },
@@ -376,7 +376,7 @@
       "home_name": "Giants",
       "game_time": "2026-06-28T01:05:00Z",
       "away_pitcher": "Bryce Elder",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Logan Webb",
       "away_stats": {
         "wins": 5,
         "losses": 5,
@@ -385,7 +385,14 @@
         "hand": "R",
         "team_record": "9-7"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 4,
+        "losses": 5,
+        "era": "3.35",
+        "k9": "7.6",
+        "hand": "R",
+        "team_record": "4-9"
+      }
     },
     {
       "away_name": "Athletics",
