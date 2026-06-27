@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 27, 2026 01:40 UTC",
+  "last_updated": "June 27, 2026 01:46 UTC",
   "standings": {
     "AL East": [
       {
@@ -22,9 +22,9 @@
       },
       {
         "team": "BAL",
-        "wins": 38,
+        "wins": 39,
         "losses": 44,
-        "gb": "10.5"
+        "gb": "10.0"
       },
       {
         "team": "BOS",
@@ -119,8 +119,8 @@
       {
         "team": "WSH",
         "wins": 41,
-        "losses": 41,
-        "gb": "8.5"
+        "losses": 42,
+        "gb": "9.0"
       },
       {
         "team": "NYM",
@@ -151,14 +151,14 @@
       {
         "team": "PIT",
         "wins": 41,
-        "losses": 40,
-        "gb": "9.5"
+        "losses": 41,
+        "gb": "10.0"
       },
       {
         "team": "CIN",
-        "wins": 37,
+        "wins": 38,
         "losses": 42,
-        "gb": "12.5"
+        "gb": "12.0"
       }
     ],
     "NL West": [
@@ -264,7 +264,7 @@
       "gb": "1.5"
     },
     {
-      "team": "PIT",
+      "team": "AZ",
       "wins": 41,
       "losses": 40,
       "gb": "2.5"
@@ -286,7 +286,12 @@
         {
           "name": "Ernie Clement",
           "team": "TOR",
-          "value": ".295"
+          "value": ".297"
+        },
+        {
+          "name": "Sam Antonacci",
+          "team": "CWS",
+          "value": ".294"
         },
         {
           "name": "Josh Jung",
@@ -317,11 +322,6 @@
           "name": "Randy Arozarena",
           "team": "SEA",
           "value": ".285"
-        },
-        {
-          "name": "Kevin McGonigle",
-          "team": "DET",
-          "value": ".284"
         }
       ],
       "home_runs": [
@@ -371,9 +371,9 @@
           "value": "19"
         },
         {
-          "name": "Pete Alonso",
-          "team": "BAL",
-          "value": "18"
+          "name": "Kazuma Okamoto",
+          "team": "TOR",
+          "value": "19"
         }
       ],
       "rbi": [
@@ -403,6 +403,11 @@
           "value": "55"
         },
         {
+          "name": "Kazuma Okamoto",
+          "team": "TOR",
+          "value": "53"
+        },
+        {
           "name": "Ben Rice",
           "team": "NYY",
           "value": "53"
@@ -420,11 +425,6 @@
         {
           "name": "Josh Bell",
           "team": "MIN",
-          "value": "51"
-        },
-        {
-          "name": "Kazuma Okamoto",
-          "team": "TOR",
           "value": "51"
         }
       ],
@@ -489,7 +489,7 @@
         {
           "name": "Nick Kurtz",
           "team": "ATH",
-          "value": ".426"
+          "value": ".425"
         },
         {
           "name": "Yandy D\u00edaz",
@@ -512,6 +512,11 @@
           "value": ".391"
         },
         {
+          "name": "Sam Antonacci",
+          "team": "CWS",
+          "value": ".390"
+        },
+        {
           "name": "Jonathan Aranda",
           "team": "TBR",
           "value": ".387"
@@ -525,11 +530,6 @@
           "name": "Junior Caminero",
           "team": "TBR",
           "value": ".379"
-        },
-        {
-          "name": "Willson Contreras",
-          "team": "BOS",
-          "value": ".375"
         }
       ],
       "slg": [
@@ -561,7 +561,7 @@
         {
           "name": "Nick Kurtz",
           "team": "ATH",
-          "value": ".533"
+          "value": ".531"
         },
         {
           "name": "Junior Caminero",
@@ -581,7 +581,7 @@
         {
           "name": "Shea Langeliers",
           "team": "ATH",
-          "value": ".505"
+          "value": ".503"
         }
       ],
       "ops": [
@@ -593,7 +593,7 @@
         {
           "name": "Nick Kurtz",
           "team": "ATH",
-          "value": ".959"
+          "value": ".956"
         },
         {
           "name": "Ben Rice",
@@ -702,7 +702,7 @@
         {
           "name": "Ernie Clement",
           "team": "TOR",
-          "value": "89"
+          "value": "90"
         },
         {
           "name": "Bobby Witt Jr.",
@@ -1535,7 +1535,7 @@
         {
           "name": "Bryan Reynolds",
           "team": "PIT",
-          "value": ".403"
+          "value": ".402"
         },
         {
           "name": "Iv\u00e1n Herrera",
@@ -1674,7 +1674,7 @@
         {
           "name": "Bryan Reynolds",
           "team": "PIT",
-          "value": ".884"
+          "value": ".882"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1971,13 +1971,13 @@
           "value": "2.27"
         },
         {
-          "name": "Yoshinobu Yamamoto",
-          "team": "LAD",
-          "value": "2.65"
-        },
-        {
           "name": "Max Meyer",
           "team": "MIA",
+          "value": "2.63"
+        },
+        {
+          "name": "Yoshinobu Yamamoto",
+          "team": "LAD",
           "value": "2.65"
         },
         {
@@ -2075,13 +2075,13 @@
           "value": "107"
         },
         {
-          "name": "Nolan McLean",
-          "team": "NYM",
-          "value": "106"
-        },
-        {
           "name": "Max Meyer",
           "team": "MIA",
+          "value": "107"
+        },
+        {
+          "name": "Nolan McLean",
+          "team": "NYM",
           "value": "106"
         },
         {
@@ -2176,7 +2176,7 @@
         {
           "name": "Max Meyer",
           "team": "MIA",
-          "value": "95.0"
+          "value": "95.2"
         },
         {
           "name": "Eduardo Rodriguez",
