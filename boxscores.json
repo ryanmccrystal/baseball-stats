@@ -59,51 +59,51 @@
     {
       "gamePk": 824582,
       "winner_name": "White Sox",
-      "winner_score": 17,
+      "winner_score": 22,
       "loser_name": "Royals",
       "loser_score": 1
     },
     {
       "gamePk": 823773,
       "winner_name": "Brewers",
-      "winner_score": 3,
+      "winner_score": 6,
       "loser_name": "Cubs",
-      "loser_score": 1
+      "loser_score": 2
     },
     {
       "gamePk": 823688,
       "winner_name": "Twins",
-      "winner_score": 7,
+      "winner_score": 9,
       "loser_name": "Rockies",
-      "loser_score": 0
+      "loser_score": 8
     },
     {
       "gamePk": 823039,
-      "winner_name": "Cardinals",
-      "winner_score": 0,
-      "loser_name": "Marlins",
+      "winner_name": "Marlins",
+      "winner_score": 4,
+      "loser_name": "Cardinals",
       "loser_score": 0
     },
     {
       "gamePk": 824014,
-      "winner_name": "Angels",
-      "winner_score": 0,
-      "loser_name": "Athletics",
-      "loser_score": 0
+      "winner_name": "Athletics",
+      "winner_score": 9,
+      "loser_name": "Angels",
+      "loser_score": 3
     },
     {
       "gamePk": 823285,
       "winner_name": "Padres",
-      "winner_score": 0,
+      "winner_score": 7,
       "loser_name": "Dodgers",
-      "loser_score": 0
+      "loser_score": 1
     },
     {
       "gamePk": 823206,
-      "winner_name": "Giants",
-      "winner_score": 0,
-      "loser_name": "Braves",
-      "loser_score": 0
+      "winner_name": "Braves",
+      "winner_score": 3,
+      "loser_name": "Giants",
+      "loser_score": 1
     }
   ],
   "today_games": [
@@ -180,9 +180,16 @@
       "away_name": "Rangers",
       "home_name": "Blue Jays",
       "game_time": "2026-06-27T19:07:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Cal Quantrill",
       "home_pitcher": "Dylan Cease",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 3,
+        "losses": 0,
+        "era": "3.73",
+        "k9": "5.7",
+        "hand": "R",
+        "team_record": "0-1"
+      },
       "home_stats": {
         "wins": 4,
         "losses": 3,
@@ -220,7 +227,7 @@
       "home_name": "Mets",
       "game_time": "2026-06-27T20:10:00Z",
       "away_pitcher": "Alan Rangel",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Christian Scott",
       "away_stats": {
         "wins": 0,
         "losses": 0,
@@ -229,7 +236,14 @@
         "hand": "R",
         "team_record": "0-0"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 2,
+        "losses": 0,
+        "era": "3.10",
+        "k9": "10.4",
+        "hand": "R",
+        "team_record": "7-2"
+      }
     },
     {
       "away_name": "Royals",
@@ -259,7 +273,7 @@
       "home_name": "Rays",
       "game_time": "2026-06-27T22:10:00Z",
       "away_pitcher": "Jose Cabrera",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Cole Sulser",
       "away_stats": {
         "wins": 0,
         "losses": 0,
@@ -268,7 +282,14 @@
         "hand": "R",
         "team_record": "0-1"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 1,
+        "losses": 0,
+        "era": "5.40",
+        "k9": "9.4",
+        "hand": "R",
+        "team_record": "1-0"
+      }
     },
     {
       "away_name": "Nationals",
@@ -343,10 +364,24 @@
       "away_name": "Marlins",
       "home_name": "Cardinals",
       "game_time": "2026-06-27T23:15:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "TBD",
-      "away_stats": null,
-      "home_stats": null
+      "away_pitcher": "Ryan Gusto",
+      "home_pitcher": "Andre Pallante",
+      "away_stats": {
+        "wins": 0,
+        "losses": 2,
+        "era": "6.00",
+        "k9": "8.0",
+        "hand": "R",
+        "team_record": "2-2"
+      },
+      "home_stats": {
+        "wins": 9,
+        "losses": 4,
+        "era": "3.59",
+        "k9": "7.0",
+        "hand": "R",
+        "team_record": "10-5"
+      }
     },
     {
       "away_name": "Dodgers",
