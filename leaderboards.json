@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 27, 2026 01:34 UTC",
+  "last_updated": "June 27, 2026 01:40 UTC",
   "standings": {
     "AL East": [
       {
@@ -1575,7 +1575,7 @@
         {
           "name": "Xavier Edwards",
           "team": "MIA",
-          "value": ".375"
+          "value": ".374"
         }
       ],
       "slg": [
@@ -1610,14 +1610,14 @@
           "value": ".526"
         },
         {
-          "name": "CJ Abrams",
-          "team": "WSH",
-          "value": ".522"
-        },
-        {
           "name": "Jordan Walker",
           "team": "STL",
           "value": ".521"
+        },
+        {
+          "name": "CJ Abrams",
+          "team": "WSH",
+          "value": ".520"
         },
         {
           "name": "Casey Schmitt",
@@ -1662,14 +1662,14 @@
           "value": ".894"
         },
         {
-          "name": "CJ Abrams",
-          "team": "WSH",
-          "value": ".888"
-        },
-        {
           "name": "Jake Bauers",
           "team": "MIL",
           "value": ".886"
+        },
+        {
+          "name": "CJ Abrams",
+          "team": "WSH",
+          "value": ".885"
         },
         {
           "name": "Bryan Reynolds",
