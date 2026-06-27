@@ -77,6 +77,19 @@
             gap: 4px 20px;
         }
 
+        #standings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+        }
+
+        #standings-grid h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 
@@ -87,6 +100,22 @@
     <a href="boxscores.html">Box Scores</a>
 </div>
 
+<h1>Standings</h1>
+
+<div id="standings-grid">
+
+    <div id="al-standings">
+        <h2>American League</h2>
+    </div>
+
+    <div id="nl-standings">
+        <h2>National League</h2>
+    </div>
+
+</div>
+
+<hr>
+    
 <h1>Yesterday's Games</h1>
 
 <div id="games"></div>
@@ -108,6 +137,99 @@
 </div>
 
 <script>
+
+function createStandingsTable(title, teams, isWildCard = false) {
+
+    let html = `<h3>${title}</h3>`;
+
+    html += `
+        <table class="standings-table">
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>Pct</th>
+                    <th>${isWildCard ? "WCGB" : "GB"}</th>
+                    ${
+                        isWildCard
+                            ? ""
+                            : `
+                                <th>L10</th>
+                                <th>Strk</th>
+                                <th>Home</th>
+                                <th>Away</th>
+                                <th>1R</th>
+                                <th>RD</th>
+                              `
+                    }
+                </tr>
+            </thead>
+            <tbody>
+    `;
+
+    teams.forEach(team => {
+
+        html += `
+            <tr>
+                <td>${team.city}</td>
+                <td>${team.wins}</td>
+                <td>${team.losses}</td>
+                <td>${team.pct}</td>
+                <td>${isWildCard ? team.wcgb : team.gb}</td>
+        `;
+
+        if (!isWildCard) {
+
+            html += `
+                <td>${team.last10}</td>
+                <td>${team.streak}</td>
+                <td>${team.home}</td>
+                <td>${team.away}</td>
+                <td>${team.oneRun}</td>
+                <td>${team.runDiff}</td>
+            `;
+
+        }
+
+        html += `
+            </tr>
+        `;
+
+    });
+
+    html += `
+            </tbody>
+        </table>
+    `;
+
+    return html;
+
+}
+
+fetch('./standings.json')
+    .then(response => response.json())
+    .then(data => {
+
+        const al =
+            document.getElementById("al-standings");
+
+        const nl =
+            document.getElementById("nl-standings");
+
+        al.innerHTML +=
+            createStandingsTable("AL East", data.al.east) +
+            createStandingsTable("AL Central", data.al.central) +
+            createStandingsTable("AL West", data.al.west) +
+            createStandingsTable("AL Wild Card", data.al.wildcard, true);
+
+        nl.innerHTML +=
+            createStandingsTable("NL East", data.nl.east) +
+            createStandingsTable("NL Central", data.nl.central) +
+            createStandingsTable("NL West", data.nl.west) +
+            createStandingsTable("NL Wild Card", data.nl.wildcard, true);
+
+    });
 
 fetch('./boxscores.json')
     .then(response => response.json())
