@@ -10,4 +10,7 @@ standings = statsapi.get(
     }
 )
 
-print(standings)
+with open("standings.json", "w") as f:
+    json.dump(standings, f, indent=2)
+
+print("Created standings.json")
