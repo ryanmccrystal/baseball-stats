@@ -28,19 +28,42 @@ def fmt_run_diff(value):
     return f"+{value}" if value > 0 else str(value)
 
 
-def city_and_nickname(name):
-    special = {
-        "Boston Red Sox": ("Boston", "Red Sox"),
-        "Chicago White Sox": ("Chicago", "White Sox"),
-        "Kansas City Royals": ("Kansas City", "Royals"),
-        "Tampa Bay Rays": ("Tampa Bay", "Rays"),
-        "San Diego Padres": ("San Diego", "Padres"),
-        "San Francisco Giants": ("San Francisco", "Giants"),
-    }
-    if name in special:
-        return special[name]
-    parts = name.split()
-    return " ".join(parts[:-1]), parts[-1]
+TEAM_NAMES = {
+    108: ("Los Angeles", "Angels"),
+    109: ("Arizona", "Diamondbacks"),
+    110: ("Baltimore", "Orioles"),
+    111: ("Boston", "Red Sox"),
+    112: ("Chicago", "Cubs"),
+    113: ("Cincinnati", "Reds"),
+    114: ("Cleveland", "Guardians"),
+    115: ("Colorado", "Rockies"),
+    116: ("Detroit", "Tigers"),
+    117: ("Houston", "Astros"),
+    118: ("Kansas City", "Royals"),
+    119: ("Los Angeles", "Dodgers"),
+    120: ("Washington", "Nationals"),
+    121: ("New York", "Mets"),
+    133: ("Athletics", "Athletics"),
+    134: ("Pittsburgh", "Pirates"),
+    135: ("San Diego", "Padres"),
+    136: ("Seattle", "Mariners"),
+    137: ("San Francisco", "Giants"),
+    138: ("St. Louis", "Cardinals"),
+    139: ("Tampa Bay", "Rays"),
+    140: ("Texas", "Rangers"),
+    141: ("Toronto", "Blue Jays"),
+    142: ("Minnesota", "Twins"),
+    143: ("Philadelphia", "Phillies"),
+    144: ("Atlanta", "Braves"),
+    145: ("Chicago", "White Sox"),
+    146: ("Miami", "Marlins"),
+    147: ("New York", "Yankees"),
+    158: ("Milwaukee", "Brewers"),
+}
+
+
+def city_and_nickname(team_id):
+    return TEAM_NAMES[team_id]
 
 
 raw = statsapi.get(
@@ -76,7 +99,7 @@ for div in raw["records"]:
     league_key, division_key = div_map[div_id]
 
     for t in div["teamRecords"]:
-        city, nickname = city_and_nickname(t["team"]["name"])
+        city, nickname = city_and_nickname(t["team"]["id"])
         splits = t["records"]["splitRecords"]
 
         team = {
