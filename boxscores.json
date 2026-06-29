@@ -1,455 +1,395 @@
 {
   "games": [
     {
-      "gamePk": 824421,
+      "gamePk": 824422,
       "winner_name": "Guardians",
-      "winner_score": 4,
-      "loser_name": "Mariners",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 824257,
-      "winner_name": "Astros",
-      "winner_score": 8,
-      "loser_name": "Tigers",
-      "loser_score": 6
-    },
-    {
-      "gamePk": 824745,
-      "winner_name": "Red Sox",
-      "winner_score": 4,
-      "loser_name": "Yankees",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 822794,
-      "winner_name": "Rangers",
-      "winner_score": 7,
-      "loser_name": "Blue Jays",
-      "loser_score": 4
-    },
-    {
-      "gamePk": 823364,
-      "winner_name": "Reds",
-      "winner_score": 9,
-      "loser_name": "Pirates",
-      "loser_score": 7
-    },
-    {
-      "gamePk": 823609,
-      "winner_name": "Mets",
       "winner_score": 6,
-      "loser_name": "Phillies",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 824581,
-      "winner_name": "White Sox",
-      "winner_score": 2,
-      "loser_name": "Royals",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 822960,
-      "winner_name": "Rays",
-      "winner_score": 4,
-      "loser_name": "DBacks",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 824825,
-      "winner_name": "Nationals",
-      "winner_score": 4,
-      "loser_name": "Orioles",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 823689,
-      "winner_name": "Rockies",
-      "winner_score": 8,
-      "loser_name": "Twins",
+      "loser_name": "Mariners",
       "loser_score": 5
     },
     {
-      "gamePk": 823770,
-      "winner_name": "Cubs",
-      "winner_score": 8,
-      "loser_name": "Brewers",
+      "gamePk": 824821,
+      "winner_name": "Nationals",
+      "winner_score": 6,
+      "loser_name": "Orioles",
+      "loser_score": 4
+    },
+    {
+      "gamePk": 823362,
+      "winner_name": "Pirates",
+      "winner_score": 9,
+      "loser_name": "Reds",
+      "loser_score": 4
+    },
+    {
+      "gamePk": 822795,
+      "winner_name": "Rangers",
+      "winner_score": 3,
+      "loser_name": "Blue Jays",
       "loser_score": 2
     },
     {
-      "gamePk": 823038,
-      "winner_name": "Marlins",
+      "gamePk": 824256,
+      "winner_name": "Astros",
+      "winner_score": 7,
+      "loser_name": "Tigers",
+      "loser_score": 5
+    },
+    {
+      "gamePk": 822959,
+      "winner_name": "Rays",
       "winner_score": 5,
-      "loser_name": "Cardinals",
+      "loser_name": "DBacks",
       "loser_score": 1
     },
     {
-      "gamePk": 823283,
-      "winner_name": "Dodgers",
-      "winner_score": 15,
-      "loser_name": "Padres",
+      "gamePk": 823608,
+      "winner_name": "Phillies",
+      "winner_score": 5,
+      "loser_name": "Mets",
+      "loser_score": 4
+    },
+    {
+      "gamePk": 823686,
+      "winner_name": "Twins",
+      "winner_score": 3,
+      "loser_name": "Rockies",
+      "loser_score": 2
+    },
+    {
+      "gamePk": 824580,
+      "winner_name": "Royals",
+      "winner_score": 5,
+      "loser_name": "White Sox",
+      "loser_score": 4
+    },
+    {
+      "gamePk": 823769,
+      "winner_name": "Cubs",
+      "winner_score": 4,
+      "loser_name": "Brewers",
       "loser_score": 3
     },
     {
-      "gamePk": 823207,
-      "winner_name": "Giants",
-      "winner_score": 5,
-      "loser_name": "Braves",
-      "loser_score": 0
+      "gamePk": 823037,
+      "winner_name": "Cardinals",
+      "winner_score": 2,
+      "loser_name": "Marlins",
+      "loser_score": 1
     },
     {
-      "gamePk": 824015,
+      "gamePk": 824011,
       "winner_name": "Angels",
-      "winner_score": 5,
+      "winner_score": 4,
       "loser_name": "Athletics",
+      "loser_score": 1
+    },
+    {
+      "gamePk": 823204,
+      "winner_name": "Giants",
+      "winner_score": 3,
+      "loser_name": "Braves",
       "loser_score": 2
+    },
+    {
+      "gamePk": 823281,
+      "winner_name": "Dodgers",
+      "winner_score": 4,
+      "loser_name": "Padres",
+      "loser_score": 2
+    },
+    {
+      "gamePk": 824744,
+      "winner_name": "Red Sox",
+      "winner_score": 5,
+      "loser_name": "Yankees",
+      "loser_score": 4
     }
   ],
   "today_games": [
     {
-      "away_name": "Mariners",
+      "away_name": "Rangers",
       "home_name": "Guardians",
-      "game_time": "2026-06-28T17:40:00Z",
-      "away_pitcher": "Emerson Hancock",
-      "home_pitcher": "Gavin Williams",
+      "game_time": "2026-06-29T23:10:00Z",
+      "away_pitcher": "Tyler Alexander",
+      "home_pitcher": "Parker Messick",
+      "away_stats": {
+        "wins": 1,
+        "losses": 1,
+        "era": "2.62",
+        "k9": "7.1",
+        "hand": "L",
+        "team_record": "2-0"
+      },
+      "home_stats": {
+        "wins": 7,
+        "losses": 4,
+        "era": "2.67",
+        "k9": "9.6",
+        "hand": "L",
+        "team_record": "10-6"
+      }
+    },
+    {
+      "away_name": "White Sox",
+      "home_name": "Orioles",
+      "game_time": "2026-06-29T22:35:00Z",
+      "away_pitcher": "Sean Burke",
+      "home_pitcher": "Shane Baz",
       "away_stats": {
         "wins": 5,
         "losses": 4,
-        "era": "3.60",
-        "k9": "8.6",
+        "era": "3.71",
+        "k9": "9.0",
         "hand": "R",
-        "team_record": "8-7"
+        "team_record": "4-8"
       },
       "home_stats": {
-        "wins": 9,
-        "losses": 4,
-        "era": "3.82",
-        "k9": "10.3",
+        "wins": 4,
+        "losses": 8,
+        "era": "4.31",
+        "k9": "7.8",
+        "hand": "R",
+        "team_record": "5-11"
+      }
+    },
+    {
+      "away_name": "Pirates",
+      "home_name": "Phillies",
+      "game_time": "2026-06-29T22:40:00Z",
+      "away_pitcher": "Braxton Ashcraft",
+      "home_pitcher": "Aaron Nola",
+      "away_stats": {
+        "wins": 7,
+        "losses": 3,
+        "era": "3.07",
+        "k9": "10.0",
         "hand": "R",
         "team_record": "10-6"
+      },
+      "home_stats": {
+        "wins": 3,
+        "losses": 4,
+        "era": "5.58",
+        "k9": "9.2",
+        "hand": "R",
+        "team_record": "9-7"
+      }
+    },
+    {
+      "away_name": "Tigers",
+      "home_name": "Yankees",
+      "game_time": "2026-06-29T23:05:00Z",
+      "away_pitcher": "Casey Mize",
+      "home_pitcher": "Ryan Weathers",
+      "away_stats": {
+        "wins": 2,
+        "losses": 5,
+        "era": "2.95",
+        "k9": "9.0",
+        "hand": "R",
+        "team_record": "3-8"
+      },
+      "home_stats": {
+        "wins": 3,
+        "losses": 5,
+        "era": "3.95",
+        "k9": "9.9",
+        "hand": "L",
+        "team_record": "7-8"
+      }
+    },
+    {
+      "away_name": "Mets",
+      "home_name": "Blue Jays",
+      "game_time": "2026-06-29T23:07:00Z",
+      "away_pitcher": "Sean Manaea",
+      "home_pitcher": "Trey Yesavage",
+      "away_stats": {
+        "wins": 1,
+        "losses": 2,
+        "era": "4.87",
+        "k9": "9.4",
+        "hand": "L",
+        "team_record": "1-2"
+      },
+      "home_stats": {
+        "wins": 3,
+        "losses": 3,
+        "era": "3.56",
+        "k9": "8.6",
+        "hand": "R",
+        "team_record": "5-6"
       }
     },
     {
       "away_name": "Nationals",
-      "home_name": "Orioles",
-      "game_time": "2026-06-28T17:35:00Z",
-      "away_pitcher": "Zack Littell",
-      "home_pitcher": "Kyle Bradish",
+      "home_name": "Red Sox",
+      "game_time": "2026-06-29T23:10:00Z",
+      "away_pitcher": "Miles Mikolas",
+      "home_pitcher": "Ranger Suarez",
       "away_stats": {
-        "wins": 6,
+        "wins": 2,
         "losses": 6,
-        "era": "5.40",
-        "k9": "5.5",
+        "era": "5.24",
+        "k9": "5.1",
         "hand": "R",
-        "team_record": "6-5"
+        "team_record": "3-3"
       },
       "home_stats": {
-        "wins": 5,
-        "losses": 7,
-        "era": "3.64",
-        "k9": "9.5",
-        "hand": "R",
-        "team_record": "8-8"
+        "wins": 3,
+        "losses": 3,
+        "era": "2.83",
+        "k9": "9.2",
+        "hand": "L",
+        "team_record": "7-8"
       }
     },
     {
       "away_name": "Reds",
-      "home_name": "Pirates",
-      "game_time": "2026-06-28T17:35:00Z",
-      "away_pitcher": "Brady Singer",
-      "home_pitcher": "Mitch Keller",
+      "home_name": "Brewers",
+      "game_time": "2026-06-29T23:40:00Z",
+      "away_pitcher": "Nick Lodolo",
+      "home_pitcher": "Robert Gasser",
       "away_stats": {
-        "wins": 3,
-        "losses": 6,
-        "era": "4.81",
+        "wins": 2,
+        "losses": 2,
+        "era": "5.59",
         "k9": "7.3",
-        "hand": "R",
-        "team_record": "6-9"
+        "hand": "L",
+        "team_record": "2-7"
       },
       "home_stats": {
+        "wins": 1,
+        "losses": 3,
+        "era": "4.50",
+        "k9": "9.3",
+        "hand": "L",
+        "team_record": "2-4"
+      }
+    },
+    {
+      "away_name": "Padres",
+      "home_name": "Cubs",
+      "game_time": "2026-06-30T00:05:00Z",
+      "away_pitcher": "TBD",
+      "home_pitcher": "Shota Imanaga",
+      "away_stats": null,
+      "home_stats": {
         "wins": 5,
+        "losses": 6,
+        "era": "4.40",
+        "k9": "8.6",
+        "hand": "L",
+        "team_record": "7-9"
+      }
+    },
+    {
+      "away_name": "Twins",
+      "home_name": "Astros",
+      "game_time": "2026-06-30T00:10:00Z",
+      "away_pitcher": "Zebby Matthews",
+      "home_pitcher": "Peter Lambert",
+      "away_stats": {
+        "wins": 3,
         "losses": 5,
-        "era": "4.89",
+        "era": "4.56",
+        "k9": "7.1",
+        "hand": "R",
+        "team_record": "3-5"
+      },
+      "home_stats": {
+        "wins": 6,
+        "losses": 4,
+        "era": "3.28",
+        "k9": "8.4",
+        "hand": "R",
+        "team_record": "7-5"
+      }
+    },
+    {
+      "away_name": "Marlins",
+      "home_name": "Rockies",
+      "game_time": "2026-06-30T00:40:00Z",
+      "away_pitcher": "Sandy Alcantara",
+      "home_pitcher": "TBD",
+      "away_stats": {
+        "wins": 8,
+        "losses": 4,
+        "era": "4.01",
+        "k9": "6.6",
+        "hand": "R",
+        "team_record": "11-6"
+      },
+      "home_stats": null
+    },
+    {
+      "away_name": "Dodgers",
+      "home_name": "Athletics",
+      "game_time": "2026-06-30T01:40:00Z",
+      "away_pitcher": "Eric Lauer",
+      "home_pitcher": "Gage Jump",
+      "away_stats": {
+        "wins": 3,
+        "losses": 5,
+        "era": "4.87",
+        "k9": "5.8",
+        "hand": "L",
+        "team_record": "6-4"
+      },
+      "home_stats": {
+        "wins": 3,
+        "losses": 1,
+        "era": "2.04",
+        "k9": "8.9",
+        "hand": "L",
+        "team_record": "4-2"
+      }
+    },
+    {
+      "away_name": "Angels",
+      "home_name": "Mariners",
+      "game_time": "2026-06-30T01:40:00Z",
+      "away_pitcher": "Ryan Johnson",
+      "home_pitcher": "George Kirby",
+      "away_stats": {
+        "wins": 1,
+        "losses": 2,
+        "era": "8.84",
         "k9": "7.0",
+        "hand": "R",
+        "team_record": "1-2"
+      },
+      "home_stats": {
+        "wins": 6,
+        "losses": 7,
+        "era": "3.94",
+        "k9": "7.9",
         "hand": "R",
         "team_record": "8-8"
       }
     },
     {
-      "away_name": "Rangers",
-      "home_name": "Blue Jays",
-      "game_time": "2026-06-28T17:37:00Z",
-      "away_pitcher": "Kumar Rocker",
-      "home_pitcher": "Shane Bieber",
-      "away_stats": {
-        "wins": 2,
-        "losses": 6,
-        "era": "4.14",
-        "k9": "7.9",
-        "hand": "R",
-        "team_record": "5-8"
-      },
-      "home_stats": {
-        "wins": 0,
-        "losses": 0,
-        "era": "9.82",
-        "k9": "4.9",
-        "hand": "R",
-        "team_record": "0-1"
-      }
-    },
-    {
-      "away_name": "Astros",
-      "home_name": "Tigers",
-      "game_time": "2026-06-28T17:40:00Z",
-      "away_pitcher": "Hunter Brown",
-      "home_pitcher": "Jack Flaherty",
+      "away_name": "Giants",
+      "home_name": "DBacks",
+      "game_time": "2026-06-30T01:40:00Z",
+      "away_pitcher": "Tyler Mahle",
+      "home_pitcher": "Eduardo Rodriguez",
       "away_stats": {
         "wins": 1,
-        "losses": 0,
-        "era": "1.40",
-        "k9": "13.0",
-        "hand": "R",
-        "team_record": "2-2"
-      },
-      "home_stats": {
-        "wins": 1,
-        "losses": 8,
-        "era": "5.35",
-        "k9": "10.7",
-        "hand": "R",
-        "team_record": "4-11"
-      }
-    },
-    {
-      "away_name": "DBacks",
-      "home_name": "Rays",
-      "game_time": "2026-06-28T17:40:00Z",
-      "away_pitcher": "Merrill Kelly",
-      "home_pitcher": "Drew Rasmussen",
-      "away_stats": {
-        "wins": 5,
         "losses": 7,
-        "era": "5.71",
-        "k9": "5.2",
-        "hand": "R",
-        "team_record": "5-8"
-      },
-      "home_stats": {
-        "wins": 6,
-        "losses": 4,
-        "era": "2.62",
-        "k9": "9.3",
-        "hand": "R",
-        "team_record": "8-7"
-      }
-    },
-    {
-      "away_name": "Phillies",
-      "home_name": "Mets",
-      "game_time": "2026-06-28T17:40:00Z",
-      "away_pitcher": "Jes\u00fas Luzardo",
-      "home_pitcher": "Cionel P\u00e9rez",
-      "away_stats": {
-        "wins": 6,
-        "losses": 4,
-        "era": "4.00",
-        "k9": "10.7",
-        "hand": "L",
-        "team_record": "10-6"
-      },
-      "home_stats": {
-        "wins": 3,
-        "losses": 3,
-        "era": "4.99",
-        "k9": "6.8",
-        "hand": "L",
-        "team_record": "0-0"
-      }
-    },
-    {
-      "away_name": "Rockies",
-      "home_name": "Twins",
-      "game_time": "2026-06-28T18:10:00Z",
-      "away_pitcher": "Ryan Feltner",
-      "home_pitcher": "Connor Prielipp",
-      "away_stats": {
-        "wins": 2,
-        "losses": 2,
-        "era": "4.79",
-        "k9": "6.7",
-        "hand": "R",
-        "team_record": "5-5"
-      },
-      "home_stats": {
-        "wins": 2,
-        "losses": 5,
-        "era": "5.17",
-        "k9": "8.9",
-        "hand": "L",
-        "team_record": "3-8"
-      }
-    },
-    {
-      "away_name": "Royals",
-      "home_name": "White Sox",
-      "game_time": "2026-06-28T18:10:00Z",
-      "away_pitcher": "Luinder Avila",
-      "home_pitcher": "Anthony Kay",
-      "away_stats": {
-        "wins": 3,
-        "losses": 3,
-        "era": "5.06",
-        "k9": "8.2",
-        "hand": "R",
-        "team_record": "4-2"
-      },
-      "home_stats": {
-        "wins": 6,
-        "losses": 2,
-        "era": "4.24",
-        "k9": "7.4",
-        "hand": "L",
-        "team_record": "9-5"
-      }
-    },
-    {
-      "away_name": "Cubs",
-      "home_name": "Brewers",
-      "game_time": "2026-06-28T18:10:00Z",
-      "away_pitcher": "Ryan Rolison",
-      "home_pitcher": "Brandon Woodruff",
-      "away_stats": {
-        "wins": 5,
-        "losses": 1,
-        "era": "1.82",
-        "k9": "8.8",
-        "hand": "L",
-        "team_record": "0-1"
-      },
-      "home_stats": {
-        "wins": 2,
-        "losses": 1,
-        "era": "3.00",
+        "era": "5.49",
         "k9": "8.8",
         "hand": "R",
-        "team_record": "5-2"
-      }
-    },
-    {
-      "away_name": "Marlins",
-      "home_name": "Cardinals",
-      "game_time": "2026-06-28T18:15:00Z",
-      "away_pitcher": "Tyler Phillips",
-      "home_pitcher": "Kyle Leahy",
-      "away_stats": {
+        "team_record": "4-8"
+      },
+      "home_stats": {
         "wins": 1,
         "losses": 2,
-        "era": "3.09",
-        "k9": "7.6",
+        "era": "2.10",
+        "k9": "8.4",
         "hand": "R",
-        "team_record": "2-3"
-      },
-      "home_stats": {
-        "wins": 5,
-        "losses": 4,
-        "era": "4.24",
-        "k9": "7.3",
-        "hand": "R",
-        "team_record": "6-9"
-      }
-    },
-    {
-      "away_name": "Athletics",
-      "home_name": "Angels",
-      "game_time": "2026-06-28T19:15:00Z",
-      "away_pitcher": "Aaron Civale",
-      "home_pitcher": "Sam Aldegheri",
-      "away_stats": {
-        "wins": 5,
-        "losses": 4,
-        "era": "4.88",
-        "k9": "6.6",
-        "hand": "R",
-        "team_record": "6-7"
-      },
-      "home_stats": {
-        "wins": 2,
-        "losses": 3,
-        "era": "5.47",
-        "k9": "5.8",
-        "hand": "L",
-        "team_record": "2-2"
-      }
-    },
-    {
-      "away_name": "Braves",
-      "home_name": "Giants",
-      "game_time": "2026-06-28T20:05:00Z",
-      "away_pitcher": "Chris Sale",
-      "home_pitcher": "Robbie Ray",
-      "away_stats": {
-        "wins": 8,
-        "losses": 5,
-        "era": "2.14",
-        "k9": "10.6",
-        "hand": "L",
-        "team_record": "9-5"
-      },
-      "home_stats": {
-        "wins": 6,
-        "losses": 6,
-        "era": "3.70",
-        "k9": "8.2",
-        "hand": "L",
-        "team_record": "9-6"
-      }
-    },
-    {
-      "away_name": "Dodgers",
-      "home_name": "Padres",
-      "game_time": "2026-06-28T20:10:00Z",
-      "away_pitcher": "Emmet Sheehan",
-      "home_pitcher": "Michael King",
-      "away_stats": {
-        "wins": 3,
-        "losses": 5,
-        "era": "5.32",
-        "k9": "10.1",
-        "hand": "R",
-        "team_record": "7-7"
-      },
-      "home_stats": {
-        "wins": 5,
-        "losses": 6,
-        "era": "3.33",
-        "k9": "7.6",
-        "hand": "R",
-        "team_record": "7-9"
-      }
-    },
-    {
-      "away_name": "Yankees",
-      "home_name": "Red Sox",
-      "game_time": "2026-06-28T23:20:00Z",
-      "away_pitcher": "Carlos Rod\u00f3n",
-      "home_pitcher": "Sonny Gray",
-      "away_stats": {
-        "wins": 4,
-        "losses": 2,
-        "era": "3.70",
-        "k9": "10.0",
-        "hand": "L",
-        "team_record": "5-3"
-      },
-      "home_stats": {
-        "wins": 9,
-        "losses": 1,
-        "era": "2.95",
-        "k9": "7.8",
-        "hand": "R",
-        "team_record": "10-4"
+        "team_record": "2-1"
       }
     }
   ]
