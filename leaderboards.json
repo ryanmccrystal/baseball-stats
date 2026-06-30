@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 30, 2026 00:28 UTC",
+  "last_updated": "June 30, 2026 00:32 UTC",
   "standings": {
     "AL East": [
       {
@@ -291,7 +291,7 @@
         {
           "name": "Josh Jung",
           "team": "TEX",
-          "value": ".294"
+          "value": ".296"
         },
         {
           "name": "Junior Caminero",
@@ -707,7 +707,7 @@
         {
           "name": "Josh Jung",
           "team": "TEX",
-          "value": "90"
+          "value": "91"
         },
         {
           "name": "Junior Caminero",
@@ -912,7 +912,7 @@
         {
           "name": "Parker Messick",
           "team": "CLE",
-          "value": "2.63"
+          "value": "2.62"
         },
         {
           "name": "Nick Martinez",
@@ -1076,11 +1076,6 @@
           "value": "1.01"
         },
         {
-          "name": "Parker Messick",
-          "team": "CLE",
-          "value": "1.02"
-        },
-        {
           "name": "Jacob deGrom",
           "team": "TEX",
           "value": "1.03"
@@ -1088,6 +1083,11 @@
         {
           "name": "Joe Ryan",
           "team": "MIN",
+          "value": "1.03"
+        },
+        {
+          "name": "Parker Messick",
+          "team": "CLE",
           "value": "1.03"
         },
         {
@@ -1118,14 +1118,14 @@
           "value": "101.2"
         },
         {
+          "name": "Shane Baz",
+          "team": "BAL",
+          "value": "100.2"
+        },
+        {
           "name": "Nathan Eovaldi",
           "team": "TEX",
           "value": "100.1"
-        },
-        {
-          "name": "Shane Baz",
-          "team": "BAL",
-          "value": "100.0"
         },
         {
           "name": "Logan Gilbert",
@@ -1145,7 +1145,7 @@
         {
           "name": "Parker Messick",
           "team": "CLE",
-          "value": "99.1"
+          "value": "99.2"
         },
         {
           "name": "George Kirby",
@@ -1330,14 +1330,14 @@
           "value": ".324"
         },
         {
-          "name": "Brandon Marsh",
-          "team": "PHI",
-          "value": ".322"
-        },
-        {
           "name": "Jung Hoo Lee",
           "team": "SFG",
           "value": ".322"
+        },
+        {
+          "name": "Brandon Marsh",
+          "team": "PHI",
+          "value": ".321"
         },
         {
           "name": "Troy Johnston",
@@ -1622,7 +1622,7 @@
         {
           "name": "Brandon Marsh",
           "team": "PHI",
-          "value": ".521"
+          "value": ".519"
         },
         {
           "name": "Jordan Walker",
@@ -1667,14 +1667,14 @@
           "value": ".879"
         },
         {
-          "name": "Brandon Marsh",
-          "team": "PHI",
-          "value": ".875"
-        },
-        {
           "name": "Matt Olson",
           "team": "ATL",
           "value": ".875"
+        },
+        {
+          "name": "Brandon Marsh",
+          "team": "PHI",
+          "value": ".872"
         },
         {
           "name": "Freddie Freeman",
@@ -2067,7 +2067,7 @@
         {
           "name": "Braxton Ashcraft",
           "team": "PIT",
-          "value": "114"
+          "value": "115"
         },
         {
           "name": "Paul Skenes",
@@ -2129,7 +2129,7 @@
         {
           "name": "Shota Imanaga",
           "team": "CHC",
-          "value": "1.05"
+          "value": "1.04"
         },
         {
           "name": "Logan Webb",
@@ -2149,7 +2149,7 @@
         {
           "name": "Braxton Ashcraft",
           "team": "PIT",
-          "value": "1.09"
+          "value": "1.08"
         }
       ],
       "innings": [
@@ -2166,7 +2166,7 @@
         {
           "name": "Braxton Ashcraft",
           "team": "PIT",
-          "value": "101.2"
+          "value": "102.2"
         },
         {
           "name": "Jacob Misiorowski",
