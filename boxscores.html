@@ -105,11 +105,11 @@
 <div id="standings-grid">
 
     <div id="al-standings">
-        <h2>American League</h2>
+        <h2>American League Standings</h2>
     </div>
 
     <div id="nl-standings">
-        <h2>National League</h2>
+        <h2>National League Standings</h2>
     </div>
 
 </div>
@@ -218,16 +218,16 @@ fetch('./standings.json')
             document.getElementById("nl-standings");
 
         al.innerHTML +=
-            createStandingsTable("AL East", data.al.east) +
-            createStandingsTable("AL Central", data.al.central) +
-            createStandingsTable("AL West", data.al.west) +
-            createStandingsTable("AL Wild Card", data.al.wildcard, true);
+            createStandingsTable("East Division", data.al.east) +
+            createStandingsTable("Central Division", data.al.central) +
+            createStandingsTable("West Division", data.al.west) +
+            createStandingsTable("Wild Card", data.al.wildcard, true);
 
         nl.innerHTML +=
-            createStandingsTable("NL East", data.nl.east) +
-            createStandingsTable("NL Central", data.nl.central) +
-            createStandingsTable("NL West", data.nl.west) +
-            createStandingsTable("NL Wild Card", data.nl.wildcard, true);
+            createStandingsTable("East Division", data.nl.east) +
+            createStandingsTable("Central Division", data.nl.central) +
+            createStandingsTable("West Division", data.nl.west) +
+            createStandingsTable("Wild Card", data.nl.wildcard, true);
 
     });
 
