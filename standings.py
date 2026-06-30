@@ -130,11 +130,40 @@ for div in raw["records"]:
             })
 
 for lg in ("al", "nl"):
-    wc[lg].sort(key=lambda x: (
-        x["wcgb"] not in ("-", "+0.0"),
-        float(str(x["wcgb"]).replace("+", "").replace("-", "0") or 0)
-        if x["wcgb"] not in ("-", "+0.0") else -1
-    ))
+
+    # Sort by winning percentage (best teams first)
+    wc[lg].sort(
+        key=lambda t: t["pct"],
+        reverse=True
+    )
+
+    # Third Wild Card team's wins/losses
+    third = wc[lg][2]
+
+    third_games_over = (
+        int(third["wins"]) -
+        int(third["losses"])
+    )
+
+    for i, team in enumerate(wc[lg]):
+
+        if i < 3:
+            team["wcgb"] = "--"
+
+        else:
+
+            games_over = (
+                int(team["wins"]) -
+                int(team["losses"])
+            )
+
+            gb = (third_games_over - games_over) / 2
+
+            if gb.is_integer():
+                team["wcgb"] = str(int(gb))
+            else:
+                team["wcgb"] = f"{gb:.1f}"
+
     out[lg]["wildcard"] = wc[lg]
 
 with open("standings.json", "w") as f:
