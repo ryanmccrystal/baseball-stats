@@ -1,5 +1,5 @@
 {
-  "last_updated": "June 30, 2026 00:32 UTC",
+  "last_updated": "June 30, 2026 00:37 UTC",
   "standings": {
     "AL East": [
       {
@@ -910,11 +910,6 @@
           "value": "2.45"
         },
         {
-          "name": "Parker Messick",
-          "team": "CLE",
-          "value": "2.62"
-        },
-        {
           "name": "Nick Martinez",
           "team": "TBR",
           "value": "2.66"
@@ -925,9 +920,14 @@
           "value": "2.69"
         },
         {
+          "name": "Parker Messick",
+          "team": "CLE",
+          "value": "2.69"
+        },
+        {
           "name": "Ranger Suarez",
           "team": "BOS",
-          "value": "2.77"
+          "value": "2.76"
         },
         {
           "name": "Davis Martin",
@@ -1041,7 +1041,7 @@
         {
           "name": "Parker Messick",
           "team": "CLE",
-          "value": "104"
+          "value": "105"
         },
         {
           "name": "Jos\u00e9 Soriano",
@@ -1088,7 +1088,7 @@
         {
           "name": "Parker Messick",
           "team": "CLE",
-          "value": "1.03"
+          "value": "1.04"
         },
         {
           "name": "Bryan Woo",
@@ -1120,11 +1120,16 @@
         {
           "name": "Shane Baz",
           "team": "BAL",
-          "value": "100.2"
+          "value": "101.0"
         },
         {
           "name": "Nathan Eovaldi",
           "team": "TEX",
+          "value": "100.1"
+        },
+        {
+          "name": "Parker Messick",
+          "team": "CLE",
           "value": "100.1"
         },
         {
@@ -1140,11 +1145,6 @@
         {
           "name": "Reid Detmers",
           "team": "LAA",
-          "value": "99.2"
-        },
-        {
-          "name": "Parker Messick",
-          "team": "CLE",
           "value": "99.2"
         },
         {
@@ -1352,7 +1352,7 @@
         {
           "name": "William Contreras",
           "team": "MIL",
-          "value": ".301"
+          "value": ".300"
         },
         {
           "name": "Xavier Edwards",
@@ -1540,7 +1540,7 @@
         {
           "name": "Bryan Reynolds",
           "team": "PIT",
-          "value": ".404"
+          "value": ".403"
         },
         {
           "name": "Iv\u00e1n Herrera",
@@ -1555,7 +1555,7 @@
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": ".384"
+          "value": ".383"
         },
         {
           "name": "Xavier Edwards",
@@ -1654,7 +1654,7 @@
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": ".896"
+          "value": ".894"
         },
         {
           "name": "Corbin Carroll",
@@ -1664,7 +1664,7 @@
         {
           "name": "Bryan Reynolds",
           "team": "PIT",
-          "value": ".879"
+          "value": ".877"
         },
         {
           "name": "Matt Olson",

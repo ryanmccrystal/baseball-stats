@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 00:32 UTC",
+  "last_updated": "2026-06-30 00:37 UTC",
   "al": {
     "east": [
       {
@@ -234,11 +234,25 @@
     ],
     "wildcard": [
       {
+        "city": "New York",
+        "wins": 48,
+        "losses": 35,
+        "pct": ".578",
+        "wcgb": "--"
+      },
+      {
+        "city": "Cleveland",
+        "wins": 44,
+        "losses": 40,
+        "pct": ".524",
+        "wcgb": "--"
+      },
+      {
         "city": "Seattle",
         "wins": 42,
         "losses": 43,
         "pct": ".494",
-        "wcgb": "-"
+        "wcgb": "--"
       },
       {
         "city": "Houston",
@@ -259,7 +273,7 @@
         "wins": 40,
         "losses": 45,
         "pct": ".471",
-        "wcgb": "2.0"
+        "wcgb": "2"
       },
       {
         "city": "Toronto",
@@ -269,18 +283,11 @@
         "wcgb": "2.5"
       },
       {
-        "city": "Cleveland",
-        "wins": 44,
-        "losses": 40,
-        "pct": ".524",
-        "wcgb": "+2.5"
-      },
-      {
         "city": "Baltimore",
         "wins": 39,
         "losses": 46,
         "pct": ".459",
-        "wcgb": "3.0"
+        "wcgb": "3"
       },
       {
         "city": "Boston",
@@ -294,7 +301,7 @@
         "wins": 36,
         "losses": 49,
         "pct": ".424",
-        "wcgb": "6.0"
+        "wcgb": "6"
       },
       {
         "city": "Detroit",
@@ -304,18 +311,11 @@
         "wcgb": "6.5"
       },
       {
-        "city": "New York",
-        "wins": 48,
-        "losses": 35,
-        "pct": ".578",
-        "wcgb": "+7.0"
-      },
-      {
         "city": "Kansas City",
         "wins": 35,
         "losses": 50,
         "pct": ".412",
-        "wcgb": "7.0"
+        "wcgb": "7"
       }
     ]
   },
@@ -553,11 +553,25 @@
     ],
     "wildcard": [
       {
+        "city": "Philadelphia",
+        "wins": 47,
+        "losses": 37,
+        "pct": ".560",
+        "wcgb": "--"
+      },
+      {
+        "city": "Chicago",
+        "wins": 46,
+        "losses": 38,
+        "pct": ".548",
+        "wcgb": "--"
+      },
+      {
         "city": "St. Louis",
         "wins": 43,
         "losses": 38,
         "pct": ".531",
-        "wcgb": "-"
+        "wcgb": "--"
       },
       {
         "city": "Miami",
@@ -574,25 +588,11 @@
         "wcgb": "0.5"
       },
       {
-        "city": "Chicago",
-        "wins": 46,
-        "losses": 38,
-        "pct": ".548",
-        "wcgb": "+1.5"
-      },
-      {
         "city": "Washington",
         "wins": 43,
         "losses": 42,
         "pct": ".506",
-        "wcgb": "2.0"
-      },
-      {
-        "city": "Philadelphia",
-        "wins": 47,
-        "losses": 37,
-        "pct": ".560",
-        "wcgb": "+2.5"
+        "wcgb": "2"
       },
       {
         "city": "Pittsburgh",
@@ -606,7 +606,7 @@
         "wins": 41,
         "losses": 42,
         "pct": ".494",
-        "wcgb": "3.0"
+        "wcgb": "3"
       },
       {
         "city": "Cincinnati",
@@ -620,7 +620,7 @@
         "wins": 35,
         "losses": 48,
         "pct": ".422",
-        "wcgb": "9.0"
+        "wcgb": "9"
       },
       {
         "city": "New York",
