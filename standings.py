@@ -159,10 +159,7 @@ for lg in ("al", "nl"):
 
             gb = (third_games_over - games_over) / 2
 
-            if gb.is_integer():
-                team["wcgb"] = str(int(gb))
-            else:
-                team["wcgb"] = f"{gb:.1f}"
+            team["wcgb"] = f"{gb:.1f}"
 
     out[lg]["wildcard"] = wc[lg]
 
