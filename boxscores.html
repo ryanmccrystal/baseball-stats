@@ -103,6 +103,41 @@
             margin-bottom: 8px;
         }
 
+        .standings-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 12px;
+            table-layout: fixed;
+        }
+
+        .standings-table th,
+        .standings-table td {
+            padding: 2px 6px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .standings-table th {
+            font-weight: bold;
+            border-bottom: 1px solid #999;
+        }
+
+        .standings-table th:first-child,
+        .standings-table td:first-child {
+             text-align: left;
+             width: 34%;
+        }
+
+        .standings-table th:not(:first-child),
+        .standings-table td:not(:first-child) {
+            text-align: right;
+        }
+
+        .standings-table th:not(:first-child),
+        .standings-table td:not(:first-child) {
+            width: 6%;
+        }
+
     </style>
 </head>
 
