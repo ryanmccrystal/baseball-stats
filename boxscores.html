@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
     <title>MLB Box Scores</title>
@@ -90,6 +90,19 @@
             font-weight: bold;
         }
 
+        .division-title {
+            font-weight: bold;
+            margin-top: 16px;
+            margin-bottom: 2px;
+        }
+
+        .division-divider {
+            border: none;
+            border-top: 1px solid #999;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
     </style>
 </head>
 
@@ -140,7 +153,10 @@
 
 function createStandingsTable(title, teams, isWildCard = false) {
 
-    let html = `<h3>${title}</h3>`;
+    let html = `
+        <div class="division-title">${title}</div>
+        <hr class="division-divider">
+    `;
 
     html += `
         <table class="standings-table">
