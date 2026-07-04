@@ -2,10 +2,10 @@
   "games": [
     {
       "gamePk": 824417,
-      "winner_name": "White Sox",
-      "winner_score": 3,
-      "loser_name": "Guardians",
-      "loser_score": 1
+      "winner_name": "Guardians",
+      "winner_score": 4,
+      "loser_name": "White Sox",
+      "loser_score": 3
     },
     {
       "gamePk": 824659,
@@ -17,16 +17,16 @@
     {
       "gamePk": 822714,
       "winner_name": "Nationals",
-      "winner_score": 5,
+      "winner_score": 9,
       "loser_name": "Pirates",
-      "loser_score": 1
+      "loser_score": 5
     },
     {
       "gamePk": 823527,
       "winner_name": "Yankees",
-      "winner_score": 1,
+      "winner_score": 5,
       "loser_name": "Twins",
-      "loser_score": 1
+      "loser_score": 2
     },
     {
       "gamePk": 824498,
@@ -38,57 +38,57 @@
     {
       "gamePk": 824904,
       "winner_name": "Braves",
-      "winner_score": 3,
+      "winner_score": 5,
       "loser_name": "Mets",
-      "loser_score": 2
+      "loser_score": 3
     },
     {
       "gamePk": 824336,
       "winner_name": "Rockies",
-      "winner_score": 5,
+      "winner_score": 15,
       "loser_name": "Giants",
-      "loser_score": 0
+      "loser_score": 3
     },
     {
       "gamePk": 824173,
-      "winner_name": "Astros",
-      "winner_score": 0,
-      "loser_name": "Rays",
-      "loser_score": 0
+      "winner_name": "Rays",
+      "winner_score": 3,
+      "loser_name": "Astros",
+      "loser_score": 1
     },
     {
       "gamePk": 824013,
-      "winner_name": "Angels",
-      "winner_score": 0,
-      "loser_name": "Red Sox",
-      "loser_score": 0
+      "winner_name": "Red Sox",
+      "winner_score": 5,
+      "loser_name": "Angels",
+      "loser_score": 2
     },
     {
       "gamePk": 824982,
-      "winner_name": "Athletics",
-      "winner_score": 0,
-      "loser_name": "Marlins",
-      "loser_score": 0
+      "winner_name": "Marlins",
+      "winner_score": 12,
+      "loser_name": "Athletics",
+      "loser_score": 5
     },
     {
       "gamePk": 825062,
-      "winner_name": "DBacks",
-      "winner_score": 0,
-      "loser_name": "Brewers",
-      "loser_score": 0
+      "winner_name": "Brewers",
+      "winner_score": 7,
+      "loser_name": "DBacks",
+      "loser_score": 4
     },
     {
       "gamePk": 823933,
       "winner_name": "Dodgers",
-      "winner_score": 0,
+      "winner_score": 4,
       "loser_name": "Padres",
-      "loser_score": 0
+      "loser_score": 3
     },
     {
       "gamePk": 823120,
-      "winner_name": "Mariners",
-      "winner_score": 0,
-      "loser_name": "Blue Jays",
+      "winner_name": "Blue Jays",
+      "winner_score": 2,
+      "loser_name": "Mariners",
       "loser_score": 0
     }
   ],
@@ -144,7 +144,7 @@
       "home_name": "Yankees",
       "game_time": "2026-07-04T17:35:00Z",
       "away_pitcher": "Zebby Matthews",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Brendan Beck",
       "away_stats": {
         "wins": 4,
         "losses": 5,
@@ -153,7 +153,14 @@
         "hand": "R",
         "team_record": "4-5"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 0,
+        "losses": 0,
+        "era": "6.00",
+        "k9": "3.0",
+        "hand": "R",
+        "team_record": "0-0"
+      }
     },
     {
       "away_name": "Tigers",
