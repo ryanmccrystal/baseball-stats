@@ -290,9 +290,16 @@
       "away_name": "Giants",
       "home_name": "Rockies",
       "game_time": "2026-07-05T00:10:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Robbie Ray",
       "home_pitcher": "Tomoyuki Sugano",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 7,
+        "losses": 6,
+        "era": "3.39",
+        "k9": "7.7",
+        "hand": "L",
+        "team_record": "10-6"
+      },
       "home_stats": {
         "wins": 8,
         "losses": 4,
