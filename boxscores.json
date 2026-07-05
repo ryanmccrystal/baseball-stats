@@ -162,18 +162,18 @@
       "away_stats": {
         "wins": 3,
         "losses": 8,
-        "era": "4.62",
-        "k9": "8.3",
+        "era": "4.52",
+        "k9": "8.1",
         "hand": "R",
-        "team_record": "5-11"
+        "team_record": "6-11"
       },
       "home_stats": {
         "wins": 5,
         "losses": 4,
-        "era": "3.69",
+        "era": "3.88",
         "k9": "10.2",
         "hand": "R",
-        "team_record": "7-11"
+        "team_record": "7-12"
       }
     },
     {
@@ -185,18 +185,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 8,
-        "era": "3.77",
+        "era": "3.66",
         "k9": "9.3",
         "hand": "R",
-        "team_record": "8-9"
+        "team_record": "8-10"
       },
       "home_stats": {
         "wins": 2,
         "losses": 2,
-        "era": "5.05",
+        "era": "4.69",
         "k9": "7.3",
         "hand": "L",
-        "team_record": "2-8"
+        "team_record": "2-9"
       }
     },
     {
@@ -208,18 +208,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 5,
-        "era": "3.61",
-        "k9": "10.4",
+        "era": "3.57",
+        "k9": "10.5",
         "hand": "R",
-        "team_record": "9-9"
+        "team_record": "10-9"
       },
       "home_stats": {
         "wins": 3,
         "losses": 6,
-        "era": "4.08",
+        "era": "4.13",
         "k9": "10.0",
         "hand": "L",
-        "team_record": "7-9"
+        "team_record": "7-10"
       }
     },
     {
@@ -272,9 +272,16 @@
       "away_name": "Rays",
       "home_name": "Astros",
       "game_time": "2026-07-05T19:30:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Mason Englert",
       "home_pitcher": "Peter Lambert",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 0,
+        "losses": 1,
+        "era": "3.96",
+        "k9": "6.8",
+        "hand": "R",
+        "team_record": "0-1"
+      },
       "home_stats": {
         "wins": 6,
         "losses": 5,
