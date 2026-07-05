@@ -147,6 +147,16 @@
 
         }
 
+        .wildcard-table {
+            width: 48%;
+            display: inline-table;
+            vertical-align: top;
+        }
+
+        .wildcard-table:first-of-type {
+            margin-right: 4%;
+        }
+
     </style>
 </head>
 
@@ -203,7 +213,7 @@ function createStandingsTable(title, teams, isWildCard = false) {
     `;
 
     html += `
-        <table class="standings-table">
+        <table class="standings-table ${isWildCard ? 'wildcard-table' : ''}">
             <thead>
                 <tr>
                     <th>Team</th>
