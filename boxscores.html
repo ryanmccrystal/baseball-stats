@@ -273,6 +273,61 @@ function createStandingsTable(title, teams, isWildCard = false) {
 
 }
 
+function createWildCardTable(title, teams) {
+
+    const left = teams.slice(0, 6);
+    const right = teams.slice(6);
+
+    function buildTable(group) {
+
+        let html = `
+            <table class="standings-table">
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>Pct</th>
+                        <th>WCGB</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        group.forEach(team => {
+
+            html += `
+                <tr>
+                    <td>${team.city}</td>
+                    <td>${team.wins}</td>
+                    <td>${team.losses}</td>
+                    <td>${team.pct}</td>
+                    <td>${team.wcgb}</td>
+                </tr>
+            `;
+
+        });
+
+        html += `
+                </tbody>
+            </table>
+        `;
+
+        return html;
+    }
+
+    return `
+        <div class="division-title">${title}</div>
+        <hr class="division-divider">
+
+        <div class="wildcard-grid">
+            ${buildTable(left)}
+            ${buildTable(right)}
+        </div>
+    `;
+
+}
+
 fetch('./standings.json')
     .then(response => response.json())
     .then(data => {
@@ -287,13 +342,13 @@ fetch('./standings.json')
             createStandingsTable("East Division", data.al.east) +
             createStandingsTable("Central Division", data.al.central) +
             createStandingsTable("West Division", data.al.west) +
-            createStandingsTable("Wild Card", data.al.wildcard, true);
+            createWildCardTable("Wild Card", data.al.wildcard)
 
         nl.innerHTML +=
             createStandingsTable("East Division", data.nl.east) +
             createStandingsTable("Central Division", data.nl.central) +
             createStandingsTable("West Division", data.nl.west) +
-            createStandingsTable("Wild Card", data.nl.wildcard, true);
+            createWildCardTable("Wild Card", data.nl.wildcard)
 
     });
 
