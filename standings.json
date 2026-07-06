@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06 00:19 UTC",
+  "last_updated": "2026-07-06 10:07 UTC",
   "al": {
     "east": [
       {
@@ -66,16 +66,16 @@
         "teamId": 111,
         "city": "Boston",
         "nickname": "Red Sox",
-        "wins": 39,
+        "wins": 40,
         "losses": 48,
-        "pct": ".448",
-        "gb": "13.0",
-        "last10": "7-3",
-        "streak": "W2",
+        "pct": ".455",
+        "gb": "12.5",
+        "last10": "8-2",
+        "streak": "W3",
         "home": "17-27",
-        "away": "22-21",
+        "away": "23-21",
         "oneRun": "6-12",
-        "runDiff": "+3"
+        "runDiff": "+5"
       }
     ],
     "central": [
@@ -221,15 +221,15 @@
         "city": "Los Angeles",
         "nickname": "Angels",
         "wins": 36,
-        "losses": 54,
-        "pct": ".400",
-        "gb": "10.5",
-        "last10": "4-6",
-        "streak": "L5",
-        "home": "21-24",
+        "losses": 55,
+        "pct": ".396",
+        "gb": "11.0",
+        "last10": "3-7",
+        "streak": "L6",
+        "home": "21-25",
         "away": "15-30",
         "oneRun": "9-15",
-        "runDiff": "-56"
+        "runDiff": "-58"
       }
     ],
     "wildcard": [
@@ -291,10 +291,10 @@
       },
       {
         "city": "Boston",
-        "wins": 39,
+        "wins": 40,
         "losses": 48,
-        "pct": ".448",
-        "wcgb": "4.5"
+        "pct": ".455",
+        "wcgb": "4.0"
       },
       {
         "city": "Detroit",
@@ -313,9 +313,9 @@
       {
         "city": "Los Angeles",
         "wins": 36,
-        "losses": 54,
-        "pct": ".400",
-        "wcgb": "9.0"
+        "losses": 55,
+        "pct": ".396",
+        "wcgb": "9.5"
       }
     ]
   },
@@ -480,15 +480,15 @@
         "city": "Los Angeles",
         "nickname": "Dodgers",
         "wins": 59,
-        "losses": 31,
-        "pct": ".656",
+        "losses": 32,
+        "pct": ".648",
         "gb": "-",
-        "last10": "8-2",
-        "streak": "W3",
-        "home": "29-14",
+        "last10": "7-3",
+        "streak": "L1",
+        "home": "29-15",
         "away": "30-17",
         "oneRun": "15-11",
-        "runDiff": "+166"
+        "runDiff": "+163"
       },
       {
         "teamId": 109,
@@ -497,7 +497,7 @@
         "wins": 44,
         "losses": 45,
         "pct": ".494",
-        "gb": "14.5",
+        "gb": "14.0",
         "last10": "4-6",
         "streak": "L1",
         "home": "27-20",
@@ -509,16 +509,16 @@
         "teamId": 135,
         "city": "San Diego",
         "nickname": "Padres",
-        "wins": 43,
+        "wins": 44,
         "losses": 45,
-        "pct": ".489",
-        "gb": "15.0",
+        "pct": ".494",
+        "gb": "14.0",
         "last10": "2-8",
-        "streak": "L8",
+        "streak": "W1",
         "home": "23-21",
-        "away": "20-24",
+        "away": "21-24",
         "oneRun": "11-12",
-        "runDiff": "-45"
+        "runDiff": "-42"
       },
       {
         "teamId": 137,
@@ -527,7 +527,7 @@
         "wins": 37,
         "losses": 52,
         "pct": ".416",
-        "gb": "21.5",
+        "gb": "21.0",
         "last10": "4-6",
         "streak": "L1",
         "home": "18-22",
@@ -542,7 +542,7 @@
         "wins": 37,
         "losses": 54,
         "pct": ".407",
-        "gb": "22.5",
+        "gb": "22.0",
         "last10": "5-5",
         "streak": "W1",
         "home": "22-25",
@@ -603,10 +603,10 @@
       },
       {
         "city": "San Diego",
-        "wins": 43,
+        "wins": 44,
         "losses": 45,
-        "pct": ".489",
-        "wcgb": "4.5"
+        "pct": ".494",
+        "wcgb": "4.0"
       },
       {
         "city": "Cincinnati",

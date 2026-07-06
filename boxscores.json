@@ -93,17 +93,17 @@
     },
     {
       "gamePk": 823931,
-      "winner_name": "Dodgers",
-      "winner_score": 0,
-      "loser_name": "Padres",
-      "loser_score": 0
+      "winner_name": "Padres",
+      "winner_score": 5,
+      "loser_name": "Dodgers",
+      "loser_score": 2
     },
     {
       "gamePk": 824010,
-      "winner_name": "Angels",
-      "winner_score": 0,
-      "loser_name": "Red Sox",
-      "loser_score": 0
+      "winner_name": "Red Sox",
+      "winner_score": 7,
+      "loser_name": "Angels",
+      "loser_score": 5
     }
   ],
   "today_games": [
