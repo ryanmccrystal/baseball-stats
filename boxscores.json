@@ -123,18 +123,18 @@
       "away_stats": {
         "wins": 4,
         "losses": 6,
-        "era": "4.44",
+        "era": "4.39",
         "k9": "6.9",
         "hand": "R",
-        "team_record": "7-11"
+        "team_record": "7-12"
       },
       "home_stats": {
         "wins": 2,
         "losses": 5,
-        "era": "4.96",
+        "era": "4.88",
         "k9": "9.5",
         "hand": "L",
-        "team_record": "4-8"
+        "team_record": "4-9"
       }
     },
     {
@@ -144,20 +144,20 @@
       "away_pitcher": "Dylan Cease",
       "home_pitcher": "Logan Webb",
       "away_stats": {
-        "wins": 5,
+        "wins": 6,
         "losses": 4,
-        "era": "2.79",
-        "k9": "13.7",
+        "era": "2.56",
+        "k9": "13.6",
         "hand": "R",
-        "team_record": "10-6"
+        "team_record": "11-6"
       },
       "home_stats": {
         "wins": 5,
-        "losses": 6,
-        "era": "3.66",
-        "k9": "7.5",
+        "losses": 7,
+        "era": "3.86",
+        "k9": "7.2",
         "hand": "R",
-        "team_record": "5-10"
+        "team_record": "5-11"
       }
     },
     {
@@ -169,18 +169,18 @@
       "away_stats": {
         "wins": 6,
         "losses": 5,
-        "era": "4.74",
-        "k9": "6.8",
+        "era": "4.82",
+        "k9": "6.7",
         "hand": "R",
-        "team_record": "6-8"
+        "team_record": "6-9"
       },
       "home_stats": {
         "wins": 1,
         "losses": 1,
-        "era": "3.18",
-        "k9": "10.6",
+        "era": "4.22",
+        "k9": "10.1",
         "hand": "R",
-        "team_record": "2-1"
+        "team_record": "2-2"
       }
     },
     {
@@ -192,18 +192,18 @@
       "away_stats": {
         "wins": 3,
         "losses": 8,
-        "era": "5.79",
-        "k9": "7.7",
+        "era": "5.83",
+        "k9": "7.8",
         "hand": "L",
-        "team_record": "7-11"
+        "team_record": "7-12"
       },
       "home_stats": {
         "wins": 4,
         "losses": 1,
-        "era": "2.05",
-        "k9": "6.5",
+        "era": "1.86",
+        "k9": "7.3",
         "hand": "R",
-        "team_record": "5-2"
+        "team_record": "6-2"
       }
     },
     {
@@ -215,18 +215,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 4,
-        "era": "3.83",
-        "k9": "7.8",
+        "era": "3.63",
+        "k9": "7.9",
         "hand": "R",
-        "team_record": "10-6"
+        "team_record": "10-7"
       },
       "home_stats": {
         "wins": 1,
         "losses": 1,
-        "era": "5.28",
-        "k9": "9.6",
+        "era": "4.50",
+        "k9": "10.3",
         "hand": "R",
-        "team_record": "5-2"
+        "team_record": "5-3"
       }
     },
     {
@@ -238,18 +238,18 @@
       "away_stats": {
         "wins": 7,
         "losses": 7,
-        "era": "3.81",
-        "k9": "7.9",
+        "era": "3.83",
+        "k9": "8.0",
         "hand": "R",
-        "team_record": "9-8"
+        "team_record": "9-9"
       },
       "home_stats": {
         "wins": 1,
         "losses": 3,
-        "era": "3.52",
-        "k9": "6.8",
+        "era": "3.28",
+        "k9": "6.7",
         "hand": "R",
-        "team_record": "3-4"
+        "team_record": "4-4"
       }
     },
     {
@@ -261,18 +261,18 @@
       "away_stats": {
         "wins": 3,
         "losses": 3,
-        "era": "4.01",
+        "era": "3.97",
         "k9": "8.7",
         "hand": "R",
-        "team_record": "4-4"
+        "team_record": "4-5"
       },
       "home_stats": {
         "wins": 7,
         "losses": 5,
-        "era": "3.05",
-        "k9": "8.7",
+        "era": "2.87",
+        "k9": "8.5",
         "hand": "L",
-        "team_record": "9-7"
+        "team_record": "10-7"
       }
     },
     {
@@ -284,18 +284,18 @@
       "away_stats": {
         "wins": 7,
         "losses": 4,
-        "era": "3.81",
-        "k9": "9.1",
+        "era": "4.19",
+        "k9": "8.9",
         "hand": "R",
-        "team_record": "9-5"
+        "team_record": "9-6"
       },
       "home_stats": {
         "wins": 9,
         "losses": 2,
-        "era": "2.87",
-        "k9": "8.7",
+        "era": "2.77",
+        "k9": "8.9",
         "hand": "L",
-        "team_record": "14-4"
+        "team_record": "15-4"
       }
     },
     {
@@ -307,34 +307,41 @@
       "away_stats": {
         "wins": 2,
         "losses": 2,
-        "era": "5.08",
-        "k9": "11.8",
+        "era": "5.22",
+        "k9": "12.0",
         "hand": "R",
-        "team_record": "0-1"
+        "team_record": "0-2"
       },
       "home_stats": {
         "wins": 2,
         "losses": 1,
-        "era": "3.49",
-        "k9": "11.0",
+        "era": "3.29",
+        "k9": "10.9",
         "hand": "R",
-        "team_record": "8-3"
+        "team_record": "9-3"
       }
     },
     {
       "away_name": "Phillies",
       "home_name": "Reds",
       "game_time": "2026-07-08T23:10:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Alan Rangel",
       "home_pitcher": "Chase Burns",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 0,
+        "losses": 1,
+        "era": "3.00",
+        "k9": "10.5",
+        "hand": "R",
+        "team_record": "1-1"
+      },
       "home_stats": {
         "wins": 10,
         "losses": 1,
-        "era": "2.40",
-        "k9": "10.7",
+        "era": "2.50",
+        "k9": "10.6",
         "hand": "R",
-        "team_record": "13-4"
+        "team_record": "13-5"
       }
     },
     {
@@ -346,18 +353,18 @@
       "away_stats": {
         "wins": 3,
         "losses": 3,
-        "era": "3.10",
+        "era": "3.02",
         "k9": "6.9",
         "hand": "L",
-        "team_record": "3-4"
+        "team_record": "3-5"
       },
       "home_stats": {
         "wins": 9,
         "losses": 3,
-        "era": "3.08",
+        "era": "3.03",
         "k9": "8.4",
         "hand": "R",
-        "team_record": "12-5"
+        "team_record": "12-6"
       }
     },
     {
@@ -377,10 +384,10 @@
       "home_stats": {
         "wins": 3,
         "losses": 7,
-        "era": "3.12",
+        "era": "3.08",
         "k9": "5.7",
         "hand": "R",
-        "team_record": "7-10"
+        "team_record": "7-11"
       }
     },
     {

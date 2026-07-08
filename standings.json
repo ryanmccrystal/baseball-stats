@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08 10:17 UTC",
+  "last_updated": "2026-07-08 23:57 UTC",
   "al": {
     "east": [
       {
@@ -36,16 +36,16 @@
         "teamId": 141,
         "city": "Toronto",
         "nickname": "Blue Jays",
-        "wins": 43,
+        "wins": 44,
         "losses": 49,
-        "pct": ".467",
-        "gb": "11.5",
-        "last10": "4-6",
-        "streak": "W1",
+        "pct": ".473",
+        "gb": "11.0",
+        "last10": "5-5",
+        "streak": "W2",
         "home": "24-25",
-        "away": "19-24",
+        "away": "20-24",
         "oneRun": "11-15",
-        "runDiff": "-45"
+        "runDiff": "-35"
       },
       {
         "teamId": 111,
@@ -270,10 +270,10 @@
       },
       {
         "city": "Toronto",
-        "wins": 43,
+        "wins": 44,
         "losses": 49,
-        "pct": ".467",
-        "wcgb": "3.5"
+        "pct": ".473",
+        "wcgb": "3.0"
       },
       {
         "city": "Boston",
@@ -525,15 +525,15 @@
         "city": "San Francisco",
         "nickname": "Giants",
         "wins": 38,
-        "losses": 53,
-        "pct": ".418",
-        "gb": "21.0",
-        "last10": "5-5",
-        "streak": "L1",
-        "home": "19-23",
+        "losses": 54,
+        "pct": ".413",
+        "gb": "21.5",
+        "last10": "4-6",
+        "streak": "L2",
+        "home": "19-24",
         "away": "19-30",
         "oneRun": "9-11",
-        "runDiff": "-63"
+        "runDiff": "-73"
       },
       {
         "teamId": 115,
@@ -616,14 +616,14 @@
         "wcgb": "8.0"
       },
       {
-        "city": "San Francisco",
+        "city": "New York",
         "wins": 38,
-        "losses": 53,
-        "pct": ".418",
-        "wcgb": "11.5"
+        "losses": 54,
+        "pct": ".413",
+        "wcgb": "12.0"
       },
       {
-        "city": "New York",
+        "city": "San Francisco",
         "wins": 38,
         "losses": 54,
         "pct": ".413",
