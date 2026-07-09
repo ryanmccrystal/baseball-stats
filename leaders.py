@@ -37,3 +37,15 @@ TEAM_ABBR = {
     147: "NYY",
     158: "MIL"
 }
+
+leaders = statsapi.get(
+    "stats_leaders",
+    {
+        "leaderCategories": "battingAverage",
+        "season": SEASON,
+        "statGroup": "hitting",
+        "limit": 20
+    }
+)
+
+print(leaders)
