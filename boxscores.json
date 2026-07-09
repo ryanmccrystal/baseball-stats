@@ -3,9 +3,9 @@
     {
       "gamePk": 823684,
       "winner_name": "Twins",
-      "winner_score": 0,
+      "winner_score": 6,
       "loser_name": "Guardians",
-      "loser_score": 0
+      "loser_score": 5
     },
     {
       "gamePk": 823202,
@@ -17,9 +17,9 @@
     {
       "gamePk": 824815,
       "winner_name": "Cubs",
-      "winner_score": 4,
+      "winner_score": 9,
       "loser_name": "Orioles",
-      "loser_score": 3
+      "loser_score": 7
     },
     {
       "gamePk": 824253,
@@ -30,9 +30,9 @@
     },
     {
       "gamePk": 823360,
-      "winner_name": "Pirates",
-      "winner_score": 0,
-      "loser_name": "Braves",
+      "winner_name": "Braves",
+      "winner_score": 3,
+      "loser_name": "Pirates",
       "loser_score": 0
     },
     {
@@ -45,65 +45,65 @@
     {
       "gamePk": 822957,
       "winner_name": "Rays",
-      "winner_score": 2,
+      "winner_score": 3,
       "loser_name": "Yankees",
       "loser_score": 0
     },
     {
       "gamePk": 822710,
       "winner_name": "Nationals",
-      "winner_score": 5,
+      "winner_score": 8,
       "loser_name": "Astros",
-      "loser_score": 1
+      "loser_score": 2
     },
     {
       "gamePk": 823605,
       "winner_name": "Mets",
-      "winner_score": 1,
+      "winner_score": 6,
       "loser_name": "Royals",
-      "loser_score": 0
+      "loser_score": 2
     },
     {
       "gamePk": 824496,
       "winner_name": "Reds",
-      "winner_score": 2,
+      "winner_score": 11,
       "loser_name": "Phillies",
-      "loser_score": 2
+      "loser_score": 5
     },
     {
       "gamePk": 824578,
-      "winner_name": "White Sox",
-      "winner_score": 0,
-      "loser_name": "Red Sox",
+      "winner_name": "Red Sox",
+      "winner_score": 5,
+      "loser_name": "White Sox",
       "loser_score": 0
     },
     {
       "gamePk": 823032,
       "winner_name": "Cardinals",
-      "winner_score": 2,
+      "winner_score": 5,
       "loser_name": "Brewers",
-      "loser_score": 0
+      "loser_score": 1
     },
     {
       "gamePk": 822880,
-      "winner_name": "Rangers",
-      "winner_score": 0,
-      "loser_name": "Angels",
-      "loser_score": 0
+      "winner_name": "Angels",
+      "winner_score": 13,
+      "loser_name": "Rangers",
+      "loser_score": 1
     },
     {
       "gamePk": 823928,
       "winner_name": "Dodgers",
-      "winner_score": 0,
+      "winner_score": 4,
       "loser_name": "Rockies",
-      "loser_score": 0
+      "loser_score": 3
     },
     {
       "gamePk": 823279,
       "winner_name": "Padres",
-      "winner_score": 0,
+      "winner_score": 10,
       "loser_name": "DBacks",
-      "loser_score": 0
+      "loser_score": 4
     }
   ],
   "today_games": [
@@ -193,25 +193,9 @@
       }
     },
     {
-      "away_name": "Red Sox",
-      "home_name": "White Sox",
-      "game_time": "2026-07-09T18:10:00Z",
-      "away_pitcher": "Patrick Sandoval",
-      "home_pitcher": "Anthony Kay",
-      "away_stats": null,
-      "home_stats": {
-        "wins": 6,
-        "losses": 3,
-        "era": "4.29",
-        "k9": "7.2",
-        "hand": "L",
-        "team_record": "9-7"
-      }
-    },
-    {
       "away_name": "Cubs",
       "home_name": "Orioles",
-      "game_time": "2026-07-09T22:35:00Z",
+      "game_time": "2026-07-09T17:35:00Z",
       "away_pitcher": "David Peterson",
       "home_pitcher": "Trevor Rogers",
       "away_stats": {
@@ -229,6 +213,22 @@
         "k9": "6.9",
         "hand": "L",
         "team_record": "7-9"
+      }
+    },
+    {
+      "away_name": "Red Sox",
+      "home_name": "White Sox",
+      "game_time": "2026-07-09T18:10:00Z",
+      "away_pitcher": "Patrick Sandoval",
+      "home_pitcher": "Anthony Kay",
+      "away_stats": null,
+      "home_stats": {
+        "wins": 6,
+        "losses": 3,
+        "era": "4.29",
+        "k9": "7.2",
+        "hand": "L",
+        "team_record": "9-7"
       }
     },
     {
