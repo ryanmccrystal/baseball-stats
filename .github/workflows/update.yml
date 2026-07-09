@@ -25,6 +25,7 @@ jobs:
       - run: python al_batting_avg.py
       - run: python boxscores.py
       - run: python standings.py
+      - run: python leaders.py
 
       - name: Commit changes
         run: |
