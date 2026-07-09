@@ -116,7 +116,7 @@
       "away_stats": {
         "wins": 9,
         "losses": 4,
-        "era": "3.82",
+        "era": "3.75",
         "k9": "10.6",
         "hand": "R",
         "team_record": "13-6"
@@ -124,8 +124,8 @@
       "home_stats": {
         "wins": 6,
         "losses": 3,
-        "era": "4.54",
-        "k9": "6.2",
+        "era": "4.44",
+        "k9": "6.5",
         "hand": "R",
         "team_record": "7-6"
       }
@@ -162,18 +162,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 6,
-        "era": "3.41",
-        "k9": "7.3",
+        "era": "3.77",
+        "k9": "7.2",
         "hand": "R",
-        "team_record": "6-13"
+        "team_record": "5-14"
       },
       "home_stats": {
         "wins": 1,
         "losses": 4,
-        "era": "4.71",
+        "era": "4.68",
         "k9": "8.9",
         "hand": "L",
-        "team_record": "1-5"
+        "team_record": "2-4"
       }
     },
     {
@@ -208,16 +208,16 @@
       "away_stats": {
         "wins": 4,
         "losses": 7,
-        "era": "6.69",
-        "k9": "7.8",
+        "era": "6.56",
+        "k9": "7.7",
         "hand": "L",
         "team_record": "3-8"
       },
       "home_stats": {
         "wins": 6,
         "losses": 7,
-        "era": "4.57",
-        "k9": "7.1",
+        "era": "4.48",
+        "k9": "6.9",
         "hand": "L",
         "team_record": "8-9"
       }
@@ -228,14 +228,21 @@
       "game_time": "2026-07-09T18:10:00Z",
       "away_pitcher": "Patrick Sandoval",
       "home_pitcher": "Anthony Kay",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 0,
+        "losses": 0,
+        "era": "0.00",
+        "k9": "16.2",
+        "hand": "L",
+        "team_record": "0-1"
+      },
       "home_stats": {
         "wins": 6,
         "losses": 3,
-        "era": "4.29",
-        "k9": "7.2",
+        "era": "4.19",
+        "k9": "7.4",
         "hand": "L",
-        "team_record": "9-7"
+        "team_record": "9-8"
       }
     },
     {
