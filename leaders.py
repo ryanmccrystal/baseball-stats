@@ -38,14 +38,19 @@ TEAM_ABBR = {
     158: "MIL"
 }
 
-leaders = statsapi.get(
-    "stats_leaders",
+stats = statsapi.get(
+    "stats",
     {
-        "leaderCategories": "battingAverage",
+        "stats": "season",
+        "group": "hitting",
         "season": SEASON,
-        "statGroup": "hitting",
-        "limit": 20
+        "sportIds": 1,
+        "limit": 5,
+        "sortStat": "battingAverage",
+        "order": "desc"
     }
 )
+
+print(json.dumps(stats, indent=2))
 
 print(json.dumps(leaders, indent=2))
