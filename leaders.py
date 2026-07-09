@@ -81,9 +81,11 @@ nl_hitters = [
 
 leaders = top12(al_hitters, "homeRuns")
 
+leaders = top12(al_hitters, "homeRuns")
+
 for p in leaders:
     print(
         p["player"]["fullName"],
-        TEAM_ABBR[p["team"]["id"]]
+        p["team"]["name"],
         p["stat"]["homeRuns"]
     )
