@@ -57,6 +57,18 @@ def get_hitting_stats():
 
 hitters = get_hitting_stats()
 
+def top12(players, stat):
+
+    return sorted(
+        players,
+        key=lambda p: (
+            float(p["stat"][stat])
+            if stat == "avg"
+            else int(p["stat"][stat])
+        ),
+        reverse=True
+    )[:12]
+
 al_hitters = [
     h for h in hitters
     if h["league"]["id"] == 103
