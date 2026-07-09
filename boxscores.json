@@ -65,10 +65,10 @@
     },
     {
       "gamePk": 824496,
-      "winner_name": "Phillies",
+      "winner_name": "Reds",
       "winner_score": 2,
-      "loser_name": "Reds",
-      "loser_score": 0
+      "loser_name": "Phillies",
+      "loser_score": 2
     },
     {
       "gamePk": 824578,
@@ -80,7 +80,7 @@
     {
       "gamePk": 823032,
       "winner_name": "Cardinals",
-      "winner_score": 0,
+      "winner_score": 1,
       "loser_name": "Brewers",
       "loser_score": 0
     },

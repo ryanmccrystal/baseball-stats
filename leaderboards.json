@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 09, 2026 00:00 UTC",
+  "last_updated": "July 09, 2026 00:02 UTC",
   "standings": {
     "AL East": [
       {
@@ -514,7 +514,7 @@
         {
           "name": "Sam Antonacci",
           "team": "CWS",
-          "value": ".382"
+          "value": ".385"
         },
         {
           "name": "Taylor Ward",
@@ -932,7 +932,7 @@
         {
           "name": "Davis Martin",
           "team": "CWS",
-          "value": "3.03"
+          "value": "3.02"
         },
         {
           "name": "J.T. Ginn",
@@ -1120,7 +1120,7 @@
         {
           "name": "George Kirby",
           "team": "SEA",
-          "value": "108.0"
+          "value": "108.2"
         },
         {
           "name": "Logan Gilbert",
@@ -1426,7 +1426,7 @@
         {
           "name": "Jordan Walker",
           "team": "STL",
-          "value": "69"
+          "value": "70"
         },
         {
           "name": "Luis Garc\u00eda Jr.",
@@ -1454,13 +1454,13 @@
           "value": "63"
         },
         {
-          "name": "Ryan O'Hearn",
-          "team": "PIT",
-          "value": "61"
-        },
-        {
           "name": "Sal Stewart",
           "team": "CIN",
+          "value": "63"
+        },
+        {
+          "name": "Ryan O'Hearn",
+          "team": "PIT",
           "value": "61"
         },
         {
@@ -1530,7 +1530,7 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".409"
+          "value": ".411"
         },
         {
           "name": "Shohei Ohtani",
@@ -1550,7 +1550,7 @@
         {
           "name": "Iv\u00e1n Herrera",
           "team": "STL",
-          "value": ".390"
+          "value": ".389"
         },
         {
           "name": "Spencer Horwitz",
@@ -1622,7 +1622,7 @@
         {
           "name": "Jordan Walker",
           "team": "STL",
-          "value": ".531"
+          "value": ".535"
         },
         {
           "name": "Otto Lopez",
@@ -1634,7 +1634,7 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".982"
+          "value": ".984"
         },
         {
           "name": "James Wood",
@@ -1657,6 +1657,11 @@
           "value": ".929"
         },
         {
+          "name": "Jordan Walker",
+          "team": "STL",
+          "value": ".890"
+        },
+        {
           "name": "Otto Lopez",
           "team": "MIA",
           "value": ".889"
@@ -1665,11 +1670,6 @@
           "name": "Luis Garc\u00eda Jr.",
           "team": "WSH",
           "value": ".887"
-        },
-        {
-          "name": "Jordan Walker",
-          "team": "STL",
-          "value": ".885"
         },
         {
           "name": "Matt Olson",
@@ -1766,6 +1766,11 @@
           "value": "100"
         },
         {
+          "name": "Jordan Walker",
+          "team": "STL",
+          "value": "100"
+        },
+        {
           "name": "Brandon Marsh",
           "team": "PHI",
           "value": "99"
@@ -1773,11 +1778,6 @@
         {
           "name": "Fernando Tatis Jr.",
           "team": "SDP",
-          "value": "99"
-        },
-        {
-          "name": "Jordan Walker",
-          "team": "STL",
           "value": "99"
         },
         {
@@ -1922,23 +1922,23 @@
           "value": "41"
         },
         {
+          "name": "Jordan Walker",
+          "team": "STL",
+          "value": "40"
+        },
+        {
+          "name": "Sal Stewart",
+          "team": "CIN",
+          "value": "39"
+        },
+        {
           "name": "Ketel Marte",
           "team": "ARI",
           "value": "39"
         },
         {
-          "name": "Jordan Walker",
-          "team": "STL",
-          "value": "39"
-        },
-        {
           "name": "Luis Garc\u00eda Jr.",
           "team": "WSH",
-          "value": "39"
-        },
-        {
-          "name": "Pete Crow-Armstrong",
-          "team": "CHC",
           "value": "39"
         }
       ]
@@ -2112,13 +2112,13 @@
           "value": "0.88"
         },
         {
-          "name": "Foster Griffin",
-          "team": "WSH",
+          "name": "Justin Wrobleski",
+          "team": "LAD",
           "value": "1.02"
         },
         {
-          "name": "Justin Wrobleski",
-          "team": "LAD",
+          "name": "Foster Griffin",
+          "team": "WSH",
           "value": "1.02"
         },
         {
