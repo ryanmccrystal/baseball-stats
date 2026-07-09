@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 09, 2026 00:07 UTC",
+  "last_updated": "July 09, 2026 00:10 UTC",
   "standings": {
     "AL East": [
       {
@@ -309,6 +309,11 @@
           "value": ".290"
         },
         {
+          "name": "Kevin McGonigle",
+          "team": "DET",
+          "value": ".288"
+        },
+        {
           "name": "Randy Arozarena",
           "team": "SEA",
           "value": ".287"
@@ -316,11 +321,6 @@
         {
           "name": "Willson Contreras",
           "team": "BOS",
-          "value": ".286"
-        },
-        {
-          "name": "Kevin McGonigle",
-          "team": "DET",
           "value": ".286"
         }
       ],
@@ -499,7 +499,7 @@
         {
           "name": "Kevin McGonigle",
           "team": "DET",
-          "value": ".398"
+          "value": ".400"
         },
         {
           "name": "Mike Trout",
@@ -519,7 +519,7 @@
         {
           "name": "Taylor Ward",
           "team": "BAL",
-          "value": ".382"
+          "value": ".381"
         },
         {
           "name": "Willson Contreras",
@@ -673,13 +673,13 @@
           "value": "57"
         },
         {
-          "name": "Randy Arozarena",
-          "team": "SEA",
-          "value": "56"
-        },
-        {
           "name": "Kevin McGonigle",
           "team": "DET",
+          "value": "57"
+        },
+        {
+          "name": "Randy Arozarena",
+          "team": "SEA",
           "value": "56"
         },
         {
@@ -720,13 +720,13 @@
           "value": "96"
         },
         {
-          "name": "Junior Caminero",
-          "team": "TBR",
-          "value": "95"
-        },
-        {
           "name": "Kevin McGonigle",
           "team": "DET",
+          "value": "96"
+        },
+        {
+          "name": "Junior Caminero",
+          "team": "TBR",
           "value": "95"
         },
         {
@@ -1162,7 +1162,7 @@
         {
           "name": "Jeffrey Springs",
           "team": "ATH",
-          "value": "25"
+          "value": "26"
         },
         {
           "name": "Mike Burrows",
@@ -1988,7 +1988,7 @@
         {
           "name": "Foster Griffin",
           "team": "WSH",
-          "value": "2.83"
+          "value": "2.82"
         },
         {
           "name": "Michael McGreevy",
@@ -2119,7 +2119,7 @@
         {
           "name": "Foster Griffin",
           "team": "WSH",
-          "value": "1.03"
+          "value": "1.02"
         },
         {
           "name": "Paul Skenes",
@@ -2176,7 +2176,7 @@
         {
           "name": "Foster Griffin",
           "team": "WSH",
-          "value": "108.0"
+          "value": "108.1"
         },
         {
           "name": "Max Meyer",
