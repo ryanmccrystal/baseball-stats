@@ -48,4 +48,4 @@ leaders = statsapi.get(
     }
 )
 
-print(leaders)
+print(json.dumps(leaders, indent=2))
