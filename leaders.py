@@ -47,15 +47,14 @@ def get_hitting_stats():
             "group": "hitting",
             "season": SEASON,
             "sportIds": 1,
-            "playerPool": "QUALIFIED"
+            "playerPool": "QUALIFIED",
+            "limit": 500
         }
     )
 
     return data["stats"][0]["splits"]
 
+
 hitters = get_hitting_stats()
 
 print(len(hitters))
-print(json.dumps(stats, indent=2))
-
-print(json.dumps(leaders, indent=2))
