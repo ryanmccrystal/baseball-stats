@@ -79,4 +79,11 @@ nl_hitters = [
     if h["league"]["id"] == 104
 ]
 
-print(len(al_hitters), len(nl_hitters))
+leaders = top12(al_hitters, "homeRuns")
+
+for p in leaders:
+    print(
+        p["player"]["fullName"],
+        p["team"]["name"],
+        p["stat"]["homeRuns"]
+    )
