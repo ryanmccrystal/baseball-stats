@@ -116,18 +116,18 @@
       "away_stats": {
         "wins": 9,
         "losses": 4,
-        "era": "3.89",
-        "k9": "10.4",
+        "era": "3.82",
+        "k9": "10.6",
         "hand": "R",
-        "team_record": "12-6"
+        "team_record": "13-6"
       },
       "home_stats": {
         "wins": 6,
         "losses": 3,
-        "era": "4.59",
+        "era": "4.54",
         "k9": "6.2",
         "hand": "R",
-        "team_record": "7-5"
+        "team_record": "7-6"
       }
     },
     {
@@ -139,18 +139,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 6,
-        "era": "4.01",
-        "k9": "7.6",
+        "era": "4.12",
+        "k9": "7.5",
         "hand": "R",
-        "team_record": "9-8"
+        "team_record": "10-8"
       },
       "home_stats": {
         "wins": 6,
         "losses": 6,
-        "era": "5.02",
-        "k9": "6.6",
+        "era": "5.14",
+        "k9": "6.7",
         "hand": "R",
-        "team_record": "9-9"
+        "team_record": "9-10"
       }
     },
     {
@@ -162,34 +162,41 @@
       "away_stats": {
         "wins": 5,
         "losses": 6,
-        "era": "3.45",
-        "k9": "7.1",
+        "era": "3.41",
+        "k9": "7.3",
         "hand": "R",
-        "team_record": "5-13"
+        "team_record": "6-13"
       },
       "home_stats": {
         "wins": 1,
         "losses": 4,
-        "era": "4.76",
-        "k9": "9.0",
+        "era": "4.71",
+        "k9": "8.9",
         "hand": "L",
-        "team_record": "1-4"
+        "team_record": "1-5"
       }
     },
     {
       "away_name": "Yankees",
       "home_name": "Rays",
       "game_time": "2026-07-09T17:10:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Paul Blackburn",
       "home_pitcher": "Drew Rasmussen",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 2,
+        "losses": 1,
+        "era": "2.31",
+        "k9": "6.8",
+        "hand": "R",
+        "team_record": "2-0"
+      },
       "home_stats": {
         "wins": 7,
         "losses": 4,
-        "era": "2.78",
+        "era": "3.26",
         "k9": "8.9",
         "hand": "R",
-        "team_record": "9-8"
+        "team_record": "9-9"
       }
     },
     {
@@ -201,18 +208,18 @@
       "away_stats": {
         "wins": 4,
         "losses": 7,
-        "era": "6.75",
-        "k9": "7.9",
+        "era": "6.69",
+        "k9": "7.8",
         "hand": "L",
-        "team_record": "3-7"
+        "team_record": "3-8"
       },
       "home_stats": {
         "wins": 6,
         "losses": 7,
-        "era": "4.70",
-        "k9": "6.9",
+        "era": "4.57",
+        "k9": "7.1",
         "hand": "L",
-        "team_record": "7-9"
+        "team_record": "8-9"
       }
     },
     {
