@@ -57,4 +57,14 @@ def get_hitting_stats():
 
 hitters = get_hitting_stats()
 
-print(len(hitters))
+al_hitters = [
+    h for h in hitters
+    if h["league"]["id"] == 103
+]
+
+nl_hitters = [
+    h for h in hitters
+    if h["league"]["id"] == 104
+]
+
+print(len(al_hitters), len(nl_hitters))
