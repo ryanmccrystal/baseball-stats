@@ -61,24 +61,10 @@ def build_last_name_counts():
         counter = Counter()
 
         for player in roster:
-
-            if team["id"] == 142:   # Minnesota Twins
-                print(player)
-
             last = player["person"]["fullName"].split()[-1]
             counter[last] += 1
 
-        counts[team["id"]] = counter
-
     return counts
-
-LAST_NAME_COUNTS = build_last_name_counts()
-
-print("Buxton:", LAST_NAME_COUNTS[142]["Buxton"])      # Twins
-print("Kurtz:", LAST_NAME_COUNTS[133]["Kurtz"])        # Athletics
-print("Montgomery:", LAST_NAME_COUNTS[145]["Montgomery"])  # White Sox
-print("Contreras:", LAST_NAME_COUNTS[111]["Contreras"])    # Red Sox
-print("Vargas:", LAST_NAME_COUNTS[145]["Vargas"])          # White Sox
 
 def get_hitting_stats():
 
