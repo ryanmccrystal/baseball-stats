@@ -73,7 +73,7 @@
     {
       "gamePk": 824813,
       "winner_name": "Orioles",
-      "winner_score": 5,
+      "winner_score": 6,
       "loser_name": "Royals",
       "loser_score": 1
     },
@@ -86,10 +86,10 @@
     },
     {
       "gamePk": 824492,
-      "winner_name": "Cubs",
+      "winner_name": "Reds",
       "winner_score": 3,
-      "loser_name": "Reds",
-      "loser_score": 2
+      "loser_name": "Cubs",
+      "loser_score": 3
     },
     {
       "gamePk": 823030,
@@ -101,7 +101,7 @@
     {
       "gamePk": 823276,
       "winner_name": "Padres",
-      "winner_score": 0,
+      "winner_score": 2,
       "loser_name": "Blue Jays",
       "loser_score": 0
     },
@@ -403,15 +403,15 @@
       "away_name": "DBacks",
       "home_name": "Dodgers",
       "game_time": "2026-07-12T20:10:00Z",
-      "away_pitcher": "Zac Gallen",
+      "away_pitcher": "Mitch Bratt",
       "home_pitcher": "Emmet Sheehan",
       "away_stats": {
-        "wins": 3,
-        "losses": 9,
-        "era": "6.34",
-        "k9": "5.6",
-        "hand": "R",
-        "team_record": "6-13"
+        "wins": 0,
+        "losses": 0,
+        "era": "3.00",
+        "k9": "9.0",
+        "hand": "L",
+        "team_record": "1-0"
       },
       "home_stats": {
         "wins": 4,
