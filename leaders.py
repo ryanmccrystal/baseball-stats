@@ -89,7 +89,7 @@ def get_hitting_stats():
             "group": "hitting",
             "season": SEASON,
             "sportIds": 1,
-            "playerPool": "QUALIFIED",
+            "playerPool": "ALL",
             "limit": 500
         }
     )
@@ -136,8 +136,4 @@ leaders = top12(al_hitters, "homeRuns")
 
 for p in leaders:
 
-    print(
-        display_name(p),
-        TEAM_ABBR[p["team"]["id"]],
-        p["stat"]["homeRuns"]
-    )
+    print(len(hitters))
