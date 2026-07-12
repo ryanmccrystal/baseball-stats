@@ -96,6 +96,22 @@ def display_name(player):
 
     return last
 
+def format_text_leaderboard(players, stat_key):
+
+    leaders = top12(players, stat_key)
+
+    results = []
+
+    for p in leaders:
+
+        results.append({
+            "player": display_name(p),
+            "team": TEAM_ABBR[p["team"]["id"]],
+            "value": p["stat"][stat_key]
+        })
+
+    return results
+
 LAST_NAME_COUNTS = build_last_name_counts(hitters)
 
 al_hitters = [
@@ -108,14 +124,18 @@ nl_hitters = [
     if h["league"]["id"] == 104
 ]
 
-print(len(hitters))
+def format_text_leaderboard(players, stat_key):
 
-leaders = top12(al_hitters, "homeRuns")
+    leaders = top12(players, stat_key)
 
-for p in leaders:
+    results = []
 
-    print(
-        display_name(p),
-        TEAM_ABBR[p["team"]["id"]],
-        p["stat"]["homeRuns"]
-    )
+    for p in leaders:
+
+        results.append({
+            "player": display_name(p),
+            "team": TEAM_ABBR[p["team"]["id"]],
+            "value": p["stat"][stat_key]
+        })
+
+    return results
