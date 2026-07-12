@@ -86,9 +86,9 @@
     },
     {
       "gamePk": 824492,
-      "winner_name": "Reds",
-      "winner_score": 2,
-      "loser_name": "Cubs",
+      "winner_name": "Cubs",
+      "winner_score": 3,
+      "loser_name": "Reds",
       "loser_score": 2
     },
     {
@@ -96,7 +96,7 @@
       "winner_name": "Cardinals",
       "winner_score": 4,
       "loser_name": "Braves",
-      "loser_score": 0
+      "loser_score": 1
     },
     {
       "gamePk": 823276,
@@ -141,9 +141,16 @@
       "away_name": "Brewers",
       "home_name": "Pirates",
       "game_time": "2026-07-12T16:15:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Robert Gasser",
       "home_pitcher": "Paul Skenes",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 2,
+        "losses": 3,
+        "era": "4.15",
+        "k9": "8.3",
+        "hand": "L",
+        "team_record": "4-4"
+      },
       "home_stats": {
         "wins": 7,
         "losses": 8,
@@ -227,7 +234,7 @@
       "home_name": "Mets",
       "game_time": "2026-07-12T17:40:00Z",
       "away_pitcher": "Payton Tolle",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Zach Thornton",
       "away_stats": {
         "wins": 5,
         "losses": 6,
@@ -236,7 +243,14 @@
         "hand": "L",
         "team_record": "5-9"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 0,
+        "losses": 1,
+        "era": "4.35",
+        "k9": "8.7",
+        "hand": "L",
+        "team_record": "0-2"
+      }
     },
     {
       "away_name": "Mariners",

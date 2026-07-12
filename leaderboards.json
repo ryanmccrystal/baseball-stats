@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 12, 2026 00:44 UTC",
+  "last_updated": "July 12, 2026 00:58 UTC",
   "standings": {
     "AL East": [
       {
@@ -286,7 +286,7 @@
         {
           "name": "Ernie Clement",
           "team": "TOR",
-          "value": ".298"
+          "value": ".297"
         },
         {
           "name": "Jonathan Aranda",
@@ -296,7 +296,7 @@
         {
           "name": "Josh Jung",
           "team": "TEX",
-          "value": ".296"
+          "value": ".295"
         },
         {
           "name": "Riley Greene",
@@ -484,7 +484,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": ".421"
+          "value": ".423"
         },
         {
           "name": "Nick Kurtz",
@@ -588,7 +588,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": "1.056"
+          "value": "1.058"
         },
         {
           "name": "Ben Rice",
@@ -1350,6 +1350,11 @@
           "value": ".304"
         },
         {
+          "name": "Michael Harris II",
+          "team": "ATL",
+          "value": ".301"
+        },
+        {
           "name": "Xavier Edwards",
           "team": "MIA",
           "value": ".301"
@@ -1358,11 +1363,6 @@
           "name": "Jake McCarthy",
           "team": "COL",
           "value": ".301"
-        },
-        {
-          "name": "Michael Harris II",
-          "team": "ATL",
-          "value": ".299"
         },
         {
           "name": "TJ Rumfield",
@@ -1600,6 +1600,11 @@
           "value": ".558"
         },
         {
+          "name": "Matt Olson",
+          "team": "ATL",
+          "value": ".540"
+        },
+        {
           "name": "Shohei Ohtani",
           "team": "LAD",
           "value": ".540"
@@ -1610,11 +1615,6 @@
           "value": ".539"
         },
         {
-          "name": "Matt Olson",
-          "team": "ATL",
-          "value": ".538"
-        },
-        {
           "name": "Pete Crow-Armstrong",
           "team": "CHC",
           "value": ".535"
@@ -1622,7 +1622,7 @@
         {
           "name": "Jordan Walker",
           "team": "STL",
-          "value": ".535"
+          "value": ".534"
         },
         {
           "name": "CJ Abrams",
@@ -1659,7 +1659,7 @@
         {
           "name": "Jordan Walker",
           "team": "STL",
-          "value": ".889"
+          "value": ".887"
         },
         {
           "name": "Otto Lopez",
@@ -1674,7 +1674,7 @@
         {
           "name": "Matt Olson",
           "team": "ATL",
-          "value": ".878"
+          "value": ".881"
         },
         {
           "name": "Luis Garc\u00eda Jr.",
