@@ -108,6 +108,8 @@ nl_hitters = [
     if h["league"]["id"] == 104
 ]
 
+print(len(hitters))
+
 leaders = top12(al_hitters, "homeRuns")
 
 print(len(hitters))
