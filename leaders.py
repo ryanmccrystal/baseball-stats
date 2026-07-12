@@ -124,18 +124,17 @@ nl_hitters = [
     if h["league"]["id"] == 104
 ]
 
-def format_text_leaderboard(players, stat_key):
-
-    leaders = top12(players, stat_key)
-
-    results = []
-
-    for p in leaders:
-
-        results.append({
-            "player": display_name(p),
-            "team": TEAM_ABBR[p["team"]["id"]],
-            "value": p["stat"][stat_key]
-        })
 
     return results
+
+leaders_json = {
+    "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+    "al": {
+        "homeRuns": format_text_leaderboard(al_hitters, "homeRuns")
+    }
+}
+
+with open("leaders.json", "w") as f:
+    json.dump(leaders_json, f, indent=2)
+
+print("Created leaders.json")
