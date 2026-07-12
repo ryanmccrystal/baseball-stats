@@ -70,6 +70,12 @@ def build_last_name_counts():
 
 LAST_NAME_COUNTS = build_last_name_counts()
 
+print("Buxton:", LAST_NAME_COUNTS[142]["Buxton"])      # Twins
+print("Kurtz:", LAST_NAME_COUNTS[133]["Kurtz"])        # Athletics
+print("Montgomery:", LAST_NAME_COUNTS[145]["Montgomery"])  # White Sox
+print("Contreras:", LAST_NAME_COUNTS[111]["Contreras"])    # Red Sox
+print("Vargas:", LAST_NAME_COUNTS[145]["Vargas"])          # White Sox
+
 def get_hitting_stats():
 
     data = statsapi.get(
