@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 12, 2026 01:08 UTC",
+  "last_updated": "July 12, 2026 01:14 UTC",
   "standings": {
     "AL East": [
       {
@@ -514,7 +514,7 @@
         {
           "name": "Taylor Ward",
           "team": "BAL",
-          "value": ".386"
+          "value": ".385"
         },
         {
           "name": "Randy Arozarena",
@@ -1350,11 +1350,6 @@
           "value": ".304"
         },
         {
-          "name": "Michael Harris II",
-          "team": "ATL",
-          "value": ".301"
-        },
-        {
           "name": "Xavier Edwards",
           "team": "MIA",
           "value": ".301"
@@ -1363,6 +1358,11 @@
           "name": "Jake McCarthy",
           "team": "COL",
           "value": ".301"
+        },
+        {
+          "name": "Michael Harris II",
+          "team": "ATL",
+          "value": ".300"
         },
         {
           "name": "TJ Rumfield",
@@ -1548,14 +1548,14 @@
           "value": ".397"
         },
         {
-          "name": "Pete Crow-Armstrong",
-          "team": "CHC",
-          "value": ".385"
-        },
-        {
           "name": "Iv\u00e1n Herrera",
           "team": "STL",
           "value": ".385"
+        },
+        {
+          "name": "Pete Crow-Armstrong",
+          "team": "CHC",
+          "value": ".384"
         },
         {
           "name": "Xavier Edwards",
@@ -1617,7 +1617,7 @@
         {
           "name": "Pete Crow-Armstrong",
           "team": "CHC",
-          "value": ".535"
+          "value": ".534"
         },
         {
           "name": "Jordan Walker",
@@ -1654,7 +1654,7 @@
         {
           "name": "Pete Crow-Armstrong",
           "team": "CHC",
-          "value": ".920"
+          "value": ".918"
         },
         {
           "name": "Jordan Walker",
@@ -1963,7 +1963,7 @@
         {
           "name": "Yoshinobu Yamamoto",
           "team": "LAD",
-          "value": "2.49"
+          "value": "2.48"
         },
         {
           "name": "Chase Burns",
@@ -2109,7 +2109,7 @@
         {
           "name": "Yoshinobu Yamamoto",
           "team": "LAD",
-          "value": "0.88"
+          "value": "0.87"
         },
         {
           "name": "Foster Griffin",
