@@ -57,8 +57,6 @@ def get_hitting_stats():
 
 hitters = get_hitting_stats()
 
-LAST_NAME_COUNTS = build_last_name_counts(hitters)
-
 def build_last_name_counts(players):
 
     counts = {}
@@ -97,6 +95,8 @@ def display_name(player):
         return first[0] + last
 
     return last
+
+LAST_NAME_COUNTS = build_last_name_counts(hitters)
 
 al_hitters = [
     h for h in hitters
