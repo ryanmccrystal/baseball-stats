@@ -97,6 +97,13 @@ nl_hitters = [
 
 leaders = top12(al_hitters, "homeRuns")
 
+for h in al_hitters:
+    if h["player"]["lastName"] == "Montgomery":
+        print(
+            h["player"]["fullName"],
+            TEAM_ABBR[h["team"]["id"]]
+        )
+
 leaders = top12(al_hitters, "homeRuns")
 
 for p in leaders:
