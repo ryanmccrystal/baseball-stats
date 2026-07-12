@@ -126,8 +126,19 @@ nl_hitters = [
 
 leaders_json = {
     "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+
     "al": {
-        "homeRuns": format_text_leaderboard(al_hitters, "homeRuns")
+        "homeRuns": format_text_leaderboard(al_hitters, "homeRuns"),
+        "rbi": format_text_leaderboard(al_hitters, "rbi"),
+        "hits": format_text_leaderboard(al_hitters, "hits"),
+        "stolenBases": format_text_leaderboard(al_hitters, "stolenBases")
+    },
+
+    "nl": {
+        "homeRuns": format_text_leaderboard(nl_hitters, "homeRuns"),
+        "rbi": format_text_leaderboard(nl_hitters, "rbi"),
+        "hits": format_text_leaderboard(nl_hitters, "hits"),
+        "stolenBases": format_text_leaderboard(nl_hitters, "stolenBases")
     }
 }
 
