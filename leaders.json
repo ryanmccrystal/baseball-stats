@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12 15:16 UTC",
+  "last_updated": "2026-07-12 15:19 UTC",
   "al": {
     "homeRuns": [
       {
@@ -61,6 +61,442 @@
         "player": "Walker",
         "team": "HOU",
         "value": 20
+      }
+    ],
+    "rbi": [
+      {
+        "player": "Alvarez",
+        "team": "HOU",
+        "value": 70
+      },
+      {
+        "player": "Rice",
+        "team": "NYY",
+        "value": 66
+      },
+      {
+        "player": "Kurtz",
+        "team": "ATH",
+        "value": 66
+      },
+      {
+        "player": "Alonso",
+        "team": "BAL",
+        "value": 64
+      },
+      {
+        "player": "Aranda",
+        "team": "TBR",
+        "value": 62
+      },
+      {
+        "player": "Okamoto",
+        "team": "TOR",
+        "value": 62
+      },
+      {
+        "player": "Contreras",
+        "team": "BOS",
+        "value": 61
+      },
+      {
+        "player": "Dingler",
+        "team": "DET",
+        "value": 60
+      },
+      {
+        "player": "Bell",
+        "team": "MIN",
+        "value": 60
+      },
+      {
+        "player": "Caminero",
+        "team": "TBR",
+        "value": 59
+      },
+      {
+        "player": "Vargas",
+        "team": "CHW",
+        "value": 59
+      },
+      {
+        "player": "Burger",
+        "team": "TEX",
+        "value": 58
+      }
+    ],
+    "hits": [
+      {
+        "player": "D\u00edaz",
+        "team": "TBR",
+        "value": 109
+      },
+      {
+        "player": "Alvarez",
+        "team": "HOU",
+        "value": 109
+      },
+      {
+        "player": "Clement",
+        "team": "TOR",
+        "value": 105
+      },
+      {
+        "player": "Witt",
+        "team": "KCR",
+        "value": 101
+      },
+      {
+        "player": "Aranda",
+        "team": "TBR",
+        "value": 100
+      },
+      {
+        "player": "McGonigle",
+        "team": "DET",
+        "value": 99
+      },
+      {
+        "player": "Caminero",
+        "team": "TBR",
+        "value": 99
+      },
+      {
+        "player": "Jung",
+        "team": "TEX",
+        "value": 98
+      },
+      {
+        "player": "Greene",
+        "team": "DET",
+        "value": 98
+      },
+      {
+        "player": "Rafaela",
+        "team": "BOS",
+        "value": 95
+      },
+      {
+        "player": "Rice",
+        "team": "NYY",
+        "value": 93
+      },
+      {
+        "player": "Meidroth",
+        "team": "CHW",
+        "value": 93
+      }
+    ],
+    "stolenBases": [
+      {
+        "player": "Witt",
+        "team": "KCR",
+        "value": 30
+      },
+      {
+        "player": "Chisholm",
+        "team": "NYY",
+        "value": 26
+      },
+      {
+        "player": "Ram\u00edrez",
+        "team": "CLE",
+        "value": 24
+      },
+      {
+        "player": "Simpson",
+        "team": "TBR",
+        "value": 22
+      },
+      {
+        "player": "Caballero",
+        "team": "NYY",
+        "value": 22
+      },
+      {
+        "player": "Arozarena",
+        "team": "SEA",
+        "value": 19
+      },
+      {
+        "player": "Naylor",
+        "team": "SEA",
+        "value": 18
+      },
+      {
+        "player": "Rocchio",
+        "team": "CLE",
+        "value": 15
+      },
+      {
+        "player": "Acu\u00f1a",
+        "team": "CHW",
+        "value": 15
+      },
+      {
+        "player": "Mullins",
+        "team": "TBR",
+        "value": 14
+      },
+      {
+        "player": "Duran",
+        "team": "BOS",
+        "value": 14
+      },
+      {
+        "player": "Antonacci",
+        "team": "CHW",
+        "value": 13
+      }
+    ]
+  },
+  "nl": {
+    "homeRuns": [
+      {
+        "player": "Schwarber",
+        "team": "PHI",
+        "value": 32
+      },
+      {
+        "player": "Wood",
+        "team": "WSH",
+        "value": 27
+      },
+      {
+        "player": "Goodman",
+        "team": "COL",
+        "value": 27
+      },
+      {
+        "player": "Olson",
+        "team": "ATL",
+        "value": 25
+      },
+      {
+        "player": "Walker",
+        "team": "STL",
+        "value": 22
+      },
+      {
+        "player": "Soto",
+        "team": "NYM",
+        "value": 21
+      },
+      {
+        "player": "Crow-Armstrong",
+        "team": "CHC",
+        "value": 21
+      },
+      {
+        "player": "Ohtani",
+        "team": "LAD",
+        "value": 21
+      },
+      {
+        "player": "Lowe",
+        "team": "PIT",
+        "value": 21
+      },
+      {
+        "player": "Garc\u00eda",
+        "team": "WSH",
+        "value": 20
+      },
+      {
+        "player": "Abrams",
+        "team": "WSH",
+        "value": 20
+      },
+      {
+        "player": "Harper",
+        "team": "PHI",
+        "value": 20
+      }
+    ],
+    "rbi": [
+      {
+        "player": "Walker",
+        "team": "STL",
+        "value": 74
+      },
+      {
+        "player": "Garc\u00eda",
+        "team": "WSH",
+        "value": 68
+      },
+      {
+        "player": "Abrams",
+        "team": "WSH",
+        "value": 67
+      },
+      {
+        "player": "Burleson",
+        "team": "STL",
+        "value": 66
+      },
+      {
+        "player": "Pages",
+        "team": "LAD",
+        "value": 66
+      },
+      {
+        "player": "Stewart",
+        "team": "CIN",
+        "value": 65
+      },
+      {
+        "player": "Lowe",
+        "team": "PIT",
+        "value": 64
+      },
+      {
+        "player": "Wood",
+        "team": "WSH",
+        "value": 63
+      },
+      {
+        "player": "O'Hearn",
+        "team": "PIT",
+        "value": 61
+      },
+      {
+        "player": "Bauers",
+        "team": "MIL",
+        "value": 59
+      },
+      {
+        "player": "Hicks",
+        "team": "MIA",
+        "value": 58
+      },
+      {
+        "player": "Reynolds",
+        "team": "PIT",
+        "value": 58
+      }
+    ],
+    "hits": [
+      {
+        "player": "Lopez",
+        "team": "MIA",
+        "value": 127
+      },
+      {
+        "player": "Arraez",
+        "team": "SFG",
+        "value": 119
+      },
+      {
+        "player": "Edwards",
+        "team": "MIA",
+        "value": 105
+      },
+      {
+        "player": "Walker",
+        "team": "STL",
+        "value": 104
+      },
+      {
+        "player": "Freeman",
+        "team": "LAD",
+        "value": 103
+      },
+      {
+        "player": "Crow-Armstrong",
+        "team": "CHC",
+        "value": 103
+      },
+      {
+        "player": "Tatis",
+        "team": "SDP",
+        "value": 103
+      },
+      {
+        "player": "Gonzales",
+        "team": "PIT",
+        "value": 102
+      },
+      {
+        "player": "Marsh",
+        "team": "PHI",
+        "value": 102
+      },
+      {
+        "player": "Wood",
+        "team": "WSH",
+        "value": 102
+      },
+      {
+        "player": "Lee",
+        "team": "SFG",
+        "value": 100
+      },
+      {
+        "player": "Harris",
+        "team": "ATL",
+        "value": 99
+      }
+    ],
+    "stolenBases": [
+      {
+        "player": "Nu\u00f1ez",
+        "team": "WSH",
+        "value": 33
+      },
+      {
+        "player": "Crow-Armstrong",
+        "team": "CHC",
+        "value": 23
+      },
+      {
+        "player": "Tatis",
+        "team": "SDP",
+        "value": 23
+      },
+      {
+        "player": "Cruz",
+        "team": "PIT",
+        "value": 21
+      },
+      {
+        "player": "Griffin",
+        "team": "PIT",
+        "value": 20
+      },
+      {
+        "player": "Ruiz",
+        "team": "MIA",
+        "value": 20
+      },
+      {
+        "player": "Merrill",
+        "team": "SDP",
+        "value": 19
+      },
+      {
+        "player": "Marsee",
+        "team": "MIA",
+        "value": 19
+      },
+      {
+        "player": "Mangum",
+        "team": "PIT",
+        "value": 18
+      },
+      {
+        "player": "Hamilton",
+        "team": "MIL",
+        "value": 18
+      },
+      {
+        "player": "Lopez",
+        "team": "MIA",
+        "value": 17
+      },
+      {
+        "player": "Stott",
+        "team": "PHI",
+        "value": 17
       }
     ]
   }
