@@ -80,9 +80,9 @@
     {
       "gamePk": 822875,
       "winner_name": "Astros",
-      "winner_score": 7,
+      "winner_score": 9,
       "loser_name": "Rangers",
-      "loser_score": 1
+      "loser_score": 3
     },
     {
       "gamePk": 824492,
@@ -101,16 +101,16 @@
     {
       "gamePk": 823276,
       "winner_name": "Padres",
-      "winner_score": 2,
+      "winner_score": 8,
       "loser_name": "Blue Jays",
-      "loser_score": 2
+      "loser_score": 7
     },
     {
       "gamePk": 823926,
-      "winner_name": "Dodgers",
-      "winner_score": 0,
-      "loser_name": "DBacks",
-      "loser_score": 0
+      "winner_name": "DBacks",
+      "winner_score": 9,
+      "loser_name": "Dodgers",
+      "loser_score": 2
     }
   ],
   "today_games": [
@@ -371,10 +371,24 @@
       "away_name": "Astros",
       "home_name": "Rangers",
       "game_time": "2026-07-12T18:35:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "TBD",
-      "away_stats": null,
-      "home_stats": null
+      "away_pitcher": "Cristian Javier",
+      "home_pitcher": "MacKenzie Gore",
+      "away_stats": {
+        "wins": 0,
+        "losses": 1,
+        "era": "10.22",
+        "k9": "5.8",
+        "hand": "R",
+        "team_record": "1-2"
+      },
+      "home_stats": {
+        "wins": 5,
+        "losses": 8,
+        "era": "4.72",
+        "k9": "9.9",
+        "hand": "L",
+        "team_record": "8-11"
+      }
     },
     {
       "away_name": "Rockies",
