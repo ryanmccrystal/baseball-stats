@@ -1,4 +1,5 @@
 import json
+from collections import Counter
 from datetime import datetime
 
 import statsapi
@@ -38,6 +39,37 @@ TEAM_ABBR = {
     158: "MIL"
 }
 
+def build_last_name_counts():
+
+    counts = {}
+
+    teams = statsapi.get(
+        "teams",
+        {"sportIds": 1}
+    )["teams"]
+
+    for team in teams:
+
+        roster = statsapi.get(
+            "team_roster",
+            {
+                "teamId": team["id"],
+                "rosterType": "active"
+            }
+        )["roster"]
+
+        counter = Counter()
+
+        for player in roster:
+            last = player["person"]["fullName"].split()[-1]
+            counter[last] += 1
+
+        counts[team["id"]] = counter
+
+    return counts
+
+LAST_NAME_COUNTS = build_last_name_counts()
+
 def get_hitting_stats():
 
     data = statsapi.get(
@@ -69,21 +101,16 @@ def top12(players, stat):
         reverse=True
     )[:12]
 
-def display_name(player, players):
+def display_name(player):
 
     last = player["player"]["lastName"]
+    first = player["player"]["firstName"]
     team = player["team"]["id"]
 
-    matches = [
-        p for p in players
-        if p["team"]["id"] == team
-        and p["player"]["lastName"] == last
-    ]
-
-    if len(matches) == 1:
+    if LAST_NAME_COUNTS[team][last] == 1:
         return last
 
-    return player["player"]["firstName"][0] + last
+    return first[0] + last
 
 al_hitters = [
     h for h in hitters
@@ -106,10 +133,8 @@ for h in al_hitters:
 
 leaders = top12(al_hitters, "homeRuns")
 
-for p in leaders:
-
-    print(
-        display_name(p, al_hitters),
-        TEAM_ABBR[p["team"]["id"]],
-        p["stat"]["homeRuns"]
-    )
+print(
+    display_name(p),
+    TEAM_ABBR[p["team"]["id"]],
+    p["stat"]["homeRuns"]
+)
