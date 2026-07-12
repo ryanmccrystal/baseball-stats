@@ -61,6 +61,10 @@ def build_last_name_counts():
         counter = Counter()
 
         for player in roster:
+
+            if team["id"] == 142:   # Minnesota Twins
+                print(player)
+
             last = player["person"]["fullName"].split()[-1]
             counter[last] += 1
 
