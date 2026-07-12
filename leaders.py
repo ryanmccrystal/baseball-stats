@@ -124,9 +124,6 @@ nl_hitters = [
     if h["league"]["id"] == 104
 ]
 
-
-    return results
-
 leaders_json = {
     "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
     "al": {
