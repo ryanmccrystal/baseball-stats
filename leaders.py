@@ -69,6 +69,22 @@ def top12(players, stat):
         reverse=True
     )[:12]
 
+def display_name(player, players):
+
+    last = player["player"]["lastName"]
+    team = player["team"]["id"]
+
+    matches = [
+        p for p in players
+        if p["team"]["id"] == team
+        and p["player"]["lastName"] == last
+    ]
+
+    if len(matches) == 1:
+        return last
+
+    return player["player"]["firstName"][0] + last
+
 al_hitters = [
     h for h in hitters
     if h["league"]["id"] == 103
@@ -84,8 +100,9 @@ leaders = top12(al_hitters, "homeRuns")
 leaders = top12(al_hitters, "homeRuns")
 
 for p in leaders:
+
     print(
-        p["player"]["fullName"],
-        p["team"]["name"],
+        display_name(p, al_hitters),
+        TEAM_ABBR[p["team"]["id"]],
         p["stat"]["homeRuns"]
     )
