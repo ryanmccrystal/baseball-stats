@@ -112,10 +112,12 @@ print(len(hitters))
 
 leaders = top12(al_hitters, "homeRuns")
 
+print(len(hitters))
+
 for p in leaders:
 
     print(
-        p["player"]["fullName"],
+        display_name(p),
         TEAM_ABBR[p["team"]["id"]],
         p["stat"]["homeRuns"]
     )
