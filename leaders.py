@@ -112,8 +112,6 @@ print(len(hitters))
 
 leaders = top12(al_hitters, "homeRuns")
 
-print(len(hitters))
-
 for p in leaders:
 
     print(
