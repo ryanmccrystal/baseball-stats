@@ -78,9 +78,24 @@
         }
 
         #standings-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .league-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-            gap: 30px;
+            grid-template-columns: 2fr 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+
+        @media (max-width: 900px) {
+
+            .league-grid {
+                grid-template-columns: 1fr;
+            }
+
         }
 
         #standings-grid h2 {
@@ -167,12 +182,26 @@
 
 <div id="standings-grid">
 
-    <div id="al-standings">
-        <h2>American League Standings</h2>
+    <div class="league-grid">
+
+        <div id="al-standings">
+            <h2>American League Standings</h2>
+        </div>
+
+        <div id="al-leaders">
+        </div>
+
     </div>
 
-    <div id="nl-standings">
-        <h2>National League Standings</h2>
+    <div class="league-grid">
+
+        <div id="nl-standings">
+            <h2>National League Standings</h2>
+        </div>
+
+        <div id="nl-leaders">
+        </div>
+
     </div>
 
 </div>
@@ -402,10 +431,10 @@ fetch('./leaders.json')
     .then(data => {
 
         const al =
-            document.getElementById("al-standings");
+            document.getElementById("al-leaders");
 
         const nl =
-            document.getElementById("nl-standings");
+            document.getElementById("nl-leaders");
 
         al.innerHTML += createBattingAverageTable(
             "American League Leaders",
