@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 15:02 UTC",
+  "last_updated": "2026-07-13 15:11 UTC",
   "al": {
     "battingAverage": [
       {
@@ -363,112 +363,112 @@
   "nl": {
     "battingAverage": [
       {
-        "player": "D\u00edaz",
-        "team": "TBR",
-        "games": 90,
-        "ab": 345,
-        "runs": 51,
-        "hits": 111,
-        "avg": ".322"
+        "player": "Lopez",
+        "team": "MIA",
+        "games": 95,
+        "ab": 380,
+        "runs": 61,
+        "hits": 127,
+        "avg": ".334"
       },
       {
-        "player": "Alvarez",
-        "team": "HOU",
-        "games": 96,
-        "ab": 349,
-        "runs": 65,
-        "hits": 111,
-        "avg": ".318"
-      },
-      {
-        "player": "Jung",
-        "team": "TEX",
-        "games": 87,
-        "ab": 336,
-        "runs": 45,
-        "hits": 100,
-        "avg": ".298"
-      },
-      {
-        "player": "Aranda",
-        "team": "TBR",
-        "games": 93,
-        "ab": 340,
+        "player": "Arraez",
+        "team": "SFG",
+        "games": 91,
+        "ab": 361,
         "runs": 48,
-        "hits": 101,
-        "avg": ".297"
+        "hits": 119,
+        "avg": ".330"
       },
       {
-        "player": "Clement",
-        "team": "TOR",
-        "games": 93,
-        "ab": 358,
-        "runs": 42,
-        "hits": 106,
+        "player": "Gonzales",
+        "team": "PIT",
+        "games": 91,
+        "ab": 338,
+        "runs": 51,
+        "hits": 104,
+        "avg": ".308"
+      },
+      {
+        "player": "Edwards",
+        "team": "MIA",
+        "games": 97,
+        "ab": 353,
+        "runs": 50,
+        "hits": 107,
+        "avg": ".303"
+      },
+      {
+        "player": "Lee",
+        "team": "SFG",
+        "games": 88,
+        "ab": 331,
+        "runs": 46,
+        "hits": 100,
+        "avg": ".302"
+      },
+      {
+        "player": "McCarthy",
+        "team": "COL",
+        "games": 83,
+        "ab": 279,
+        "runs": 39,
+        "hits": 84,
+        "avg": ".301"
+      },
+      {
+        "player": "Marsh",
+        "team": "PHI",
+        "games": 92,
+        "ab": 339,
+        "runs": 52,
+        "hits": 102,
+        "avg": ".301"
+      },
+      {
+        "player": "Johnston",
+        "team": "COL",
+        "games": 87,
+        "ab": 276,
+        "runs": 33,
+        "hits": 83,
+        "avg": ".301"
+      },
+      {
+        "player": "Harris",
+        "team": "ATL",
+        "games": 89,
+        "ab": 334,
+        "runs": 45,
+        "hits": 99,
         "avg": ".296"
       },
       {
-        "player": "Greene",
-        "team": "DET",
+        "player": "Rumfield",
+        "team": "COL",
         "games": 95,
-        "ab": 344,
-        "runs": 48,
+        "ab": 335,
+        "runs": 42,
         "hits": 99,
-        "avg": ".288"
+        "avg": ".296"
       },
       {
-        "player": "Antonacci",
-        "team": "CHW",
-        "games": 75,
-        "ab": 261,
-        "runs": 48,
-        "hits": 75,
-        "avg": ".287"
-      },
-      {
-        "player": "Arozarena",
-        "team": "SEA",
-        "games": 89,
-        "ab": 325,
-        "runs": 59,
-        "hits": 93,
-        "avg": ".286"
-      },
-      {
-        "player": "Witt",
-        "team": "KCR",
-        "games": 91,
-        "ab": 360,
-        "runs": 51,
-        "hits": 103,
-        "avg": ".286"
-      },
-      {
-        "player": "Contreras",
-        "team": "BOS",
-        "games": 88,
-        "ab": 312,
-        "runs": 46,
-        "hits": 89,
-        "avg": ".285"
-      },
-      {
-        "player": "McGonigle",
-        "team": "DET",
+        "player": "Walker",
+        "team": "STL",
         "games": 93,
-        "ab": 350,
-        "runs": 58,
-        "hits": 99,
-        "avg": ".283"
+        "ab": 357,
+        "runs": 62,
+        "hits": 105,
+        "avg": ".294"
       },
       {
-        "player": "Rafaela",
-        "team": "BOS",
-        "games": 90,
-        "ab": 342,
-        "runs": 41,
-        "hits": 96,
-        "avg": ".281"
+        "player": "Ohtani",
+        "team": "LAD",
+        "games": 92,
+        "ab": 335,
+        "runs": 65,
+        "hits": 98,
+        "avg": ".293"
       }
     ],
     "homeRuns": [
