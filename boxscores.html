@@ -499,7 +499,28 @@ fetch('./leaders.json')
             createTextLeaderboard(
                 "Stolen Bases",
                 data.al.stolenBases
+            ) +
+            createTextLeaderboard(
+                "Wins",
+                data.al.wins
+            )
+            +
+            createTextLeaderboard(
+                "ERA",
+                data.al.era
+            )
+            +
+            createTextLeaderboard(
+                "Saves",
+                data.al.saves
+            )
+            +
+            createTextLeaderboard(
+                "Holds",
+                data.al.holds
             );
+
+            
 
         nl.innerHTML +=
             createBattingAverageTable(
@@ -521,6 +542,26 @@ fetch('./leaders.json')
             createTextLeaderboard(
                 "Stolen Bases",
                 data.nl.stolenBases
+            )  +
+
+            createTextLeaderboard(
+                "Wins",
+                data.nl.wins
+            )
+            +
+            createTextLeaderboard(
+                "ERA",
+                data.nl.era
+            )
+            +
+            createTextLeaderboard(
+                "Saves",
+                data.nl.saves
+            )
+            +
+            createTextLeaderboard(
+                "Holds",
+                data.nl.holds
             );
 
     });
