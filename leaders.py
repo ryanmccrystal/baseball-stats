@@ -187,7 +187,7 @@ leaders_json = {
     },
 
     "nl": {
-        "battingAverage": format_batting_average_table(qualified_al_hitters),
+        "battingAverage": format_batting_average_table(qualified_nl_hitters),
         "homeRuns": format_text_leaderboard(nl_hitters, "homeRuns"),
         "rbi": format_text_leaderboard(nl_hitters, "rbi"),
         "hits": format_text_leaderboard(nl_hitters, "hits"),
