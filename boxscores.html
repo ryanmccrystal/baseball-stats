@@ -479,55 +479,49 @@ fetch('./leaders.json')
         const nl =
             document.getElementById("nl-leaders");
 
-        al.innerHTML += createBattingAverageTable(
-            "American League Leaders",
-            data.al.battingAverage
-        );
+        al.innerHTML +=
+            createBattingAverageTable(
+                "American League Leaders",
+                data.al.battingAverage
+            ) +
+            createTextLeaderboard(
+                "Home Runs",
+                data.al.homeRuns
+            ) +
+            createTextLeaderboard(
+                "RBI",
+                data.al.rbi
+            ) +
+            createTextLeaderboard(
+                "Hits",
+                data.al.hits
+            ) +
+            createTextLeaderboard(
+                "Stolen Bases",
+                data.al.stolenBases
+            );
 
-        createTextLeaderboard(
-            "Home Runs",
-            data.al.homeRuns
-        ) +
-
-        createTextLeaderboard(
-            "RBI",
-            data.al.rbi
-        ) +
-
-        createTextLeaderboard(
-            "Hits",
-            data.al.hits
-        ) +
-
-        createTextLeaderboard(
-            "Stolen Bases",
-            data.al.stolenBases
-        );
-
-        nl.innerHTML += createBattingAverageTable(
-            "National League Leaders",
-            data.nl.battingAverage
-        );
-
-         createTextLeaderboard(
-            "Home Runs",
-            data.nl.homeRuns
-        ) +
-
-        createTextLeaderboard(
-            "RBI",
-            data.nl.rbi
-        ) +
-
-        createTextLeaderboard(
-            "Hits",
-            data.nl.hits
-        ) +
-
-        createTextLeaderboard(
-            "Stolen Bases",
-            data.nl.stolenBases
-        );
+        nl.innerHTML +=
+            createBattingAverageTable(
+                "National League Leaders",
+                data.nl.battingAverage
+            ) +
+            createTextLeaderboard(
+                "Home Runs",
+                data.nl.homeRuns
+            ) +
+            createTextLeaderboard(
+                "RBI",
+                data.nl.rbi
+            ) +
+            createTextLeaderboard(
+                "Hits",
+                data.nl.hits
+            ) +
+            createTextLeaderboard(
+                "Stolen Bases",
+                data.nl.stolenBases
+            );
 
     });
 
