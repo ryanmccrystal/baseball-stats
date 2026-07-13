@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 17:56 UTC",
+  "last_updated": "2026-07-13 02:33 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -357,6 +357,68 @@
         "player": "Antonacci",
         "team": "CHW",
         "value": 13
+      }
+    ],
+    "era": [
+      {
+        "player": "Schlittler",
+        "team": "NYY",
+        "value": "2.05"
+      },
+      {
+        "player": "Gray",
+        "team": "BOS",
+        "value": "2.54"
+      },
+      {
+        "player": "Cease",
+        "team": "TOR",
+        "value": "2.56"
+      },
+      {
+        "player": "Martinez",
+        "team": "TBR",
+        "value": "2.65"
+      },
+      {
+        "player": "Messick",
+        "team": "CLE",
+        "value": "2.73"
+      },
+      {
+        "player": "Ryan",
+        "team": "MIN",
+        "value": "2.85"
+      },
+      {
+        "player": "Hancock",
+        "team": "SEA",
+        "value": "3.17"
+      },
+      {
+        "player": "Rasmussen",
+        "team": "TBR",
+        "value": "3.26"
+      },
+      {
+        "player": "Gilbert",
+        "team": "SEA",
+        "value": "3.32"
+      },
+      {
+        "player": "Montero",
+        "team": "DET",
+        "value": "3.33"
+      },
+      {
+        "player": "Burke",
+        "team": "CHW",
+        "value": "3.41"
+      },
+      {
+        "player": "Martin",
+        "team": "CHW",
+        "value": "3.41"
       }
     ],
     "wins": [
@@ -903,6 +965,68 @@
         "player": "Stott",
         "team": "PHI",
         "value": 17
+      }
+    ],
+    "era": [
+      {
+        "player": "Misiorowski",
+        "team": "MIL",
+        "value": "1.62"
+      },
+      {
+        "player": "Sale",
+        "team": "ATL",
+        "value": "2.20"
+      },
+      {
+        "player": "Rodriguez",
+        "team": "ARI",
+        "value": "2.29"
+      },
+      {
+        "player": "Burns",
+        "team": "CIN",
+        "value": "2.54"
+      },
+      {
+        "player": "Meyer",
+        "team": "MIA",
+        "value": "2.58"
+      },
+      {
+        "player": "S\u00e1nchez",
+        "team": "PHI",
+        "value": "2.62"
+      },
+      {
+        "player": "Wrobleski",
+        "team": "LAD",
+        "value": "2.69"
+      },
+      {
+        "player": "Griffin",
+        "team": "WSH",
+        "value": "2.77"
+      },
+      {
+        "player": "Yamamoto",
+        "team": "LAD",
+        "value": "2.85"
+      },
+      {
+        "player": "McGreevy",
+        "team": "STL",
+        "value": "3.01"
+      },
+      {
+        "player": "Ray",
+        "team": "SFG",
+        "value": "3.38"
+      },
+      {
+        "player": "King",
+        "team": "SDP",
+        "value": "3.41"
       }
     ],
     "wins": [
