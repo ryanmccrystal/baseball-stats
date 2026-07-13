@@ -55,6 +55,22 @@ def get_hitting_stats():
 
     return data["stats"][0]["splits"]
 
+def get_pitching_stats():
+
+    data = statsapi.get(
+        "stats",
+        {
+            "stats": "season",
+            "group": "pitching",
+            "season": SEASON,
+            "sportIds": 1,
+            "playerPool": "ALL",
+            "limit": 999
+        }
+    )
+
+    return data["stats"][0]["splits"]
+
 def get_team_games():
 
     standings = statsapi.get(
@@ -75,6 +91,8 @@ def get_team_games():
     return games
 
 hitters = get_hitting_stats()
+
+pitchers = get_pitching_stats()
 
 TEAM_GAMES = get_team_games()
 
@@ -153,7 +171,9 @@ def format_batting_average_table(players):
 
     return results
 
-LAST_NAME_COUNTS = build_last_name_counts(hitters)
+LAST_NAME_COUNTS = build_last_name_counts(
+    hitters + pitchers
+)
 
 al_hitters = [
     h for h in hitters
@@ -163,6 +183,16 @@ al_hitters = [
 nl_hitters = [
     h for h in hitters
     if h["league"]["id"] == 104
+]
+
+al_pitchers = [
+    p for p in pitchers
+    if p["league"]["id"] == 103
+]
+
+nl_pitchers = [
+    p for p in pitchers
+    if p["league"]["id"] == 104
 ]
 
 qualified_al_hitters = [
@@ -184,6 +214,9 @@ leaders_json = {
         "rbi": format_text_leaderboard(al_hitters, "rbi"),
         "hits": format_text_leaderboard(al_hitters, "hits"),
         "stolenBases": format_text_leaderboard(al_hitters, "stolenBases")
+        "wins": format_text_leaderboard(al_pitchers, "wins"),
+        "saves": format_text_leaderboard(al_pitchers, "saves"),
+        "holds": format_text_leaderboard(al_pitchers, "holds"),
     },
 
     "nl": {
@@ -192,6 +225,9 @@ leaders_json = {
         "rbi": format_text_leaderboard(nl_hitters, "rbi"),
         "hits": format_text_leaderboard(nl_hitters, "hits"),
         "stolenBases": format_text_leaderboard(nl_hitters, "stolenBases")
+        "wins": format_text_leaderboard(nl_pitchers, "wins"),
+        "saves": format_text_leaderboard(nl_pitchers, "saves"),
+        "holds": format_text_leaderboard(nl_pitchers, "holds"),
     }
 }
 
