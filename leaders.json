@@ -1,6 +1,116 @@
 {
-  "last_updated": "2026-07-13 11:10 UTC",
+  "last_updated": "2026-07-13 13:48 UTC",
   "al": {
+    "battingAverage": [
+      {
+        "player": "D\u00edaz",
+        "team": "TBR",
+        "games": 90,
+        "ab": 345,
+        "runs": 51,
+        "hits": 111,
+        "avg": ".322"
+      },
+      {
+        "player": "Alvarez",
+        "team": "HOU",
+        "games": 96,
+        "ab": 349,
+        "runs": 65,
+        "hits": 111,
+        "avg": ".318"
+      },
+      {
+        "player": "Alexander",
+        "team": "BAL",
+        "games": 82,
+        "ab": 221,
+        "runs": 31,
+        "hits": 69,
+        "avg": ".312"
+      },
+      {
+        "player": "Peters",
+        "team": "CHW",
+        "games": 91,
+        "ab": 249,
+        "runs": 37,
+        "hits": 75,
+        "avg": ".301"
+      },
+      {
+        "player": "Jung",
+        "team": "TEX",
+        "games": 87,
+        "ab": 336,
+        "runs": 45,
+        "hits": 100,
+        "avg": ".298"
+      },
+      {
+        "player": "Aranda",
+        "team": "TBR",
+        "games": 93,
+        "ab": 340,
+        "runs": 48,
+        "hits": 101,
+        "avg": ".297"
+      },
+      {
+        "player": "Clement",
+        "team": "TOR",
+        "games": 93,
+        "ab": 358,
+        "runs": 42,
+        "hits": 106,
+        "avg": ".296"
+      },
+      {
+        "player": "Larnach",
+        "team": "MIN",
+        "games": 80,
+        "ab": 253,
+        "runs": 44,
+        "hits": 73,
+        "avg": ".289"
+      },
+      {
+        "player": "Greene",
+        "team": "DET",
+        "games": 95,
+        "ab": 344,
+        "runs": 48,
+        "hits": 99,
+        "avg": ".288"
+      },
+      {
+        "player": "Antonacci",
+        "team": "CHW",
+        "games": 75,
+        "ab": 261,
+        "runs": 48,
+        "hits": 75,
+        "avg": ".287"
+      },
+      {
+        "player": "Arozarena",
+        "team": "SEA",
+        "games": 89,
+        "ab": 325,
+        "runs": 59,
+        "hits": 93,
+        "avg": ".286"
+      },
+      {
+        "player": "Witt",
+        "team": "KCR",
+        "games": 91,
+        "ab": 360,
+        "runs": 51,
+        "hits": 103,
+        "avg": ".286"
+      }
+    ],
     "homeRuns": [
       {
         "player": "Alvarez",
@@ -251,6 +361,116 @@
     ]
   },
   "nl": {
+    "battingAverage": [
+      {
+        "player": "D\u00edaz",
+        "team": "TBR",
+        "games": 90,
+        "ab": 345,
+        "runs": 51,
+        "hits": 111,
+        "avg": ".322"
+      },
+      {
+        "player": "Alvarez",
+        "team": "HOU",
+        "games": 96,
+        "ab": 349,
+        "runs": 65,
+        "hits": 111,
+        "avg": ".318"
+      },
+      {
+        "player": "Alexander",
+        "team": "BAL",
+        "games": 82,
+        "ab": 221,
+        "runs": 31,
+        "hits": 69,
+        "avg": ".312"
+      },
+      {
+        "player": "Peters",
+        "team": "CHW",
+        "games": 91,
+        "ab": 249,
+        "runs": 37,
+        "hits": 75,
+        "avg": ".301"
+      },
+      {
+        "player": "Jung",
+        "team": "TEX",
+        "games": 87,
+        "ab": 336,
+        "runs": 45,
+        "hits": 100,
+        "avg": ".298"
+      },
+      {
+        "player": "Aranda",
+        "team": "TBR",
+        "games": 93,
+        "ab": 340,
+        "runs": 48,
+        "hits": 101,
+        "avg": ".297"
+      },
+      {
+        "player": "Clement",
+        "team": "TOR",
+        "games": 93,
+        "ab": 358,
+        "runs": 42,
+        "hits": 106,
+        "avg": ".296"
+      },
+      {
+        "player": "Larnach",
+        "team": "MIN",
+        "games": 80,
+        "ab": 253,
+        "runs": 44,
+        "hits": 73,
+        "avg": ".289"
+      },
+      {
+        "player": "Greene",
+        "team": "DET",
+        "games": 95,
+        "ab": 344,
+        "runs": 48,
+        "hits": 99,
+        "avg": ".288"
+      },
+      {
+        "player": "Antonacci",
+        "team": "CHW",
+        "games": 75,
+        "ab": 261,
+        "runs": 48,
+        "hits": 75,
+        "avg": ".287"
+      },
+      {
+        "player": "Arozarena",
+        "team": "SEA",
+        "games": 89,
+        "ab": 325,
+        "runs": 59,
+        "hits": 93,
+        "avg": ".286"
+      },
+      {
+        "player": "Witt",
+        "team": "KCR",
+        "games": 91,
+        "ab": 360,
+        "runs": 51,
+        "hits": 103,
+        "avg": ".286"
+      }
+    ],
     "homeRuns": [
       {
         "player": "Schwarber",
