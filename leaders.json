@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13 13:48 UTC",
+  "last_updated": "2026-07-13 13:55 UTC",
   "al": {
     "battingAverage": [
       {
@@ -19,24 +19,6 @@
         "runs": 65,
         "hits": 111,
         "avg": ".318"
-      },
-      {
-        "player": "Alexander",
-        "team": "BAL",
-        "games": 82,
-        "ab": 221,
-        "runs": 31,
-        "hits": 69,
-        "avg": ".312"
-      },
-      {
-        "player": "Peters",
-        "team": "CHW",
-        "games": 91,
-        "ab": 249,
-        "runs": 37,
-        "hits": 75,
-        "avg": ".301"
       },
       {
         "player": "Jung",
@@ -64,15 +46,6 @@
         "runs": 42,
         "hits": 106,
         "avg": ".296"
-      },
-      {
-        "player": "Larnach",
-        "team": "MIN",
-        "games": 80,
-        "ab": 253,
-        "runs": 44,
-        "hits": 73,
-        "avg": ".289"
       },
       {
         "player": "Greene",
@@ -109,6 +82,33 @@
         "runs": 51,
         "hits": 103,
         "avg": ".286"
+      },
+      {
+        "player": "Contreras",
+        "team": "BOS",
+        "games": 88,
+        "ab": 312,
+        "runs": 46,
+        "hits": 89,
+        "avg": ".285"
+      },
+      {
+        "player": "McGonigle",
+        "team": "DET",
+        "games": 93,
+        "ab": 350,
+        "runs": 58,
+        "hits": 99,
+        "avg": ".283"
+      },
+      {
+        "player": "Rafaela",
+        "team": "BOS",
+        "games": 90,
+        "ab": 342,
+        "runs": 41,
+        "hits": 96,
+        "avg": ".281"
       }
     ],
     "homeRuns": [
@@ -381,24 +381,6 @@
         "avg": ".318"
       },
       {
-        "player": "Alexander",
-        "team": "BAL",
-        "games": 82,
-        "ab": 221,
-        "runs": 31,
-        "hits": 69,
-        "avg": ".312"
-      },
-      {
-        "player": "Peters",
-        "team": "CHW",
-        "games": 91,
-        "ab": 249,
-        "runs": 37,
-        "hits": 75,
-        "avg": ".301"
-      },
-      {
         "player": "Jung",
         "team": "TEX",
         "games": 87,
@@ -424,15 +406,6 @@
         "runs": 42,
         "hits": 106,
         "avg": ".296"
-      },
-      {
-        "player": "Larnach",
-        "team": "MIN",
-        "games": 80,
-        "ab": 253,
-        "runs": 44,
-        "hits": 73,
-        "avg": ".289"
       },
       {
         "player": "Greene",
@@ -469,6 +442,33 @@
         "runs": 51,
         "hits": 103,
         "avg": ".286"
+      },
+      {
+        "player": "Contreras",
+        "team": "BOS",
+        "games": 88,
+        "ab": 312,
+        "runs": 46,
+        "hits": 89,
+        "avg": ".285"
+      },
+      {
+        "player": "McGonigle",
+        "team": "DET",
+        "games": 93,
+        "ab": 350,
+        "runs": 58,
+        "hits": 99,
+        "avg": ".283"
+      },
+      {
+        "player": "Rafaela",
+        "team": "BOS",
+        "games": 90,
+        "ab": 342,
+        "runs": 41,
+        "hits": 96,
+        "avg": ".281"
       }
     ],
     "homeRuns": [
