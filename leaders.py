@@ -113,20 +113,22 @@ def build_last_name_counts(players):
 
     return counts
 
-if stat == "era":
+def top12(players, stat):
 
-    qualified = [
-        p for p in players
-        if (
-            p["stat"]["era"] != "-.--"
-            and float(p["stat"]["inningsPitched"]) >= TEAM_GAMES[p["team"]["id"]]
-        )
-    ]
+    if stat == "era":
 
-    return sorted(
-        qualified,
-        key=lambda p: float(p["stat"]["era"])
-    )[:12]
+        qualified = [
+            p for p in players
+            if (
+                p["stat"]["era"] != "-.--"
+                and float(p["stat"]["inningsPitched"]) >= TEAM_GAMES[p["team"]["id"]]
+            )
+        ]
+
+        return sorted(
+            qualified,
+            key=lambda p: float(p["stat"]["era"])
+        )[:12]
 
     return sorted(
         players,
