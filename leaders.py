@@ -49,13 +49,34 @@ def get_hitting_stats():
             "season": SEASON,
             "sportIds": 1,
             "playerPool": "ALL",
-            "limit": 500
+            "limit": 999
         }
     )
 
     return data["stats"][0]["splits"]
 
+def get_team_games():
+
+    standings = statsapi.get(
+        "standings",
+        {
+            "leagueId": "103,104",
+            "season": SEASON,
+            "standingsTypes": "regularSeason"
+        }
+    )
+
+    games = {}
+
+    for record in standings["records"]:
+        for team in record["teamRecords"]:
+            games[team["team"]["id"]] = team["gamesPlayed"]
+
+    return games
+
 hitters = get_hitting_stats()
+
+TEAM_GAMES = get_team_games()
 
 def build_last_name_counts(players):
 
@@ -146,12 +167,12 @@ nl_hitters = [
 
 qualified_al_hitters = [
     h for h in al_hitters
-    if h["stat"]["atBats"] >= 200
+    if h["stat"]["plateAppearances"] >= TEAM_GAMES[h["team"]["id"]] * 3.1
 ]
 
 qualified_nl_hitters = [
     h for h in nl_hitters
-    if h["stat"]["atBats"] >= 200
+    if h["stat"]["plateAppearances"] >= TEAM_GAMES[h["team"]["id"]] * 3.1
 ]
 
 leaders_json = {
