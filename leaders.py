@@ -112,6 +112,26 @@ def format_text_leaderboard(players, stat_key):
 
     return results
 
+def format_batting_average_table(players):
+
+    leaders = top12(players, "avg")
+
+    results = []
+
+    for p in leaders:
+
+        results.append({
+            "player": display_name(p),
+            "team": TEAM_ABBR[p["team"]["id"]],
+            "games": p["stat"]["gamesPlayed"],
+            "ab": p["stat"]["atBats"],
+            "runs": p["stat"]["runs"],
+            "hits": p["stat"]["hits"],
+            "avg": p["stat"]["avg"]
+        })
+
+    return results
+
 LAST_NAME_COUNTS = build_last_name_counts(hitters)
 
 al_hitters = [
@@ -124,10 +144,21 @@ nl_hitters = [
     if h["league"]["id"] == 104
 ]
 
+qualified_al_hitters = [
+    h for h in al_hitters
+    if h["stat"]["atBats"] >= 200
+]
+
+qualified_nl_hitters = [
+    h for h in nl_hitters
+    if h["stat"]["atBats"] >= 200
+]
+
 leaders_json = {
     "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
 
     "al": {
+        "battingAverage": format_batting_average_table(qualified_al_hitters),
         "homeRuns": format_text_leaderboard(al_hitters, "homeRuns"),
         "rbi": format_text_leaderboard(al_hitters, "rbi"),
         "hits": format_text_leaderboard(al_hitters, "hits"),
@@ -135,6 +166,7 @@ leaders_json = {
     },
 
     "nl": {
+        "battingAverage": format_batting_average_table(qualified_al_hitters),
         "homeRuns": format_text_leaderboard(nl_hitters, "homeRuns"),
         "rbi": format_text_leaderboard(nl_hitters, "rbi"),
         "hits": format_text_leaderboard(nl_hitters, "hits"),
