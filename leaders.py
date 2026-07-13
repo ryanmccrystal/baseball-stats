@@ -1,6 +1,7 @@
 import json
 from collections import Counter
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import statsapi
 
@@ -114,6 +115,12 @@ def build_last_name_counts(players):
 
 def top12(players, stat):
 
+    if stat == "era":
+        return sorted(
+            players,
+            key=lambda p: float(p["stat"][stat])
+        )[:12]
+
     return sorted(
         players,
         key=lambda p: (
@@ -206,7 +213,9 @@ qualified_nl_hitters = [
 ]
 
 leaders_json = {
-    "last_updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
+    "last_updated": datetime.now(
+        ZoneInfo("America/New_York")
+    ).strftime("%Y-%m-%d %I:%M %p %Z"),
 
     "al": {
         "battingAverage": format_batting_average_table(qualified_al_hitters),
