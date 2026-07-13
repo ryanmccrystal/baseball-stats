@@ -213,7 +213,7 @@ leaders_json = {
         "homeRuns": format_text_leaderboard(al_hitters, "homeRuns"),
         "rbi": format_text_leaderboard(al_hitters, "rbi"),
         "hits": format_text_leaderboard(al_hitters, "hits"),
-        "stolenBases": format_text_leaderboard(al_hitters, "stolenBases")
+        "stolenBases": format_text_leaderboard(al_hitters, "stolenBases"),
         "wins": format_text_leaderboard(al_pitchers, "wins"),
         "saves": format_text_leaderboard(al_pitchers, "saves"),
         "holds": format_text_leaderboard(al_pitchers, "holds"),
@@ -224,7 +224,7 @@ leaders_json = {
         "homeRuns": format_text_leaderboard(nl_hitters, "homeRuns"),
         "rbi": format_text_leaderboard(nl_hitters, "rbi"),
         "hits": format_text_leaderboard(nl_hitters, "hits"),
-        "stolenBases": format_text_leaderboard(nl_hitters, "stolenBases")
+        "stolenBases": format_text_leaderboard(nl_hitters, "stolenBases"),
         "wins": format_text_leaderboard(nl_pitchers, "wins"),
         "saves": format_text_leaderboard(nl_pitchers, "saves"),
         "holds": format_text_leaderboard(nl_pitchers, "holds"),
