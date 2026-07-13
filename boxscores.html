@@ -273,6 +273,51 @@ function createStandingsTable(title, teams, isWildCard = false) {
 
 }
 
+function createBattingAverageTable(title, players) {
+
+    let html = `
+        <div class="league-title">${title}</div>
+
+        <div class="division-title">Batting Average</div>
+
+        <table class="standings-table leaders-table">
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>G</th>
+                    <th>AB</th>
+                    <th>R</th>
+                    <th>H</th>
+                    <th>BA</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+
+    players.forEach(player => {
+
+        html += `
+            <tr>
+                <td>${player.player}, ${player.team}</td>
+                <td>${player.games}</td>
+                <td>${player.ab}</td>
+                <td>${player.runs}</td>
+                <td>${player.hits}</td>
+                <td>${player.avg}</td>
+            </tr>
+        `;
+
+    });
+
+    html += `
+            </tbody>
+        </table>
+    `;
+
+    return html;
+
+}
+
 function createWildCardTable(title, teams) {
 
     const left = teams.slice(0, 6);
@@ -349,6 +394,28 @@ fetch('./standings.json')
             createStandingsTable("Central Division", data.nl.central) +
             createStandingsTable("West Division", data.nl.west) +
             createWildCardTable("Wild Card", data.nl.wildcard)
+
+    });
+
+fetch('./leaders.json')
+    .then(response => response.json())
+    .then(data => {
+
+        const al =
+            document.getElementById("al-standings");
+
+        const nl =
+            document.getElementById("nl-standings");
+
+        al.innerHTML += createBattingAverageTable(
+            "American League Leaders",
+            data.al.battingAverage
+        );
+
+        nl.innerHTML += createBattingAverageTable(
+            "National League Leaders",
+            data.nl.battingAverage
+        );
 
     });
 
