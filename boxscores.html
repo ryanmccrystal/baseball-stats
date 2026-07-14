@@ -207,6 +207,8 @@
         .leader-columns {
             column-count: 2;
             column-gap: 24px;
+            column-fill: auto;
+            height: 719px;
             overflow: hidden;
         }
 
@@ -538,27 +540,6 @@ fetch('./leaders.json')
             createTextLeaderboard("Holds", data.nl.holds) +
 
             `</div>`;
-
-        // Match leader column heights to standings
-
-        const alStandings =
-            document.getElementById("al-standings");
-
-        const alLeaderColumns =
-            document.querySelector("#al-leaders .leader-columns");
-
-        alLeaderColumns.style.height =
-            alStandings.offsetHeight + "px";
-
-
-        const nlStandings =
-            document.getElementById("nl-standings");
-
-        const nlLeaderColumns =
-            document.querySelector("#nl-leaders .leader-columns");
-
-        nlLeaderColumns.style.height =
-            nlStandings.offsetHeight + "px";
 
     });
 
