@@ -359,8 +359,6 @@ function createStandingsTable(title, teams, isWildCard = false) {
 function createBattingAverageTable(title, players) {
 
     let html = `
-        <div class="league-title">${title}</div>
-
         <div class="division-title">Batting Average</div>
 
         <table class="standings-table leaders-table">
@@ -508,6 +506,8 @@ fetch('./leaders.json')
 
         al.innerHTML +=
 
+            `<div class="league-title">American League Leaders</div>` +
+
             `<div class="leader-columns">` +
 
             createBattingAverageTable(
@@ -529,6 +529,8 @@ fetch('./leaders.json')
             
 
         nl.innerHTML +=
+
+            `<div class="league-title">American League Leaders</div>` +
 
             `<div class="leader-columns">` +
 
