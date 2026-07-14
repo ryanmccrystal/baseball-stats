@@ -98,6 +98,15 @@
 
         }
 
+        @media (max-width: 900px) {
+
+            .leader-columns {
+                column-count: 1;
+                height: auto !important;
+            }
+
+        }
+
         #standings-grid h2 {
             margin-top: 0;
             margin-bottom: 10px;
@@ -196,8 +205,9 @@
         }
 
         .leader-columns {
-            column-width: 260px;
+            column-count: 2;
             column-gap: 24px;
+            overflow: hidden;
         }
 
         .leader-text {
@@ -528,6 +538,27 @@ fetch('./leaders.json')
             createTextLeaderboard("Holds", data.nl.holds) +
 
             `</div>`;
+
+        // Match leader column heights to standings
+
+        const alStandings =
+            document.getElementById("al-standings");
+
+        const alLeaderColumns =
+            document.querySelector("#al-leaders .leader-columns");
+
+        alLeaderColumns.style.height =
+            alStandings.offsetHeight + "px";
+
+
+        const nlStandings =
+            document.getElementById("nl-standings");
+
+        const nlLeaderColumns =
+            document.querySelector("#nl-leaders .leader-columns");
+
+        nlLeaderColumns.style.height =
+            nlStandings.offsetHeight + "px";
 
     });
 
