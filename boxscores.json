@@ -1,110 +1,28 @@
 {
-  "games": [
+  "games": [],
+  "today_games": [
     {
-      "gamePk": 823842,
-      "winner_name": "Guardians",
-      "winner_score": 5,
-      "loser_name": "Marlins",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 823358,
-      "winner_name": "Pirates",
-      "winner_score": 14,
-      "loser_name": "Brewers",
-      "loser_score": 5
-    },
-    {
-      "gamePk": 824814,
-      "winner_name": "Orioles",
-      "winner_score": 8,
-      "loser_name": "Royals",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 822708,
-      "winner_name": "Yankees",
-      "winner_score": 5,
-      "loser_name": "Nationals",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 824491,
-      "winner_name": "Cubs",
-      "winner_score": 8,
-      "loser_name": "Reds",
-      "loser_score": 4
-    },
-    {
-      "gamePk": 823602,
-      "winner_name": "Red Sox",
-      "winner_score": 3,
-      "loser_name": "Mets",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 822951,
-      "winner_name": "Mariners",
-      "winner_score": 8,
-      "loser_name": "Rays",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 824250,
-      "winner_name": "Phillies",
-      "winner_score": 5,
-      "loser_name": "Tigers",
-      "loser_score": 0
-    },
-    {
-      "gamePk": 823681,
-      "winner_name": "Twins",
-      "winner_score": 4,
-      "loser_name": "Angels",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 824574,
-      "winner_name": "White Sox",
-      "winner_score": 9,
-      "loser_name": "Athletics",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 823029,
-      "winner_name": "Braves",
-      "winner_score": 4,
-      "loser_name": "Cardinals",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 822876,
-      "winner_name": "Rangers",
-      "winner_score": 6,
-      "loser_name": "Astros",
-      "loser_score": 5
-    },
-    {
-      "gamePk": 823199,
-      "winner_name": "Giants",
-      "winner_score": 3,
-      "loser_name": "Rockies",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 823925,
-      "winner_name": "DBacks",
-      "winner_score": 5,
-      "loser_name": "Dodgers",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 823274,
-      "winner_name": "Padres",
-      "winner_score": 5,
-      "loser_name": "Blue Jays",
-      "loser_score": 4
+      "away_name": "American League All-Stars",
+      "home_name": "National League All-Stars",
+      "game_time": "2026-07-15T00:00:00Z",
+      "away_pitcher": "Dylan Cease",
+      "home_pitcher": "Cristopher S\u00e1nchez",
+      "away_stats": {
+        "wins": 6,
+        "losses": 4,
+        "era": "2.56",
+        "k9": "13.6",
+        "hand": "R",
+        "team_record": "11-6"
+      },
+      "home_stats": {
+        "wins": 11,
+        "losses": 4,
+        "era": "2.62",
+        "k9": "10.2",
+        "hand": "L",
+        "team_record": "14-6"
+      }
     }
-  ],
-  "today_games": []
+  ]
 }
