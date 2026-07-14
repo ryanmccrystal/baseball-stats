@@ -205,14 +205,20 @@
         }
 
         .leader-columns {
-            column-count: 2;
-            column-gap: 24px;
-            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+
+        .leader-column {
+            display: flex;
+            flex-direction: column;
         }
 
         .leader-text {
-            break-inside: avoid;
             margin-bottom: 12px;
+            line-height: 1.4;
         }
 
     </style>
@@ -410,6 +416,57 @@ function createTextLeaderboard(title, players) {
 
 }
 
+function buildLeaderColumns(containerId, standingsId, leaderData) {
+
+    const container =
+        document.getElementById(containerId);
+
+    const standings =
+        document.getElementById(standingsId);
+
+    const columns =
+        container.querySelector(".leader-columns");
+
+    columns.innerHTML = `
+        <div class="leader-column left"></div>
+        <div class="leader-column right"></div>
+    `;
+
+    const left =
+        columns.querySelector(".left");
+
+    const right =
+        columns.querySelector(".right");
+
+    const maxHeight =
+        standings.offsetHeight -
+        container.querySelector(".leaders-table").offsetHeight;
+
+    leaderData.forEach(item => {
+
+        const temp =
+            document.createElement("div");
+
+        temp.innerHTML =
+            createTextLeaderboard(item.title, item.data);
+
+        const node =
+            temp.firstElementChild;
+
+        left.appendChild(node);
+
+        if (left.offsetHeight > maxHeight) {
+
+            left.removeChild(node);
+
+            right.appendChild(node);
+
+        }
+
+    });
+
+}
+
 function createWildCardTable(title, teams) {
 
     const left = teams.slice(0, 6);
@@ -504,40 +561,46 @@ fetch('./leaders.json')
                 "American League Leaders",
                 data.al.battingAverage
             ) +
-
-            `<div class="leader-columns">` +
-
-            createTextLeaderboard("Home Runs", data.al.homeRuns) +
-            createTextLeaderboard("RBI", data.al.rbi) +
-            createTextLeaderboard("Hits", data.al.hits) +
-            createTextLeaderboard("Stolen Bases", data.al.stolenBases) +
-            createTextLeaderboard("Wins", data.al.wins) +
-            createTextLeaderboard("ERA", data.al.era) +
-            createTextLeaderboard("Saves", data.al.saves) +
-            createTextLeaderboard("Holds", data.al.holds) +
-
-            `</div>`;
-
-            
+            `<div class="leader-columns"></div>`;
 
         nl.innerHTML +=
             createBattingAverageTable(
                 "National League Leaders",
-                data.n.battingAverage
+                data.nl.battingAverage
             ) +
+            `<div class="leader-columns"></div>`;
 
-            `<div class="leader-columns">` +
+        buildLeaderColumns(
+            "al-leaders",
+            "al-standings",
+            [
+                { title: "Home Runs", data: data.al.homeRuns },
+                { title: "RBI", data: data.al.rbi },
+                { title: "Hits", data: data.al.hits },
+                { title: "Stolen Bases", data: data.al.stolenBases },
+                { title: "Wins", data: data.al.wins },
+                { title: "ERA", data: data.al.era },
+                { title: "Saves", data: data.al.saves },
+                { title: "Holds", data: data.al.holds }
+            ]
+        );
 
-            createTextLeaderboard("Home Runs", data.nl.homeRuns) +
-            createTextLeaderboard("RBI", data.nl.rbi) +
-            createTextLeaderboard("Hits", data.nl.hits) +
-            createTextLeaderboard("Stolen Bases", data.nl.stolenBases) +
-            createTextLeaderboard("Wins", data.nl.wins) +
-            createTextLeaderboard("ERA", data.nl.era) +
-            createTextLeaderboard("Saves", data.nl.saves) +
-            createTextLeaderboard("Holds", data.nl.holds) +
+        buildLeaderColumns(
+            "nl-leaders",
+            "nl-standings",
+            [
+                { title: "Home Runs", data: data.nl.homeRuns },
+                { title: "RBI", data: data.nl.rbi },
+                { title: "Hits", data: data.nl.hits },
+                { title: "Stolen Bases", data: data.nl.stolenBases },
+                { title: "Wins", data: data.nl.wins },
+                { title: "ERA", data: data.nl.era },
+                { title: "Saves", data: data.nl.saves },
+                { title: "Holds", data: data.nl.holds }
+            ]
+        );
 
-            `</div>`;
+    });
 
         // Match leader column heights to standings
 
