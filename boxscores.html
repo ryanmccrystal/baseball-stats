@@ -502,12 +502,13 @@ fetch('./leaders.json')
             document.getElementById("nl-leaders");
 
         al.innerHTML +=
+
+            `<div class="leader-columns">` +
+
             createBattingAverageTable(
                 "American League Leaders",
                 data.al.battingAverage
             ) +
-
-            `<div class="leader-columns">` +
 
             createTextLeaderboard("Home Runs", data.al.homeRuns) +
             createTextLeaderboard("RBI", data.al.rbi) +
@@ -523,12 +524,13 @@ fetch('./leaders.json')
             
 
         nl.innerHTML +=
-            createBattingAverageTable(
-                "National League Leaders",
-                data.n.battingAverage
-            ) +
 
             `<div class="leader-columns">` +
+
+            createBattingAverageTable(
+                "National League Leaders",
+                data.al.battingAverage
+            ) +
 
             createTextLeaderboard("Home Runs", data.nl.homeRuns) +
             createTextLeaderboard("RBI", data.nl.rbi) +
