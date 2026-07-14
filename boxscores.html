@@ -98,17 +98,6 @@
 
         }
 
-        @media (max-width: 900px) {
-
-            .leader-columns {
-                column-count: 1;
-                column-fill: auto;
-                height: auto;
-                overflow: visible;
-            }
-
-        }
-
         #standings-grid h2 {
             margin-top: 0;
             margin-bottom: 10px;
@@ -206,11 +195,26 @@
             line-height: 1.4;
         }
 
+        /* Mobile/default layout */
+
         .leader-columns {
             column-count: 1;
             column-gap: 24px;
-            height: 719px;
-            overflow: hidden;
+            height: auto;
+            overflow: visible;
+        }
+
+        /* Desktop only */
+
+        @media (min-width: 901px) {
+
+            .leader-columns {
+                column-count: 2;
+                column-fill: auto;
+                height: 719px;
+                overflow: hidden;
+            }
+
         }
 
         .leader-text {
