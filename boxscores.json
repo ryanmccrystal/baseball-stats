@@ -1,28 +1,12 @@
 {
-  "games": [],
-  "today_games": [
+  "games": [
     {
-      "away_name": "American League All-Stars",
-      "home_name": "National League All-Stars",
-      "game_time": "2026-07-15T00:00:00Z",
-      "away_pitcher": "Dylan Cease",
-      "home_pitcher": "Cristopher S\u00e1nchez",
-      "away_stats": {
-        "wins": 6,
-        "losses": 4,
-        "era": "2.56",
-        "k9": "13.6",
-        "hand": "R",
-        "team_record": "11-6"
-      },
-      "home_stats": {
-        "wins": 11,
-        "losses": 4,
-        "era": "2.62",
-        "k9": "10.2",
-        "hand": "L",
-        "team_record": "14-6"
-      }
+      "gamePk": 823443,
+      "winner_name": "American League All-Stars",
+      "winner_score": 4,
+      "loser_name": "National League All-Stars",
+      "loser_score": 0
     }
-  ]
+  ],
+  "today_games": []
 }
