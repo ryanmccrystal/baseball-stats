@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 06:01 AM EDT",
+  "last_updated": "2026-07-15 01:07 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -76,7 +76,7 @@
       },
       {
         "player": "Witt",
-        "team": "Kcr",
+        "team": "Kan",
         "games": 91,
         "ab": 360,
         "runs": 51,
@@ -253,7 +253,7 @@
       },
       {
         "player": "Witt",
-        "team": "Kcr",
+        "team": "Kan",
         "value": 103
       },
       {
@@ -297,10 +297,72 @@
         "value": 93
       }
     ],
+    "runs": [
+      {
+        "player": "Neto",
+        "team": "Laa",
+        "value": 67
+      },
+      {
+        "player": "Alvarez",
+        "team": "Hou",
+        "value": 65
+      },
+      {
+        "player": "Rice",
+        "team": "Nyy",
+        "value": 64
+      },
+      {
+        "player": "Vargas",
+        "team": "Chw",
+        "value": 64
+      },
+      {
+        "player": "Caminero",
+        "team": "Tbr",
+        "value": 61
+      },
+      {
+        "player": "Kurtz",
+        "team": "Ath",
+        "value": 61
+      },
+      {
+        "player": "Arozarena",
+        "team": "Sea",
+        "value": 59
+      },
+      {
+        "player": "Alonso",
+        "team": "Bal",
+        "value": 59
+      },
+      {
+        "player": "McGonigle",
+        "team": "Det",
+        "value": 58
+      },
+      {
+        "player": "Trout",
+        "team": "Laa",
+        "value": 58
+      },
+      {
+        "player": "Buxton",
+        "team": "Min",
+        "value": 57
+      },
+      {
+        "player": "Ward",
+        "team": "Bal",
+        "value": 57
+      }
+    ],
     "stolenBases": [
       {
         "player": "Witt",
-        "team": "Kcr",
+        "team": "Kan",
         "value": 30
       },
       {
@@ -483,6 +545,68 @@
         "value": 8
       }
     ],
+    "strikeOuts": [
+      {
+        "player": "Cease",
+        "team": "Tor",
+        "value": 148
+      },
+      {
+        "player": "Schlittler",
+        "team": "Nyy",
+        "value": 137
+      },
+      {
+        "player": "Williams",
+        "team": "Cle",
+        "value": 134
+      },
+      {
+        "player": "Ryan",
+        "team": "Min",
+        "value": 128
+      },
+      {
+        "player": "Detmers",
+        "team": "Laa",
+        "value": 123
+      },
+      {
+        "player": "deGrom",
+        "team": "Tex",
+        "value": 122
+      },
+      {
+        "player": "Eovaldi",
+        "team": "Tex",
+        "value": 120
+      },
+      {
+        "player": "Gilbert",
+        "team": "Sea",
+        "value": 119
+      },
+      {
+        "player": "Bradley",
+        "team": "Min",
+        "value": 118
+      },
+      {
+        "player": "Gausman",
+        "team": "Tor",
+        "value": 116
+      },
+      {
+        "player": "Burke",
+        "team": "Chw",
+        "value": 115
+      },
+      {
+        "player": "Soriano",
+        "team": "Laa",
+        "value": 115
+      }
+    ],
     "saves": [
       {
         "player": "Smith",
@@ -526,7 +650,7 @@
       },
       {
         "player": "Erceg",
-        "team": "Kcr",
+        "team": "Kan",
         "value": 12
       },
       {
@@ -905,6 +1029,68 @@
         "value": 99
       }
     ],
+    "runs": [
+      {
+        "player": "Wood",
+        "team": "Wsh",
+        "value": 89
+      },
+      {
+        "player": "Reynolds",
+        "team": "Pit",
+        "value": 68
+      },
+      {
+        "player": "Turang",
+        "team": "Mil",
+        "value": 66
+      },
+      {
+        "player": "Ohtani",
+        "team": "Lad",
+        "value": 65
+      },
+      {
+        "player": "Olson",
+        "team": "Atl",
+        "value": 64
+      },
+      {
+        "player": "Crow-Armstrong",
+        "team": "Chc",
+        "value": 63
+      },
+      {
+        "player": "Walker",
+        "team": "Stl",
+        "value": 62
+      },
+      {
+        "player": "Turner",
+        "team": "Phi",
+        "value": 62
+      },
+      {
+        "player": "Lopez",
+        "team": "Mia",
+        "value": 61
+      },
+      {
+        "player": "Albies",
+        "team": "Atl",
+        "value": 61
+      },
+      {
+        "player": "Herrera",
+        "team": "Stl",
+        "value": 60
+      },
+      {
+        "player": "Harper",
+        "team": "Phi",
+        "value": 59
+      }
+    ],
     "stolenBases": [
       {
         "player": "Nu\u00f1ez",
@@ -1089,6 +1275,68 @@
         "player": "Yamamoto",
         "team": "Lad",
         "value": 9
+      }
+    ],
+    "strikeOuts": [
+      {
+        "player": "Misiorowski",
+        "team": "Mil",
+        "value": 167
+      },
+      {
+        "player": "S\u00e1nchez",
+        "team": "Phi",
+        "value": 144
+      },
+      {
+        "player": "Luzardo",
+        "team": "Phi",
+        "value": 136
+      },
+      {
+        "player": "Skenes",
+        "team": "Pit",
+        "value": 130
+      },
+      {
+        "player": "Ashcraft",
+        "team": "Pit",
+        "value": 128
+      },
+      {
+        "player": "McLean",
+        "team": "Nym",
+        "value": 125
+      },
+      {
+        "player": "Burns",
+        "team": "Cin",
+        "value": 118
+      },
+      {
+        "player": "Sale",
+        "team": "Atl",
+        "value": 117
+      },
+      {
+        "player": "Meyer",
+        "team": "Mia",
+        "value": 116
+      },
+      {
+        "player": "Cavalli",
+        "team": "Wsh",
+        "value": 110
+      },
+      {
+        "player": "Griffin",
+        "team": "Wsh",
+        "value": 109
+      },
+      {
+        "player": "Wheeler",
+        "team": "Phi",
+        "value": 108
       }
     ],
     "saves": [
