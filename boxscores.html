@@ -516,9 +516,11 @@ fetch('./leaders.json')
             createTextLeaderboard("Home Runs", data.al.homeRuns) +
             createTextLeaderboard("RBI", data.al.rbi) +
             createTextLeaderboard("Hits", data.al.hits) +
+            createTextLeaderboard("Runs", data.al.runs) +
             createTextLeaderboard("Stolen Bases", data.al.stolenBases) +
             createTextLeaderboard("Wins", data.al.wins) +
             createTextLeaderboard("ERA", data.al.era) +
+            createTextLeaderboard("Strikeouts", data.al.strikeOuts) +
             createTextLeaderboard("Saves", data.al.saves) +
             createTextLeaderboard("Holds", data.al.holds) +
 
@@ -534,15 +536,17 @@ fetch('./leaders.json')
 
             createBattingAverageTable(
                 "National League Leaders",
-                data.al.battingAverage
+                data.nl.battingAverage
             ) +
 
             createTextLeaderboard("Home Runs", data.nl.homeRuns) +
             createTextLeaderboard("RBI", data.nl.rbi) +
             createTextLeaderboard("Hits", data.nl.hits) +
+            createTextLeaderboard("Runs", data.nl.runs) +
             createTextLeaderboard("Stolen Bases", data.nl.stolenBases) +
             createTextLeaderboard("Wins", data.nl.wins) +
             createTextLeaderboard("ERA", data.nl.era) +
+            createTextLeaderboard("Strikeouts", data.nl.strikeOuts) +
             createTextLeaderboard("Saves", data.nl.saves) +
             createTextLeaderboard("Holds", data.nl.holds) +
 
