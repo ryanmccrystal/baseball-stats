@@ -1,12 +1,28 @@
 {
-  "games": [
+  "games": [],
+  "today_games": [
     {
-      "gamePk": 823443,
-      "winner_name": "American League All-Stars",
-      "winner_score": 4,
-      "loser_name": "National League All-Stars",
-      "loser_score": 0
+      "away_name": "Mets",
+      "home_name": "Phillies",
+      "game_time": "2026-07-16T23:10:00Z",
+      "away_pitcher": "Christian Scott",
+      "home_pitcher": "Aaron Nola",
+      "away_stats": {
+        "wins": 2,
+        "losses": 1,
+        "era": "3.17",
+        "k9": "10.8",
+        "hand": "R",
+        "team_record": "9-3"
+      },
+      "home_stats": {
+        "wins": 3,
+        "losses": 6,
+        "era": "5.75",
+        "k9": "9.5",
+        "hand": "R",
+        "team_record": "9-10"
+      }
     }
-  ],
-  "today_games": []
+  ]
 }
