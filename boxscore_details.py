@@ -47,6 +47,17 @@ for game in schedule:
 
     boxscore_json = response.json()
 
+    away_batting = []
+
+    away_players = boxscore_json["teams"]["away"]["players"]
+    away_batters = boxscore_json["teams"]["away"]["batters"]
+
+    for player_id in away_batters:
+
+        player = away_players[f"ID{player_id}"]
+
+        away_batting.append(player)
+
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
 
@@ -75,7 +86,7 @@ for game in schedule:
         "boxscore": boxscore,
 
         # Keep this for later—we'll start filling it in next.
-        "boxscore_json": boxscore_json,
+        "away_batting": away_batting,
 
         "away": {
             "city": away_city,
