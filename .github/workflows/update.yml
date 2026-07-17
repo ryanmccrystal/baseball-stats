@@ -26,6 +26,7 @@ jobs:
       - run: python boxscores.py
       - run: python standings.py
       - run: python leaders.py
+      - run: python boxscore_details.py
 
       - name: Commit changes
         run: |
