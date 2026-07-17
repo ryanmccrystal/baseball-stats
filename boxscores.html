@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>MLB Box Scores</title>
@@ -298,6 +298,12 @@
     <em>Team Rec: team's record in games started by today's pitcher</em>
 </div>
 
+<hr>
+
+<h2>Yesterday's Box Scores</h2>
+
+<div id="boxscores"></div>
+
 <script>
 
 function createStandingsTable(title, teams, isWildCard = false) {
@@ -592,31 +598,6 @@ fetch('./boxscores.json')
 
         });
 
-fetch("./boxscore_details.json")
-    .then(response => response.json())
-    .then(data => {
-
-        const container =
-            document.getElementById("boxscores");
-
-        data.games.forEach(game => {
-
-            const div =
-                document.createElement("div");
-
-            div.className = "boxscore";
-
-            div.innerHTML = `
-                <div class="headline">${game.headline}</div>
-                <pre>${game.boxscore}</pre>
-            `;
-
-            container.appendChild(div);
-
-        });
-
-    });
-
     const todayContainer =
     document.getElementById("today-games");
 
@@ -718,11 +699,30 @@ div.innerHTML =
 
     });
 
-<hr>
+fetch("./boxscore_details.json")
+    .then(response => response.json())
+    .then(data => {
 
-<h2>Yesterday's Box Scores</h2>
+        const container =
+            document.getElementById("boxscores");
 
-<div id="boxscores"></div>
+        data.games.forEach(game => {
+
+            const div =
+                document.createElement("div");
+
+            div.className = "boxscore";
+
+            div.innerHTML = `
+                <div class="headline">${game.headline}</div>
+                <pre>${game.boxscore}</pre>
+            `;
+
+            container.appendChild(div);
+
+        });
+
+    });
 
 </script>
 
