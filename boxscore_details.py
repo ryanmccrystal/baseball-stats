@@ -12,6 +12,9 @@ schedule = statsapi.schedule(
     end_date=yesterday.strftime("%m/%d/%Y")
 )
 
+print("Schedule retrieved")
+print(len(schedule))
+
 output = {
     "last_updated": datetime.now().strftime("%Y-%m-%d %I:%M %p"),
     "games": []
@@ -32,6 +35,8 @@ for game in schedule:
         "gamePk": gamePk,
         "linescore": linescore
     })
+
+print("Writing JSON...")
 
 with open("boxscore_details.json", "w") as f:
     json.dump(output, f, indent=2)
