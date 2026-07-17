@@ -21,6 +21,15 @@ output = {
     "games": []
 }
 
+def split_team_name(full_name):
+
+    parts = full_name.split()
+
+    city = " ".join(parts[:-1])
+    nickname = parts[-1]
+
+    return city, nickname
+
 for game in schedule:
 
     gamePk = game["game_id"]
@@ -34,6 +43,8 @@ for game in schedule:
 
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
+    away_city, away_nickname = split_team_name(game["away_name"])
+    home_city, home_nickname = split_team_name(game["home_name"])
 
     away_innings = []
     home_innings = []
@@ -44,12 +55,12 @@ for game in schedule:
 
     output["games"].append({
 
-        "headline": f'{game["away_name"].upper()} {away["runs"]}, '
-                f'{game["home_name"].upper()} {home["runs"]}',
+        "headline": f'{away_nickname.upper()} {away["runs"]}, '
+                f'{home_nickname.upper()} {home["runs"]}',
 
         "away": {
-            "city": game["away_name"],
-            "nickname": game["away_team"],
+            "city": away_city,
+            "nickname": away_nickname,
             "innings": away_innings,
             "runs": away["runs"],
             "hits": away["hits"],
@@ -57,8 +68,8 @@ for game in schedule:
         },
 
         "home": {
-            "city": game["home_name"],
-            "nickname": game["home_team"],
+            "city": home_city,
+            "nickname": home_nickname,
             "innings": home_innings,
             "runs": home["runs"],
             "hits": home["hits"],
