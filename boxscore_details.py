@@ -47,36 +47,27 @@ for game in schedule:
 
     boxscore_json = response.json()
 
-    print(boxscore_json["teams"]["away"]["battingOrder"])
-
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
-    away_batters = boxscore_json["teams"]["away"]["battingOrder"]
 
-    # TEMPORARY DEBUG
-    for key, player in away_players.items():
+    batters = []
 
-        print(
-            player["person"]["fullName"],
-            player.get("battingOrder"),
-            player["position"]["abbreviation"]
-        )
+    for player in away_players.values():
 
-    raise Exception("Stop")
+        batting_order = player.get("battingOrder")
 
-    for player_id in away_batters:
+        if batting_order is None:
+            continue
 
-        player = away_players[f"ID{player_id}"]
+        batters.append(player)
+
+    batters.sort(key=lambda p: int(p["battingOrder"]))
+
+    for player in batters:
 
         batting = player["stats"]["batting"]
         season = player["seasonStats"]["batting"]
-
-        if "atBats" not in batting:
-            print("Missing atBats:")
-            print(player["person"]["fullName"])
-            print("Batting keys:", batting.keys())
-            raise Exception("Stopped here")
 
         away_batting.append({
 
