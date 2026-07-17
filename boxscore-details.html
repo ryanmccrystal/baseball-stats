@@ -1,22 +1,53 @@
-.boxscore {
-    margin-bottom: 40px;
-}
+<!DOCTYPE html>
+<html>
 
-.headline {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 8px;
-}
+<head>
 
-.boxscore pre {
-    font-family: "Courier New", monospace;
-    font-size: 13px;
-    white-space: pre-wrap;
-}
+    <meta charset="UTF-8">
+
+    <title>Yesterday's Box Scores</title>
+
+    <style>
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 30px;
+        }
+
+        h1 {
+            font-size: 1.4em;
+            margin-bottom: 25px;
+        }
+
+        .boxscore {
+            margin-bottom: 40px;
+        }
+
+        .headline {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        pre {
+            font-family: "Courier New", monospace;
+            font-size: 13px;
+            line-height: 1.25;
+            white-space: pre;
+            overflow-x: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
 
 <h1>Yesterday's Box Scores</h1>
 
 <div id="boxscores"></div>
+
+<script>
 
 fetch("./boxscore_details.json")
     .then(response => response.json())
@@ -34,7 +65,6 @@ fetch("./boxscore_details.json")
 
             div.innerHTML = `
                 <div class="headline">${game.headline}</div>
-
                 <pre>${game.boxscore}</pre>
             `;
 
@@ -43,3 +73,9 @@ fetch("./boxscore_details.json")
         });
 
     });
+
+</script>
+
+</body>
+
+</html>
