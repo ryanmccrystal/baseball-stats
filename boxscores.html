@@ -244,6 +244,35 @@
             line-height: 1.35;
         }
 
+        .boxscore-table {
+            border-collapse: collapse;
+            width: auto;
+            table-layout: auto;
+            margin-bottom: 12px;
+        }
+
+        .boxscore-table th,
+        .boxscore-table td {
+            padding: 2px 8px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .boxscore-table th {
+            border-bottom: 1px solid #999;
+            font-weight: bold;
+        }
+
+        .boxscore-table th:first-child,
+        .boxscore-table td:first-child {
+            text-align: left;
+        }
+
+        .boxscore-table th:not(:first-child),
+        .boxscore-table td:not(:first-child) {
+            text-align: right;
+        }
+
     </style>
 </head>
 
@@ -722,7 +751,7 @@ fetch("./boxscore_details.json")
             let html = `
                 <div class="headline">${game.headline}</div>
 
-                <table class="standings-table">
+                <table class="boxscore-table">
                     <thead>
                         <tr>
                             <th style="text-align:left">Mets Batters</th>
