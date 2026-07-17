@@ -1,0 +1,45 @@
+.boxscore {
+    margin-bottom: 40px;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.boxscore pre {
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+    white-space: pre-wrap;
+}
+
+<h1>Yesterday's Box Scores</h1>
+
+<div id="boxscores"></div>
+
+fetch("./boxscore_details.json")
+    .then(response => response.json())
+    .then(data => {
+
+        const container =
+            document.getElementById("boxscores");
+
+        data.games.forEach(game => {
+
+            const div =
+                document.createElement("div");
+
+            div.className = "boxscore";
+
+            div.innerHTML = `
+                <div class="headline">${game.headline}</div>
+
+                <pre>${game.boxscore}</pre>
+            `;
+
+            container.appendChild(div);
+
+        });
+
+    });
