@@ -730,12 +730,25 @@ fetch("./boxscore_details.json")
             const body =
                 div.querySelector(".boxscore-body");
 
+            let currentSection = "";
+
             lines.forEach(line => {
+
+                if (line.includes("Batters")) {
+                    currentSection = "batters";
+                }
+                else if (line.includes("Pitchers")) {
+                    currentSection = "pitchers";
+                }
 
                 const row =
                     document.createElement("div");
 
                 row.className = "boxscore-line";
+
+                if (currentSection !== "") {
+                    row.dataset.section = currentSection;
+                }
 
                 row.textContent = line;
 
