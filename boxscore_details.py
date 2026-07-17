@@ -59,6 +59,12 @@ for game in schedule:
         batting = player["stats"]["batting"]
         season = player["seasonStats"]["batting"]
 
+        if "atBats" not in batting:
+            print("Missing atBats:")
+            print(player["person"]["fullName"])
+            print("Batting keys:", batting.keys())
+            raise Exception("Stopped here")
+
         away_batting.append({
 
             "name": player["person"]["boxscoreName"],
