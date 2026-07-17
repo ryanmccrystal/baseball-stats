@@ -41,7 +41,6 @@ for game in schedule:
         }
     )
 
-    # ADD THESE TWO LINES HERE
     boxscore = statsapi.boxscore(gamePk)
     print(boxscore)
 
