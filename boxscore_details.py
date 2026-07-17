@@ -47,6 +47,8 @@ for game in schedule:
 
     boxscore_json = response.json()
 
+    print(boxscore_json["teams"]["away"]["battingOrder"])
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
