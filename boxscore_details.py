@@ -71,6 +71,8 @@ for game in schedule:
 
         away_batting.append({
 
+            "order": int(player["battingOrder"]),
+
             "name": player["person"]["boxscoreName"],
             "position": player["position"]["abbreviation"],
 
