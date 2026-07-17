@@ -54,6 +54,17 @@ for game in schedule:
     away_players = boxscore_json["teams"]["away"]["players"]
     away_batters = boxscore_json["teams"]["away"]["battingOrder"]
 
+    # TEMPORARY DEBUG
+    for key, player in away_players.items():
+
+        print(
+            player["person"]["fullName"],
+            player.get("battingOrder"),
+            player["position"]["abbreviation"]
+        )
+
+    raise Exception("Stop")
+
     for player_id in away_batters:
 
         player = away_players[f"ID{player_id}"]
