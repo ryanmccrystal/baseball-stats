@@ -42,7 +42,6 @@ for game in schedule:
     )
 
     boxscore = statsapi.boxscore(gamePk)
-    print(boxscore)
 
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
@@ -60,6 +59,8 @@ for game in schedule:
 
         "headline": f'{away_nickname.upper()} {away["runs"]}, '
                     f'{home_nickname.upper()} {home["runs"]}',
+
+        "boxscore": boxscore,
 
         "away": {
             "city": away_city,
