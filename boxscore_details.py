@@ -51,9 +51,9 @@ for game in schedule:
     boxscore_json = response.json()
 
     # ---- DEBUG ----
-    print("\n========== BOX SCORE KEYS ==========")
-    print(boxscore_json.keys())
-    print("====================================\n")
+    print("\n========== TEAMS KEYS ==========")
+    print(boxscore_json["teams"].keys())
+    print("================================\n")
 
     # Stop after the first game so we don't flood the console.
     break
