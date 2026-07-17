@@ -50,10 +50,18 @@ for game in schedule:
 
     boxscore_json = response.json()
 
-    # ---- DEBUG ----
-    print("\n========== AWAY TEAM KEYS ==========")
-    print(boxscore_json["teams"]["away"].keys())
-    print("====================================\n")
+    print("\n========== FIRST BATTER ==========")
+
+    first_player_id = boxscore_json["teams"]["away"]["batters"][0]
+
+    print(first_player_id)
+
+    print(json.dumps(
+        boxscore_json["teams"]["away"]["players"][f"ID{first_player_id}"],
+        indent=2
+    ))
+
+print("==================================\n")
 
     # Stop after the first game so we don't flood the console.
     break
