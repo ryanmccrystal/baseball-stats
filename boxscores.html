@@ -719,56 +719,55 @@ fetch("./boxscore_details.json")
 
             div.className = "boxscore";
 
-            const lines =
-                game.boxscore.split("\n");
-
-            div.innerHTML = `
+            let html = `
                 <div class="headline">${game.headline}</div>
-                <div class="boxscore-body"></div>
+
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">Mets Batters</th>
+                            <th>AB</th>
+                            <th>R</th>
+                            <th>H</th>
+                            <th>BI</th>
+                            <th>BB</th>
+                            <th>K</th>
+                            <th>AVG</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
             `;
 
-            const body =
-                div.querySelector(".boxscore-body");
+            game.away_batting.forEach(player => {
 
-            const battingLines = [];
-            const otherLines = [];
+                const isSub =
+                    player.order % 100 !== 0;
 
-            let inBatting = false;
+                html += `
+                    <tr>
+                        <td style="text-align:left; padding-left:${isSub ? 20 : 0}px">
+                            ${player.name} ${player.position}
+                        </td>
 
-            lines.forEach(line => {
-
-                if (line.includes("Batters")) {
-                    inBatting = true;
-                }
-    
-                if (inBatting) {
-                    battingLines.push(line);
-                }
-                else {
-                    otherLines.push(line);
-                }
-
-                if (
-                    inBatting &&
-                    line.trim().startsWith("Totals")
-                ) {
-                    inBatting = false;
-                }
+                        <td>${player.ab}</td>
+                        <td>${player.r}</td>
+                        <td>${player.h}</td>
+                        <td>${player.rbi}</td>
+                        <td>${player.bb}</td>
+                        <td>${player.k}</td>
+                        <td>${player.avg}</td>
+                    </tr>
+                `;
 
             });
 
-            console.log(battingLines);
+            html += `
+                    </tbody>
+                </table>
+            `;
 
-            battingLines.forEach(line => {
-
-            const row =
-                document.createElement("div");
-
-            row.textContent = line;
-
-            body.appendChild(row);
-
-        });
+            div.innerHTML = html;
 
             container.appendChild(div);
 
