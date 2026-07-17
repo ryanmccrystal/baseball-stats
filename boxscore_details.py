@@ -14,6 +14,7 @@ schedule = statsapi.schedule(
 
 print("Schedule retrieved")
 print(len(schedule))
+print(schedule[0])
 
 output = {
     "last_updated": datetime.now().strftime("%Y-%m-%d %I:%M %p"),
