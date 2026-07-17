@@ -52,7 +52,7 @@ for game in schedule:
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
-    away_batters = boxscore_json["teams"]["away"]["batters"]
+    away_batters = boxscore_json["teams"]["away"]["battingOrder"]
 
     for player_id in away_batters:
 
