@@ -220,6 +220,24 @@
 
         }
 
+        .boxscore {
+            margin-bottom: 40px;
+        }
+
+        .headline {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .boxscore pre {
+            font-family: "Courier New", monospace;
+            font-size: 13px;
+            line-height: 1.25;
+            white-space: pre;
+            overflow-x: auto;
+        }
+
     </style>
 </head>
 
@@ -574,6 +592,31 @@ fetch('./boxscores.json')
 
         });
 
+fetch("./boxscore_details.json")
+    .then(response => response.json())
+    .then(data => {
+
+        const container =
+            document.getElementById("boxscores");
+
+        data.games.forEach(game => {
+
+            const div =
+                document.createElement("div");
+
+            div.className = "boxscore";
+
+            div.innerHTML = `
+                <div class="headline">${game.headline}</div>
+                <pre>${game.boxscore}</pre>
+            `;
+
+            container.appendChild(div);
+
+        });
+
+    });
+
     const todayContainer =
     document.getElementById("today-games");
 
@@ -674,6 +717,12 @@ div.innerHTML =
 });
 
     });
+
+<hr>
+
+<h2>Yesterday's Box Scores</h2>
+
+<div id="boxscores"></div>
 
 </script>
 
