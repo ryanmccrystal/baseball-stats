@@ -43,6 +43,17 @@ for game in schedule:
 
     boxscore = statsapi.boxscore(gamePk)
 
+    boxscore_json = statsapi.get(
+        "game_boxscore",
+        {
+            "gamePk": gamePk
+        }
+    )
+
+    import json
+
+    print(json.dumps(boxscore_json, indent=2))
+
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
     away_city, away_nickname = split_team_name(game["away_name"])
