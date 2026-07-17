@@ -41,6 +41,10 @@ for game in schedule:
         }
     )
 
+    # ADD THESE TWO LINES HERE
+    boxscore = statsapi.boxscore(gamePk)
+    print(boxscore)
+
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
     away_city, away_nickname = split_team_name(game["away_name"])
@@ -56,7 +60,7 @@ for game in schedule:
     output["games"].append({
 
         "headline": f'{away_nickname.upper()} {away["runs"]}, '
-                f'{home_nickname.upper()} {home["runs"]}',
+                    f'{home_nickname.upper()} {home["runs"]}',
 
         "away": {
             "city": away_city,
