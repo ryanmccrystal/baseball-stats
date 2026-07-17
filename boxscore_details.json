@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17 09:51 PM",
+  "last_updated": "2026-07-17 10:08 PM",
   "games": [
     {
       "headline": "METS 4, PHILLIES 1",
@@ -15,6 +15,17 @@
           "bb": 0,
           "k": 2,
           "avg": ".274"
+        },
+        {
+          "name": "Soto, J",
+          "position": "LF",
+          "ab": 1,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 3,
+          "k": 0,
+          "avg": ".292"
         },
         {
           "name": "Taylor, T",
