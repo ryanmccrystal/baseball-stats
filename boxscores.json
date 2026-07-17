@@ -298,9 +298,16 @@
       "away_name": "Cardinals",
       "home_name": "DBacks",
       "game_time": "2026-07-18T01:40:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Michael McGreevy",
       "home_pitcher": "Merrill Kelly",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 4,
+        "losses": 7,
+        "era": "3.01",
+        "k9": "5.8",
+        "hand": "R",
+        "team_record": "8-10"
+      },
       "home_stats": {
         "wins": 7,
         "losses": 8,
