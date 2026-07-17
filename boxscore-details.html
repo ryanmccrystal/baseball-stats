@@ -63,10 +63,55 @@ fetch("./boxscore_details.json")
 
             div.className = "boxscore";
 
-            div.innerHTML = `
+            let html = `
                 <div class="headline">${game.headline}</div>
-                <pre>${game.boxscore}</pre>
+
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">Mets Batters</th>
+                            <th>AB</th>
+                            <th>R</th>
+                            <th>H</th>
+                            <th>BI</th>
+                            <th>BB</th>
+                            <th>K</th>
+                            <th>AVG</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
             `;
+
+            game.away_batting.forEach(player => {
+
+                const isSub =
+                    player.order % 100 !== 0;
+
+                html += `
+                    <tr>
+                        <td style="text-align:left; padding-left:${isSub ? 20 : 0}px">
+                            ${player.name} ${player.position}
+                        </td>
+
+                        <td>${player.ab}</td>
+                        <td>${player.r}</td>
+                        <td>${player.h}</td>
+                        <td>${player.rbi}</td>
+                        <td>${player.bb}</td>
+                        <td>${player.k}</td>
+                        <td>${player.avg}</td>
+                    </tr>
+                `;
+
+            });
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            div.innerHTML = html;
 
             container.appendChild(div);
 
