@@ -56,7 +56,24 @@ for game in schedule:
 
         player = away_players[f"ID{player_id}"]
 
-        away_batting.append(player)
+        batting = player["stats"]["batting"]
+        season = player["seasonStats"]["batting"]
+
+        away_batting.append({
+
+            "name": player["person"]["boxscoreName"],
+            "position": player["position"]["abbreviation"],
+
+            "ab": batting["atBats"],
+            "r": batting["runs"],
+            "h": batting["hits"],
+            "rbi": batting["rbi"],
+            "bb": batting["baseOnBalls"],
+            "k": batting["strikeOuts"],
+
+            "avg": season["avg"]
+
+        })
 
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
