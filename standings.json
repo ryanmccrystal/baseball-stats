@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17 18:14 UTC",
+  "last_updated": "2026-07-17 21:51 UTC",
   "al": {
     "east": [
       {
@@ -7,15 +7,15 @@
         "city": "Tampa Bay",
         "nickname": "Rays",
         "wins": 56,
-        "losses": 38,
-        "pct": ".596",
+        "losses": 39,
+        "pct": ".589",
         "gb": "-",
-        "last10": "5-5",
-        "streak": "L1",
+        "last10": "4-6",
+        "streak": "L2",
         "home": "35-15",
-        "away": "21-23",
+        "away": "21-24",
         "oneRun": "11-9",
-        "runDiff": "+32"
+        "runDiff": "+22"
       },
       {
         "teamId": 147,
@@ -24,7 +24,7 @@
         "wins": 54,
         "losses": 42,
         "pct": ".563",
-        "gb": "3.0",
+        "gb": "2.5",
         "last10": "6-4",
         "streak": "W4",
         "home": "23-20",
@@ -36,16 +36,16 @@
         "teamId": 111,
         "city": "Boston",
         "nickname": "Red Sox",
-        "wins": 46,
+        "wins": 47,
         "losses": 48,
-        "pct": ".489",
-        "gb": "10.0",
-        "last10": "9-1",
-        "streak": "W9",
-        "home": "17-27",
+        "pct": ".495",
+        "gb": "9.0",
+        "last10": "10-0",
+        "streak": "W10",
+        "home": "18-27",
         "away": "29-21",
         "oneRun": "8-12",
-        "runDiff": "+27"
+        "runDiff": "+37"
       },
       {
         "teamId": 110,
@@ -54,7 +54,7 @@
         "wins": 46,
         "losses": 51,
         "pct": ".474",
-        "gb": "11.5",
+        "gb": "11.0",
         "last10": "7-3",
         "streak": "W4",
         "home": "28-25",
@@ -69,7 +69,7 @@
         "wins": 45,
         "losses": 51,
         "pct": ".469",
-        "gb": "12.0",
+        "gb": "11.5",
         "last10": "5-5",
         "streak": "L2",
         "home": "24-25",
@@ -248,11 +248,18 @@
         "wcgb": "--"
       },
       {
+        "city": "Boston",
+        "wins": 47,
+        "losses": 48,
+        "pct": ".495",
+        "wcgb": "--"
+      },
+      {
         "city": "Minnesota",
         "wins": 48,
         "losses": 49,
         "pct": ".495",
-        "wcgb": "--"
+        "wcgb": "0.0"
       },
       {
         "city": "Seattle",
@@ -260,13 +267,6 @@
         "losses": 49,
         "pct": ".495",
         "wcgb": "0.0"
-      },
-      {
-        "city": "Boston",
-        "wins": 46,
-        "losses": 48,
-        "pct": ".489",
-        "wcgb": "0.5"
       },
       {
         "city": "Houston",

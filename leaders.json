@@ -1,22 +1,22 @@
 {
-  "last_updated": "2026-07-17 02:14 PM EDT",
+  "last_updated": "2026-07-17 05:51 PM EDT",
   "al": {
     "battingAverage": [
-      {
-        "player": "D\u00edaz",
-        "team": "Tbr",
-        "games": 91,
-        "ab": 347,
-        "runs": 51,
-        "hits": 111,
-        "avg": ".320"
-      },
       {
         "player": "Alvarez",
         "team": "Hou",
         "games": 96,
         "ab": 349,
         "runs": 65,
+        "hits": 111,
+        "avg": ".318"
+      },
+      {
+        "player": "D\u00edaz",
+        "team": "Tbr",
+        "games": 91,
+        "ab": 349,
+        "runs": 51,
         "hits": 111,
         "avg": ".318"
       },
@@ -30,15 +30,6 @@
         "avg": ".298"
       },
       {
-        "player": "Aranda",
-        "team": "Tbr",
-        "games": 94,
-        "ab": 340,
-        "runs": 48,
-        "hits": 101,
-        "avg": ".297"
-      },
-      {
         "player": "Clement",
         "team": "Tor",
         "games": 93,
@@ -46,6 +37,15 @@
         "runs": 42,
         "hits": 106,
         "avg": ".296"
+      },
+      {
+        "player": "Aranda",
+        "team": "Tbr",
+        "games": 94,
+        "ab": 343,
+        "runs": 48,
+        "hits": 101,
+        "avg": ".294"
       },
       {
         "player": "Greene",
@@ -105,10 +105,10 @@
         "player": "Rafaela",
         "team": "Bos",
         "games": 91,
-        "ab": 344,
-        "runs": 41,
-        "hits": 96,
-        "avg": ".279"
+        "ab": 347,
+        "runs": 42,
+        "hits": 97,
+        "avg": ".280"
       }
     ],
     "homeRuns": [
@@ -237,13 +237,13 @@
     ],
     "hits": [
       {
-        "player": "D\u00edaz",
-        "team": "Tbr",
+        "player": "Alvarez",
+        "team": "Hou",
         "value": 111
       },
       {
-        "player": "Alvarez",
-        "team": "Hou",
+        "player": "D\u00edaz",
+        "team": "Tbr",
         "value": 111
       },
       {
@@ -267,6 +267,11 @@
         "value": 100
       },
       {
+        "player": "Caminero",
+        "team": "Tbr",
+        "value": 100
+      },
+      {
         "player": "Greene",
         "team": "Det",
         "value": 99
@@ -277,14 +282,9 @@
         "value": 99
       },
       {
-        "player": "Caminero",
-        "team": "Tbr",
-        "value": 99
-      },
-      {
         "player": "Rafaela",
         "team": "Bos",
-        "value": 96
+        "value": 97
       },
       {
         "player": "Rice",

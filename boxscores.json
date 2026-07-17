@@ -40,16 +40,16 @@
       "home_pitcher": "Jake Bennett",
       "away_stats": {
         "wins": 5,
-        "losses": 6,
-        "era": "3.63",
-        "k9": "9.4",
+        "losses": 7,
+        "era": "4.08",
+        "k9": "9.2",
         "hand": "R",
         "team_record": "8-7"
       },
       "home_stats": {
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
-        "era": "2.49",
+        "era": "2.35",
         "k9": "6.4",
         "hand": "L",
         "team_record": "5-4"
@@ -82,10 +82,24 @@
       "away_name": "Rays",
       "home_name": "Red Sox",
       "game_time": "2026-07-17T23:10:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "TBD",
-      "away_stats": null,
-      "home_stats": null
+      "away_pitcher": "Mason Englert",
+      "home_pitcher": "Eduardo Rivera",
+      "away_stats": {
+        "wins": 0,
+        "losses": 2,
+        "era": "3.82",
+        "k9": "8.2",
+        "hand": "R",
+        "team_record": "0-2"
+      },
+      "home_stats": {
+        "wins": 0,
+        "losses": 0,
+        "era": "0.00",
+        "k9": "7.7",
+        "hand": "L",
+        "team_record": "1-0"
+      }
     },
     {
       "away_name": "Rangers",
