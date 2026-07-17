@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16 06:07 AM EDT",
+  "last_updated": "2026-07-17 04:00 AM EDT",
   "al": {
     "battingAverage": [
       {
@@ -789,15 +789,6 @@
         "avg": ".301"
       },
       {
-        "player": "Marsh",
-        "team": "Phi",
-        "games": 92,
-        "ab": 339,
-        "runs": 52,
-        "hits": 102,
-        "avg": ".301"
-      },
-      {
         "player": "Johnston",
         "team": "Col",
         "games": 87,
@@ -805,6 +796,15 @@
         "runs": 33,
         "hits": 83,
         "avg": ".301"
+      },
+      {
+        "player": "Marsh",
+        "team": "Phi",
+        "games": 93,
+        "ab": 343,
+        "runs": 52,
+        "hits": 102,
+        "avg": ".297"
       },
       {
         "player": "Harris",
@@ -875,13 +875,13 @@
         "value": 22
       },
       {
-        "player": "Crow-Armstrong",
-        "team": "Chc",
+        "player": "Soto",
+        "team": "Nym",
         "value": 21
       },
       {
-        "player": "Soto",
-        "team": "Nym",
+        "player": "Crow-Armstrong",
+        "team": "Chc",
         "value": 21
       },
       {
@@ -1061,13 +1061,13 @@
         "value": 63
       },
       {
-        "player": "Walker",
-        "team": "Stl",
-        "value": 62
-      },
-      {
         "player": "Turner",
         "team": "Phi",
+        "value": 63
+      },
+      {
+        "player": "Walker",
+        "team": "Stl",
         "value": 62
       },
       {
@@ -1371,13 +1371,13 @@
         "value": 14
       },
       {
-        "player": "Scott",
-        "team": "Lad",
-        "value": 13
-      },
-      {
         "player": "Williams",
         "team": "Nym",
+        "value": 14
+      },
+      {
+        "player": "Scott",
+        "team": "Lad",
         "value": 13
       },
       {
@@ -1438,6 +1438,16 @@
         "value": 15
       },
       {
+        "player": "Raley",
+        "team": "Nym",
+        "value": 13
+      },
+      {
+        "player": "Weaver",
+        "team": "Nym",
+        "value": 13
+      },
+      {
         "player": "Uribe",
         "team": "Mil",
         "value": 13
@@ -1451,16 +1461,6 @@
         "player": "Keller",
         "team": "Phi",
         "value": 13
-      },
-      {
-        "player": "Suarez",
-        "team": "Atl",
-        "value": 12
-      },
-      {
-        "player": "Weaver",
-        "team": "Nym",
-        "value": 12
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16 10:07 UTC",
+  "last_updated": "2026-07-17 08:00 UTC",
   "al": {
     "east": [
       {
@@ -341,15 +341,15 @@
         "city": "Philadelphia",
         "nickname": "Phillies",
         "wins": 54,
-        "losses": 43,
-        "pct": ".557",
-        "gb": "2.0",
+        "losses": 44,
+        "pct": ".551",
+        "gb": "2.5",
         "last10": "5-5",
-        "streak": "W2",
-        "home": "25-21",
+        "streak": "L1",
+        "home": "25-22",
         "away": "29-22",
         "oneRun": "19-6",
-        "runDiff": "-10"
+        "runDiff": "-13"
       },
       {
         "teamId": 146,
@@ -385,16 +385,16 @@
         "teamId": 121,
         "city": "New York",
         "nickname": "Mets",
-        "wins": 40,
+        "wins": 41,
         "losses": 57,
-        "pct": ".412",
-        "gb": "16.0",
-        "last10": "4-6",
-        "streak": "L3",
+        "pct": ".418",
+        "gb": "15.5",
+        "last10": "5-5",
+        "streak": "W1",
         "home": "21-28",
-        "away": "19-29",
+        "away": "20-29",
         "oneRun": "9-17",
-        "runDiff": "-65"
+        "runDiff": "-62"
       }
     ],
     "central": [
@@ -562,8 +562,8 @@
       {
         "city": "Philadelphia",
         "wins": 54,
-        "losses": 43,
-        "pct": ".557",
+        "losses": 44,
+        "pct": ".551",
         "wcgb": "--"
       },
       {
@@ -624,10 +624,10 @@
       },
       {
         "city": "New York",
-        "wins": 40,
+        "wins": 41,
         "losses": 57,
-        "pct": ".412",
-        "wcgb": "12.0"
+        "pct": ".418",
+        "wcgb": "11.5"
       },
       {
         "city": "Colorado",

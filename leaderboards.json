@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 16, 2026 10:07 UTC",
+  "last_updated": "July 17, 2026 08:00 UTC",
   "standings": {
     "AL East": [
       {
@@ -107,8 +107,8 @@
       {
         "team": "PHI",
         "wins": 54,
-        "losses": 43,
-        "gb": "2.0"
+        "losses": 44,
+        "gb": "2.5"
       },
       {
         "team": "MIA",
@@ -124,9 +124,9 @@
       },
       {
         "team": "NYM",
-        "wins": 40,
+        "wins": 41,
         "losses": 57,
-        "gb": "16.0"
+        "gb": "15.5"
       }
     ],
     "NL Central": [
@@ -242,7 +242,7 @@
     {
       "team": "PHI",
       "wins": 54,
-      "losses": 43,
+      "losses": 44,
       "gb": "-"
     },
     {
@@ -1350,14 +1350,14 @@
           "value": ".301"
         },
         {
-          "name": "Brandon Marsh",
-          "team": "PHI",
-          "value": ".301"
-        },
-        {
           "name": "Troy Johnston",
           "team": "COL",
           "value": ".301"
+        },
+        {
+          "name": "Brandon Marsh",
+          "team": "PHI",
+          "value": ".297"
         },
         {
           "name": "Michael Harris II",
@@ -1528,14 +1528,14 @@
       ],
       "obp": [
         {
+          "name": "Juan Soto",
+          "team": "NYM",
+          "value": ".412"
+        },
+        {
           "name": "James Wood",
           "team": "WSH",
           "value": ".410"
-        },
-        {
-          "name": "Juan Soto",
-          "team": "NYM",
-          "value": ".405"
         },
         {
           "name": "Shohei Ohtani",
@@ -1587,12 +1587,12 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".562"
+          "value": ".563"
         },
         {
           "name": "Kyle Schwarber",
           "team": "PHI",
-          "value": ".560"
+          "value": ".559"
         },
         {
           "name": "Luis Garc\u00eda Jr.",
@@ -1639,7 +1639,7 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".967"
+          "value": ".975"
         },
         {
           "name": "Shohei Ohtani",
@@ -1649,7 +1649,7 @@
         {
           "name": "Kyle Schwarber",
           "team": "PHI",
-          "value": ".927"
+          "value": ".925"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1716,7 +1716,7 @@
         {
           "name": "Trea Turner",
           "team": "PHI",
-          "value": "62"
+          "value": "63"
         },
         {
           "name": "Jordan Walker",
@@ -1937,8 +1937,8 @@
           "value": "40"
         },
         {
-          "name": "Shohei Ohtani",
-          "team": "LAD",
+          "name": "Bryce Harper",
+          "team": "PHI",
           "value": "40"
         }
       ]
@@ -2211,6 +2211,11 @@
           "value": "23"
         },
         {
+          "name": "Aaron Nola",
+          "team": "PHI",
+          "value": "23"
+        },
+        {
           "name": "Shota Imanaga",
           "team": "CHC",
           "value": "22"
@@ -2223,11 +2228,6 @@
         {
           "name": "Miles Mikolas",
           "team": "WSH",
-          "value": "20"
-        },
-        {
-          "name": "Aaron Nola",
-          "team": "PHI",
           "value": "20"
         },
         {
@@ -2288,6 +2288,11 @@
           "value": "14"
         },
         {
+          "name": "Devin Williams",
+          "team": "NYM",
+          "value": "14"
+        },
+        {
           "name": "Pete Fairbanks",
           "team": "MIA",
           "value": "13"
@@ -2295,11 +2300,6 @@
         {
           "name": "Tanner Scott",
           "team": "LAD",
-          "value": "13"
-        },
-        {
-          "name": "Devin Williams",
-          "team": "NYM",
           "value": "13"
         },
         {
@@ -2350,13 +2350,13 @@
           "value": "13"
         },
         {
-          "name": "George Soriano",
-          "team": "STL",
+          "name": "Brooks Raley",
+          "team": "NYM",
           "value": "13"
         },
         {
-          "name": "Abner Uribe",
-          "team": "MIL",
+          "name": "George Soriano",
+          "team": "STL",
           "value": "13"
         }
       ]
