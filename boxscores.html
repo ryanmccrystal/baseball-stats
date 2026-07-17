@@ -239,6 +239,11 @@
             margin: 0;
         }
 
+        .boxscore-line {
+            font-size: 14px;
+            line-height: 1.35;
+        }
+
     </style>
 </head>
 
@@ -714,10 +719,29 @@ fetch("./boxscore_details.json")
 
             div.className = "boxscore";
 
+            const lines =
+                game.boxscore.split("\n");
+
             div.innerHTML = `
                 <div class="headline">${game.headline}</div>
-                <pre>${game.boxscore}</pre>
+                <div class="boxscore-body"></div>
             `;
+
+            const body =
+                div.querySelector(".boxscore-body");
+
+            lines.forEach(line => {
+
+                const row =
+                    document.createElement("div");
+
+                row.className = "boxscore-line";
+
+                row.textContent = line;
+
+                body.appendChild(row);
+
+            });
 
             container.appendChild(div);
 
