@@ -730,31 +730,45 @@ fetch("./boxscore_details.json")
             const body =
                 div.querySelector(".boxscore-body");
 
-            let currentSection = "";
+            const battingLines = [];
+            const otherLines = [];
+
+            let inBatting = false;
 
             lines.forEach(line => {
 
                 if (line.includes("Batters")) {
-                    currentSection = "batters";
+                    inBatting = true;
                 }
-                else if (line.includes("Pitchers")) {
-                    currentSection = "pitchers";
+    
+                if (inBatting) {
+                    battingLines.push(line);
                 }
-
-                const row =
-                    document.createElement("div");
-
-                row.className = "boxscore-line";
-
-                if (currentSection !== "") {
-                    row.dataset.section = currentSection;
+                else {
+                    otherLines.push(line);
                 }
 
-                row.textContent = line;
-
-                body.appendChild(row);
+                if (
+                    inBatting &&
+                    line.trim().startsWith("Totals")
+                ) {
+                    inBatting = false;
+                }
 
             });
+
+            console.log(battingLines);
+
+            battingLines.forEach(line => {
+
+            const row =
+                document.createElement("div");
+
+            row.textContent = line;
+
+            body.appendChild(row);
+
+        });
 
             container.appendChild(div);
 
