@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 18, 2026 19:39 UTC",
+  "last_updated": "July 18, 2026 19:52 UTC",
   "standings": {
     "AL East": [
       {
@@ -301,7 +301,7 @@
         {
           "name": "Sam Antonacci",
           "team": "CWS",
-          "value": ".289"
+          "value": ".288"
         },
         {
           "name": "Riley Greene",
@@ -524,7 +524,7 @@
         {
           "name": "Sam Antonacci",
           "team": "CWS",
-          "value": ".381"
+          "value": ".380"
         },
         {
           "name": "Willson Contreras",
@@ -571,7 +571,7 @@
         {
           "name": "Miguel Vargas",
           "team": "CWS",
-          "value": ".490"
+          "value": ".494"
         },
         {
           "name": "Shea Langeliers",
@@ -626,14 +626,14 @@
           "value": ".862"
         },
         {
+          "name": "Miguel Vargas",
+          "team": "CWS",
+          "value": ".851"
+        },
+        {
           "name": "Jonathan Aranda",
           "team": "TBR",
           "value": ".850"
-        },
-        {
-          "name": "Miguel Vargas",
-          "team": "CWS",
-          "value": ".846"
         }
       ],
       "runs": [
@@ -782,13 +782,13 @@
           "value": "21"
         },
         {
-          "name": "Wilyer Abreu",
-          "team": "BOS",
-          "value": "20"
+          "name": "Miguel Vargas",
+          "team": "CWS",
+          "value": "21"
         },
         {
-          "name": "Riley Greene",
-          "team": "DET",
+          "name": "Wilyer Abreu",
+          "team": "BOS",
           "value": "20"
         }
       ],
@@ -856,6 +856,11 @@
           "value": "48"
         },
         {
+          "name": "Miguel Vargas",
+          "team": "CWS",
+          "value": "42"
+        },
+        {
           "name": "Byron Buxton",
           "team": "MIN",
           "value": "42"
@@ -863,11 +868,6 @@
         {
           "name": "Zach Neto",
           "team": "LAA",
-          "value": "41"
-        },
-        {
-          "name": "Miguel Vargas",
-          "team": "CWS",
           "value": "41"
         },
         {
@@ -1031,7 +1031,7 @@
         {
           "name": "Taj Bradley",
           "team": "MIN",
-          "value": "122"
+          "value": "124"
         },
         {
           "name": "Jacob deGrom",
@@ -1350,18 +1350,18 @@
           "value": ".303"
         },
         {
+          "name": "TJ Rumfield",
+          "team": "COL",
+          "value": ".299"
+        },
+        {
           "name": "Troy Johnston",
           "team": "COL",
-          "value": ".300"
+          "value": ".299"
         },
         {
           "name": "Michael Harris II",
           "team": "ATL",
-          "value": ".297"
-        },
-        {
-          "name": "TJ Rumfield",
-          "team": "COL",
           "value": ".297"
         },
         {
@@ -1530,7 +1530,7 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".411"
+          "value": ".410"
         },
         {
           "name": "James Wood",
@@ -1560,7 +1560,7 @@
         {
           "name": "TJ Rumfield",
           "team": "COL",
-          "value": ".380"
+          "value": ".382"
         },
         {
           "name": "Iv\u00e1n Herrera",
@@ -1592,7 +1592,7 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".561"
+          "value": ".559"
         },
         {
           "name": "Luis Garc\u00eda Jr.",
@@ -1639,7 +1639,7 @@
         {
           "name": "Juan Soto",
           "team": "NYM",
-          "value": ".972"
+          "value": ".969"
         },
         {
           "name": "Shohei Ohtani",
@@ -2062,7 +2062,7 @@
         {
           "name": "Jes\u00fas Luzardo",
           "team": "PHI",
-          "value": "139"
+          "value": "141"
         },
         {
           "name": "Paul Skenes",
@@ -2181,7 +2181,7 @@
         {
           "name": "Jes\u00fas Luzardo",
           "team": "PHI",
-          "value": "112.1"
+          "value": "113.1"
         },
         {
           "name": "Jacob Misiorowski",

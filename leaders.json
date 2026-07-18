@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 03:40 PM EDT",
+  "last_updated": "2026-07-18 03:53 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -23,7 +23,7 @@
       {
         "player": "Clement",
         "team": "Tor",
-        "games": 94,
+        "games": 95,
         "ab": 362,
         "runs": 43,
         "hits": 108,
@@ -50,11 +50,11 @@
       {
         "player": "Antonacci",
         "team": "Chw",
-        "games": 76,
-        "ab": 266,
+        "games": 77,
+        "ab": 267,
         "runs": 50,
         "hits": 77,
-        "avg": ".289"
+        "avg": ".288"
       },
       {
         "player": "Greene",
@@ -572,13 +572,13 @@
         "value": 128
       },
       {
-        "player": "deGrom",
-        "team": "Tex",
-        "value": 122
-      },
-      {
         "player": "Bradley",
         "team": "Min",
+        "value": 124
+      },
+      {
+        "player": "deGrom",
+        "team": "Tex",
         "value": 122
       },
       {
@@ -775,7 +775,7 @@
         "team": "Col",
         "games": 85,
         "ab": 284,
-        "runs": 40,
+        "runs": 41,
         "hits": 87,
         "avg": ".306"
       },
@@ -789,13 +789,22 @@
         "avg": ".303"
       },
       {
+        "player": "Rumfield",
+        "team": "Col",
+        "games": 97,
+        "ab": 341,
+        "runs": 42,
+        "hits": 102,
+        "avg": ".299"
+      },
+      {
         "player": "Johnston",
         "team": "Col",
         "games": 89,
-        "ab": 280,
+        "ab": 281,
         "runs": 33,
         "hits": 84,
-        "avg": ".300"
+        "avg": ".299"
       },
       {
         "player": "Harris",
@@ -803,15 +812,6 @@
         "games": 90,
         "ab": 340,
         "runs": 46,
-        "hits": 101,
-        "avg": ".297"
-      },
-      {
-        "player": "Rumfield",
-        "team": "Col",
-        "games": 97,
-        "ab": 340,
-        "runs": 42,
         "hits": 101,
         "avg": ".297"
       },
@@ -837,10 +837,10 @@
         "player": "Soto",
         "team": "Nym",
         "games": 80,
-        "ab": 278,
+        "ab": 279,
         "runs": 44,
         "hits": 81,
-        "avg": ".291"
+        "avg": ".290"
       }
     ],
     "homeRuns": [
@@ -1019,14 +1019,14 @@
         "value": 103
       },
       {
-        "player": "Marsh",
-        "team": "Phi",
+        "player": "Rumfield",
+        "team": "Col",
         "value": 102
       },
       {
-        "player": "Harris",
-        "team": "Atl",
-        "value": 101
+        "player": "Marsh",
+        "team": "Phi",
+        "value": 102
       }
     ],
     "runs": [
@@ -1291,7 +1291,7 @@
       {
         "player": "Luzardo",
         "team": "Phi",
-        "value": 139
+        "value": 141
       },
       {
         "player": "Skenes",
