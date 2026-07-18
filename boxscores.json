@@ -178,8 +178,8 @@
       "away_stats": {
         "wins": 2,
         "losses": 4,
-        "era": "4.62",
-        "k9": "9.0",
+        "era": "4.56",
+        "k9": "9.1",
         "hand": "L",
         "team_record": "2-5"
       },
@@ -201,16 +201,16 @@
       "away_stats": {
         "wins": 9,
         "losses": 4,
-        "era": "3.36",
-        "k9": "8.2",
+        "era": "3.34",
+        "k9": "8.3",
         "hand": "R",
         "team_record": "12-7"
       },
       "home_stats": {
         "wins": 0,
         "losses": 1,
-        "era": "6.86",
-        "k9": "6.9",
+        "era": "6.53",
+        "k9": "7.0",
         "hand": "R",
         "team_record": "1-4"
       }
@@ -232,8 +232,8 @@
       "home_stats": {
         "wins": 8,
         "losses": 4,
-        "era": "4.74",
-        "k9": "5.3",
+        "era": "4.67",
+        "k9": "5.2",
         "hand": "R",
         "team_record": "11-6"
       }
@@ -247,16 +247,16 @@
       "away_stats": {
         "wins": 6,
         "losses": 7,
-        "era": "4.48",
-        "k9": "6.9",
+        "era": "4.45",
+        "k9": "6.8",
         "hand": "L",
-        "team_record": "8-9"
+        "team_record": "8-10"
       },
       "home_stats": {
         "wins": 7,
         "losses": 5,
-        "era": "4.46",
-        "k9": "9.0",
+        "era": "4.45",
+        "k9": "9.1",
         "hand": "R",
         "team_record": "9-7"
       }
@@ -273,15 +273,15 @@
         "era": "6.47",
         "k9": "8.9",
         "hand": "R",
-        "team_record": "2-8"
+        "team_record": "2-9"
       },
       "home_stats": {
         "wins": 0,
         "losses": 0,
-        "era": "1.86",
-        "k9": "3.7",
+        "era": "1.69",
+        "k9": "5.1",
         "hand": "R",
-        "team_record": "0-0"
+        "team_record": "0-1"
       }
     },
     {
@@ -293,18 +293,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 6,
-        "era": "4.55",
+        "era": "4.50",
         "k9": "8.6",
         "hand": "R",
-        "team_record": "9-9"
+        "team_record": "9-10"
       },
       "home_stats": {
         "wins": 3,
         "losses": 1,
-        "era": "4.61",
-        "k9": "6.8",
+        "era": "4.58",
+        "k9": "6.7",
         "hand": "R",
-        "team_record": "5-1"
+        "team_record": "5-2"
       }
     },
     {
@@ -339,15 +339,15 @@
       "away_stats": {
         "wins": 5,
         "losses": 8,
-        "era": "4.63",
-        "k9": "9.9",
+        "era": "4.61",
+        "k9": "9.8",
         "hand": "L",
-        "team_record": "9-11"
+        "team_record": "10-11"
       },
       "home_stats": {
         "wins": 0,
         "losses": 1,
-        "era": "2.25",
+        "era": "3.60",
         "k9": "9.0",
         "hand": "R",
         "team_record": "0-1"
@@ -365,13 +365,13 @@
         "era": "2.58",
         "k9": "9.7",
         "hand": "R",
-        "team_record": "14-5"
+        "team_record": "14-6"
       },
       "home_stats": {
         "wins": 4,
         "losses": 3,
-        "era": "3.07",
-        "k9": "8.7",
+        "era": "3.04",
+        "k9": "8.9",
         "hand": "L",
         "team_record": "5-5"
       }

@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-07-18 04:16 PM EDT",
+  "last_updated": "2026-07-18 04:25 PM EDT",
   "al": {
     "battingAverage": [
       {
         "player": "Alvarez",
         "team": "Hou",
         "games": 98,
-        "ab": 352,
+        "ab": 353,
         "runs": 65,
         "hits": 113,
-        "avg": ".321"
+        "avg": ".320"
       },
       {
         "player": "D\u00edaz",
@@ -33,10 +33,10 @@
         "player": "Jung",
         "team": "Tex",
         "games": 89,
-        "ab": 340,
+        "ab": 341,
         "runs": 45,
         "hits": 100,
-        "avg": ".294"
+        "avg": ".293"
       },
       {
         "player": "Aranda",
@@ -48,15 +48,6 @@
         "avg": ".291"
       },
       {
-        "player": "Antonacci",
-        "team": "Chw",
-        "games": 77,
-        "ab": 267,
-        "runs": 50,
-        "hits": 77,
-        "avg": ".288"
-      },
-      {
         "player": "Greene",
         "team": "Det",
         "games": 96,
@@ -64,6 +55,15 @@
         "runs": 49,
         "hits": 100,
         "avg": ".288"
+      },
+      {
+        "player": "Antonacci",
+        "team": "Chw",
+        "games": 77,
+        "ab": 268,
+        "runs": 50,
+        "hits": 77,
+        "avg": ".287"
       },
       {
         "player": "Contreras",
@@ -75,15 +75,6 @@
         "avg": ".285"
       },
       {
-        "player": "Witt",
-        "team": "Kan",
-        "games": 93,
-        "ab": 364,
-        "runs": 51,
-        "hits": 103,
-        "avg": ".283"
-      },
-      {
         "player": "Arozarena",
         "team": "Sea",
         "games": 90,
@@ -91,6 +82,15 @@
         "runs": 59,
         "hits": 93,
         "avg": ".283"
+      },
+      {
+        "player": "Witt",
+        "team": "Kan",
+        "games": 93,
+        "ab": 365,
+        "runs": 51,
+        "hits": 103,
+        "avg": ".282"
       },
       {
         "player": "Rice",
@@ -470,7 +470,7 @@
       {
         "player": "Martin",
         "team": "Chw",
-        "value": "3.34"
+        "value": "3.33"
       },
       {
         "player": "Burke",
@@ -597,13 +597,13 @@
         "value": 116
       },
       {
-        "player": "Burke",
-        "team": "Chw",
-        "value": 115
+        "player": "Gore",
+        "team": "Tex",
+        "value": 116
       },
       {
-        "player": "Soriano",
-        "team": "Laa",
+        "player": "Burke",
+        "team": "Chw",
         "value": 115
       }
     ],
@@ -783,37 +783,28 @@
         "player": "Edwards",
         "team": "Mia",
         "games": 99,
-        "ab": 357,
+        "ab": 358,
         "runs": 50,
         "hits": 108,
-        "avg": ".303"
+        "avg": ".302"
       },
       {
         "player": "Rumfield",
         "team": "Col",
         "games": 97,
-        "ab": 341,
+        "ab": 342,
         "runs": 42,
-        "hits": 102,
-        "avg": ".299"
+        "hits": 103,
+        "avg": ".301"
       },
       {
         "player": "Johnston",
         "team": "Col",
         "games": 89,
-        "ab": 281,
+        "ab": 282,
         "runs": 33,
         "hits": 84,
-        "avg": ".299"
-      },
-      {
-        "player": "Harris",
-        "team": "Atl",
-        "games": 91,
-        "ab": 340,
-        "runs": 46,
-        "hits": 101,
-        "avg": ".297"
+        "avg": ".298"
       },
       {
         "player": "Marsh",
@@ -825,13 +816,22 @@
         "avg": ".297"
       },
       {
+        "player": "Harris",
+        "team": "Atl",
+        "games": 91,
+        "ab": 341,
+        "runs": 46,
+        "hits": 101,
+        "avg": ".296"
+      },
+      {
         "player": "Walker",
         "team": "Stl",
         "games": 95,
-        "ab": 361,
+        "ab": 362,
         "runs": 62,
         "hits": 106,
-        "avg": ".294"
+        "avg": ".293"
       },
       {
         "player": "Soto",
@@ -1014,14 +1014,14 @@
         "value": 103
       },
       {
-        "player": "Freeman",
-        "team": "Lad",
+        "player": "Rumfield",
+        "team": "Col",
         "value": 103
       },
       {
-        "player": "Rumfield",
-        "team": "Col",
-        "value": 102
+        "player": "Freeman",
+        "team": "Lad",
+        "value": 103
       },
       {
         "player": "Marsh",
@@ -1105,7 +1105,7 @@
       {
         "player": "Tatis",
         "team": "Sdp",
-        "value": 23
+        "value": 24
       },
       {
         "player": "Cruz",
@@ -1326,7 +1326,7 @@
       {
         "player": "Meyer",
         "team": "Mia",
-        "value": 116
+        "value": 117
       },
       {
         "player": "Griffin",
