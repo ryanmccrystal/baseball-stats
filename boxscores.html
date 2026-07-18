@@ -291,6 +291,13 @@
             text-align: right;
         }
 
+        .boxscore-table .totals-row th,
+        .boxscore-table .totals-row td {
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #999;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 
@@ -826,7 +833,7 @@ fetch("./boxscore_details.json")
             });
 
             html += `
-            <tr>
+            <tr class="totals-row">
                 <th style="text-align:left">Totals</th>
                 <th>${totals.ab}</th>
                 <th>${totals.r}</th>
