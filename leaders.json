@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-07-18 04:11 PM EDT",
+  "last_updated": "2026-07-18 04:14 PM EDT",
   "al": {
     "battingAverage": [
       {
         "player": "Alvarez",
         "team": "Hou",
-        "games": 97,
+        "games": 98,
         "ab": 352,
         "runs": 65,
         "hits": 113,
@@ -32,7 +32,7 @@
       {
         "player": "Jung",
         "team": "Tex",
-        "games": 88,
+        "games": 89,
         "ab": 340,
         "runs": 45,
         "hits": 100,
@@ -77,7 +77,7 @@
       {
         "player": "Witt",
         "team": "Kan",
-        "games": 92,
+        "games": 93,
         "ab": 364,
         "runs": 51,
         "hits": 103,
@@ -470,7 +470,7 @@
       {
         "player": "Martin",
         "team": "Chw",
-        "value": "3.38"
+        "value": "3.35"
       },
       {
         "player": "Burke",
@@ -737,11 +737,11 @@
       {
         "player": "Lopez",
         "team": "Mia",
-        "games": 96,
-        "ab": 384,
+        "games": 97,
+        "ab": 385,
         "runs": 61,
-        "hits": 129,
-        "avg": ".336"
+        "hits": 130,
+        "avg": ".338"
       },
       {
         "player": "Arraez",
@@ -782,7 +782,7 @@
       {
         "player": "Edwards",
         "team": "Mia",
-        "games": 98,
+        "games": 99,
         "ab": 357,
         "runs": 50,
         "hits": 108,
@@ -809,7 +809,7 @@
       {
         "player": "Harris",
         "team": "Atl",
-        "games": 90,
+        "games": 91,
         "ab": 340,
         "runs": 46,
         "hits": 101,
@@ -827,7 +827,7 @@
       {
         "player": "Walker",
         "team": "Stl",
-        "games": 94,
+        "games": 95,
         "ab": 361,
         "runs": 62,
         "hits": 106,
@@ -971,7 +971,7 @@
       {
         "player": "Lopez",
         "team": "Mia",
-        "value": 129
+        "value": 130
       },
       {
         "player": "Arraez",
