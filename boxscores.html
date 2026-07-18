@@ -247,13 +247,13 @@
         .boxscore-table {
             border-collapse: collapse;
             width: auto;
-            table-layout: auto;
+            table-layout: fixed;
             margin-bottom: 12px;
         }
 
         .boxscore-table th,
-        .boxscore-table td {
-            padding: 2px 8px;
+            .boxscore-table td {
+            padding: 2px 4px;
             font-size: 14px;
             white-space: nowrap;
         }
@@ -265,11 +265,29 @@
 
         .boxscore-table th:first-child,
         .boxscore-table td:first-child {
+            width: 190px;
             text-align: left;
         }
 
-        .boxscore-table th:not(:first-child),
-        .boxscore-table td:not(:first-child) {
+        .boxscore-table th:nth-child(2),
+        .boxscore-table td:nth-child(2),
+        .boxscore-table th:nth-child(3),
+        .boxscore-table td:nth-child(3),
+        .boxscore-table th:nth-child(4),
+        .boxscore-table td:nth-child(4),
+        .boxscore-table th:nth-child(5),
+        .boxscore-table td:nth-child(5),
+        .boxscore-table th:nth-child(6),
+        .boxscore-table td:nth-child(6),
+        .boxscore-table th:nth-child(7),
+        .boxscore-table td:nth-child(7) {
+            width: 36px;
+            text-align: right;
+        }
+
+        .boxscore-table th:nth-child(8),
+        .boxscore-table td:nth-child(8) {
+            width: 50px;
             text-align: right;
         }
 
