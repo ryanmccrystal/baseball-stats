@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 04:14 PM EDT",
+  "last_updated": "2026-07-18 04:16 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -470,7 +470,7 @@
       {
         "player": "Martin",
         "team": "Chw",
-        "value": "3.35"
+        "value": "3.34"
       },
       {
         "player": "Burke",
@@ -1133,6 +1133,11 @@
         "value": 19
       },
       {
+        "player": "Lopez",
+        "team": "Mia",
+        "value": 18
+      },
+      {
         "player": "Mangum",
         "team": "Pit",
         "value": 18
@@ -1141,11 +1146,6 @@
         "player": "Hamilton",
         "team": "Mil",
         "value": 18
-      },
-      {
-        "player": "Lopez",
-        "team": "Mia",
-        "value": 17
       },
       {
         "player": "McCarthy",
