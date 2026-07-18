@@ -768,10 +768,26 @@ fetch("./boxscore_details.json")
                     <tbody>
             `;
 
+            let totals = {
+                ab: 0,
+                r: 0,
+                h: 0,
+                rbi: 0,
+                bb: 0,
+                k: 0
+            };
+
             game.away_batting.forEach(player => {
 
                 const isSub =
                     player.order % 100 !== 0;
+
+                totals.ab += player.ab;
+                totals.r += player.r;
+                totals.h += player.h;
+                totals.rbi += player.rbi;
+                totals.bb += player.bb;
+                totals.k += player.k;
 
                 html += `
                     <tr>
@@ -790,6 +806,19 @@ fetch("./boxscore_details.json")
                 `;
 
             });
+
+            html += `
+            <tr>
+                <th style="text-align:left">Totals</th>
+                <th>${totals.ab}</th>
+                <th>${totals.r}</th>
+                <th>${totals.h}</th>
+                <th>${totals.rbi}</th>
+                <th>${totals.bb}</th>
+                <th>${totals.k}</th>
+                <th></th>
+            </tr>
+            `;
 
             html += `
                     </tbody>
