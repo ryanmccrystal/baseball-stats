@@ -109,8 +109,8 @@ for game in schedule:
     output["games"].append({
 
         "headline":
-            f"{away_nickname.upper()} {away['runs']}, "
-            f"{home_nickname.upper()} {home['runs']}",
+            f"{away_nickname} {away['runs']}, "
+            f"{home_nickname} {home['runs']}",
 
         "boxscore": boxscore,
 
