@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 18, 2026 19:55 UTC",
+  "last_updated": "July 18, 2026 20:06 UTC",
   "standings": {
     "AL East": [
       {
@@ -945,9 +945,9 @@
           "value": "3.32"
         },
         {
-          "name": "Sean Burke",
+          "name": "Davis Martin",
           "team": "CWS",
-          "value": "3.41"
+          "value": "3.38"
         }
       ],
       "wins": [
@@ -1342,7 +1342,7 @@
         {
           "name": "Jake McCarthy",
           "team": "COL",
-          "value": ".306"
+          "value": ".305"
         },
         {
           "name": "Xavier Edwards",
@@ -1587,7 +1587,7 @@
         {
           "name": "Kyle Schwarber",
           "team": "PHI",
-          "value": ".569"
+          "value": ".567"
         },
         {
           "name": "Juan Soto",
@@ -1627,7 +1627,7 @@
         {
           "name": "Jake McCarthy",
           "team": "COL",
-          "value": ".521"
+          "value": ".519"
         }
       ],
       "ops": [
@@ -1649,7 +1649,7 @@
         {
           "name": "Kyle Schwarber",
           "team": "PHI",
-          "value": ".937"
+          "value": ".934"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1870,6 +1870,11 @@
           "value": "4"
         },
         {
+          "name": "Elly De La Cruz",
+          "team": "CIN",
+          "value": "4"
+        },
+        {
           "name": "Bryson Stott",
           "team": "PHI",
           "value": "4"
@@ -1882,11 +1887,6 @@
         {
           "name": "Justin Crawford",
           "team": "PHI",
-          "value": "3"
-        },
-        {
-          "name": "Elly De La Cruz",
-          "team": "CIN",
           "value": "3"
         }
       ],
@@ -2062,7 +2062,7 @@
         {
           "name": "Jes\u00fas Luzardo",
           "team": "PHI",
-          "value": "141"
+          "value": "142"
         },
         {
           "name": "Paul Skenes",
@@ -2164,6 +2164,11 @@
           "value": "127.1"
         },
         {
+          "name": "Jes\u00fas Luzardo",
+          "team": "PHI",
+          "value": "114.1"
+        },
+        {
           "name": "Eduardo Rodriguez",
           "team": "ARI",
           "value": "114.0"
@@ -2176,11 +2181,6 @@
         {
           "name": "Michael King",
           "team": "SDP",
-          "value": "113.1"
-        },
-        {
-          "name": "Jes\u00fas Luzardo",
-          "team": "PHI",
           "value": "113.1"
         },
         {

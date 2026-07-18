@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18 03:55 PM EDT",
+  "last_updated": "2026-07-18 04:07 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -24,7 +24,7 @@
         "player": "Clement",
         "team": "Tor",
         "games": 95,
-        "ab": 362,
+        "ab": 363,
         "runs": 43,
         "hits": 108,
         "avg": ".298"
@@ -468,12 +468,12 @@
         "value": "3.32"
       },
       {
-        "player": "Burke",
+        "player": "Martin",
         "team": "Chw",
-        "value": "3.41"
+        "value": "3.38"
       },
       {
-        "player": "Martin",
+        "player": "Burke",
         "team": "Chw",
         "value": "3.41"
       },
@@ -774,10 +774,10 @@
         "player": "McCarthy",
         "team": "Col",
         "games": 85,
-        "ab": 284,
+        "ab": 285,
         "runs": 41,
         "hits": 87,
-        "avg": ".306"
+        "avg": ".305"
       },
       {
         "player": "Edwards",
@@ -1291,7 +1291,7 @@
       {
         "player": "Luzardo",
         "team": "Phi",
-        "value": 141
+        "value": 142
       },
       {
         "player": "Skenes",
