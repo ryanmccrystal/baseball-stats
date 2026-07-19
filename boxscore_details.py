@@ -86,27 +86,25 @@ for game in schedule:
         )
 
         output["games"].append({
+            "status": game["status"],
 
-            status_map = {
-                "Postponed": "ppd",
-                "Cancelled": "canc"
+            "games_display":
+                f"{game['away_name']} at {game['home_name']} - {display_status}",
+
+            "away": {
+                "city": away_city,
+                "nickname": away_nickname
+            },
+
+            "home": {
+                "city": home_city,
+                "nickname": home_nickname
             }
+        })
 
-            display_status = status_map.get(
-                game["status"],
-                game["status"].lower()
-            )
+        continue
 
-            output["games"].append({
-
-                "status": game["status"],
-
-                "games_display":
-                    f"{game['away_name']} at {game['home_name']} - {display_status}"
-
-            })
-
-            continue
+    gamePk = game["game_id"]
 
     print(game["away_name"], "at", game["home_name"])
     print("Status:", game["status"])
