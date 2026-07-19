@@ -75,23 +75,38 @@ for game in schedule:
         away_city, away_nickname = split_team_name(game["away_name"])
         home_city, home_nickname = split_team_name(game["home_name"])
 
+        status_map = {
+            "Postponed": "ppd",
+            "Cancelled": "canc"
+        }
+
+        display_status = status_map.get(
+            game["status"],
+            game["status"].lower()
+        )
+
         output["games"].append({
 
-            "status": game["status"],
-
-            "away": {
-                "city": away_city,
-                "nickname": away_nickname
-            },
-
-            "home": {
-                "city": home_city,
-                "nickname": home_nickname
+            status_map = {
+                "Postponed": "ppd",
+                "Cancelled": "canc"
             }
 
-        })
+            display_status = status_map.get(
+                game["status"],
+                game["status"].lower()
+            )
 
-        continue
+            output["games"].append({
+
+                "status": game["status"],
+
+                "games_display":
+                    f"{game['away_name']} at {game['home_name']} - {display_status}"
+
+            })
+
+            continue
 
     print(game["away_name"], "at", game["home_name"])
     print("Status:", game["status"])
