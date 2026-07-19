@@ -126,6 +126,12 @@ for game in schedule:
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
 
+    print("AWAY:")
+    print(json.dumps(away, indent=2))
+
+    print("HOME:")
+    print(json.dumps(home, indent=2))
+
     away_city = game["away_name"].replace(f" {nickname(game['away_name'])}", "")
     away_nickname = nickname(game["away_name"])
 
