@@ -126,19 +126,8 @@ for game in schedule:
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
 
-    print("TYPE:", type(away))
-    print("KEYS:", list(away.keys()))
-    print("RUNS EXISTS:", "runs" in away)
-    print("VALUE:", away.get("runs"))
-
-    print("HOME:")
-    print(json.dumps(home, indent=2))
-
-    away_city = game["away_name"].replace(f" {nickname(game['away_name'])}", "")
-    away_nickname = nickname(game["away_name"])
-
-    home_city = game["home_name"].replace(f" {nickname(game['home_name'])}", "")
-    home_nickname = nickname(game["home_name"])
+    away_city, away_nickname = split_team_name(game["away_name"])
+    home_city, home_nickname = split_team_name(game["home_name"])
 
     away_innings = []
     home_innings = []
