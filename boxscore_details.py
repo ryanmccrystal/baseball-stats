@@ -151,11 +151,14 @@ for game in schedule:
             inning.get("home", {}).get("runs", 0)
         )
 
+    away_runs = away["runs"]
+    home_runs = home["runs"]
+
     output["games"].append({
 
         "headline":
-            f"{away_nickname} {away['runs']}, "
-            f"{home_nickname} {home['runs']}",
+            f"{away_nickname} {away_runs}, "
+            f"{home_nickname} {home_runs}",
 
         "boxscore": boxscore,
 
