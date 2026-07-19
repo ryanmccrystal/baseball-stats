@@ -142,6 +142,9 @@ for game in schedule:
             inning.get("home", {}).get("runs", 0)
         )
 
+    away_runs = away["runs"]
+    home_runs = home["runs"]
+    
     output["games"].append({
 
         "headline":
