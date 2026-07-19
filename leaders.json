@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 12:15 PM EDT",
+  "last_updated": "2026-07-19 12:33 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -32,11 +32,11 @@
       {
         "player": "Clement",
         "team": "Tor",
-        "games": 95,
-        "ab": 366,
+        "games": 96,
+        "ab": 367,
         "runs": 43,
         "hits": 108,
-        "avg": ".295"
+        "avg": ".294"
       },
       {
         "player": "Aranda",
@@ -59,11 +59,11 @@
       {
         "player": "Antonacci",
         "team": "Chw",
-        "games": 77,
-        "ab": 270,
+        "games": 78,
+        "ab": 271,
         "runs": 50,
         "hits": 77,
-        "avg": ".285"
+        "avg": ".284"
       },
       {
         "player": "Contreras",
@@ -168,8 +168,8 @@
         "value": 20
       },
       {
-        "player": "Murakami",
-        "team": "Chw",
+        "player": "Walker",
+        "team": "Hou",
         "value": 20
       }
     ],
@@ -475,7 +475,7 @@
       {
         "player": "Burke",
         "team": "Chw",
-        "value": "3.41"
+        "value": "3.38"
       },
       {
         "player": "Ginn",

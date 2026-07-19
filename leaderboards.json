@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 19, 2026 16:15 UTC",
+  "last_updated": "July 19, 2026 16:32 UTC",
   "standings": {
     "AL East": [
       {
@@ -291,7 +291,7 @@
         {
           "name": "Ernie Clement",
           "team": "TOR",
-          "value": ".295"
+          "value": ".294"
         },
         {
           "name": "Jonathan Aranda",
@@ -306,7 +306,7 @@
         {
           "name": "Sam Antonacci",
           "team": "CWS",
-          "value": ".285"
+          "value": ".284"
         },
         {
           "name": "Willson Contreras",
@@ -581,7 +581,7 @@
         {
           "name": "Miguel Vargas",
           "team": "CWS",
-          "value": ".490"
+          "value": ".489"
         }
       ],
       "ops": [
@@ -633,7 +633,7 @@
         {
           "name": "Miguel Vargas",
           "team": "CWS",
-          "value": ".845"
+          "value": ".843"
         }
       ],
       "runs": [
@@ -905,11 +905,6 @@
           "value": "2.05"
         },
         {
-          "name": "Dylan Cease",
-          "team": "TOR",
-          "value": "2.56"
-        },
-        {
           "name": "Nick Martinez",
           "team": "TBR",
           "value": "2.65"
@@ -948,6 +943,11 @@
           "name": "Logan Gilbert",
           "team": "SEA",
           "value": "3.32"
+        },
+        {
+          "name": "Sean Burke",
+          "team": "CWS",
+          "value": "3.38"
         }
       ],
       "wins": [
