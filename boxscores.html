@@ -298,6 +298,12 @@
             font-weight: bold;
         }
 
+        .game-status {
+            font-style: italic;
+            color: #666;
+            margin: 4px 0 12px 0;
+        }
+
     </style>
 </head>
 
@@ -767,6 +773,30 @@ fetch("./boxscore_details.json")
             document.getElementById("boxscores");
 
         data.games.forEach(game => {
+
+            if (game.status !== "Final") {
+
+                const div =
+                    document.createElement("div");
+
+                div.className = "boxscore";
+
+                div.innerHTML = `
+                    <div class="headline">
+                        ${game.away.city} ${game.away.nickname}
+                        at
+                        ${game.home.city} ${game.home.nickname}
+                    </div>
+
+                    <div class="game-status">
+                        ${game.status}
+                    </div>
+                `;
+
+                container.appendChild(div);
+
+                return;
+            }    
 
             const div =
                 document.createElement("div");
