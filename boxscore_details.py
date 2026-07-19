@@ -64,6 +64,8 @@ def split_team_name(full_name):
 
 for game in schedule:
 
+    print(f"\n{game['away_name']} at {game['home_name']}")
+
     gamePk = game["game_id"]
 
     linescore = statsapi.get(
@@ -141,6 +143,12 @@ for game in schedule:
         home_innings.append(
             inning.get("home", {}).get("runs", 0)
         )
+
+    if "runs" not in away or "runs" not in home:
+        print("Skipping game - no runs available")
+        print("Away:", away)
+        print("Home:", home)
+        continue
 
     away_runs = away["runs"]
     home_runs = home["runs"]
