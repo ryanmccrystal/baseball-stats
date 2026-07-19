@@ -188,6 +188,8 @@ for game in schedule:
     
     output["games"].append({
 
+        "status": game["status"],
+
         "headline":
             f"{away_nickname} {away_runs}, "
             f"{home_nickname} {home_runs}",
