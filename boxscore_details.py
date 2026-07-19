@@ -126,8 +126,10 @@ for game in schedule:
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
 
-    print("AWAY:")
-    print(json.dumps(away, indent=2))
+    print("TYPE:", type(away))
+    print("KEYS:", list(away.keys()))
+    print("RUNS EXISTS:", "runs" in away)
+    print("VALUE:", away.get("runs"))
 
     print("HOME:")
     print(json.dumps(home, indent=2))
