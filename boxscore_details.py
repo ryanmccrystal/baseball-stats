@@ -18,6 +18,12 @@ output = {
     "games": []
 }
 
+FINAL_STATUSES = {
+    "Final",
+    "Game Over",
+    "Completed Early"
+}
+
 def nickname(team_name):
 
     names = {
@@ -63,6 +69,29 @@ def split_team_name(full_name):
 
 
 for game in schedule:
+
+        if game["status"] not in FINAL_STATUSES:
+
+        away_city, away_nickname = split_team_name(game["away_name"])
+        home_city, home_nickname = split_team_name(game["home_name"])
+
+        output["games"].append({
+
+            "status": game["status"],
+
+            "away": {
+                "city": away_city,
+                "nickname": away_nickname
+            },
+
+            "home": {
+                "city": home_city,
+                "nickname": home_nickname
+            }
+
+        })
+
+        continue
 
     print(game["away_name"], "at", game["home_name"])
     print("Status:", game["status"])
