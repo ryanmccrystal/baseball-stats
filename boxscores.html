@@ -642,7 +642,7 @@ fetch('./leaders.json')
 
     });
 
-fetch('./boxscores.json')
+fetch("./boxscore_details.json")
     .then(response => response.json())
     .then(data => {
 
@@ -656,9 +656,7 @@ fetch('./boxscores.json')
 
             div.className = "game";
 
-            div.innerHTML =
-                `${game.winner_name} ${game.winner_score},
-                 ${game.loser_name} ${game.loser_score}`;
+            div.textContent = game.games_display;
 
             container.appendChild(div);
 
