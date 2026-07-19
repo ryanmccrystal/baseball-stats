@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19 01:03 PM",
+  "last_updated": "2026-07-19 03:33 PM",
   "games": [
     {
       "headline": "Pirates 7, Guardians 1",
@@ -2507,6 +2507,17 @@
         "runs": 0,
         "hits": 7,
         "errors": 1
+      }
+    },
+    {
+      "status": "Postponed",
+      "away": {
+        "city": "Los Angeles",
+        "nickname": "Dodgers"
+      },
+      "home": {
+        "city": "New York",
+        "nickname": "Yankees"
       }
     }
   ]
