@@ -64,8 +64,9 @@ def split_team_name(full_name):
 
 for game in schedule:
 
-    print(game["status"])
-    break
+    print(game["away_name"], "at", game["home_name"])
+    print("Status:", game["status"])
+    print()
 
     print(f"\n{game['away_name']} at {game['home_name']}")
 
