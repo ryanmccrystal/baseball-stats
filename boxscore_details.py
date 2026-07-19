@@ -70,7 +70,7 @@ def split_team_name(full_name):
 
 for game in schedule:
 
-        if game["status"] not in FINAL_STATUSES:
+    if game["status"] not in FINAL_STATUSES:
 
         away_city, away_nickname = split_team_name(game["away_name"])
         home_city, home_nickname = split_team_name(game["home_name"])
