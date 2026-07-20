@@ -183,6 +183,46 @@ for game in schedule:
 
         })
 
+    home_batting = []
+
+    home_players = boxscore_json["teams"]["home"]["players"]
+
+    batters = []
+
+    for player in home_players.values():
+
+        batting_order = player.get("battingOrder")
+
+        if batting_order is None:
+            continue
+
+        batters.append(player)
+
+    batters.sort(key=lambda p: int(p["battingOrder"]))
+
+    for player in batters:
+
+        batting = player["stats"]["batting"]
+        season = player["seasonStats"]["batting"]
+
+        home_batting.append({
+
+            "order": int(player["battingOrder"]),
+
+            "name": player["person"]["boxscoreName"],
+            "position": player["position"]["abbreviation"],
+
+            "ab": batting["atBats"],
+            "r": batting["runs"],
+            "h": batting["hits"],
+            "rbi": batting["rbi"],
+            "bb": batting["baseOnBalls"],
+            "k": batting["strikeOuts"],
+
+            "avg": season["avg"]
+
+        })
+
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
 
@@ -233,6 +273,7 @@ for game in schedule:
 
         # Keep this for later—we'll start filling it in next.
         "away_batting": away_batting,
+        "home_batting": home_batting,
 
         "away": {
             "city": away_city,
