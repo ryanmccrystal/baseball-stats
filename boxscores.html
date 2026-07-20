@@ -379,7 +379,7 @@ function createStandingsTable(title, teams, isWildCard = false) {
         <hr class="division-divider">
     `;
 
-    html += `
+    
         <table class="standings-table ${isWildCard ? 'wildcard-table' : ''}">
             <thead>
                 <tr>
@@ -407,7 +407,7 @@ function createStandingsTable(title, teams, isWildCard = false) {
 
     teams.forEach(team => {
 
-        html += `
+        
             <tr>
                 <td>${team.city}</td>
                 <td>${team.wins}</td>
@@ -418,7 +418,7 @@ function createStandingsTable(title, teams, isWildCard = false) {
 
         if (!isWildCard) {
 
-            html += `
+            
                 <td>${team.last10}</td>
                 <td>${team.streak}</td>
                 <td>${team.home}</td>
@@ -856,6 +856,80 @@ fetch("./boxscore_details.json")
             </tr>
             `;
 
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            totals = {
+                ab: 0,
+                r: 0,
+                h: 0,
+                rbi: 0,
+                bb: 0,
+                k: 0
+            };
+
+            html += `
+                <table class="boxscore-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">${game.home.city}</th>
+                            <th>AB</th>
+                            <th>R</th>
+                            <th>H</th>
+                            <th>BI</th>
+                            <th>BB</th>
+                            <th>K</th>
+                            <th>AVG</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+            `;
+            
+            game.home_batting.forEach(player => {
+            
+                const isSub =
+                    player.order % 100 !== 0;
+            
+                totals.ab += player.ab;
+                totals.r += player.r;
+                totals.h += player.h;
+                totals.rbi += player.rbi;
+                totals.bb += player.bb;
+                totals.k += player.k;
+            
+                html += `
+                    <tr>
+                        <td style="text-align:left; padding-left:${isSub ? 20 : 0}px">
+                            ${player.name} ${player.position}
+                        </td>
+            
+                        <td>${player.ab}</td>
+                        <td>${player.r}</td>
+                        <td>${player.h}</td>
+                        <td>${player.rbi}</td>
+                        <td>${player.bb}</td>
+                        <td>${player.k}</td>
+                        <td>${player.avg}</td>
+                    </tr>
+                `;
+            });
+            
+            html += `
+                <tr class="totals-row">
+                    <th style="text-align:left">Totals</th>
+                    <th>${totals.ab}</th>
+                    <th>${totals.r}</th>
+                    <th>${totals.h}</th>
+                    <th>${totals.rbi}</th>
+                    <th>${totals.bb}</th>
+                    <th>${totals.k}</th>
+                    <th></th>
+                </tr>
+            `;
+            
             html += `
                     </tbody>
                 </table>
