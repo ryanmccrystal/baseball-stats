@@ -62,9 +62,21 @@ def nickname(team_name):
     return names.get(team_name, team_name)
 
 def split_team_name(full_name):
+
+    special_cases = {
+        "Boston Red Sox": ("Boston", "Red Sox"),
+        "Chicago White Sox": ("Chicago", "White Sox"),
+        "Toronto Blue Jays": ("Toronto", "Blue Jays")
+    }
+
+    if full_name in special_cases:
+        return special_cases[full_name]
+
     parts = full_name.split()
+
     city = " ".join(parts[:-1])
     nickname = parts[-1]
+
     return city, nickname
 
 
