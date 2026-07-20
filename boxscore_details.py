@@ -199,9 +199,19 @@ for game in schedule:
     away_runs = away["runs"]
     home_runs = home["runs"]
     
+    games_display = f"{away_nickname} {away_runs}, {home_nickname} {home_runs}"
+
+    if game["status"] == "Completed Early":
+        games_display += f" (F/{len(away_innings)})"
+
+    elif game["status"] == "Suspended":
+        games_display += " - susp"
+
     output["games"].append({
 
         "status": game["status"],
+
+        "games_display": games_display,
 
         "headline":
             f"{away_nickname} {away_runs}, "
