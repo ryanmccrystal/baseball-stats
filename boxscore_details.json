@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20 04:40 PM",
+  "last_updated": "2026-07-20 04:46 PM",
   "games": [
     {
       "status": "Final",
@@ -126,6 +126,140 @@
           "bb": 0,
           "k": 1,
           "avg": ".130"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Clement",
+          "position": "SS",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".295"
+        },
+        {
+          "order": 200,
+          "name": "Lukes",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".286"
+        },
+        {
+          "order": 300,
+          "name": "Guerrero Jr.",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".262"
+        },
+        {
+          "order": 400,
+          "name": "Okamoto",
+          "position": "3B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".231"
+        },
+        {
+          "order": 500,
+          "name": "Varsho",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".239"
+        },
+        {
+          "order": 600,
+          "name": "Keys",
+          "position": "1B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".176"
+        },
+        {
+          "order": 601,
+          "name": "Kirk",
+          "position": "C",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".202"
+        },
+        {
+          "order": 700,
+          "name": "Valenzuela",
+          "position": "1B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".237"
+        },
+        {
+          "order": 800,
+          "name": "Gim\u00e9nez",
+          "position": "SS",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".231"
+        },
+        {
+          "order": 801,
+          "name": "Ur\u00edas, L",
+          "position": "2B",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".276"
+        },
+        {
+          "order": 900,
+          "name": "Clase, J",
+          "position": "LF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".273"
         }
       ],
       "away": {
@@ -290,6 +424,116 @@
           "bb": 0,
           "k": 1,
           "avg": ".351"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Grisham",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".234"
+        },
+        {
+          "order": 200,
+          "name": "Rice",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".281"
+        },
+        {
+          "order": 300,
+          "name": "Dom\u00ednguez",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".229"
+        },
+        {
+          "order": 400,
+          "name": "Bellinger",
+          "position": "LF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".251"
+        },
+        {
+          "order": 500,
+          "name": "Schuemann",
+          "position": "RF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".228"
+        },
+        {
+          "order": 600,
+          "name": "Chisholm Jr.",
+          "position": "2B",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".224"
+        },
+        {
+          "order": 700,
+          "name": "Volpe",
+          "position": "SS",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".248"
+        },
+        {
+          "order": 800,
+          "name": "McMahon",
+          "position": "3B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".212"
+        },
+        {
+          "order": 900,
+          "name": "S\u00e1nchez, A",
+          "position": "C",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".229"
         }
       ],
       "away": {
@@ -480,6 +724,128 @@
           "avg": ".247"
         }
       ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Grisham",
+          "position": "CF",
+          "ab": 5,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".230"
+        },
+        {
+          "order": 200,
+          "name": "Rice",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".281"
+        },
+        {
+          "order": 300,
+          "name": "Goldschmidt",
+          "position": "1B",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".259"
+        },
+        {
+          "order": 400,
+          "name": "Bellinger",
+          "position": "LF",
+          "ab": 3,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 1,
+          "k": 1,
+          "avg": ".255"
+        },
+        {
+          "order": 500,
+          "name": "Dom\u00ednguez",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".229"
+        },
+        {
+          "order": 600,
+          "name": "Chisholm Jr.",
+          "position": "2B",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".224"
+        },
+        {
+          "order": 700,
+          "name": "Volpe",
+          "position": "SS",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".245"
+        },
+        {
+          "order": 701,
+          "name": "McMahon",
+          "position": "3B",
+          "ab": 1,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".216"
+        },
+        {
+          "order": 800,
+          "name": "Wells, A",
+          "position": "C",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 2,
+          "k": 0,
+          "avg": ".152"
+        },
+        {
+          "order": 900,
+          "name": "Caballero",
+          "position": "SS",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".244"
+        }
+      ],
       "away": {
         "city": "Los Angeles",
         "nickname": "Dodgers",
@@ -630,6 +996,116 @@
           "bb": 1,
           "k": 1,
           "avg": ".230"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Jones, Jah",
+          "position": "DH",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".150"
+        },
+        {
+          "order": 200,
+          "name": "Rafaela",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".281"
+        },
+        {
+          "order": 300,
+          "name": "Abreu, W",
+          "position": "RF",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".264"
+        },
+        {
+          "order": 400,
+          "name": "Contreras, Wn",
+          "position": "1B",
+          "ab": 3,
+          "r": 2,
+          "h": 1,
+          "rbi": 2,
+          "bb": 1,
+          "k": 0,
+          "avg": ".283"
+        },
+        {
+          "order": 500,
+          "name": "Durbin",
+          "position": "3B",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".236"
+        },
+        {
+          "order": 600,
+          "name": "Gonzalez, R",
+          "position": "2B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".184"
+        },
+        {
+          "order": 700,
+          "name": "Monasterio",
+          "position": "SS",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 1,
+          "avg": ".239"
+        },
+        {
+          "order": 800,
+          "name": "Duran, Ja",
+          "position": "LF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".190"
+        },
+        {
+          "order": 900,
+          "name": "Wong",
+          "position": "C",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".276"
         }
       ],
       "away": {
@@ -794,6 +1270,128 @@
           "bb": 1,
           "k": 0,
           "avg": ".223"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Turner",
+          "position": "SS",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 2,
+          "avg": ".242"
+        },
+        {
+          "order": 200,
+          "name": "Schwarber",
+          "position": "DH",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 2,
+          "avg": ".253"
+        },
+        {
+          "order": 300,
+          "name": "Harper, B",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 3,
+          "avg": ".258"
+        },
+        {
+          "order": 400,
+          "name": "Marsh",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".293"
+        },
+        {
+          "order": 500,
+          "name": "Bohm",
+          "position": "3B",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".219"
+        },
+        {
+          "order": 600,
+          "name": "Stott",
+          "position": "2B",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".248"
+        },
+        {
+          "order": 700,
+          "name": "Realmuto",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".214"
+        },
+        {
+          "order": 800,
+          "name": "Rincones Jr.",
+          "position": "RF",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".167"
+        },
+        {
+          "order": 801,
+          "name": "Sosa, E",
+          "position": "LF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".224"
+        },
+        {
+          "order": 900,
+          "name": "Crawford",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".256"
         }
       ],
       "away": {
@@ -972,6 +1570,128 @@
           "avg": ".218"
         }
       ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Baldwin, D",
+          "position": "C",
+          "ab": 5,
+          "r": 3,
+          "h": 5,
+          "rbi": 2,
+          "bb": 0,
+          "k": 0,
+          "avg": ".276"
+        },
+        {
+          "order": 200,
+          "name": "Albies",
+          "position": "2B",
+          "ab": 5,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".263"
+        },
+        {
+          "order": 300,
+          "name": "Olson",
+          "position": "1B",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 1,
+          "k": 2,
+          "avg": ".269"
+        },
+        {
+          "order": 400,
+          "name": "Harris II",
+          "position": "CF",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".301"
+        },
+        {
+          "order": 500,
+          "name": "Dub\u00f3n",
+          "position": "LF",
+          "ab": 5,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".266"
+        },
+        {
+          "order": 600,
+          "name": "Smith, D",
+          "position": "DH",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".259"
+        },
+        {
+          "order": 601,
+          "name": "White, E",
+          "position": "DH",
+          "ab": 1,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".225"
+        },
+        {
+          "order": 700,
+          "name": "Riley, A",
+          "position": "3B",
+          "ab": 4,
+          "r": 2,
+          "h": 3,
+          "rbi": 4,
+          "bb": 0,
+          "k": 1,
+          "avg": ".217"
+        },
+        {
+          "order": 800,
+          "name": "Jarvis",
+          "position": "SS",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".286"
+        },
+        {
+          "order": 900,
+          "name": "Hicklen",
+          "position": "RF",
+          "ab": 3,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 1,
+          "k": 1,
+          "avg": ".455"
+        }
+      ],
       "away": {
         "city": "Texas",
         "nickname": "Rangers",
@@ -1122,6 +1842,116 @@
           "bb": 0,
           "k": 1,
           "avg": ".231"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Kwan",
+          "position": "LF",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".240"
+        },
+        {
+          "order": 200,
+          "name": "Bazzana",
+          "position": "2B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 3,
+          "avg": ".239"
+        },
+        {
+          "order": 300,
+          "name": "DeLauter",
+          "position": "DH",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".277"
+        },
+        {
+          "order": 400,
+          "name": "Rocchio",
+          "position": "SS",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".272"
+        },
+        {
+          "order": 500,
+          "name": "Manzardo",
+          "position": "1B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".208"
+        },
+        {
+          "order": 600,
+          "name": "Watson",
+          "position": "RF",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".233"
+        },
+        {
+          "order": 700,
+          "name": "Arias, G",
+          "position": "3B",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".232"
+        },
+        {
+          "order": 800,
+          "name": "Bailey",
+          "position": "C",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".183"
+        },
+        {
+          "order": 900,
+          "name": "Halpin",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".194"
         }
       ],
       "away": {
@@ -1286,6 +2116,128 @@
           "bb": 1,
           "k": 0,
           "avg": ".206"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Altuve",
+          "position": "DH",
+          "ab": 4,
+          "r": 2,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".235"
+        },
+        {
+          "order": 200,
+          "name": "Alvarez, Y",
+          "position": "LF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".319"
+        },
+        {
+          "order": 300,
+          "name": "Paredes",
+          "position": "3B",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".257"
+        },
+        {
+          "order": 400,
+          "name": "Wade Jr.",
+          "position": "1B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".205"
+        },
+        {
+          "order": 500,
+          "name": "Diaz, Y",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".241"
+        },
+        {
+          "order": 600,
+          "name": "Spence",
+          "position": "CF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 3,
+          "avg": ".273"
+        },
+        {
+          "order": 700,
+          "name": "Smith",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".210"
+        },
+        {
+          "order": 800,
+          "name": "Delgado",
+          "position": "2B",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".273"
+        },
+        {
+          "order": 801,
+          "name": "Dezenzo",
+          "position": "PH",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".238"
+        },
+        {
+          "order": 900,
+          "name": "Allen, N",
+          "position": "SS",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".239"
         }
       ],
       "away": {
@@ -1500,6 +2452,128 @@
           "avg": ".239"
         }
       ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Jensen",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".246"
+        },
+        {
+          "order": 101,
+          "name": "Massey",
+          "position": "2B",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".267"
+        },
+        {
+          "order": 200,
+          "name": "Loftin",
+          "position": "SS",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".235"
+        },
+        {
+          "order": 300,
+          "name": "Caglianone",
+          "position": "RF",
+          "ab": 4,
+          "r": 2,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".263"
+        },
+        {
+          "order": 400,
+          "name": "Thomas, L",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".240"
+        },
+        {
+          "order": 500,
+          "name": "Collins",
+          "position": "LF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".240"
+        },
+        {
+          "order": 600,
+          "name": "Perez, S",
+          "position": "1B",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".212"
+        },
+        {
+          "order": 700,
+          "name": "Rojas, J",
+          "position": "3B",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".231"
+        },
+        {
+          "order": 800,
+          "name": "Tolbert",
+          "position": "P",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".345"
+        },
+        {
+          "order": 900,
+          "name": "Maile",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".200"
+        }
+      ],
       "away": {
         "city": "San Diego",
         "nickname": "Padres",
@@ -1674,6 +2748,152 @@
           "bb": 0,
           "k": 1,
           "avg": ".196"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Yelich",
+          "position": "DH",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".241"
+        },
+        {
+          "order": 200,
+          "name": "Chourio, J",
+          "position": "LF",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".279"
+        },
+        {
+          "order": 300,
+          "name": "Turang",
+          "position": "2B",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 2,
+          "avg": ".261"
+        },
+        {
+          "order": 400,
+          "name": "Vaughn",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".307"
+        },
+        {
+          "order": 500,
+          "name": "Bauers",
+          "position": "RF",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".259"
+        },
+        {
+          "order": 501,
+          "name": "Contreras, Wm",
+          "position": "C",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 3,
+          "bb": 0,
+          "k": 1,
+          "avg": ".280"
+        },
+        {
+          "order": 600,
+          "name": "Mitchell",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".280"
+        },
+        {
+          "order": 700,
+          "name": "S\u00e1nchez",
+          "position": "C",
+          "ab": 2,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".224"
+        },
+        {
+          "order": 701,
+          "name": "Pratt",
+          "position": "SS",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".244"
+        },
+        {
+          "order": 800,
+          "name": "Shewmake",
+          "position": "3B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".259"
+        },
+        {
+          "order": 801,
+          "name": "Lara",
+          "position": "RF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".273"
+        },
+        {
+          "order": 900,
+          "name": "Ortiz, J",
+          "position": "3B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".226"
         }
       ],
       "away": {
@@ -1864,6 +3084,152 @@
           "avg": ".254"
         }
       ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Crow-Armstrong",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".284"
+        },
+        {
+          "order": 101,
+          "name": "Dean",
+          "position": "CF",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".400"
+        },
+        {
+          "order": 200,
+          "name": "Suzuki",
+          "position": "RF",
+          "ab": 2,
+          "r": 2,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "k": 0,
+          "avg": ".273"
+        },
+        {
+          "order": 201,
+          "name": "Conforto",
+          "position": "RF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".241"
+        },
+        {
+          "order": 300,
+          "name": "Busch",
+          "position": "1B",
+          "ab": 5,
+          "r": 2,
+          "h": 3,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".244"
+        },
+        {
+          "order": 400,
+          "name": "Bregman",
+          "position": "3B",
+          "ab": 4,
+          "r": 2,
+          "h": 2,
+          "rbi": 2,
+          "bb": 1,
+          "k": 0,
+          "avg": ".239"
+        },
+        {
+          "order": 500,
+          "name": "Happ",
+          "position": "LF",
+          "ab": 3,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".217"
+        },
+        {
+          "order": 501,
+          "name": "Alc\u00e1ntara",
+          "position": "LF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".222"
+        },
+        {
+          "order": 600,
+          "name": "Hoerner",
+          "position": "2B",
+          "ab": 5,
+          "r": 1,
+          "h": 2,
+          "rbi": 4,
+          "bb": 0,
+          "k": 2,
+          "avg": ".245"
+        },
+        {
+          "order": 700,
+          "name": "Ram\u00edrez",
+          "position": "DH",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".281"
+        },
+        {
+          "order": 800,
+          "name": "Kelly, C",
+          "position": "C",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".269"
+        },
+        {
+          "order": 900,
+          "name": "Swanson",
+          "position": "SS",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".207"
+        }
+      ],
       "away": {
         "city": "Minnesota",
         "nickname": "Twins",
@@ -2040,6 +3406,116 @@
           "avg": ".260"
         }
       ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "McCarthy",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".302"
+        },
+        {
+          "order": 200,
+          "name": "Moniak",
+          "position": "LF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".276"
+        },
+        {
+          "order": 300,
+          "name": "Goodman",
+          "position": "C",
+          "ab": 4,
+          "r": 3,
+          "h": 3,
+          "rbi": 5,
+          "bb": 0,
+          "k": 1,
+          "avg": ".257"
+        },
+        {
+          "order": 400,
+          "name": "Rumfield",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".299"
+        },
+        {
+          "order": 500,
+          "name": "Castro, W",
+          "position": "SS",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".263"
+        },
+        {
+          "order": 600,
+          "name": "Karros, K",
+          "position": "3B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".259"
+        },
+        {
+          "order": 700,
+          "name": "Johnston, T",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".296"
+        },
+        {
+          "order": 800,
+          "name": "Freeman, T",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".256"
+        },
+        {
+          "order": 900,
+          "name": "Julien",
+          "position": "2B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".219"
+        }
+      ],
       "away": {
         "city": "Cincinnati",
         "nickname": "Reds",
@@ -2202,6 +3678,164 @@
           "bb": 0,
           "k": 0,
           "avg": ".246"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Wilson, J",
+          "position": "SS",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".290"
+        },
+        {
+          "order": 200,
+          "name": "Soderstrom",
+          "position": "LF",
+          "ab": 5,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".244"
+        },
+        {
+          "order": 300,
+          "name": "Langeliers",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".260"
+        },
+        {
+          "order": 400,
+          "name": "Heim",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".231"
+        },
+        {
+          "order": 500,
+          "name": "Kuroda-Grauer",
+          "position": "3B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".404"
+        },
+        {
+          "order": 600,
+          "name": "Thomas, C",
+          "position": "RF",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".206"
+        },
+        {
+          "order": 601,
+          "name": "Cortes",
+          "position": "RF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".282"
+        },
+        {
+          "order": 700,
+          "name": "White",
+          "position": "1B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".167"
+        },
+        {
+          "order": 701,
+          "name": "Walton",
+          "position": "PH",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".302"
+        },
+        {
+          "order": 800,
+          "name": "Bolte",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".262"
+        },
+        {
+          "order": 801,
+          "name": "McNeil",
+          "position": "PH",
+          "ab": 0,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".233"
+        },
+        {
+          "order": 900,
+          "name": "Williams",
+          "position": "2B",
+          "ab": 3,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".273"
+        },
+        {
+          "order": 901,
+          "name": "Butler, L",
+          "position": "PH",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".193"
         }
       ],
       "away": {
@@ -2392,6 +4026,140 @@
           "avg": ".196"
         }
       ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Neto",
+          "position": "SS",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 2,
+          "avg": ".235"
+        },
+        {
+          "order": 200,
+          "name": "Trout",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 2,
+          "k": 2,
+          "avg": ".235"
+        },
+        {
+          "order": 300,
+          "name": "Schanuel",
+          "position": "1B",
+          "ab": 5,
+          "r": 0,
+          "h": 3,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".279"
+        },
+        {
+          "order": 400,
+          "name": "Soler",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".206"
+        },
+        {
+          "order": 500,
+          "name": "Grissom",
+          "position": "3B",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".256"
+        },
+        {
+          "order": 501,
+          "name": "Guzman, D",
+          "position": "3B",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".252"
+        },
+        {
+          "order": 600,
+          "name": "Lowe, J",
+          "position": "LF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".203"
+        },
+        {
+          "order": 601,
+          "name": "Siri",
+          "position": "LF",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".258"
+        },
+        {
+          "order": 700,
+          "name": "Adell",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".237"
+        },
+        {
+          "order": 800,
+          "name": "Peraza, O",
+          "position": "2B",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".242"
+        },
+        {
+          "order": 900,
+          "name": "Heineman",
+          "position": "C",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".180"
+        }
+      ],
       "away": {
         "city": "Detroit",
         "nickname": "Tigers",
@@ -2542,6 +4310,140 @@
           "bb": 0,
           "k": 3,
           "avg": ".243"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Crawford, J",
+          "position": "3B",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 2,
+          "k": 0,
+          "avg": ".215"
+        },
+        {
+          "order": 200,
+          "name": "Rodr\u00edguez, J",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".256"
+        },
+        {
+          "order": 300,
+          "name": "Young",
+          "position": "2B",
+          "ab": 4,
+          "r": 2,
+          "h": 2,
+          "rbi": 2,
+          "bb": 0,
+          "k": 1,
+          "avg": ".256"
+        },
+        {
+          "order": 400,
+          "name": "Arozarena",
+          "position": "LF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".281"
+        },
+        {
+          "order": 500,
+          "name": "Raleigh",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".163"
+        },
+        {
+          "order": 600,
+          "name": "Naylor, J",
+          "position": "1B",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".253"
+        },
+        {
+          "order": 700,
+          "name": "Garver",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".184"
+        },
+        {
+          "order": 800,
+          "name": "Wilson, W",
+          "position": "RF",
+          "ab": 2,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".220"
+        },
+        {
+          "order": 801,
+          "name": "Raley, L",
+          "position": "RF",
+          "ab": 2,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".230"
+        },
+        {
+          "order": 802,
+          "name": "Robles",
+          "position": "RF",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".210"
+        },
+        {
+          "order": 900,
+          "name": "Emerson",
+          "position": "SS",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".195"
         }
       ],
       "away": {
@@ -2730,6 +4632,140 @@
           "bb": 0,
           "k": 0,
           "avg": ".259"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Marte, K",
+          "position": "2B",
+          "ab": 5,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".258"
+        },
+        {
+          "order": 200,
+          "name": "Perdomo",
+          "position": "SS",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
+          "bb": 1,
+          "k": 0,
+          "avg": ".238"
+        },
+        {
+          "order": 300,
+          "name": "Carroll",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".250"
+        },
+        {
+          "order": 301,
+          "name": "Barrosa",
+          "position": "RF",
+          "ab": 1,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".184"
+        },
+        {
+          "order": 400,
+          "name": "Moreno",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".304"
+        },
+        {
+          "order": 500,
+          "name": "Kepler",
+          "position": "LF",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".213"
+        },
+        {
+          "order": 600,
+          "name": "Locklear",
+          "position": "1B",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".333"
+        },
+        {
+          "order": 700,
+          "name": "Arenado",
+          "position": "3B",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
+          "bb": 0,
+          "k": 1,
+          "avg": ".244"
+        },
+        {
+          "order": 800,
+          "name": "Del Castillo",
+          "position": "DH",
+          "ab": 3,
+          "r": 2,
+          "h": 2,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".195"
+        },
+        {
+          "order": 801,
+          "name": "Tawa",
+          "position": "DH",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".217"
+        },
+        {
+          "order": 900,
+          "name": "Waldschmidt",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".252"
         }
       ],
       "away": {
