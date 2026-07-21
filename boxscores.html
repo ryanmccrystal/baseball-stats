@@ -246,7 +246,7 @@
 
         .boxscore-table {
             border-collapse: collapse;
-            width: auto;
+            width: 100%;
             table-layout: fixed;
             margin-bottom: 12px;
         }
@@ -307,7 +307,7 @@
         .linescore-table {
             border-collapse: collapse;
             table-layout: fixed;
-            width: auto;
+            width: 100%;
             margin: 10px 0 18px 0;
         }
         
@@ -349,6 +349,10 @@
             width: 8px !important;
             padding: 0 !important;
             border: none !important;
+        }
+
+        .boxscore-content {
+            display: inline-block;
         }
 
     </style>
@@ -829,6 +833,11 @@ fetch("./boxscore_details.json")
 
             div.className = "boxscore";
 
+            const content =
+                document.createElement("div");
+            
+            content.className = "boxscore-content";
+
             let html = `
                 <div class="headline">${game.headline}</div>
             `;
@@ -1060,8 +1069,10 @@ fetch("./boxscore_details.json")
             
             // ----- End Linescore -----
             
-                        div.innerHTML = html;
-            
+                        content.innerHTML = html;
+
+                        div.appendChild(content);
+                        
                         container.appendChild(div);
 
         });
