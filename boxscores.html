@@ -784,6 +784,66 @@ fetch("./boxscore_details.json")
 
             let html = `
                 <div class="headline">${game.headline}</div>
+            `;
+            
+            html += `
+                <table class="boxscore-table linescore-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+            `;
+                
+                const innings = Math.max(
+                    game.away.innings.length,
+                    game.home.innings.length
+                );
+                
+                for (let i = 1; i <= innings; i++) {
+                    html += `<th>${i}</th>`;
+                }
+                
+                html += `
+                            <th>R</th>
+                            <th>H</th>
+                            <th>E</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                `;
+
+                html += `
+                <tr>
+                    <td>${game.away.nickname}</td>
+                `;
+                
+                for (let i = 0; i < innings; i++) {
+                    html += `<td>${game.away.innings[i] ?? ""}</td>`;
+                }
+                
+                html += `
+                    <td><strong>${game.away.runs}</strong></td>
+                    <td><strong>${game.away.hits}</strong></td>
+                    <td><strong>${game.away.errors}</strong></td>
+                </tr>
+                `;
+
+                html += `
+                <tr>
+                    <td>${game.home.nickname}</td>
+                `;
+                
+                for (let i = 0; i < innings; i++) {
+                    html += `<td>${game.home.innings[i] ?? ""}</td>`;
+                }
+                
+                html += `
+                    <td><strong>${game.home.runs}</strong></td>
+                    <td><strong>${game.home.hits}</strong></td>
+                    <td><strong>${game.home.errors}</strong></td>
+                </tr>
+                </tbody>
+                </table>
+                `;
 
                 <table class="boxscore-table">
                     <thead>
