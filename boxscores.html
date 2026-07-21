@@ -304,6 +304,41 @@
             margin: 4px 0 12px 0;
         }
 
+        .linescore-table {
+            border-collapse: collapse;
+            width: auto;
+            margin: 10px 0 18px 0;
+            table-layout: fixed;
+        }
+        
+        .linescore-table th,
+        .linescore-table td {
+            padding: 2px 6px;
+            text-align: center;
+            white-space: nowrap;
+            font-size: 15px;
+        }
+        
+        .linescore-table th:first-child,
+        .linescore-table td:first-child {
+            text-align: left;
+            width: 120px;
+            padding-right: 12px;
+        }
+        
+        .linescore-table thead th {
+            border-bottom: 1px solid #999;
+        }
+        
+        .linescore-table tbody tr:last-child td {
+            border-bottom: 1px solid #999;
+        }
+
+        .linescore-divider {
+            border-left: 1px solid #999;
+            padding-left: 8px;
+        }
+
     </style>
 </head>
 
@@ -954,10 +989,10 @@ fetch("./boxscore_details.json")
                         }
             
                         html += `
-                                        <th>R</th>
-                                        <th>H</th>
-                                        <th>E</th>
-                                    </tr>
+                            <th class="linescore-divider">R</th>
+                            <th>H</th>
+                            <th>E</th>
+                        </tr>
                                 </thead>
                                 <tbody>
             
@@ -970,9 +1005,9 @@ fetch("./boxscore_details.json")
                         }
             
                         html += `
-                                        <td><strong>${game.away.runs}</strong></td>
-                                        <td><strong>${game.away.hits}</strong></td>
-                                        <td><strong>${game.away.errors}</strong></td>
+                                        <td class="linescore-divider">${game.away.runs}</td>
+                                        <td>${game.away.hits}</td>
+                                        <td>${game.away.errors}</td>
                                     </tr>
             
                                     <tr>
@@ -984,9 +1019,9 @@ fetch("./boxscore_details.json")
                         }
             
                         html += `
-                                        <td><strong>${game.home.runs}</strong></td>
-                                        <td><strong>${game.home.hits}</strong></td>
-                                        <td><strong>${game.home.errors}</strong></td>
+                                        <td class="linescore-divider">${game.home.runs}</td>
+                                        <td>${game.home.hits}</td>
+                                        <td>${game.home.errors}</td>
                                     </tr>
             
                                 </tbody>
