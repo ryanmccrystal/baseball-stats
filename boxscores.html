@@ -338,6 +338,12 @@
             border-left: 1px solid #999;
         }
 
+        .linescore-gap {
+            width: 12px;
+            padding: 0;
+            border: none;
+        }
+
     </style>
 </head>
 
@@ -984,7 +990,13 @@ fetch("./boxscore_details.json")
                         );
             
                         for (let i = 1; i <= innings; i++) {
+
                             html += `<th>${i}</th>`;
+                        
+                            if (i === 3 || i === 6) {
+                                html += `<th class="linescore-gap"></th>`;
+                            }
+                        
                         }
             
                         html += `
@@ -1000,7 +1012,13 @@ fetch("./boxscore_details.json")
                         `;
             
                         for (let i = 0; i < innings; i++) {
+
                             html += `<td>${game.away.innings[i] ?? ""}</td>`;
+                        
+                            if (i === 2 || i === 5) {
+                                html += `<td class="linescore-gap"></td>`;
+                            }
+                        
                         }
             
                         html += `
@@ -1014,7 +1032,13 @@ fetch("./boxscore_details.json")
                         `;
             
                         for (let i = 0; i < innings; i++) {
+
                             html += `<td>${game.home.innings[i] ?? ""}</td>`;
+                        
+                            if (i === 2 || i === 5) {
+                                html += `<td class="linescore-gap"></td>`;
+                            }
+                        
                         }
             
                         html += `
