@@ -405,7 +405,7 @@ function createStandingsTable(title, teams, isWildCard = false) {
 
     teams.forEach(team => {
 
-        
+        html += `
             <tr>
                 <td>${team.city}</td>
                 <td>${team.wins}</td>
@@ -416,7 +416,7 @@ function createStandingsTable(title, teams, isWildCard = false) {
 
         if (!isWildCard) {
 
-            
+            html += `
                 <td>${team.last10}</td>
                 <td>${team.streak}</td>
                 <td>${team.home}</td>
