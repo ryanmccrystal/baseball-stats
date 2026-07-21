@@ -1004,37 +1004,16 @@ fetch("./boxscore_details.json")
             
                         html += `
                             <table class="linescore-table">
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                        `;
-            
-                        const innings = Math.max(
-                            game.away.innings.length,
-                            game.home.innings.length
-                        );
-            
-                        for (let i = 1; i <= innings; i++) {
-
-                            html += `<th>${i}</th>`;
-                        
-                            if (i === 3 || i === 6) {
-                                html += `<th class="linescore-gap"></th>`;
-                            }
-                        
-                        }
-            
-                        html += `
-                            <th class="linescore-divider">R</th>
-                            <th>H</th>
-                            <th>E</th>
-                        </tr>
-                                </thead>
                                 <tbody>
             
                                     <tr>
                                         <td>${game.away.nickname}</td>
                         `;
+
+                        const innings = Math.max(
+                            game.away.innings.length,
+                            game.home.innings.length
+                        );
             
                         for (let i = 0; i < innings; i++) {
 
