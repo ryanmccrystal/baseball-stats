@@ -348,13 +348,13 @@
         }
         
         .linescore-gap {
-            width: 8px !important;
-            padding: 0 !important;
+            width: 8px;
+            padding: 0;
+            border: none;
+        }
         
-            border-left: none !important;
-            border-right: none !important;
-            border-top: none !important;
-            border-bottom: none !important
+        .linescore-gap-bottom {
+            border-bottom: 1px solid #999;
         }
 
         .boxscore-content {
@@ -1044,7 +1044,7 @@ fetch("./boxscore_details.json")
                             html += `<td>${game.home.innings[i] ?? ""}</td>`;
                         
                             if (i === 2 || i === 5) {
-                                html += `<td class="linescore-gap"></td>`;
+                                html += `<td class="linescore-gap linescore-gap-bottom"></td>`;
                             }
                         
                         }
