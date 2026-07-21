@@ -251,11 +251,14 @@ for game in schedule:
     away_runs = away["runs"]
     home_runs = home["runs"]
     
-    games_display = f"{away_nickname} {away_runs}, {home_nickname} {home_runs}"
-
+    if away_runs > home_runs:
+        games_display = f"{away_nickname} {away_runs}, {home_nickname} {home_runs}"
+    else:
+        games_display = f"{home_nickname} {home_runs}, {away_nickname} {away_runs}"
+    
     if game["status"] == "Completed Early":
         games_display += f" (F/{len(away_innings)})"
-
+    
     elif game["status"] == "Suspended":
         games_display += " - susp"
 
