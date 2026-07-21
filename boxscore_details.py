@@ -268,9 +268,7 @@ for game in schedule:
 
         "games_display": games_display,
 
-        "headline":
-            f"{away_nickname} {away_runs}, "
-            f"{home_nickname} {home_runs}",
+        "headline": games_display,
 
         "boxscore": boxscore,
 
