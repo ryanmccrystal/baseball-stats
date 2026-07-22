@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 04:21 PM EDT",
+  "last_updated": "2026-07-22 04:27 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -93,21 +93,21 @@
         "avg": ".285"
       },
       {
-        "player": "Schanuel",
-        "team": "Laa",
-        "games": 83,
-        "ab": 303,
-        "runs": 32,
-        "hits": 86,
-        "avg": ".284"
-      },
-      {
         "player": "Rafaela",
         "team": "Bos",
         "games": 96,
         "ab": 367,
         "runs": 48,
         "hits": 104,
+        "avg": ".283"
+      },
+      {
+        "player": "Schanuel",
+        "team": "Laa",
+        "games": 83,
+        "ab": 304,
+        "runs": 32,
+        "hits": 86,
         "avg": ".283"
       }
     ],
@@ -448,6 +448,11 @@
         "value": "2.68"
       },
       {
+        "player": "Hancock",
+        "team": "Sea",
+        "value": "3.08"
+      },
+      {
         "player": "Burke",
         "team": "Chw",
         "value": "3.20"
@@ -476,11 +481,6 @@
         "player": "Soriano",
         "team": "Laa",
         "value": "3.43"
-      },
-      {
-        "player": "Ginn",
-        "team": "Ath",
-        "value": "3.46"
       }
     ],
     "wins": [
@@ -562,13 +562,13 @@
         "value": 145
       },
       {
-        "player": "Ryan",
-        "team": "Min",
-        "value": 131
-      },
-      {
         "player": "Detmers",
         "team": "Laa",
+        "value": 132
+      },
+      {
+        "player": "Ryan",
+        "team": "Min",
         "value": 131
       },
       {
@@ -774,10 +774,10 @@
         "player": "Lee",
         "team": "Sfg",
         "games": 94,
-        "ab": 353,
+        "ab": 354,
         "runs": 50,
         "hits": 107,
-        "avg": ".303"
+        "avg": ".302"
       },
       {
         "player": "Harris",
@@ -792,10 +792,10 @@
         "player": "Rumfield",
         "team": "Col",
         "games": 101,
-        "ab": 355,
+        "ab": 356,
         "runs": 45,
-        "hits": 105,
-        "avg": ".296"
+        "hits": 106,
+        "avg": ".298"
       },
       {
         "player": "Johnston",
@@ -1024,8 +1024,8 @@
         "value": 107
       },
       {
-        "player": "Freeman",
-        "team": "Lad",
+        "player": "Rumfield",
+        "team": "Col",
         "value": 106
       }
     ],
@@ -1321,7 +1321,7 @@
       {
         "player": "Cavalli",
         "team": "Wsh",
-        "value": 122
+        "value": 123
       },
       {
         "player": "Meyer",
@@ -1381,14 +1381,14 @@
         "value": 14
       },
       {
-        "player": "Fairbanks",
-        "team": "Mia",
+        "player": "Soto",
+        "team": "Pit",
         "value": 13
       },
       {
-        "player": "Soto",
-        "team": "Pit",
-        "value": 12
+        "player": "Fairbanks",
+        "team": "Mia",
+        "value": 13
       },
       {
         "player": "Beeter",

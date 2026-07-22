@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 22, 2026 20:20 UTC",
+  "last_updated": "July 22, 2026 20:27 UTC",
   "standings": {
     "AL East": [
       {
@@ -60,9 +60,9 @@
       },
       {
         "team": "KC",
-        "wins": 42,
+        "wins": 43,
         "losses": 60,
-        "gb": "12.0"
+        "gb": "11.5"
       }
     ],
     "AL West": [
@@ -183,8 +183,8 @@
       {
         "team": "SF",
         "wins": 42,
-        "losses": 59,
-        "gb": "21.5"
+        "losses": 60,
+        "gb": "22.0"
       },
       {
         "team": "COL",
@@ -502,14 +502,14 @@
           "value": ".388"
         },
         {
-          "name": "Mike Trout",
-          "team": "LAA",
-          "value": ".387"
-        },
-        {
           "name": "Taylor Ward",
           "team": "BAL",
           "value": ".387"
+        },
+        {
+          "name": "Mike Trout",
+          "team": "LAA",
+          "value": ".386"
         },
         {
           "name": "Willson Contreras",
@@ -564,14 +564,14 @@
           "value": ".536"
         },
         {
-          "name": "Shea Langeliers",
+          "name": "Nick Kurtz",
           "team": "ATH",
           "value": ".497"
         },
         {
-          "name": "Nick Kurtz",
+          "name": "Shea Langeliers",
           "team": "ATH",
-          "value": ".497"
+          "value": ".496"
         },
         {
           "name": "Miguel Vargas",
@@ -631,9 +631,9 @@
           "value": ".847"
         },
         {
-          "name": "Mike Trout",
-          "team": "LAA",
-          "value": ".847"
+          "name": "Miguel Vargas",
+          "team": "CWS",
+          "value": ".845"
         }
       ],
       "runs": [
@@ -1021,7 +1021,7 @@
         {
           "name": "Reid Detmers",
           "team": "LAA",
-          "value": "131"
+          "value": "132"
         },
         {
           "name": "Joe Ryan",
@@ -1086,14 +1086,14 @@
           "value": "1.09"
         },
         {
-          "name": "Joe Ryan",
-          "team": "MIN",
+          "name": "Reid Detmers",
+          "team": "LAA",
           "value": "1.10"
         },
         {
-          "name": "Reid Detmers",
-          "team": "LAA",
-          "value": "1.11"
+          "name": "Joe Ryan",
+          "team": "MIN",
+          "value": "1.10"
         },
         {
           "name": "Sonny Gray",
@@ -1153,9 +1153,9 @@
           "value": "117.2"
         },
         {
-          "name": "George Kirby",
-          "team": "SEA",
-          "value": "116.0"
+          "name": "Reid Detmers",
+          "team": "LAA",
+          "value": "116.2"
         }
       ],
       "home_runs_allowed": [
@@ -1342,7 +1342,7 @@
         {
           "name": "Jung Hoo Lee",
           "team": "SFG",
-          "value": ".303"
+          "value": ".302"
         },
         {
           "name": "Michael Harris II",
@@ -1352,7 +1352,7 @@
         {
           "name": "TJ Rumfield",
           "team": "COL",
-          "value": ".296"
+          "value": ".298"
         },
         {
           "name": "Troy Johnston",
@@ -1555,7 +1555,7 @@
         {
           "name": "TJ Rumfield",
           "team": "COL",
-          "value": ".379"
+          "value": ".381"
         },
         {
           "name": "Xavier Edwards",
@@ -2085,14 +2085,14 @@
           "value": "124"
         },
         {
-          "name": "Chris Sale",
-          "team": "ATL",
+          "name": "Cade Cavalli",
+          "team": "WSH",
           "value": "123"
         },
         {
-          "name": "Cade Cavalli",
-          "team": "WSH",
-          "value": "122"
+          "name": "Chris Sale",
+          "team": "ATL",
+          "value": "123"
         },
         {
           "name": "Max Meyer",
@@ -2305,7 +2305,7 @@
         {
           "name": "Gregory Soto",
           "team": "PIT",
-          "value": "12"
+          "value": "13"
         }
       ],
       "holds": [

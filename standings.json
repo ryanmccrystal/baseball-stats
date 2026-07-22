@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 20:21 UTC",
+  "last_updated": "2026-07-22 20:27 UTC",
   "al": {
     "east": [
       {
@@ -143,16 +143,16 @@
         "teamId": 118,
         "city": "Kansas City",
         "nickname": "Royals",
-        "wins": 42,
+        "wins": 43,
         "losses": 60,
-        "pct": ".412",
-        "gb": "12.0",
-        "last10": "4-6",
-        "streak": "W2",
-        "home": "25-27",
+        "pct": ".417",
+        "gb": "11.5",
+        "last10": "5-5",
+        "streak": "W3",
+        "home": "26-27",
         "away": "17-33",
-        "oneRun": "12-14",
-        "runDiff": "-97"
+        "oneRun": "13-14",
+        "runDiff": "-96"
       }
     ],
     "west": [
@@ -305,10 +305,10 @@
       },
       {
         "city": "Kansas City",
-        "wins": 42,
+        "wins": 43,
         "losses": 60,
-        "pct": ".412",
-        "wcgb": "11.0"
+        "pct": ".417",
+        "wcgb": "10.5"
       },
       {
         "city": "Los Angeles",
@@ -525,15 +525,15 @@
         "city": "San Francisco",
         "nickname": "Giants",
         "wins": 42,
-        "losses": 59,
-        "pct": ".416",
-        "gb": "21.5",
+        "losses": 60,
+        "pct": ".412",
+        "gb": "22.0",
         "last10": "4-6",
-        "streak": "L4",
+        "streak": "L5",
         "home": "22-25",
-        "away": "20-34",
-        "oneRun": "9-15",
-        "runDiff": "-63"
+        "away": "20-35",
+        "oneRun": "9-16",
+        "runDiff": "-64"
       },
       {
         "teamId": 115,
@@ -625,9 +625,9 @@
       {
         "city": "San Francisco",
         "wins": 42,
-        "losses": 59,
-        "pct": ".416",
-        "wcgb": "10.5"
+        "losses": 60,
+        "pct": ".412",
+        "wcgb": "11.0"
       },
       {
         "city": "Colorado",
