@@ -264,37 +264,37 @@ for game in schedule:
             # Errors
             if fielding.get("errors", 0):
                 notes["errors"].append(
-                    f"{name} ({fielding['errors']})"
+                    f"{name} ({season_fielding.get('errors', fielding['errors'])})"
                 )
     
             # Doubles
             if stats.get("doubles", 0):
                 notes["doubles"].append(
-                    f"{name} ({stats['doubles']})"
+                    f"{name} ({season['doubles']})"
                 )
     
             # Triples
             if stats.get("triples", 0):
                 notes["triples"].append(
-                    f"{name} ({stats['triples']})"
+                    f"{name} ({season['triples']})"
                 )
     
             # Home Runs
             if stats.get("homeRuns", 0):
                 notes["home_runs"].append(
-                    f"{name} ({stats['homeRuns']})"
+                    f"{name} ({season['homeRuns']})"
                 )
     
             # Stolen Bases
             if stats.get("stolenBases", 0):
                 notes["stolen_bases"].append(
-                    f"{name} ({stats['stolenBases']})"
+                    f"{name} ({season['stolenBases']})"
                 )
     
             # Caught Stealing
             if stats.get("caughtStealing", 0):
                 notes["caught_stealing"].append(
-                    f"{name} ({stats['caughtStealing']})"
+                    f"{name} ({season['caughtStealing']})"
                 )
     
             # GIDP
