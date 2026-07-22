@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 03:25 PM EDT",
+  "last_updated": "2026-07-22 03:58 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -42,10 +42,10 @@
         "player": "Contreras",
         "team": "Bos",
         "games": 93,
-        "ab": 328,
+        "ab": 329,
         "runs": 51,
-        "hits": 95,
-        "avg": ".290"
+        "hits": 96,
+        "avg": ".292"
       },
       {
         "player": "Simpson",
@@ -93,15 +93,6 @@
         "avg": ".285"
       },
       {
-        "player": "Rafaela",
-        "team": "Bos",
-        "games": 96,
-        "ab": 366,
-        "runs": 48,
-        "hits": 104,
-        "avg": ".284"
-      },
-      {
         "player": "Schanuel",
         "team": "Laa",
         "games": 82,
@@ -109,6 +100,15 @@
         "runs": 32,
         "hits": 86,
         "avg": ".284"
+      },
+      {
+        "player": "Rafaela",
+        "team": "Bos",
+        "games": 96,
+        "ab": 367,
+        "runs": 48,
+        "hits": 104,
+        "avg": ".283"
       }
     ],
     "homeRuns": [
@@ -621,7 +621,7 @@
       {
         "player": "Chapman",
         "team": "Bos",
-        "value": 22
+        "value": 23
       },
       {
         "player": "Varland",
@@ -681,6 +681,11 @@
         "value": 20
       },
       {
+        "player": "Whitlock",
+        "team": "Bos",
+        "value": 19
+      },
+      {
         "player": "Bazardo",
         "team": "Sea",
         "value": 19
@@ -694,11 +699,6 @@
         "player": "Gaddis",
         "team": "Cle",
         "value": 19
-      },
-      {
-        "player": "Whitlock",
-        "team": "Bos",
-        "value": 18
       },
       {
         "player": "FCruz",
@@ -726,9 +726,9 @@
         "value": 14
       },
       {
-        "player": "Speier",
-        "team": "Sea",
-        "value": 13
+        "player": "Slaten",
+        "team": "Bos",
+        "value": 14
       }
     ]
   },
@@ -756,28 +756,28 @@
         "player": "Gonzales",
         "team": "Pit",
         "games": 96,
-        "ab": 359,
-        "runs": 57,
+        "ab": 360,
+        "runs": 58,
         "hits": 112,
-        "avg": ".312"
+        "avg": ".311"
       },
       {
         "player": "McCarthy",
         "team": "Col",
         "games": 89,
-        "ab": 300,
+        "ab": 301,
         "runs": 44,
         "hits": 92,
-        "avg": ".307"
+        "avg": ".306"
       },
       {
         "player": "Lee",
         "team": "Sfg",
         "games": 94,
-        "ab": 352,
-        "runs": 49,
-        "hits": 106,
-        "avg": ".301"
+        "ab": 353,
+        "runs": 50,
+        "hits": 107,
+        "avg": ".303"
       },
       {
         "player": "Harris",
@@ -792,10 +792,10 @@
         "player": "Rumfield",
         "team": "Col",
         "games": 101,
-        "ab": 354,
+        "ab": 355,
         "runs": 45,
         "hits": 105,
-        "avg": ".297"
+        "avg": ".296"
       },
       {
         "player": "Johnston",
@@ -999,6 +999,11 @@
         "value": 109
       },
       {
+        "player": "Lee",
+        "team": "Sfg",
+        "value": 107
+      },
+      {
         "player": "Harris",
         "team": "Atl",
         "value": 107
@@ -1017,11 +1022,6 @@
         "player": "Wood",
         "team": "Wsh",
         "value": 107
-      },
-      {
-        "player": "Lee",
-        "team": "Sfg",
-        "value": 106
       },
       {
         "player": "Freeman",
@@ -1326,7 +1326,7 @@
       {
         "player": "Cavalli",
         "team": "Wsh",
-        "value": 120
+        "value": 121
       },
       {
         "player": "Wheeler",

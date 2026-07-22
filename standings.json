@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 19:25 UTC",
+  "last_updated": "2026-07-22 19:58 UTC",
   "al": {
     "east": [
       {
@@ -36,31 +36,31 @@
         "teamId": 111,
         "city": "Boston",
         "nickname": "Red Sox",
-        "wins": 51,
+        "wins": 52,
         "losses": 48,
-        "pct": ".515",
-        "gb": "6.5",
+        "pct": ".520",
+        "gb": "6.0",
         "last10": "10-0",
-        "streak": "W14",
-        "home": "22-27",
+        "streak": "W15",
+        "home": "23-27",
         "away": "29-21",
         "oneRun": "10-12",
-        "runDiff": "+46"
+        "runDiff": "+49"
       },
       {
         "teamId": 110,
         "city": "Baltimore",
         "nickname": "Orioles",
         "wins": 49,
-        "losses": 52,
-        "pct": ".485",
-        "gb": "9.5",
+        "losses": 53,
+        "pct": ".480",
+        "gb": "10.0",
         "last10": "7-3",
-        "streak": "L1",
+        "streak": "L2",
         "home": "28-25",
-        "away": "21-27",
+        "away": "21-28",
         "oneRun": "8-15",
-        "runDiff": "-14"
+        "runDiff": "-17"
       },
       {
         "teamId": 141,
@@ -249,9 +249,9 @@
       },
       {
         "city": "Boston",
-        "wins": 51,
+        "wins": 52,
         "losses": 48,
-        "pct": ".515",
+        "pct": ".520",
         "wcgb": "--"
       },
       {
@@ -259,63 +259,63 @@
         "wins": 51,
         "losses": 51,
         "pct": ".500",
-        "wcgb": "1.5"
+        "wcgb": "2.0"
       },
       {
         "city": "Baltimore",
         "wins": 49,
-        "losses": 52,
-        "pct": ".485",
-        "wcgb": "3.0"
+        "losses": 53,
+        "pct": ".480",
+        "wcgb": "4.0"
       },
       {
         "city": "Minnesota",
         "wins": 49,
         "losses": 53,
         "pct": ".480",
-        "wcgb": "3.5"
+        "wcgb": "4.0"
       },
       {
         "city": "Houston",
         "wins": 49,
         "losses": 54,
         "pct": ".476",
-        "wcgb": "4.0"
+        "wcgb": "4.5"
       },
       {
         "city": "Detroit",
         "wins": 47,
         "losses": 54,
         "pct": ".465",
-        "wcgb": "5.0"
+        "wcgb": "5.5"
       },
       {
         "city": "Toronto",
         "wins": 46,
         "losses": 55,
         "pct": ".455",
-        "wcgb": "6.0"
+        "wcgb": "6.5"
       },
       {
         "city": "Athletics",
         "wins": 43,
         "losses": 58,
         "pct": ".426",
-        "wcgb": "9.0"
+        "wcgb": "9.5"
       },
       {
         "city": "Kansas City",
         "wins": 42,
         "losses": 60,
         "pct": ".412",
-        "wcgb": "10.5"
+        "wcgb": "11.0"
       },
       {
         "city": "Los Angeles",
         "wins": 41,
         "losses": 61,
         "pct": ".402",
-        "wcgb": "11.5"
+        "wcgb": "12.0"
       }
     ]
   },
