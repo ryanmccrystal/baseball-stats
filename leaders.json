@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 04:36 PM EDT",
+  "last_updated": "2026-07-22 05:02 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -102,13 +102,13 @@
         "avg": ".283"
       },
       {
-        "player": "Schanuel",
-        "team": "Laa",
-        "games": 83,
-        "ab": 304,
-        "runs": 32,
-        "hits": 86,
-        "avg": ".283"
+        "player": "Antonacci",
+        "team": "Chw",
+        "games": 80,
+        "ab": 280,
+        "runs": 52,
+        "hits": 79,
+        "avg": ".282"
       }
     ],
     "homeRuns": [
@@ -326,7 +326,7 @@
       {
         "player": "Arozarena",
         "team": "Sea",
-        "value": 62
+        "value": 63
       },
       {
         "player": "Alonso",
@@ -448,14 +448,14 @@
         "value": "2.68"
       },
       {
-        "player": "Hancock",
-        "team": "Sea",
-        "value": "3.15"
-      },
-      {
         "player": "Burke",
         "team": "Chw",
         "value": "3.20"
+      },
+      {
+        "player": "Hancock",
+        "team": "Sea",
+        "value": "3.21"
       },
       {
         "player": "Rasmussen",
@@ -564,7 +564,7 @@
       {
         "player": "Detmers",
         "team": "Laa",
-        "value": 132
+        "value": 134
       },
       {
         "player": "Ryan",
@@ -765,10 +765,10 @@
         "player": "McCarthy",
         "team": "Col",
         "games": 89,
-        "ab": 302,
+        "ab": 303,
         "runs": 44,
         "hits": 93,
-        "avg": ".308"
+        "avg": ".307"
       },
       {
         "player": "Lee",
@@ -792,10 +792,10 @@
         "player": "Rumfield",
         "team": "Col",
         "games": 101,
-        "ab": 356,
+        "ab": 357,
         "runs": 45,
         "hits": 106,
-        "avg": ".298"
+        "avg": ".297"
       },
       {
         "player": "Johnston",
@@ -819,10 +819,10 @@
         "player": "Walker",
         "team": "Stl",
         "games": 99,
-        "ab": 378,
+        "ab": 379,
         "runs": 64,
         "hits": 110,
-        "avg": ".291"
+        "avg": ".290"
       },
       {
         "player": "Marsh",
@@ -927,12 +927,12 @@
         "value": 69
       },
       {
-        "player": "Garc\u00eda",
+        "player": "Wood",
         "team": "Wsh",
-        "value": 68
+        "value": 69
       },
       {
-        "player": "Wood",
+        "player": "Garc\u00eda",
         "team": "Wsh",
         "value": 68
       },
