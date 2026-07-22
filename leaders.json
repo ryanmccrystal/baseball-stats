@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 04:09 PM EDT",
+  "last_updated": "2026-07-22 04:17 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -388,7 +388,7 @@
       {
         "player": "Naylor",
         "team": "Sea",
-        "value": 20
+        "value": 21
       },
       {
         "player": "Arozarena",
@@ -569,7 +569,7 @@
       {
         "player": "Detmers",
         "team": "Laa",
-        "value": 130
+        "value": 131
       },
       {
         "player": "Gilbert",
@@ -819,10 +819,10 @@
         "player": "Walker",
         "team": "Stl",
         "games": 99,
-        "ab": 377,
+        "ab": 378,
         "runs": 64,
         "hits": 110,
-        "avg": ".292"
+        "avg": ".291"
       },
       {
         "player": "Marsh",
