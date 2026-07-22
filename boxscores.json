@@ -161,14 +161,14 @@
       "home_pitcher": "Jake Bennett",
       "away_stats": {
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "era": "5.06",
         "k9": "9.6",
         "hand": "R",
         "team_record": "3-3"
       },
       "home_stats": {
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
         "era": "2.58",
         "k9": "6.4",
@@ -231,7 +231,7 @@
       "away_stats": {
         "wins": 6,
         "losses": 4,
-        "era": "3.71",
+        "era": "3.69",
         "k9": "10.2",
         "hand": "R",
         "team_record": "8-14"
@@ -239,8 +239,8 @@
       "home_stats": {
         "wins": 0,
         "losses": 1,
-        "era": "2.65",
-        "k9": "9.0",
+        "era": "2.60",
+        "k9": "9.3",
         "hand": "R",
         "team_record": "0-3"
       }
@@ -254,7 +254,7 @@
       "away_stats": {
         "wins": 3,
         "losses": 5,
-        "era": "3.78",
+        "era": "3.71",
         "k9": "9.6",
         "hand": "L",
         "team_record": "4-7"
@@ -277,15 +277,15 @@
       "away_stats": {
         "wins": 4,
         "losses": 9,
-        "era": "4.56",
-        "k9": "7.6",
+        "era": "4.52",
+        "k9": "7.7",
         "hand": "R",
         "team_record": "7-13"
       },
       "home_stats": {
         "wins": 6,
         "losses": 4,
-        "era": "3.14",
+        "era": "3.12",
         "k9": "8.5",
         "hand": "R",
         "team_record": "10-9"
