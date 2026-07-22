@@ -257,9 +257,11 @@ for game in schedule:
         for player in team["players"].values():
     
             stats = player.get("stats", {}).get("batting", {})
+            season = player.get("seasonStats", {}).get("batting", {})
+
             fielding = player.get("stats", {}).get("fielding", {})
             season_fielding = player.get("seasonStats", {}).get("fielding", {})
-    
+
             name = player["person"]["boxscoreName"]
     
             # Errors
