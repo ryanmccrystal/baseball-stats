@@ -236,6 +236,79 @@ for game in schedule:
 
         })
 
+    # -----------------------------
+    # Build game notes
+    # -----------------------------
+    
+    for side in ["away", "home"]:
+    
+        team = boxscore_json["teams"][side]
+    
+        team_name = nickname(team["team"]["name"])
+    
+        # Team LOB
+        lob = team["teamStats"]["batting"].get("leftOnBase", 0)
+    
+        if notes["lob"] is None:
+            notes["lob"] = {}
+    
+        notes["lob"][team_name] = lob
+    
+        for player in team["players"].values():
+    
+            stats = player.get("stats", {}).get("batting", {})
+            fielding = player.get("stats", {}).get("fielding", {})
+    
+            name = player["person"]["boxscoreName"]
+    
+            # Errors
+            if fielding.get("errors", 0):
+                notes["errors"].append(
+                    f"{name} ({fielding['errors']})"
+                )
+    
+            # Doubles
+            if stats.get("doubles", 0):
+                notes["doubles"].append(
+                    f"{name} ({stats['doubles']})"
+                )
+    
+            # Triples
+            if stats.get("triples", 0):
+                notes["triples"].append(
+                    f"{name} ({stats['triples']})"
+                )
+    
+            # Home Runs
+            if stats.get("homeRuns", 0):
+                notes["home_runs"].append(
+                    f"{name} ({stats['homeRuns']})"
+                )
+    
+            # Stolen Bases
+            if stats.get("stolenBases", 0):
+                notes["stolen_bases"].append(
+                    f"{name} ({stats['stolenBases']})"
+                )
+    
+            # Caught Stealing
+            if stats.get("caughtStealing", 0):
+                notes["caught_stealing"].append(
+                    f"{name} ({stats['caughtStealing']})"
+                )
+    
+            # GIDP
+            if stats.get("groundIntoDoublePlay", 0):
+                notes["gidp"].append(name)
+    
+            # Sacrifice Hits
+            if stats.get("sacBunts", 0):
+                notes["sac_hits"].append(name)
+    
+            # Sacrifice Flies
+            if stats.get("sacFlies", 0):
+                notes["sac_flies"].append(name)
+
     away = linescore["teams"]["away"]
     home = linescore["teams"]["home"]
 
