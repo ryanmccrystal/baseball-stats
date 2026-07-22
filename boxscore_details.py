@@ -143,6 +143,19 @@ for game in schedule:
 
     boxscore_json = response.json()
 
+    notes = {
+        "errors": [],
+        "lob": None,
+        "doubles": [],
+        "triples": [],
+        "home_runs": [],
+        "stolen_bases": [],
+        "caught_stealing": [],
+        "gidp": [],
+        "sac_hits": [],
+        "sac_flies": []
+    }
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
@@ -292,7 +305,9 @@ for game in schedule:
             "runs": home["runs"],
             "hits": home["hits"],
             "errors": home["errors"]
-        }
+        },
+
+        "notes": notes
 
     })
 
