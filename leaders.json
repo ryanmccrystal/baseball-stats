@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 06:24 AM EDT",
+  "last_updated": "2026-07-22 03:20 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -39,6 +39,15 @@
         "avg": ".294"
       },
       {
+        "player": "Contreras",
+        "team": "Bos",
+        "games": 93,
+        "ab": 328,
+        "runs": 51,
+        "hits": 95,
+        "avg": ".290"
+      },
+      {
         "player": "Simpson",
         "team": "Tbr",
         "games": 94,
@@ -54,15 +63,6 @@
         "ab": 363,
         "runs": 48,
         "hits": 105,
-        "avg": ".289"
-      },
-      {
-        "player": "Contreras",
-        "team": "Bos",
-        "games": 92,
-        "ab": 325,
-        "runs": 50,
-        "hits": 94,
         "avg": ".289"
       },
       {
@@ -93,6 +93,15 @@
         "avg": ".285"
       },
       {
+        "player": "Rafaela",
+        "team": "Bos",
+        "games": 96,
+        "ab": 366,
+        "runs": 48,
+        "hits": 104,
+        "avg": ".284"
+      },
+      {
         "player": "Schanuel",
         "team": "Laa",
         "games": 82,
@@ -100,15 +109,6 @@
         "runs": 32,
         "hits": 86,
         "avg": ".284"
-      },
-      {
-        "player": "Antonacci",
-        "team": "Chw",
-        "games": 80,
-        "ab": 280,
-        "runs": 52,
-        "hits": 79,
-        "avg": ".282"
       }
     ],
     "homeRuns": [
@@ -118,13 +118,13 @@
         "value": 33
       },
       {
-        "player": "Caminero",
-        "team": "Tbr",
-        "value": 29
-      },
-      {
         "player": "Rice",
         "team": "Nyy",
+        "value": 30
+      },
+      {
+        "player": "Caminero",
+        "team": "Tbr",
         "value": 29
       },
       {
@@ -158,13 +158,13 @@
         "value": 22
       },
       {
-        "player": "Vargas",
-        "team": "Chw",
+        "player": "Alonso",
+        "team": "Bal",
         "value": 21
       },
       {
-        "player": "Alonso",
-        "team": "Bal",
+        "player": "Vargas",
+        "team": "Chw",
         "value": 21
       },
       {
@@ -182,7 +182,7 @@
       {
         "player": "Rice",
         "team": "Nyy",
-        "value": 68
+        "value": 71
       },
       {
         "player": "Contreras",
@@ -267,6 +267,11 @@
         "value": 104
       },
       {
+        "player": "Rafaela",
+        "team": "Bos",
+        "value": 104
+      },
+      {
         "player": "McGonigle",
         "team": "Det",
         "value": 104
@@ -282,11 +287,6 @@
         "value": 103
       },
       {
-        "player": "Rafaela",
-        "team": "Bos",
-        "value": 102
-      },
-      {
         "player": "Simpson",
         "team": "Tbr",
         "value": 101
@@ -294,7 +294,7 @@
       {
         "player": "Rice",
         "team": "Nyy",
-        "value": 99
+        "value": 100
       }
     ],
     "runs": [
@@ -316,7 +316,7 @@
       {
         "player": "Rice",
         "team": "Nyy",
-        "value": 65
+        "value": 66
       },
       {
         "player": "Caminero",
@@ -326,6 +326,11 @@
       {
         "player": "Arozarena",
         "team": "Sea",
+        "value": 62
+      },
+      {
+        "player": "Alonso",
+        "team": "Bal",
         "value": 62
       },
       {
@@ -340,11 +345,6 @@
       },
       {
         "player": "Ward",
-        "team": "Bal",
-        "value": 61
-      },
-      {
-        "player": "Alonso",
         "team": "Bal",
         "value": 61
       },
@@ -746,25 +746,25 @@
       {
         "player": "Arraez",
         "team": "Sfg",
-        "games": 95,
-        "ab": 378,
+        "games": 96,
+        "ab": 380,
         "runs": 48,
         "hits": 122,
-        "avg": ".323"
+        "avg": ".321"
       },
       {
         "player": "Gonzales",
         "team": "Pit",
-        "games": 95,
-        "ab": 356,
-        "runs": 55,
-        "hits": 110,
-        "avg": ".309"
+        "games": 96,
+        "ab": 359,
+        "runs": 57,
+        "hits": 112,
+        "avg": ".312"
       },
       {
         "player": "McCarthy",
         "team": "Col",
-        "games": 88,
+        "games": 89,
         "ab": 300,
         "runs": 44,
         "hits": 92,
@@ -773,11 +773,11 @@
       {
         "player": "Lee",
         "team": "Sfg",
-        "games": 93,
-        "ab": 350,
+        "games": 94,
+        "ab": 352,
         "runs": 49,
         "hits": 106,
-        "avg": ".303"
+        "avg": ".301"
       },
       {
         "player": "Harris",
@@ -791,7 +791,7 @@
       {
         "player": "Rumfield",
         "team": "Col",
-        "games": 100,
+        "games": 101,
         "ab": 354,
         "runs": 45,
         "hits": 105,
@@ -979,14 +979,14 @@
         "value": 122
       },
       {
-        "player": "Tatis",
-        "team": "Sdp",
+        "player": "Gonzales",
+        "team": "Pit",
         "value": 112
       },
       {
-        "player": "Gonzales",
-        "team": "Pit",
-        "value": 110
+        "player": "Tatis",
+        "team": "Sdp",
+        "value": 112
       },
       {
         "player": "Walker",
@@ -1326,7 +1326,7 @@
       {
         "player": "Cavalli",
         "team": "Wsh",
-        "value": 119
+        "value": 120
       },
       {
         "player": "Wheeler",
