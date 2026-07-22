@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 04:02 PM EDT",
+  "last_updated": "2026-07-22 04:06 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -765,10 +765,10 @@
         "player": "McCarthy",
         "team": "Col",
         "games": 89,
-        "ab": 301,
+        "ab": 302,
         "runs": 44,
-        "hits": 92,
-        "avg": ".306"
+        "hits": 93,
+        "avg": ".308"
       },
       {
         "player": "Lee",
@@ -1128,6 +1128,11 @@
         "value": 20
       },
       {
+        "player": "Mangum",
+        "team": "Pit",
+        "value": 19
+      },
+      {
         "player": "Marsee",
         "team": "Mia",
         "value": 19
@@ -1135,11 +1140,6 @@
       {
         "player": "Lopez",
         "team": "Mia",
-        "value": 18
-      },
-      {
-        "player": "Mangum",
-        "team": "Pit",
         "value": 18
       },
       {
@@ -1319,13 +1319,13 @@
         "value": 123
       },
       {
-        "player": "Meyer",
-        "team": "Mia",
-        "value": 121
-      },
-      {
         "player": "Cavalli",
         "team": "Wsh",
+        "value": 122
+      },
+      {
+        "player": "Meyer",
+        "team": "Mia",
         "value": 121
       },
       {

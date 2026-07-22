@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 22, 2026 20:02 UTC",
+  "last_updated": "July 22, 2026 20:06 UTC",
   "standings": {
     "AL East": [
       {
@@ -1337,7 +1337,7 @@
         {
           "name": "Jake McCarthy",
           "team": "COL",
-          "value": ".306"
+          "value": ".308"
         },
         {
           "name": "Jung Hoo Lee",
@@ -1511,6 +1511,11 @@
           "value": "20"
         },
         {
+          "name": "Jake Mangum",
+          "team": "PIT",
+          "value": "19"
+        },
+        {
           "name": "Jakob Marsee",
           "team": "MIA",
           "value": "19"
@@ -1518,11 +1523,6 @@
         {
           "name": "David Hamilton",
           "team": "MIL",
-          "value": "18"
-        },
-        {
-          "name": "Otto Lopez",
-          "team": "MIA",
           "value": "18"
         }
       ],
@@ -1582,7 +1582,7 @@
         {
           "name": "Hunter Goodman",
           "team": "COL",
-          "value": ".565"
+          "value": ".563"
         },
         {
           "name": "James Wood",
@@ -1664,7 +1664,7 @@
         {
           "name": "Hunter Goodman",
           "team": "COL",
-          "value": ".892"
+          "value": ".890"
         },
         {
           "name": "Jordan Walker",
@@ -2092,7 +2092,7 @@
         {
           "name": "Cade Cavalli",
           "team": "WSH",
-          "value": "121"
+          "value": "122"
         },
         {
           "name": "Max Meyer",
