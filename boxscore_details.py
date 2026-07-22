@@ -295,7 +295,7 @@ for game in schedule:
             # Caught Stealing
             if stats.get("caughtStealing", 0):
                 notes["caught_stealing"].append(
-                    f"{name} ({season['caughtStealing']})"
+                    f"{name} ({season.get('caughtStealing', stats['caughtStealing'])})"
                 )
     
             # GIDP
