@@ -294,6 +294,12 @@ for game in schedule:
     
             # Caught Stealing
             if stats.get("caughtStealing", 0):
+
+                print("\n==============================")
+                print(name)
+                print(player["seasonStats"]["batting"])
+                print("==============================\n")
+    
                 notes["caught_stealing"].append(
                     f"{name} ({season.get('caughtStealing', stats['caughtStealing'])})"
                 )
