@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 20:17 UTC",
+  "last_updated": "2026-07-22 20:21 UTC",
   "al": {
     "east": [
       {
@@ -22,15 +22,15 @@
         "city": "New York",
         "nickname": "Yankees",
         "wins": 56,
-        "losses": 44,
-        "pct": ".560",
-        "gb": "2.0",
+        "losses": 45,
+        "pct": ".554",
+        "gb": "2.5",
         "last10": "6-4",
-        "streak": "W2",
-        "home": "25-22",
+        "streak": "L1",
+        "home": "25-23",
         "away": "31-22",
         "oneRun": "10-14",
-        "runDiff": "+88"
+        "runDiff": "+86"
       },
       {
         "teamId": 111,
@@ -236,8 +236,8 @@
       {
         "city": "New York",
         "wins": 56,
-        "losses": 44,
-        "pct": ".560",
+        "losses": 45,
+        "pct": ".554",
         "wcgb": "--"
       },
       {
@@ -432,16 +432,16 @@
         "teamId": 134,
         "city": "Pittsburgh",
         "nickname": "Pirates",
-        "wins": 52,
+        "wins": 53,
         "losses": 49,
-        "pct": ".515",
-        "gb": "11.0",
+        "pct": ".520",
+        "gb": "10.5",
         "last10": "6-4",
-        "streak": "L1",
+        "streak": "W1",
         "home": "27-24",
-        "away": "25-25",
+        "away": "26-25",
         "oneRun": "14-10",
-        "runDiff": "+51"
+        "runDiff": "+53"
       },
       {
         "teamId": 138,
@@ -568,9 +568,9 @@
       },
       {
         "city": "Pittsburgh",
-        "wins": 52,
+        "wins": 53,
         "losses": 49,
-        "pct": ".515",
+        "pct": ".520",
         "wcgb": "--"
       },
       {
@@ -578,63 +578,63 @@
         "wins": 52,
         "losses": 49,
         "pct": ".515",
-        "wcgb": "0.0"
+        "wcgb": "0.5"
       },
       {
         "city": "Miami",
         "wins": 52,
         "losses": 50,
         "pct": ".510",
-        "wcgb": "0.5"
+        "wcgb": "1.0"
       },
       {
         "city": "St. Louis",
         "wins": 51,
         "losses": 49,
         "pct": ".510",
-        "wcgb": "0.5"
+        "wcgb": "1.0"
       },
       {
         "city": "Washington",
         "wins": 51,
         "losses": 51,
         "pct": ".500",
-        "wcgb": "1.5"
+        "wcgb": "2.0"
       },
       {
         "city": "San Diego",
         "wins": 50,
         "losses": 51,
         "pct": ".495",
-        "wcgb": "2.0"
+        "wcgb": "2.5"
       },
       {
         "city": "Cincinnati",
         "wins": 46,
         "losses": 54,
         "pct": ".460",
-        "wcgb": "5.5"
+        "wcgb": "6.0"
       },
       {
         "city": "New York",
         "wins": 43,
         "losses": 59,
         "pct": ".422",
-        "wcgb": "9.5"
+        "wcgb": "10.0"
       },
       {
         "city": "San Francisco",
         "wins": 42,
         "losses": 59,
         "pct": ".416",
-        "wcgb": "10.0"
+        "wcgb": "10.5"
       },
       {
         "city": "Colorado",
         "wins": 41,
         "losses": 62,
         "pct": ".398",
-        "wcgb": "12.0"
+        "wcgb": "12.5"
       }
     ]
   }
