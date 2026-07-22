@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 22, 2026 20:06 UTC",
+  "last_updated": "July 22, 2026 20:09 UTC",
   "standings": {
     "AL East": [
       {
@@ -524,7 +524,7 @@
         {
           "name": "Randy Arozarena",
           "team": "SEA",
-          "value": ".382"
+          "value": ".381"
         },
         {
           "name": "Junior Caminero",
@@ -1093,7 +1093,7 @@
         {
           "name": "Reid Detmers",
           "team": "LAA",
-          "value": "1.12"
+          "value": "1.11"
         },
         {
           "name": "Sonny Gray",
@@ -1327,7 +1327,7 @@
         {
           "name": "Luis Arraez",
           "team": "SFG",
-          "value": ".321"
+          "value": ".320"
         },
         {
           "name": "Nick Gonzales",
@@ -1538,13 +1538,13 @@
           "value": ".399"
         },
         {
-          "name": "Bryan Reynolds",
-          "team": "PIT",
-          "value": ".395"
-        },
-        {
           "name": "Shohei Ohtani",
           "team": "LAD",
+          "value": ".394"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "team": "PIT",
           "value": ".394"
         },
         {
