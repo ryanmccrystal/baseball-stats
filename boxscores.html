@@ -368,6 +368,17 @@
             align-items: flex-start;
         }
 
+        .game-notes {
+            font-size: 13px;
+            line-height: 1.35;
+            margin-top: 6px;
+            text-align: left;
+        }
+        
+        .game-notes strong {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 
@@ -1060,6 +1071,86 @@ fetch("./boxscore_details.json")
                         `;
             
             // ----- End Linescore -----
+
+            // -----------------------------
+            // Game Notes
+            // -----------------------------
+            
+            let notes = [];
+            
+            if (game.notes.errors.length) {
+                notes.push(
+                    `<strong>E:</strong> ${game.notes.errors.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.lob) {
+                const teams = Object.entries(game.notes.lob);
+            
+                notes.push(
+                    `<strong>LOB:</strong> ${teams[0][0]} ${teams[0][1]}, ${teams[1][0]} ${teams[1][1]}.`
+                );
+            }
+            
+            if (game.notes.doubles.length) {
+                notes.push(
+                    `<strong>2B:</strong> ${game.notes.doubles.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.triples.length) {
+                notes.push(
+                    `<strong>3B:</strong> ${game.notes.triples.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.home_runs.length) {
+                notes.push(
+                    `<strong>HR:</strong> ${game.notes.home_runs.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.stolen_bases.length) {
+                notes.push(
+                    `<strong>SB:</strong> ${game.notes.stolen_bases.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.caught_stealing.length) {
+                notes.push(
+                    `<strong>CS:</strong> ${game.notes.caught_stealing.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.gidp.length) {
+                notes.push(
+                    `<strong>GIDP:</strong> ${game.notes.gidp.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.sac_hits.length) {
+                notes.push(
+                    `<strong>SH:</strong> ${game.notes.sac_hits.join(", ")}.`
+                );
+            }
+            
+            if (game.notes.sac_flies.length) {
+                notes.push(
+                    `<strong>SF:</strong> ${game.notes.sac_flies.join(", ")}.`
+                );
+            }
+            
+            if (notes.length) {
+            
+                html += `
+                    <div class="game-notes">
+                        ${notes.join(" ")}
+                    </div>
+                `;
+            }
+
+            // End game notes
+            // -----------------------------
             
                         content.innerHTML = html;
 
