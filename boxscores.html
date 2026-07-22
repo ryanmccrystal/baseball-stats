@@ -1023,7 +1023,7 @@ fetch("./boxscore_details.json")
                                 <tbody>
             
                                     <tr>
-                                        <td>${game.away.nickname}</td>
+                                        <td>${game.away.city}</td>
                         `;
 
                         const innings = Math.max(
@@ -1048,7 +1048,7 @@ fetch("./boxscore_details.json")
                                     </tr>
             
                                     <tr>
-                                        <td>${game.home.nickname}</td>
+                                        <td>${game.home.city}</td>
                         `;
             
                         for (let i = 0; i < innings; i++) {
