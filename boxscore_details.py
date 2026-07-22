@@ -258,6 +258,7 @@ for game in schedule:
     
             stats = player.get("stats", {}).get("batting", {})
             fielding = player.get("stats", {}).get("fielding", {})
+            season_fielding = player.get("seasonStats", {}).get("fielding", {})
     
             name = player["person"]["boxscoreName"]
     
