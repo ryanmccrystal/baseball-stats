@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 07:44 PM EDT",
+  "last_updated": "2026-07-22 07:56 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -15,10 +15,10 @@
         "player": "D\u00edaz",
         "team": "Tbr",
         "games": 97,
-        "ab": 373,
+        "ab": 374,
         "runs": 55,
         "hits": 116,
-        "avg": ".311"
+        "avg": ".310"
       },
       {
         "player": "Clement",
@@ -42,10 +42,10 @@
         "player": "Contreras",
         "team": "Bos",
         "games": 94,
-        "ab": 329,
+        "ab": 330,
         "runs": 51,
         "hits": 96,
-        "avg": ".292"
+        "avg": ".291"
       },
       {
         "player": "Simpson",
@@ -60,7 +60,7 @@
         "player": "Aranda",
         "team": "Tbr",
         "games": 100,
-        "ab": 364,
+        "ab": 365,
         "runs": 48,
         "hits": 105,
         "avg": ".288"
@@ -411,14 +411,14 @@
         "value": 15
       },
       {
-        "player": "Walls",
-        "team": "Tbr",
+        "player": "Bazzana",
+        "team": "Cle",
         "value": 15
       },
       {
-        "player": "Bazzana",
-        "team": "Cle",
-        "value": 14
+        "player": "Walls",
+        "team": "Tbr",
+        "value": 15
       }
     ],
     "era": [
@@ -756,10 +756,10 @@
         "player": "Gonzales",
         "team": "Pit",
         "games": 97,
-        "ab": 361,
+        "ab": 362,
         "runs": 58,
         "hits": 113,
-        "avg": ".313"
+        "avg": ".312"
       },
       {
         "player": "McCarthy",

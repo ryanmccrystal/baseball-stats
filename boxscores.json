@@ -116,16 +116,16 @@
       "away_stats": {
         "wins": 7,
         "losses": 3,
-        "era": "4.54",
-        "k9": "6.6",
+        "era": "4.50",
+        "k9": "6.8",
         "hand": "R",
         "team_record": "8-7"
       },
       "home_stats": {
         "wins": 4,
         "losses": 6,
-        "era": "4.68",
-        "k9": "7.2",
+        "era": "5.00",
+        "k9": "7.1",
         "hand": "R",
         "team_record": "7-13"
       }
@@ -323,15 +323,15 @@
       "away_stats": {
         "wins": 4,
         "losses": 5,
-        "era": "4.86",
-        "k9": "5.8",
+        "era": "4.80",
+        "k9": "5.7",
         "hand": "L",
         "team_record": "8-5"
       },
       "home_stats": {
         "wins": 3,
         "losses": 7,
-        "era": "5.55",
+        "era": "5.53",
         "k9": "9.3",
         "hand": "R",
         "team_record": "10-11"
@@ -346,15 +346,15 @@
       "away_stats": {
         "wins": 3,
         "losses": 8,
-        "era": "4.67",
-        "k9": "7.9",
+        "era": "4.62",
+        "k9": "8.0",
         "hand": "R",
         "team_record": "7-12"
       },
       "home_stats": {
         "wins": 4,
         "losses": 3,
-        "era": "3.11",
+        "era": "3.05",
         "k9": "7.3",
         "hand": "L",
         "team_record": "5-6"
@@ -369,8 +369,8 @@
       "away_stats": {
         "wins": 5,
         "losses": 7,
-        "era": "4.14",
-        "k9": "9.4",
+        "era": "4.09",
+        "k9": "9.3",
         "hand": "R",
         "team_record": "8-8"
       },
@@ -392,8 +392,8 @@
       "away_stats": {
         "wins": 6,
         "losses": 9,
-        "era": "3.57",
-        "k9": "8.9",
+        "era": "3.55",
+        "k9": "8.8",
         "hand": "R",
         "team_record": "10-10"
       },
@@ -423,10 +423,10 @@
       "home_stats": {
         "wins": 6,
         "losses": 6,
-        "era": "3.50",
-        "k9": "6.9",
+        "era": "3.46",
+        "k9": "7.0",
         "hand": "L",
-        "team_record": "7-8"
+        "team_record": "8-7"
       }
     },
     {
