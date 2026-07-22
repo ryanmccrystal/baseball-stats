@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 07:20 PM",
+  "last_updated": "2026-07-22 07:25 PM",
   "games": [
     {
       "status": "Final",
@@ -299,16 +299,38 @@
         "errors": 2
       },
       "notes": {
-        "errors": [],
-        "lob": null,
-        "doubles": [],
+        "errors": [
+          "Bazzana (1)",
+          "Messick (1)"
+        ],
+        "lob": {
+          "Twins": 12,
+          "Guardians": 13
+        },
+        "doubles": [
+          "Bell (1)",
+          "Watson (1)",
+          "Kwan (1)"
+        ],
         "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "home_runs": [
+          "Jeffers (1)"
+        ],
+        "stolen_bases": [
+          "Bazzana (1)",
+          "Arias, G (1)"
+        ],
         "caught_stealing": [],
-        "gidp": [],
-        "sac_hits": [],
-        "sac_flies": []
+        "gidp": [
+          "Hoskins"
+        ],
+        "sac_hits": [
+          "Halpin"
+        ],
+        "sac_flies": [
+          "Hedges",
+          "Halpin"
+        ]
       }
     },
     {
@@ -609,14 +631,30 @@
         "errors": 0
       },
       "notes": {
-        "errors": [],
-        "lob": null,
-        "doubles": [],
+        "errors": [
+          "Muncy (1)"
+        ],
+        "lob": {
+          "Dodgers": 2,
+          "Phillies": 14
+        },
+        "doubles": [
+          "Alfonzo (1)",
+          "Harper, B (1)",
+          "Realmuto (1)",
+          "Bohm (1)"
+        ],
         "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "home_runs": [
+          "Muncy (1)"
+        ],
+        "stolen_bases": [
+          "Hill, D (1)"
+        ],
         "caught_stealing": [],
-        "gidp": [],
+        "gidp": [
+          "Turner"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -895,14 +933,33 @@
         "errors": 2
       },
       "notes": {
-        "errors": [],
-        "lob": null,
-        "doubles": [],
+        "errors": [
+          "Varsho (1)",
+          "Valenzuela (1)"
+        ],
+        "lob": {
+          "Rays": 24,
+          "Blue Jays": 13
+        },
+        "doubles": [
+          "Mullins (1)",
+          "Springer (1)"
+        ],
         "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
-        "caught_stealing": [],
-        "gidp": [],
+        "home_runs": [
+          "Fortes (1)",
+          "D\u00edaz, Y (1)"
+        ],
+        "stolen_bases": [
+          "DeLuca (1)",
+          "Mullins (1)"
+        ],
+        "caught_stealing": [
+          "DeLuca (1)"
+        ],
+        "gidp": [
+          "Okamoto"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -1194,13 +1251,31 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
-        "doubles": [],
-        "triples": [],
-        "home_runs": [],
+        "lob": {
+          "Padres": 16,
+          "Braves": 19
+        },
+        "doubles": [
+          "Tatis Jr. (1)",
+          "France, T (1)",
+          "Bogaerts (1)",
+          "Harris II (1)"
+        ],
+        "triples": [
+          "Jarvis (1)"
+        ],
+        "home_runs": [
+          "Merrill (1)",
+          "Machado, M (2)",
+          "Tatis Jr. (1)"
+        ],
         "stolen_bases": [],
-        "caught_stealing": [],
-        "gidp": [],
+        "caught_stealing": [
+          "Cronenworth (1)"
+        ],
+        "gidp": [
+          "Machado, M"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -1491,15 +1566,32 @@
         "errors": 1
       },
       "notes": {
-        "errors": [],
-        "lob": null,
-        "doubles": [],
+        "errors": [
+          "Tolbert (1)"
+        ],
+        "lob": {
+          "Giants": 13,
+          "Royals": 18
+        },
+        "doubles": [
+          "Rodriguez, J (1)"
+        ],
         "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "home_runs": [
+          "Jensen (1)"
+        ],
+        "stolen_bases": [
+          "Collins (1)"
+        ],
         "caught_stealing": [],
-        "gidp": [],
-        "sac_hits": [],
+        "gidp": [
+          "Ramos, H",
+          "Devers"
+        ],
+        "sac_hits": [
+          "Rodriguez, J",
+          "Tolbert"
+        ],
         "sac_flies": []
       }
     },
@@ -1778,13 +1870,28 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
-        "doubles": [],
+        "lob": {
+          "Mets": 19,
+          "Brewers": 9
+        },
+        "doubles": [
+          "Benge (1)",
+          "Lindor (1)"
+        ],
         "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
-        "caught_stealing": [],
-        "gidp": [],
+        "home_runs": [
+          "Robert Jr. (1)",
+          "Young, J (1)"
+        ],
+        "stolen_bases": [
+          "Ewing (1)"
+        ],
+        "caught_stealing": [
+          "Lindor (1)"
+        ],
+        "gidp": [
+          "Vaughn"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -2124,13 +2231,28 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
-        "doubles": [],
-        "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "lob": {
+          "Tigers": 16,
+          "Cubs": 31
+        },
+        "doubles": [
+          "Dingler (1)",
+          "Ram\u00edrez (1)"
+        ],
+        "triples": [
+          "Crow-Armstrong (1)"
+        ],
+        "home_runs": [
+          "Dingler (1)",
+          "Conforto (1)"
+        ],
+        "stolen_bases": [
+          "Swanson (1)"
+        ],
         "caught_stealing": [],
-        "gidp": [],
+        "gidp": [
+          "Suzuki"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -2446,14 +2568,27 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
-        "doubles": [],
+        "lob": {
+          "White Sox": 15,
+          "Rangers": 17
+        },
+        "doubles": [
+          "Vargas, M (1)",
+          "Burger (1)",
+          "Duran, E (1)",
+          "D\u00edaz, E (1)"
+        ],
         "triples": [],
-        "home_runs": [],
+        "home_runs": [
+          "Langford (1)",
+          "Nimmo (1)"
+        ],
         "stolen_bases": [],
         "caught_stealing": [],
         "gidp": [],
-        "sac_hits": [],
+        "sac_hits": [
+          "D\u00edaz, E"
+        ],
         "sac_flies": []
       }
     },
@@ -2767,14 +2902,33 @@
         "errors": 0
       },
       "notes": {
-        "errors": [],
-        "lob": null,
-        "doubles": [],
+        "errors": [
+          "Sanoja (1)"
+        ],
+        "lob": {
+          "Marlins": 11,
+          "Astros": 11
+        },
+        "doubles": [
+          "Conine (1)",
+          "Hern\u00e1ndez, H (1)",
+          "Sanoja (1)",
+          "Stowers (1)",
+          "Spence (1)"
+        ],
         "triples": [],
-        "home_runs": [],
+        "home_runs": [
+          "Mack (1)",
+          "Paredes (1)",
+          "Pe\u00f1a (1)"
+        ],
         "stolen_bases": [],
-        "caught_stealing": [],
-        "gidp": [],
+        "caught_stealing": [
+          "Trammell (1)"
+        ],
+        "gidp": [
+          "Altuve"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -3065,16 +3219,38 @@
         "errors": 0
       },
       "notes": {
-        "errors": [],
-        "lob": null,
-        "doubles": [],
-        "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "errors": [
+          "Mead (1)"
+        ],
+        "lob": {
+          "Nationals": 9,
+          "Rockies": 16
+        },
+        "doubles": [
+          "Lile (1)",
+          "Wood (2)",
+          "McCarthy (1)",
+          "Castro, W (1)",
+          "Goodman (1)"
+        ],
+        "triples": [
+          "Garc\u00eda Jr., L (1)"
+        ],
+        "home_runs": [
+          "Abrams (2)",
+          "Moniak (1)",
+          "Goodman (1)"
+        ],
+        "stolen_bases": [
+          "Carrigg (1)"
+        ],
         "caught_stealing": [],
         "gidp": [],
         "sac_hits": [],
-        "sac_flies": []
+        "sac_flies": [
+          "Vivas",
+          "Johnston, T"
+        ]
       }
     },
     {
@@ -3364,13 +3540,24 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
-        "doubles": [],
+        "lob": {
+          "Cardinals": 18,
+          "Angels": 15
+        },
+        "doubles": [
+          "Siri (1)",
+          "Soler (1)"
+        ],
         "triples": [],
-        "home_runs": [],
+        "home_runs": [
+          "Adell (1)"
+        ],
         "stolen_bases": [],
         "caught_stealing": [],
-        "gidp": [],
+        "gidp": [
+          "Herrera",
+          "Trout"
+        ],
         "sac_hits": [],
         "sac_flies": []
       }
@@ -3676,15 +3863,35 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
-        "doubles": [],
-        "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "lob": {
+          "Athletics": 15,
+          "DBacks": 24
+        },
+        "doubles": [
+          "Perdomo (1)"
+        ],
+        "triples": [
+          "Butler, L (1)",
+          "Walton (1)"
+        ],
+        "home_runs": [
+          "Langeliers (1)",
+          "Wilson, J (1)",
+          "Kepler (1)"
+        ],
+        "stolen_bases": [
+          "Carroll (1)"
+        ],
         "caught_stealing": [],
-        "gidp": [],
+        "gidp": [
+          "Heim",
+          "McNeil"
+        ],
         "sac_hits": [],
-        "sac_flies": []
+        "sac_flies": [
+          "Heim",
+          "Marte, K"
+        ]
       }
     },
     {
@@ -3985,16 +4192,31 @@
         "errors": 1
       },
       "notes": {
-        "errors": [],
-        "lob": null,
+        "errors": [
+          "Ferrer (1)"
+        ],
+        "lob": {
+          "Reds": 8,
+          "Mariners": 21
+        },
         "doubles": [],
         "triples": [],
-        "home_runs": [],
-        "stolen_bases": [],
+        "home_runs": [
+          "De La Cruz, E (1)",
+          "Lowe, N (1)",
+          "Su\u00e1rez, E (1)",
+          "Wilson, W (1)",
+          "Rodr\u00edguez, J (1)"
+        ],
+        "stolen_bases": [
+          "Naylor, J (1)"
+        ],
         "caught_stealing": [],
         "gidp": [],
         "sac_hits": [],
-        "sac_flies": []
+        "sac_flies": [
+          "Stewart, S"
+        ]
       }
     },
     {
