@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22 04:30 PM EDT",
+  "last_updated": "2026-07-22 04:36 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -450,7 +450,7 @@
       {
         "player": "Hancock",
         "team": "Sea",
-        "value": "3.17"
+        "value": "3.15"
       },
       {
         "player": "Burke",
@@ -1309,6 +1309,11 @@
         "value": 130
       },
       {
+        "player": "Cavalli",
+        "team": "Wsh",
+        "value": 125
+      },
+      {
         "player": "Burns",
         "team": "Cin",
         "value": 124
@@ -1316,11 +1321,6 @@
       {
         "player": "Sale",
         "team": "Atl",
-        "value": 123
-      },
-      {
-        "player": "Cavalli",
-        "team": "Wsh",
         "value": 123
       },
       {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 22, 2026 20:30 UTC",
+  "last_updated": "July 22, 2026 20:36 UTC",
   "standings": {
     "AL East": [
       {
@@ -925,6 +925,11 @@
           "value": "2.68"
         },
         {
+          "name": "Emerson Hancock",
+          "team": "SEA",
+          "value": "3.15"
+        },
+        {
           "name": "Sean Burke",
           "team": "CWS",
           "value": "3.20"
@@ -942,11 +947,6 @@
         {
           "name": "Logan Gilbert",
           "team": "SEA",
-          "value": "3.38"
-        },
-        {
-          "name": "Joe Ryan",
-          "team": "MIN",
           "value": "3.38"
         }
       ],
@@ -1071,6 +1071,11 @@
           "value": "0.98"
         },
         {
+          "name": "Emerson Hancock",
+          "team": "SEA",
+          "value": "1.01"
+        },
+        {
           "name": "Jacob deGrom",
           "team": "TEX",
           "value": "1.05"
@@ -1098,11 +1103,6 @@
         {
           "name": "Sonny Gray",
           "team": "BOS",
-          "value": "1.12"
-        },
-        {
-          "name": "Nick Martinez",
-          "team": "TBR",
           "value": "1.12"
         }
       ],
@@ -2080,14 +2080,14 @@
           "value": "130"
         },
         {
+          "name": "Cade Cavalli",
+          "team": "WSH",
+          "value": "125"
+        },
+        {
           "name": "Chase Burns",
           "team": "CIN",
           "value": "124"
-        },
-        {
-          "name": "Cade Cavalli",
-          "team": "WSH",
-          "value": "123"
         },
         {
           "name": "Chris Sale",
