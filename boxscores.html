@@ -1269,6 +1269,57 @@ fetch("./boxscore_details.json")
                     </tbody>
                 </table>
             `;
+
+            // -----------------------------
+            // Home Pitching
+            // -----------------------------
+            
+            html += `
+                <table class="pitching-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">${game.home.city}</th>
+                            <th>IP</th>
+                            <th>H</th>
+                            <th>R</th>
+                            <th>ER</th>
+                            <th>BB</th>
+                            <th>K</th>
+                            <th>NP</th>
+                            <th>ERA</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+            `;
+            
+            game.home_pitching.forEach(player => {
+            
+                html += `
+                    <tr>
+            
+                        <td style="text-align:left">
+                            ${player.name}
+                        </td>
+            
+                        <td>${player.ip}</td>
+                        <td>${player.h}</td>
+                        <td>${player.r}</td>
+                        <td>${player.er}</td>
+                        <td>${player.bb}</td>
+                        <td>${player.k}</td>
+                        <td>${player.np}</td>
+                        <td>${player.era}</td>
+            
+                    </tr>
+                `;
+            
+            });
+            
+            html += `
+                    </tbody>
+                </table>
+            `;
             
                         content.innerHTML = html;
 
