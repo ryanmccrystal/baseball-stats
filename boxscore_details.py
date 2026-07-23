@@ -296,11 +296,6 @@ for game in schedule:
     
             # Caught Stealing
             if stats.get("caughtStealing", 0):
-
-                print("\n==============================")
-                print(name)
-                print(player["seasonStats"]["batting"])
-                print("==============================\n")
     
                 notes["caught_stealing"].append(
                     f"{name} ({season.get('caughtStealing', stats['caughtStealing'])})"
@@ -357,6 +352,84 @@ for game in schedule:
     elif game["status"] == "Suspended":
         games_display += " - susp"
 
+    # -----------------------------
+    # Away pitching
+    # -----------------------------
+    
+    away_pitching = []
+    
+    away_pitchers = boxscore_json["teams"]["away"]["players"]
+    
+    pitchers = []
+    
+    for player in away_pitchers.values():
+    
+        pitching = player.get("stats", {}).get("pitching", {})
+    
+        if pitching.get("inningsPitched"):
+    
+            pitchers.append(player)
+    
+    for player in pitchers:
+    
+        pitching = player["stats"]["pitching"]
+        season = player["seasonStats"]["pitching"]
+    
+        away_pitching.append({
+    
+            "name": player["person"]["boxscoreName"],
+    
+            "ip": pitching["inningsPitched"],
+            "h": pitching["hits"],
+            "r": pitching["runs"],
+            "er": pitching["earnedRuns"],
+            "bb": pitching["baseOnBalls"],
+            "k": pitching["strikeOuts"],
+            "np": pitching["numberOfPitches"],
+    
+            "era": season["era"]
+    
+        })
+    
+    # -----------------------------
+    # Home pitching
+    # -----------------------------
+    
+    home_pitching = []
+    
+    home_pitchers = boxscore_json["teams"]["home"]["players"]
+    
+    pitchers = []
+    
+    for player in home_pitchers.values():
+    
+        pitching = player.get("stats", {}).get("pitching", {})
+    
+        if pitching.get("inningsPitched"):
+    
+            pitchers.append(player)
+    
+    for player in pitchers:
+    
+        pitching = player["stats"]["pitching"]
+        season = player["seasonStats"]["pitching"]
+    
+        home_pitching.append({
+    
+            "name": player["person"]["boxscoreName"],
+    
+            "ip": pitching["inningsPitched"],
+            "h": pitching["hits"],
+            "r": pitching["runs"],
+            "er": pitching["earnedRuns"],
+            "bb": pitching["baseOnBalls"],
+            "k": pitching["strikeOuts"],
+            "np": pitching["numberOfPitches"],
+    
+            "era": season["era"]
+    
+        })
+
     output["games"].append({
 
         "status": game["status"],
@@ -370,6 +443,8 @@ for game in schedule:
         # Keep this for later—we'll start filling it in next.
         "away_batting": away_batting,
         "home_batting": home_batting,
+        "away_pitching": away_pitching,
+        "home_pitching": home_pitching,
 
         "away": {
             "city": away_city,
