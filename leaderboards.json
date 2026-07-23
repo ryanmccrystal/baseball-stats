@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 22, 2026 23:58 UTC",
+  "last_updated": "July 23, 2026 00:03 UTC",
   "standings": {
     "AL East": [
       {
@@ -286,7 +286,7 @@
         {
           "name": "Ernie Clement",
           "team": "TOR",
-          "value": ".299"
+          "value": ".298"
         },
         {
           "name": "Josh Jung",
@@ -311,12 +311,12 @@
         {
           "name": "Junior Caminero",
           "team": "TBR",
-          "value": ".287"
+          "value": ".286"
         },
         {
           "name": "Chase DeLauter",
           "team": "CLE",
-          "value": ".287"
+          "value": ".286"
         },
         {
           "name": "Riley Greene",
@@ -529,7 +529,7 @@
         {
           "name": "Junior Caminero",
           "team": "TBR",
-          "value": ".380"
+          "value": ".379"
         }
       ],
       "slg": [
@@ -541,7 +541,7 @@
         {
           "name": "Ben Rice",
           "team": "NYY",
-          "value": ".595"
+          "value": ".593"
         },
         {
           "name": "Byron Buxton",
@@ -551,7 +551,7 @@
         {
           "name": "Junior Caminero",
           "team": "TBR",
-          "value": ".558"
+          "value": ".556"
         },
         {
           "name": "Willson Contreras",
@@ -593,7 +593,7 @@
         {
           "name": "Ben Rice",
           "team": "NYY",
-          "value": ".964"
+          "value": ".961"
         },
         {
           "name": "Willson Contreras",
@@ -603,7 +603,7 @@
         {
           "name": "Junior Caminero",
           "team": "TBR",
-          "value": ".938"
+          "value": ".935"
         },
         {
           "name": "Byron Buxton",
@@ -1538,14 +1538,14 @@
           "value": ".397"
         },
         {
-          "name": "Bryan Reynolds",
-          "team": "PIT",
-          "value": ".393"
-        },
-        {
           "name": "Shohei Ohtani",
           "team": "LAD",
-          "value": ".393"
+          "value": ".394"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "team": "PIT",
+          "value": ".392"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1644,7 +1644,7 @@
         {
           "name": "Shohei Ohtani",
           "team": "LAD",
-          "value": ".921"
+          "value": ".922"
         },
         {
           "name": "Kyle Schwarber",
@@ -2184,6 +2184,11 @@
           "value": "116.1"
         },
         {
+          "name": "Michael King",
+          "team": "SDP",
+          "value": "115.1"
+        },
+        {
           "name": "Jes\u00fas Luzardo",
           "team": "PHI",
           "value": "115.1"
@@ -2196,11 +2201,6 @@
         {
           "name": "Shota Imanaga",
           "team": "CHC",
-          "value": "115.0"
-        },
-        {
-          "name": "Jacob Misiorowski",
-          "team": "MIL",
           "value": "115.0"
         }
       ],
