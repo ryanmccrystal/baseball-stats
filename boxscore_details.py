@@ -207,6 +207,25 @@ for game in schedule:
                     player["person"]["boxscoreName"]
                 )
 
+    # -----------------------------
+    # Plate appearance events
+    # -----------------------------
+    
+    for play in plays:
+    
+        result = play.get("result", {})
+        matchup = play.get("matchup", {})
+    
+        batter = matchup.get("batter", {}).get("fullName")
+        pitcher = matchup.get("pitcher", {}).get("fullName")
+
+        if "intentional" in str(result).lower():
+    
+            print(result)
+            print("Batter:", batter)
+            print("Pitcher:", pitcher)
+            print()
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
