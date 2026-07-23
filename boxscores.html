@@ -389,6 +389,31 @@
             font-weight: bold;
         }
 
+        .pitching-table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            margin-bottom: 2px;
+        }
+        
+        .pitching-table th,
+        .pitching-table td {
+            padding: 1px 3px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+        
+        .pitching-table th {
+            border-bottom: 1px solid #999;
+            font-weight: bold;
+        }
+        
+        .pitching-table th:first-child,
+        .pitching-table td:first-child {
+            width: 84px;
+            text-align: left;
+        }
+
     </style>
 </head>
 
@@ -1167,7 +1192,7 @@ fetch("./boxscore_details.json")
             // -----------------------------
             
             html += `
-                <table class="boxscore-table">
+                <table class="pitching-table">
                     <thead>
                         <tr>
                             <th style="text-align:left">${game.away.city}</th>
