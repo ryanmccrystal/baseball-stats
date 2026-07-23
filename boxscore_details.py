@@ -218,13 +218,13 @@ for game in schedule:
     
         batter = matchup.get("batter", {}).get("fullName")
         pitcher = matchup.get("pitcher", {}).get("fullName")
-
-        if "intentional" in str(result).lower():
     
-            print(result)
-            print("Batter:", batter)
-            print("Pitcher:", pitcher)
-            print()
+        # Intentional Walks
+        if result.get("eventType") == "intent_walk":
+    
+            game_info["intentional_walks"].append(
+                f"{batter} ({pitcher})"
+            )
 
     away_batting = []
 
