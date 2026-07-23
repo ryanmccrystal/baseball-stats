@@ -143,6 +143,12 @@ for game in schedule:
 
     boxscore_json = response.json()
 
+    feed_response = requests.get(
+        f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
+    )
+    
+    feed_json = feed_response.json()
+    
     notes = {
         "errors": [],
         "lob": None,
@@ -164,6 +170,12 @@ for game in schedule:
         "time": "",
         "attendance": ""
     }
+
+    game_data = feed_json["gameData"]
+
+    game_info["time"] = game_data.get("gameInfo", {}).get("gameDurationMinutes")
+    
+    game_info["attendance"] = game_data.get("gameInfo", {}).get("attendance")
 
     away_batting = []
 
