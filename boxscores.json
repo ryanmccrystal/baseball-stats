@@ -3,9 +3,9 @@
     {
       "gamePk": 824408,
       "winner_name": "Twins",
-      "winner_score": 7,
+      "winner_score": 10,
       "loser_name": "Guardians",
-      "loser_score": 4
+      "loser_score": 6
     },
     {
       "gamePk": 823518,
@@ -17,7 +17,7 @@
     {
       "gamePk": 823519,
       "winner_name": "Yankees",
-      "winner_score": 0,
+      "winner_score": 2,
       "loser_name": "Pirates",
       "loser_score": 0
     },
@@ -31,9 +31,9 @@
     {
       "gamePk": 824732,
       "winner_name": "Orioles",
-      "winner_score": 4,
+      "winner_score": 5,
       "loser_name": "Red Sox",
-      "loser_score": 0
+      "loser_score": 1
     },
     {
       "gamePk": 824083,
@@ -79,45 +79,45 @@
     },
     {
       "gamePk": 823438,
-      "winner_name": "Phillies",
-      "winner_score": 3,
-      "loser_name": "Dodgers",
-      "loser_score": 3
+      "winner_name": "Dodgers",
+      "winner_score": 9,
+      "loser_name": "Phillies",
+      "loser_score": 5
     },
     {
       "gamePk": 822784,
-      "winner_name": "Blue Jays",
-      "winner_score": 1,
-      "loser_name": "Rays",
-      "loser_score": 1
+      "winner_name": "Rays",
+      "winner_score": 4,
+      "loser_name": "Blue Jays",
+      "loser_score": 2
     },
     {
       "gamePk": 824896,
       "winner_name": "Braves",
-      "winner_score": 1,
+      "winner_score": 7,
       "loser_name": "Padres",
-      "loser_score": 0
+      "loser_score": 6
     },
     {
       "gamePk": 822873,
-      "winner_name": "Rangers",
-      "winner_score": 0,
-      "loser_name": "White Sox",
-      "loser_score": 0
+      "winner_name": "White Sox",
+      "winner_score": 4,
+      "loser_name": "Rangers",
+      "loser_score": 2
     },
     {
       "gamePk": 824650,
-      "winner_name": "Cubs",
-      "winner_score": 0,
-      "loser_name": "Tigers",
-      "loser_score": 0
+      "winner_name": "Tigers",
+      "winner_score": 5,
+      "loser_name": "Cubs",
+      "loser_score": 1
     },
     {
       "gamePk": 824166,
       "winner_name": "Astros",
-      "winner_score": 0,
+      "winner_score": 5,
       "loser_name": "Marlins",
-      "loser_score": 0
+      "loser_score": 2
     }
   ],
   "today_games": [
