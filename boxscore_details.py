@@ -195,17 +195,17 @@ for game in schedule:
         game_info["attendance"] = f"{int(game_info['attendance']):,}"
 
     # Wild Pitches
-    for play in plays:
+    for team in ["away", "home"]:
     
-        for event in play.get("playEvents", []):
+        for player in boxscore_json["teams"][team]["players"].values():
     
-            details = event.get("details", {})
+            pitching = player.get("stats", {}).get("pitching", {})
     
-            if details.get("isWildPitch"):
+            if pitching.get("wildPitches", 0):
     
-                pitcher = event["matchup"]["pitcher"]["fullName"]
-    
-                game_info["wild_pitches"].append(pitcher)
+                game_info["wild_pitches"].append(
+                    player["person"]["boxscoreName"]
+                )
 
     away_batting = []
 
@@ -430,10 +430,6 @@ for game in schedule:
     
         pitching = player["stats"]["pitching"]
         season = player["seasonStats"]["pitching"]
-
-        print(player["person"]["boxscoreName"])
-        print(pitching)
-        print()
     
         away_pitching.append({
     
