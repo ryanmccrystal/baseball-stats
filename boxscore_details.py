@@ -156,6 +156,15 @@ for game in schedule:
         "sac_flies": []
     }
 
+    game_info = {
+        "wild_pitches": [],
+        "intentional_walks": [],
+        "hit_by_pitch": [],
+        "umpires": [],
+        "time": "",
+        "attendance": ""
+    }
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
