@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 23, 2026 17:25 UTC",
+  "last_updated": "July 23, 2026 17:40 UTC",
   "standings": {
     "AL East": [
       {
@@ -311,7 +311,7 @@
         {
           "name": "Chase DeLauter",
           "team": "CLE",
-          "value": ".287"
+          "value": ".286"
         },
         {
           "name": "Jonathan Aranda",
@@ -581,7 +581,7 @@
         {
           "name": "Kody Clemens",
           "team": "MIN",
-          "value": ".483"
+          "value": ".482"
         }
       ],
       "ops": [
@@ -1011,7 +1011,7 @@
         {
           "name": "Gavin Williams",
           "team": "CLE",
-          "value": "148"
+          "value": "149"
         },
         {
           "name": "Cam Schlittler",
@@ -1041,7 +1041,7 @@
         {
           "name": "Taj Bradley",
           "team": "MIN",
-          "value": "124"
+          "value": "125"
         },
         {
           "name": "Nathan Eovaldi",
@@ -1120,7 +1120,7 @@
         {
           "name": "Gavin Williams",
           "team": "CLE",
-          "value": "120.1"
+          "value": "121.1"
         },
         {
           "name": "Reid Detmers",
@@ -1953,7 +1953,7 @@
         {
           "name": "Chris Sale",
           "team": "ATL",
-          "value": "2.23"
+          "value": "2.22"
         },
         {
           "name": "Chase Burns",
@@ -2075,13 +2075,13 @@
           "value": "135"
         },
         {
-          "name": "Braxton Ashcraft",
-          "team": "PIT",
-          "value": "130"
-        },
-        {
           "name": "Chris Sale",
           "team": "ATL",
+          "value": "131"
+        },
+        {
+          "name": "Braxton Ashcraft",
+          "team": "PIT",
           "value": "130"
         },
         {
@@ -2129,7 +2129,7 @@
         {
           "name": "Chris Sale",
           "team": "ATL",
-          "value": "1.06"
+          "value": "1.07"
         },
         {
           "name": "Nolan McLean",
