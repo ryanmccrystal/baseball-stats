@@ -173,6 +173,8 @@ for game in schedule:
 
     game_data = feed_json["gameData"]
 
+    plays = feed_json["liveData"]["plays"]["allPlays"]
+
     game_info["time"] = game_data.get("gameInfo", {}).get("gameDurationMinutes")
     
     game_info["attendance"] = game_data.get("gameInfo", {}).get("attendance")
@@ -191,6 +193,19 @@ for game in schedule:
     if game_info["attendance"]:
     
         game_info["attendance"] = f"{int(game_info['attendance']):,}"
+
+    # Wild Pitches
+    for play in plays:
+    
+        for event in play.get("playEvents", []):
+    
+            details = event.get("details", {})
+    
+            if details.get("isWildPitch"):
+    
+                pitcher = event["matchup"]["pitcher"]["fullName"]
+    
+                game_info["wild_pitches"].append(pitcher)
 
     away_batting = []
 
