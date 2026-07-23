@@ -483,7 +483,9 @@ for game in schedule:
             "errors": home["errors"]
         },
 
-        "notes": notes
+        "notes": notes,
+        "game_info": game_info
+        
 
     })
 
