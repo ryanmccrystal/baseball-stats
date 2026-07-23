@@ -413,6 +413,10 @@ for game in schedule:
     
     pitchers = []
 
+    print(player["person"]["boxscoreName"])
+    print(pitching)
+    print()
+
     for player in away_pitchers.values():
     
         if player.get("position", {}).get("abbreviation") != "P":
