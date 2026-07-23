@@ -177,6 +177,21 @@ for game in schedule:
     
     game_info["attendance"] = game_data.get("gameInfo", {}).get("attendance")
 
+    # Format game time (minutes → H:MM)
+    if game_info["time"]:
+    
+        minutes = int(game_info["time"])
+    
+        hours = minutes // 60
+        mins = minutes % 60
+    
+        game_info["time"] = f"{hours}:{mins:02d}"
+    
+    # Format attendance with commas
+    if game_info["attendance"]:
+    
+        game_info["attendance"] = f"{int(game_info['attendance']):,}"
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
