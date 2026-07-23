@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 23, 2026 15:19 UTC",
+  "last_updated": "July 23, 2026 17:25 UTC",
   "standings": {
     "AL East": [
       {
@@ -546,7 +546,7 @@
         {
           "name": "Byron Buxton",
           "team": "MIN",
-          "value": ".572"
+          "value": ".573"
         },
         {
           "name": "Willson Contreras",
@@ -608,7 +608,7 @@
         {
           "name": "Byron Buxton",
           "team": "MIN",
-          "value": ".902"
+          "value": ".905"
         },
         {
           "name": "Nick Kurtz",
@@ -1009,13 +1009,13 @@
           "value": "155"
         },
         {
-          "name": "Cam Schlittler",
-          "team": "NYY",
-          "value": "145"
-        },
-        {
           "name": "Gavin Williams",
           "team": "CLE",
+          "value": "148"
+        },
+        {
+          "name": "Cam Schlittler",
+          "team": "NYY",
           "value": "145"
         },
         {
@@ -1118,6 +1118,11 @@
           "value": "123.0"
         },
         {
+          "name": "Gavin Williams",
+          "team": "CLE",
+          "value": "120.1"
+        },
+        {
           "name": "Reid Detmers",
           "team": "LAA",
           "value": "120.0"
@@ -1126,11 +1131,6 @@
           "name": "Logan Gilbert",
           "team": "SEA",
           "value": "120.0"
-        },
-        {
-          "name": "Gavin Williams",
-          "team": "CLE",
-          "value": "119.1"
         },
         {
           "name": "Tanner Bibee",
@@ -1345,14 +1345,14 @@
           "value": ".302"
         },
         {
+          "name": "Michael Harris II",
+          "team": "ATL",
+          "value": ".300"
+        },
+        {
           "name": "TJ Rumfield",
           "team": "COL",
           "value": ".297"
-        },
-        {
-          "name": "Michael Harris II",
-          "team": "ATL",
-          "value": ".296"
         },
         {
           "name": "Troy Johnston",
@@ -1469,8 +1469,8 @@
           "value": "64"
         },
         {
-          "name": "Kyle Schwarber",
-          "team": "PHI",
+          "name": "Michael Harris II",
+          "team": "ATL",
           "value": "61"
         }
       ],
@@ -1573,9 +1573,9 @@
           "value": ".371"
         },
         {
-          "name": "Drake Baldwin",
-          "team": "ATL",
-          "value": ".368"
+          "name": "Michael Busch",
+          "team": "CHC",
+          "value": ".367"
         }
       ],
       "slg": [
@@ -1612,7 +1612,7 @@
         {
           "name": "Matt Olson",
           "team": "ATL",
-          "value": ".532"
+          "value": ".529"
         },
         {
           "name": "Shohei Ohtani",
@@ -1669,7 +1669,7 @@
         {
           "name": "Matt Olson",
           "team": "ATL",
-          "value": ".879"
+          "value": ".874"
         },
         {
           "name": "Max Muncy",
@@ -1721,7 +1721,7 @@
         {
           "name": "Ozzie Albies",
           "team": "ATL",
-          "value": "64"
+          "value": "65"
         },
         {
           "name": "Hunter Goodman",
@@ -1771,6 +1771,11 @@
           "value": "109"
         },
         {
+          "name": "Michael Harris II",
+          "team": "ATL",
+          "value": "109"
+        },
+        {
           "name": "Alec Burleson",
           "team": "STL",
           "value": "107"
@@ -1778,11 +1783,6 @@
         {
           "name": "Pete Crow-Armstrong",
           "team": "CHC",
-          "value": "107"
-        },
-        {
-          "name": "Michael Harris II",
-          "team": "ATL",
           "value": "107"
         }
       ],
@@ -1953,7 +1953,7 @@
         {
           "name": "Chris Sale",
           "team": "ATL",
-          "value": "2.06"
+          "value": "2.23"
         },
         {
           "name": "Chase Burns",
@@ -2080,6 +2080,11 @@
           "value": "130"
         },
         {
+          "name": "Chris Sale",
+          "team": "ATL",
+          "value": "130"
+        },
+        {
           "name": "Cade Cavalli",
           "team": "WSH",
           "value": "127"
@@ -2088,11 +2093,6 @@
           "name": "Chase Burns",
           "team": "CIN",
           "value": "124"
-        },
-        {
-          "name": "Chris Sale",
-          "team": "ATL",
-          "value": "123"
         },
         {
           "name": "Max Meyer",

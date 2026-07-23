@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 11:19 AM EDT",
+  "last_updated": "2026-07-23 01:25 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -68,7 +68,7 @@
       {
         "player": "DeLauter",
         "team": "Cle",
-        "games": 86,
+        "games": 87,
         "ab": 324,
         "runs": 34,
         "hits": 93,
@@ -552,13 +552,13 @@
         "value": 155
       },
       {
-        "player": "Schlittler",
-        "team": "Nyy",
-        "value": 145
-      },
-      {
         "player": "Williams",
         "team": "Cle",
+        "value": 148
+      },
+      {
+        "player": "Schlittler",
+        "team": "Nyy",
         "value": 145
       },
       {
@@ -780,6 +780,15 @@
         "avg": ".302"
       },
       {
+        "player": "Harris",
+        "team": "Atl",
+        "games": 96,
+        "ab": 363,
+        "runs": 51,
+        "hits": 109,
+        "avg": ".300"
+      },
+      {
         "player": "Rumfield",
         "team": "Col",
         "games": 101,
@@ -787,15 +796,6 @@
         "runs": 45,
         "hits": 106,
         "avg": ".297"
-      },
-      {
-        "player": "Harris",
-        "team": "Atl",
-        "games": 95,
-        "ab": 361,
-        "runs": 49,
-        "hits": 107,
-        "avg": ".296"
       },
       {
         "player": "Johnston",
@@ -952,6 +952,11 @@
         "value": 64
       },
       {
+        "player": "Harris",
+        "team": "Atl",
+        "value": 61
+      },
+      {
         "player": "Turang",
         "team": "Mil",
         "value": 61
@@ -960,11 +965,6 @@
         "player": "Schwarber",
         "team": "Phi",
         "value": 61
-      },
-      {
-        "player": "Harris",
-        "team": "Atl",
-        "value": 60
       }
     ],
     "hits": [
@@ -994,6 +994,11 @@
         "value": 110
       },
       {
+        "player": "Harris",
+        "team": "Atl",
+        "value": 109
+      },
+      {
         "player": "Edwards",
         "team": "Mia",
         "value": 109
@@ -1006,11 +1011,6 @@
       {
         "player": "Lee",
         "team": "Sfg",
-        "value": 107
-      },
-      {
-        "player": "Harris",
-        "team": "Atl",
         "value": 107
       },
       {
@@ -1066,13 +1066,13 @@
         "value": 66
       },
       {
-        "player": "Walker",
-        "team": "Stl",
-        "value": 64
-      },
-      {
         "player": "Albies",
         "team": "Atl",
+        "value": 65
+      },
+      {
+        "player": "Walker",
+        "team": "Stl",
         "value": 64
       },
       {
@@ -1162,7 +1162,7 @@
       {
         "player": "Sale",
         "team": "Atl",
-        "value": "2.06"
+        "value": "2.23"
       },
       {
         "player": "Burns",
@@ -1247,13 +1247,13 @@
         "value": 10
       },
       {
-        "player": "Sale",
-        "team": "Atl",
+        "player": "Wheeler",
+        "team": "Phi",
         "value": 10
       },
       {
-        "player": "Wheeler",
-        "team": "Phi",
+        "player": "Sale",
+        "team": "Atl",
         "value": 10
       },
       {
@@ -1304,6 +1304,11 @@
         "value": 135
       },
       {
+        "player": "Sale",
+        "team": "Atl",
+        "value": 130
+      },
+      {
         "player": "Ashcraft",
         "team": "Pit",
         "value": 130
@@ -1317,11 +1322,6 @@
         "player": "Burns",
         "team": "Cin",
         "value": 124
-      },
-      {
-        "player": "Sale",
-        "team": "Atl",
-        "value": 123
       },
       {
         "player": "Meyer",
