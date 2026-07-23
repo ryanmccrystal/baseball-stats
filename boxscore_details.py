@@ -361,14 +361,19 @@ for game in schedule:
     away_pitchers = boxscore_json["teams"]["away"]["players"]
     
     pitchers = []
-    
+
     for player in away_pitchers.values():
+    
+        if player.get("position", {}).get("abbreviation") != "P":
+            continue
     
         pitching = player.get("stats", {}).get("pitching", {})
     
         if pitching.get("inningsPitched"):
     
             pitchers.append(player)
+    
+    pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
     
     for player in pitchers:
     
@@ -387,7 +392,7 @@ for game in schedule:
             "k": pitching["strikeOuts"],
             "np": pitching["numberOfPitches"],
     
-            "era": season["era"]
+            "era": season.get("era", "---")
     
         })
     
@@ -400,14 +405,19 @@ for game in schedule:
     home_pitchers = boxscore_json["teams"]["home"]["players"]
     
     pitchers = []
-    
+
     for player in home_pitchers.values():
+    
+        if player.get("position", {}).get("abbreviation") != "P":
+            continue
     
         pitching = player.get("stats", {}).get("pitching", {})
     
         if pitching.get("inningsPitched"):
     
             pitchers.append(player)
+    
+    pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
     
     for player in pitchers:
     
@@ -426,7 +436,7 @@ for game in schedule:
             "k": pitching["strikeOuts"],
             "np": pitching["numberOfPitches"],
     
-            "era": season["era"]
+            "era": season.get("era", "---")
     
         })
 
