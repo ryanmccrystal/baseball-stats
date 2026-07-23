@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 06:15 PM",
+  "last_updated": "2026-07-23 06:22 PM",
   "games": [
     {
       "status": "Final",
@@ -475,7 +475,9 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Soto, G"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -1303,7 +1305,9 @@
         ]
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Bennett"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -1740,7 +1744,10 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Rivera, Ed",
+          "Mor\u00e1n"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -2162,7 +2169,9 @@
         ]
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Lugo, S"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -2613,7 +2622,9 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Ashby"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -3012,7 +3023,9 @@
         ]
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Kranick"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -3487,7 +3500,10 @@
         ]
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Jump",
+          "Tur"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -3854,7 +3870,9 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Hancock"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -4716,7 +4734,10 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Cecconi",
+          "Festa, M"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -6120,7 +6141,9 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Mederos"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
@@ -6555,7 +6578,9 @@
         "sac_flies": []
       },
       "game_info": {
-        "wild_pitches": [],
+        "wild_pitches": [
+          "Alexander, T"
+        ],
         "intentional_walks": [],
         "hit_by_pitch": [],
         "umpires": [],
