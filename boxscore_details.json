@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 06:27 PM",
+  "last_updated": "2026-07-23 06:31 PM",
   "games": [
     {
       "status": "Final",
@@ -5192,7 +5192,9 @@
       },
       "game_info": {
         "wild_pitches": [],
-        "intentional_walks": [],
+        "intentional_walks": [
+          "Shohei Ohtani (Aaron Nola)"
+        ],
         "hit_by_pitch": [],
         "umpires": [],
         "time": "3:05",
@@ -6144,7 +6146,9 @@
         "wild_pitches": [
           "Mederos"
         ],
-        "intentional_walks": [],
+        "intentional_walks": [
+          "Fernando Tatis Jr. (Didier Fuentes)"
+        ],
         "hit_by_pitch": [],
         "umpires": [],
         "time": "2:49",
