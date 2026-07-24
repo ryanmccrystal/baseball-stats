@@ -226,7 +226,7 @@
       "home_name": "Marlins",
       "game_time": "2026-07-24T23:10:00Z",
       "away_pitcher": "Germ\u00e1n M\u00e1rquez",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Ryan Gusto",
       "away_stats": {
         "wins": 4,
         "losses": 2,
@@ -235,7 +235,14 @@
         "hand": "R",
         "team_record": "7-2"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 0,
+        "losses": 2,
+        "era": "4.70",
+        "k9": "7.9",
+        "hand": "R",
+        "team_record": "3-3"
+      }
     },
     {
       "away_name": "Blue Jays",
