@@ -95,6 +95,7 @@ def extract_boxscore_note(boxscore, label):
                         .replace("1B:", "1B")
                         .replace("2B:", "2B")
                         .replace("3B:", "3B")
+                        .replace(". ", ", ")
                 )
 
             return note
