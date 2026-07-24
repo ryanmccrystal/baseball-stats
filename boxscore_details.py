@@ -233,6 +233,18 @@ for game in schedule:
                     f"{batter} ({pitcher})"
                 )
 
+        # Umpires
+    
+            for official in game_data.get("officials", []):
+            
+                position = official.get("officialType", "")
+                name = official.get("official", {}).get("fullName", "")
+            
+                game_info["umpires"].append({
+                    "position": position,
+                    "name": name
+                })                
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
