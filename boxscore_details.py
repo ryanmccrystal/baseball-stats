@@ -79,6 +79,17 @@ def split_team_name(full_name):
 
     return city, nickname
 
+def extract_boxscore_note(boxscore, label):
+
+    for line in boxscore.splitlines():
+
+        line = line.strip()
+
+        if line.startswith(f"{label}:"):
+
+            return line[len(label) + 1:].strip().rstrip(".")
+
+    return ""
 
 for game in schedule:
 
@@ -135,6 +146,10 @@ for game in schedule:
 
     # Formatted box score text
     boxscore = statsapi.boxscore(gamePk)
+    game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
+    game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
+    game_info["hit_by_pitch"] = extract_boxscore_note(boxscore, "HBP")
+    game_info["umpires"] = extract_boxscore_note(boxscore, "Umpires")
 
     # Structured MLB box score JSON (we'll use this next)
     response = requests.get(
@@ -163,17 +178,15 @@ for game in schedule:
     }
 
     game_info = {
-        "wild_pitches": [],
-        "intentional_walks": [],
-        "hit_by_pitch": [],
-        "umpires": [],
+        "wild_pitches": "",
+        "intentional_walks": "",
+        "hit_by_pitch": "",
+        "umpires": "",
         "time": "",
         "attendance": ""
     }
 
     game_data = feed_json["gameData"]
-
-    plays = feed_json["liveData"]["plays"]["allPlays"]
 
     game_info["time"] = game_data.get("gameInfo", {}).get("gameDurationMinutes")
     
@@ -193,56 +206,6 @@ for game in schedule:
     if game_info["attendance"]:
     
         game_info["attendance"] = f"{int(game_info['attendance']):,}"
-
-    # Wild Pitches
-    for team in ["away", "home"]:
-    
-        for player in boxscore_json["teams"][team]["players"].values():
-    
-            pitching = player.get("stats", {}).get("pitching", {})
-    
-            if pitching.get("wildPitches", 0):
-    
-                game_info["wild_pitches"].append(
-                    player["person"]["boxscoreName"]
-                )
-
-    # -----------------------------
-    # Plate appearance events
-    # -----------------------------
-    
-    for play in plays:
-    
-        result = play.get("result", {})
-        matchup = play.get("matchup", {})
-    
-        batter = matchup.get("batter", {}).get("fullName")
-        pitcher = matchup.get("pitcher", {}).get("fullName")
-    
-        # Intentional Walks
-        if result.get("eventType") == "intent_walk":
-    
-            game_info["intentional_walks"].append(
-                f"{batter} ({pitcher})"
-            )
-
-        # Debug Hit By Pitch
-
-        if "HBP" in str(result) or "hit" in str(result).lower():
-        
-            print(result)
-
-        # Umpires
-    
-            for official in game_data.get("officials", []):
-            
-                position = official.get("officialType", "")
-                name = official.get("official", {}).get("fullName", "")
-            
-                game_info["umpires"].append({
-                    "position": position,
-                    "name": name
-                })                
 
     away_batting = []
 
