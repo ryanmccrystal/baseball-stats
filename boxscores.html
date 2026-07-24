@@ -1319,7 +1319,37 @@ fetch("./boxscore_details.json")
             html += `
                     </tbody>
                 </table>
-            `;
+             `;
+
+            // ----- Game Info -----
+            
+            html += `<div class="game-notes">`;
+            
+            if (game.game_info.wild_pitches) {
+                html += `<strong>WP:</strong> ${game.game_info.wild_pitches}. `;
+            }
+            
+            if (game.game_info.intentional_walks) {
+                html += `<strong>IBB:</strong> ${game.game_info.intentional_walks}. `;
+            }
+            
+            if (game.game_info.hit_by_pitch) {
+                html += `<strong>HBP:</strong> ${game.game_info.hit_by_pitch}. `;
+            }
+            
+            if (game.game_info.umpires) {
+                html += `<strong>Umpires:</strong> ${game.game_info.umpires}. `;
+            }
+            
+            if (game.game_info.time) {
+                html += `<strong>Time:</strong> ${game.game_info.time}. `;
+            }
+            
+            if (game.game_info.attendance) {
+                html += `<strong>Att:</strong> ${game.game_info.attendance}.`;
+            }
+            
+            html += `</div>`;
             
                         content.innerHTML = html;
 
