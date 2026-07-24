@@ -352,10 +352,6 @@
             padding-right: 8px;
         }
         
-        .linescore-divider {
-            border-left: 1px solid #999;
-        }
-        
         .linescore-gap {
             width: 8px;
             padding: 0;
@@ -1109,7 +1105,8 @@ fetch("./boxscore_details.json")
                         }
             
                         html += `
-                                        <td class="linescore-divider">${game.away.runs}</td>
+                                        <td class="linescore-gap">—</td>
+                                        <td>${game.away.runs}</td>
                                         <td>${game.away.hits}</td>
                                         <td>${game.away.errors}</td>
                                     </tr>
@@ -1129,7 +1126,8 @@ fetch("./boxscore_details.json")
                         }
             
                         html += `
-                                        <td class="linescore-divider">${game.home.runs}</td>
+                                        <td class="linescore-gap linescore-gap-bottom">—</td>
+                                        <td>${game.home.runs}</td>
                                         <td>${game.home.hits}</td>
                                         <td>${game.home.errors}</td>
                                     </tr>
