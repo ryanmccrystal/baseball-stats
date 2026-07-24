@@ -1102,7 +1102,12 @@ fetch("./boxscore_details.json")
 
                             html += `<td>${game.away.innings[i] ?? ""}</td>`;
                         
-                            if (i === 2 || i === 5 || i === 8 || i === 11) {
+                            if (
+                                i === 2 ||
+                                i === 5 ||
+                                (i === 8 && innings > 9) ||
+                                (i === 11 && innings > 12)
+                            ) {
                                 html += `<td class="linescore-gap"></td>`;
                             }
                         
@@ -1123,7 +1128,12 @@ fetch("./boxscore_details.json")
 
                             html += `<td>${game.home.innings[i] ?? ""}</td>`;
                         
-                            if (i === 2 || i === 5 || i === 8 || i === 11) {
+                            if (
+                                i === 2 ||
+                                i === 5 ||
+                                (i === 8 && innings > 9) ||
+                                (i === 11 && innings > 12)
+                            ) {
                                 html += `<td class="linescore-gap linescore-gap-bottom"></td>`;
                             }
                         
