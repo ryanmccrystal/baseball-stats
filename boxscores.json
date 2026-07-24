@@ -180,7 +180,7 @@
       "home_name": "Orioles",
       "game_time": "2026-07-24T23:05:00Z",
       "away_pitcher": "Grant Holmes",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Trevor Rogers",
       "away_stats": {
         "wins": 6,
         "losses": 4,
@@ -189,7 +189,14 @@
         "hand": "R",
         "team_record": "12-6"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 6,
+        "losses": 7,
+        "era": "4.28",
+        "k9": "7.2",
+        "hand": "L",
+        "team_record": "9-9"
+      }
     },
     {
       "away_name": "Dodgers",
