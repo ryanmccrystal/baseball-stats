@@ -226,12 +226,11 @@ for game in schedule:
                 f"{batter} ({pitcher})"
             )
 
-        # Hit By Pitch
-            if result.get("eventType") == "hit_by_pitch":
+        # Debug Hit By Pitch
+
+        if "HBP" in str(result) or "hit" in str(result).lower():
         
-                game_info["hit_by_pitch"].append(
-                    f"{batter} ({pitcher})"
-                )
+            print(result)
 
         # Umpires
     
