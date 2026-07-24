@@ -226,6 +226,13 @@ for game in schedule:
                 f"{batter} ({pitcher})"
             )
 
+        # Hit By Pitch
+            if result.get("eventType") == "hit_by_pitch":
+        
+                game_info["hit_by_pitch"].append(
+                    f"{batter} ({pitcher})"
+                )
+
     away_batting = []
 
     away_players = boxscore_json["teams"]["away"]["players"]
