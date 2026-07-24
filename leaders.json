@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24 01:49 PM EDT",
+  "last_updated": "2026-07-24 02:09 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -939,7 +939,7 @@
       {
         "player": "Pages",
         "team": "Lad",
-        "value": 68
+        "value": 67
       },
       {
         "player": "Lowe",
@@ -1180,6 +1180,11 @@
         "value": "2.62"
       },
       {
+        "player": "S\u00e1nchez",
+        "team": "Phi",
+        "value": "2.65"
+      },
+      {
         "player": "Meyer",
         "team": "Mia",
         "value": "2.68"
@@ -1188,11 +1193,6 @@
         "player": "Griffin",
         "team": "Wsh",
         "value": "2.68"
-      },
-      {
-        "player": "S\u00e1nchez",
-        "team": "Phi",
-        "value": "2.71"
       },
       {
         "player": "Yamamoto",
