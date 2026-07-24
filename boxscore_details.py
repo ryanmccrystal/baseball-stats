@@ -87,7 +87,17 @@ def extract_boxscore_note(boxscore, label):
 
         if line.startswith(f"{label}:"):
 
-            return line[len(label) + 1:].strip().rstrip(".")
+            note = line[len(label) + 1:].strip().rstrip(".")
+
+            if label == "Umpires":
+                note = (
+                    note.replace("HP:", "HP")
+                        .replace("1B:", "1B")
+                        .replace("2B:", "2B")
+                        .replace("3B:", "3B")
+                )
+
+            return note
 
     return ""
 
