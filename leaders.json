@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23 02:31 PM EDT",
+  "last_updated": "2026-07-24 04:16 AM EDT",
   "al": {
     "battingAverage": [
       {
@@ -14,20 +14,20 @@
       {
         "player": "D\u00edaz",
         "team": "Tbr",
-        "games": 97,
-        "ab": 377,
+        "games": 98,
+        "ab": 381,
         "runs": 56,
-        "hits": 116,
-        "avg": ".308"
+        "hits": 117,
+        "avg": ".307"
       },
       {
         "player": "Clement",
         "team": "Tor",
-        "games": 99,
-        "ab": 381,
-        "runs": 44,
-        "hits": 113,
-        "avg": ".297"
+        "games": 100,
+        "ab": 385,
+        "runs": 45,
+        "hits": 114,
+        "avg": ".296"
       },
       {
         "player": "Jung",
@@ -50,56 +50,56 @@
       {
         "player": "Simpson",
         "team": "Tbr",
-        "games": 95,
-        "ab": 351,
+        "games": 96,
+        "ab": 354,
         "runs": 43,
         "hits": 102,
-        "avg": ".291"
+        "avg": ".288"
       },
       {
         "player": "Caminero",
         "team": "Tbr",
-        "games": 101,
-        "ab": 383,
+        "games": 102,
+        "ab": 387,
         "runs": 65,
         "hits": 111,
-        "avg": ".290"
+        "avg": ".287"
+      },
+      {
+        "player": "Greene",
+        "team": "Det",
+        "games": 102,
+        "ab": 369,
+        "runs": 53,
+        "hits": 105,
+        "avg": ".285"
       },
       {
         "player": "DeLauter",
         "team": "Cle",
         "games": 87,
-        "ab": 325,
+        "ab": 328,
         "runs": 34,
         "hits": 93,
-        "avg": ".286"
+        "avg": ".284"
       },
       {
         "player": "Aranda",
         "team": "Tbr",
-        "games": 100,
-        "ab": 367,
+        "games": 101,
+        "ab": 371,
         "runs": 48,
         "hits": 105,
-        "avg": ".286"
-      },
-      {
-        "player": "Greene",
-        "team": "Det",
-        "games": 101,
-        "ab": 365,
-        "runs": 53,
-        "hits": 104,
-        "avg": ".285"
+        "avg": ".283"
       },
       {
         "player": "McGonigle",
         "team": "Det",
-        "games": 99,
-        "ab": 373,
+        "games": 100,
+        "ab": 377,
         "runs": 61,
-        "hits": 105,
-        "avg": ".282"
+        "hits": 106,
+        "avg": ".281"
       },
       {
         "player": "Arozarena",
@@ -190,6 +190,11 @@
         "value": 66
       },
       {
+        "player": "Dingler",
+        "team": "Det",
+        "value": 66
+      },
+      {
         "player": "Kurtz",
         "team": "Ath",
         "value": 66
@@ -202,11 +207,6 @@
       {
         "player": "Aranda",
         "team": "Tbr",
-        "value": 65
-      },
-      {
-        "player": "Dingler",
-        "team": "Det",
         "value": 65
       },
       {
@@ -225,13 +225,13 @@
         "value": 62
       },
       {
-        "player": "Vargas",
-        "team": "Chw",
+        "player": "D\u00edaz",
+        "team": "Tbr",
         "value": 61
       },
       {
-        "player": "Burger",
-        "team": "Tex",
+        "player": "Vargas",
+        "team": "Chw",
         "value": 61
       }
     ],
@@ -244,12 +244,12 @@
       {
         "player": "D\u00edaz",
         "team": "Tbr",
-        "value": 116
+        "value": 117
       },
       {
         "player": "Clement",
         "team": "Tor",
-        "value": 113
+        "value": 114
       },
       {
         "player": "Caminero",
@@ -257,23 +257,23 @@
         "value": 111
       },
       {
+        "player": "McGonigle",
+        "team": "Det",
+        "value": 106
+      },
+      {
+        "player": "Greene",
+        "team": "Det",
+        "value": 105
+      },
+      {
         "player": "Aranda",
         "team": "Tbr",
         "value": 105
       },
       {
-        "player": "McGonigle",
-        "team": "Det",
-        "value": 105
-      },
-      {
         "player": "Jung",
         "team": "Tex",
-        "value": 104
-      },
-      {
-        "player": "Greene",
-        "team": "Det",
         "value": 104
       },
       {
@@ -547,14 +547,14 @@
     ],
     "strikeOuts": [
       {
+        "player": "Williams",
+        "team": "Cle",
+        "value": 156
+      },
+      {
         "player": "Cease",
         "team": "Tor",
         "value": 155
-      },
-      {
-        "player": "Williams",
-        "team": "Cle",
-        "value": 154
       },
       {
         "player": "Schlittler",
@@ -579,7 +579,7 @@
       {
         "player": "Bradley",
         "team": "Min",
-        "value": 128
+        "value": 129
       },
       {
         "player": "deGrom",
@@ -626,7 +626,7 @@
       {
         "player": "Varland",
         "team": "Tor",
-        "value": 20
+        "value": 21
       },
       {
         "player": "Latz",
@@ -673,11 +673,16 @@
       {
         "player": "Rogers",
         "team": "Tor",
-        "value": 20
+        "value": 21
       },
       {
         "player": "Kelly",
         "team": "Tbr",
+        "value": 20
+      },
+      {
+        "player": "Gaddis",
+        "team": "Cle",
         "value": 20
       },
       {
@@ -688,11 +693,6 @@
       {
         "player": "Whitlock",
         "team": "Bos",
-        "value": 19
-      },
-      {
-        "player": "Gaddis",
-        "team": "Cle",
         "value": 19
       },
       {
@@ -783,7 +783,7 @@
         "player": "Harris",
         "team": "Atl",
         "games": 96,
-        "ab": 364,
+        "ab": 365,
         "runs": 51,
         "hits": 109,
         "avg": ".299"
@@ -816,6 +816,15 @@
         "avg": ".292"
       },
       {
+        "player": "Walker",
+        "team": "Stl",
+        "games": 100,
+        "ab": 385,
+        "runs": 65,
+        "hits": 112,
+        "avg": ".291"
+      },
+      {
         "player": "Edwards",
         "team": "Mia",
         "games": 103,
@@ -831,15 +840,6 @@
         "ab": 377,
         "runs": 54,
         "hits": 109,
-        "avg": ".289"
-      },
-      {
-        "player": "Walker",
-        "team": "Stl",
-        "games": 99,
-        "ab": 381,
-        "runs": 64,
-        "hits": 110,
         "avg": ".289"
       }
     ],
@@ -909,7 +909,7 @@
       {
         "player": "Walker",
         "team": "Stl",
-        "value": 76
+        "value": 77
       },
       {
         "player": "Abrams",
@@ -986,10 +986,15 @@
       {
         "player": "Tatis",
         "team": "Sdp",
-        "value": 113
+        "value": 114
       },
       {
         "player": "Walker",
+        "team": "Stl",
+        "value": 112
+      },
+      {
+        "player": "Burleson",
         "team": "Stl",
         "value": 110
       },
@@ -1016,11 +1021,6 @@
       {
         "player": "Crow-Armstrong",
         "team": "Chc",
-        "value": 107
-      },
-      {
-        "player": "Burleson",
-        "team": "Stl",
         "value": 107
       },
       {
@@ -1066,12 +1066,17 @@
         "value": 66
       },
       {
+        "player": "Walker",
+        "team": "Stl",
+        "value": 65
+      },
+      {
         "player": "Albies",
         "team": "Atl",
         "value": 65
       },
       {
-        "player": "Walker",
+        "player": "Wetherholt",
         "team": "Stl",
         "value": 64
       },
@@ -1082,11 +1087,6 @@
       },
       {
         "player": "Happ",
-        "team": "Chc",
-        "value": 63
-      },
-      {
-        "player": "Swanson",
         "team": "Chc",
         "value": 63
       }
@@ -1202,7 +1202,7 @@
       {
         "player": "McGreevy",
         "team": "Stl",
-        "value": "2.92"
+        "value": "3.07"
       },
       {
         "player": "King",
@@ -1232,6 +1232,11 @@
         "value": 12
       },
       {
+        "player": "Sale",
+        "team": "Atl",
+        "value": 11
+      },
+      {
         "player": "Wrobleski",
         "team": "Lad",
         "value": 11
@@ -1249,11 +1254,6 @@
       {
         "player": "Wheeler",
         "team": "Phi",
-        "value": 10
-      },
-      {
-        "player": "Sale",
-        "team": "Atl",
         "value": 10
       },
       {
@@ -1363,7 +1363,7 @@
       {
         "player": "Iglesias",
         "team": "Atl",
-        "value": 20
+        "value": 21
       },
       {
         "player": "Megill",
