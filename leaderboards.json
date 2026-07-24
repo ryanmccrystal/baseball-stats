@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 24, 2026 18:34 UTC",
+  "last_updated": "July 24, 2026 21:01 UTC",
   "standings": {
     "AL East": [
       {
@@ -1337,7 +1337,7 @@
         {
           "name": "Jake McCarthy",
           "team": "COL",
-          "value": ".305"
+          "value": ".306"
         },
         {
           "name": "Jung Hoo Lee",
@@ -1357,7 +1357,7 @@
         {
           "name": "Troy Johnston",
           "team": "COL",
-          "value": ".296"
+          "value": ".295"
         },
         {
           "name": "Brandon Marsh",
@@ -1625,9 +1625,9 @@
           "value": ".519"
         },
         {
-          "name": "Pete Crow-Armstrong",
-          "team": "CHC",
-          "value": ".517"
+          "name": "Jake McCarthy",
+          "team": "COL",
+          "value": ".518"
         }
       ],
       "ops": [
@@ -1664,7 +1664,7 @@
         {
           "name": "Hunter Goodman",
           "team": "COL",
-          "value": ".890"
+          "value": ".891"
         },
         {
           "name": "Jordan Walker",
@@ -1850,6 +1850,11 @@
           "value": "7"
         },
         {
+          "name": "Jake McCarthy",
+          "team": "COL",
+          "value": "7"
+        },
+        {
           "name": "Xavier Edwards",
           "team": "MIA",
           "value": "6"
@@ -1857,11 +1862,6 @@
         {
           "name": "Otto Lopez",
           "team": "MIA",
-          "value": "6"
-        },
-        {
-          "name": "Jake McCarthy",
-          "team": "COL",
           "value": "6"
         },
         {
