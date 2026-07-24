@@ -362,6 +362,10 @@
             border-bottom: 1px solid #999;
         }
 
+        .linescore-total {
+            width: 18px;
+        }
+
         .boxscore-content {
             width: 100%;
         }
@@ -1106,9 +1110,9 @@ fetch("./boxscore_details.json")
             
                         html += `
                                         <td class="linescore-gap">—</td>
-                                        <td>${game.away.runs}</td>
-                                        <td>${game.away.hits}</td>
-                                        <td>${game.away.errors}</td>
+                                        <td class="linescore-total">${game.away.runs}</td>
+                                        <td class="linescore-total">${game.away.hits}</td>
+                                        <td class="linescore-total">${game.away.errors}</td>
                                     </tr>
             
                                     <tr>
@@ -1127,9 +1131,9 @@ fetch("./boxscore_details.json")
             
                         html += `
                                         <td class="linescore-gap linescore-gap-bottom">—</td>
-                                        <td>${game.home.runs}</td>
-                                        <td>${game.home.hits}</td>
-                                        <td>${game.home.errors}</td>
+                                        <td class="linescore-total">${game.home.runs}</td>
+                                        <td class="linescore-total">${game.home.hits}</td>
+                                        <td class="linescore-total">${game.home.errors}</td>
                                     </tr>
             
                                 </tbody>
