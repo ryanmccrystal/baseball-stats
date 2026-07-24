@@ -144,13 +144,6 @@ for game in schedule:
         }
     )
 
-    # Formatted box score text
-    boxscore = statsapi.boxscore(gamePk)
-    game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
-    game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
-    game_info["hit_by_pitch"] = extract_boxscore_note(boxscore, "HBP")
-    game_info["umpires"] = extract_boxscore_note(boxscore, "Umpires")
-
     # Structured MLB box score JSON (we'll use this next)
     response = requests.get(
         f"https://statsapi.mlb.com/api/v1/game/{gamePk}/boxscore"
@@ -185,6 +178,13 @@ for game in schedule:
         "time": "",
         "attendance": ""
     }
+
+    # Formatted box score text
+    boxscore = statsapi.boxscore(gamePk)
+    game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
+    game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
+    game_info["hit_by_pitch"] = extract_boxscore_note(boxscore, "HBP")
+    game_info["umpires"] = extract_boxscore_note(boxscore, "Umpires")
 
     game_data = feed_json["gameData"]
 
