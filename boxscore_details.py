@@ -320,7 +320,20 @@ for game in schedule:
     boxscore = statsapi.boxscore(gamePk)
     away_decisions, home_decisions, blown_saves = extract_pitcher_decisions(boxscore)
 
-    game_info["blown_saves"] = blown_saves
+    game_info["blown_saves"] = []
+
+    for bs in blown_saves:
+    
+        if bs["pitcher"] in away_decisions:
+            team_total = away_team_blown_saves
+        else:
+            team_total = home_team_blown_saves
+    
+        game_info["blown_saves"].append({
+            "pitcher": bs["pitcher"],
+            "player_total": bs["player_total"],
+            "team_total": team_total
+        })
     
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
     game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
