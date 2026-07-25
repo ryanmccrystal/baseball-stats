@@ -230,17 +230,12 @@ for game in schedule:
 
     boxscore_json = response.json()
 
-    from pprint import pprint
-
-    print("Away team pitching:")
-    pprint(boxscore_json["teams"]["away"]["teamStats"]["pitching"])
+    print(boxscore_json["teams"]["away"].keys())
+    print(boxscore_json["teams"]["home"].keys())
     
-    print("Home team pitching:")
-    pprint(boxscore_json["teams"]["home"]["teamStats"]["pitching"])
-
-    feed_response = requests.get(
-        f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
-    )
+        feed_response = requests.get(
+            f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
+        )
     
     feed_json = feed_response.json()
 
