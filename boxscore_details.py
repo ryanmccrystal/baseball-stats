@@ -257,7 +257,18 @@ for game in schedule:
     boxscore = statsapi.boxscore(gamePk)
     pitcher_notes = extract_pitcher_notes(boxscore)
     
-    print(pitcher_notes)
+    in_pitching = False
+
+    for line in boxscore.splitlines():
+    
+        if "Pitchers" in line:
+            in_pitching = True
+    
+        if in_pitching:
+            print(repr(line))
+    
+        if in_pitching and line.strip().startswith("Totals"):
+            break
     
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
     game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
