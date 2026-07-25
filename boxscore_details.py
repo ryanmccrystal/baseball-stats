@@ -237,6 +237,7 @@ for game in schedule:
         "team_stats",
         {
             "teamId": away_team_id,
+            "season": 2026,
             "stats": "season",
             "group": "pitching"
         }
@@ -246,6 +247,7 @@ for game in schedule:
         "team_stats",
         {
             "teamId": home_team_id,
+            "season": 2026,
             "stats": "season",
             "group": "pitching"
         }
