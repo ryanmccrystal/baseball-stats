@@ -134,14 +134,29 @@ def extract_pitcher_decisions(boxscore):
             if "(" not in side:
                 continue
 
-            match = re.search(r"^(.*?)\s+\((.*?)\)", side.strip())
+            match = re.match(r"^(.*?)\s+\(", side.strip())
 
             if not match:
                 continue
-
+            
             name = match.group(1).strip()
-            decision = match.group(2).replace(", ", ",")
-
+            
+            notes = re.findall(r"\((.*?)\)", side)
+            
+            decision = ""
+            
+            for note in notes:
+            
+                note = note.replace(", ", ",")
+            
+                if note.startswith("BS"):
+                    decision = "BS," + decision if decision else "BS"
+            
+                elif note.startswith(("W,", "L,", "H,", "S,")):
+                    decision = (
+                        f"{decision},{note}" if decision else note
+                    )
+            
             decisions[name] = decision
 
     return away, home
