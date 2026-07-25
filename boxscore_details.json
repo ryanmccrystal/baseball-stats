@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 02:17 PM",
+  "last_updated": "2026-07-25 02:41 PM",
   "games": [
     {
       "status": "Final",
@@ -410,6 +410,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "",
@@ -779,6 +780,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Cameron",
         "intentional_walks": "",
         "hit_by_pitch": "Dingler (by Way)",
@@ -1197,6 +1199,7 @@
         "sac_flies": []
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Boyd",
         "intentional_walks": "Crow-Armstrong (by Ram\u00edrez)",
         "hit_by_pitch": "",
@@ -1673,6 +1676,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "",
@@ -2074,6 +2078,7 @@
         "sac_flies": []
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "S\u00e1nchez, A (by Luzardo); McMahon (by Alvarado); Rincones Jr. (by Schlittler)",
@@ -2595,6 +2600,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "Encarnacion-Strand (by Young, D); Henderson (by Hern\u00e1ndez, E)",
         "hit_by_pitch": "",
@@ -2992,6 +2998,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Sasaki",
         "intentional_walks": "",
         "hit_by_pitch": "",
@@ -3412,6 +3419,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "",
@@ -3924,6 +3932,7 @@
         "sac_flies": []
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "Tatis Jr. (by Bachar); Hicks, L (by M\u00e1rquez)",
@@ -4423,6 +4432,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Sandoval",
         "intentional_walks": "Contreras, Wn (by Macko)",
         "hit_by_pitch": "Clement (by Weissert); Durbin (by Fisher)",
@@ -4909,6 +4919,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Teng",
         "intentional_walks": "Alvarez, Y (by Hudson, B)",
         "hit_by_pitch": "Spence (by Martin); Paredes (by Martin); Trammell (by Murphy, C); Peters (by Arrighetti); Meidroth (by Arrighetti); Romo (by Teng); Antonacci (by Teng)",
@@ -5356,6 +5367,7 @@
         "sac_flies": []
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Latz",
         "intentional_walks": "",
         "hit_by_pitch": "",
@@ -5769,6 +5781,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Hartlieb; Matthews",
         "intentional_walks": "",
         "hit_by_pitch": "Buxton (by Lopez, J); Keaschall (by Harris, H)",
@@ -6228,6 +6241,7 @@
         "sac_flies": []
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Gastelum, L",
         "intentional_walks": "",
         "hit_by_pitch": "Stephenson, T (by May); Herrera (by Lowder)",
@@ -6723,6 +6737,7 @@
         ]
       },
       "game_info": {
+        "blown_saves": [],
         "wild_pitches": "Yates; Foley",
         "intentional_walks": "Trout (by Miller, E); Devers (by Rodriguez, G)",
         "hit_by_pitch": "",
