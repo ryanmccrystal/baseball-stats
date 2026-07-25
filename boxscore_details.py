@@ -167,6 +167,32 @@ for game in schedule:
     )
     
     feed_json = feed_response.json()
+
+    away_pitching_order = []
+    home_pitching_order = []
+    
+    for play in feed_json["liveData"]["plays"]["allPlays"]:
+    
+        matchup = play.get("matchup", {})
+    
+        pitcher = matchup.get("pitcher")
+    
+        if not pitcher:
+            continue
+    
+        pitcher_id = pitcher["id"]
+    
+        # Which team is pitching?
+        is_top = play["about"]["isTopInning"]
+    
+        if is_top:
+            # Home team is pitching
+            if pitcher_id not in home_pitching_order:
+                home_pitching_order.append(pitcher_id)
+        else:
+            # Away team is pitching
+            if pitcher_id not in away_pitching_order:
+                away_pitching_order.append(pitcher_id)
     
     notes = {
         "errors": [],
@@ -435,7 +461,11 @@ for game in schedule:
     
             pitchers.append(player)
     
-   # pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
+    pitchers.sort(
+        key=lambda p: away_pitching_order.index(
+            p["person"]["id"]
+        )
+    )
     
     for player in pitchers:
     
@@ -479,7 +509,11 @@ for game in schedule:
     
             pitchers.append(player)
     
-  # pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
+    pitchers.sort(
+        key=lambda p: home_pitching_order.index(
+            p["person"]["id"]
+        )
+    )
     
     for player in pitchers:
     
