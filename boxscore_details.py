@@ -64,6 +64,7 @@ def nickname(team_name):
 def split_team_name(full_name):
 
     special_cases = {
+        "Athletics": ("Athletics", "Athletics")
         "Boston Red Sox": ("Boston", "Red Sox"),
         "Chicago White Sox": ("Chicago", "White Sox"),
         "Toronto Blue Jays": ("Toronto", "Blue Jays")
