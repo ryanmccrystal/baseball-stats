@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 12:14 PM EDT",
+  "last_updated": "2026-07-25 02:39 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -75,6 +75,15 @@
         "avg": ".284"
       },
       {
+        "player": "Greene",
+        "team": "Det",
+        "games": 104,
+        "ab": 374,
+        "runs": 54,
+        "hits": 106,
+        "avg": ".283"
+      },
+      {
         "player": "Aranda",
         "team": "Tbr",
         "games": 102,
@@ -82,15 +91,6 @@
         "runs": 49,
         "hits": 106,
         "avg": ".283"
-      },
-      {
-        "player": "Greene",
-        "team": "Det",
-        "games": 103,
-        "ab": 372,
-        "runs": 53,
-        "hits": 105,
-        "avg": ".282"
       },
       {
         "player": "Schanuel",
@@ -257,6 +257,11 @@
         "value": 112
       },
       {
+        "player": "Greene",
+        "team": "Det",
+        "value": 106
+      },
+      {
         "player": "Aranda",
         "team": "Tbr",
         "value": 106
@@ -270,11 +275,6 @@
         "player": "McGonigle",
         "team": "Det",
         "value": 106
-      },
-      {
-        "player": "Greene",
-        "team": "Det",
-        "value": 105
       },
       {
         "player": "Jung",

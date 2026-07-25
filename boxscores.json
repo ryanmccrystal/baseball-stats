@@ -139,18 +139,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 7,
-        "era": "3.66",
-        "k9": "7.2",
+        "era": "3.63",
+        "k9": "7.1",
         "hand": "R",
-        "team_record": "6-14"
+        "team_record": "6-15"
       },
       "home_stats": {
         "wins": 4,
         "losses": 6,
-        "era": "2.79",
-        "k9": "9.2",
+        "era": "2.70",
+        "k9": "8.8",
         "hand": "R",
-        "team_record": "5-10"
+        "team_record": "6-10"
       }
     },
     {
@@ -250,7 +250,7 @@
       "home_name": "Phillies",
       "game_time": "2026-07-25T22:05:00Z",
       "away_pitcher": "Ryan Weathers",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Tim Mayza",
       "away_stats": {
         "wins": 3,
         "losses": 7,
@@ -259,7 +259,14 @@
         "hand": "L",
         "team_record": "9-10"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 2,
+        "losses": 3,
+        "era": "4.00",
+        "k9": "8.8",
+        "hand": "L",
+        "team_record": "1-2"
+      }
     },
     {
       "away_name": "Cubs",
