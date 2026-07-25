@@ -237,7 +237,7 @@ for game in schedule:
         "team_stats",
         {
             "teamId": away_team_id,
-            "season": 2026,
+            "season": game["game_date"][:4],
             "stats": "season",
             "group": "pitching"
         }
@@ -247,19 +247,14 @@ for game in schedule:
         "team_stats",
         {
             "teamId": home_team_id,
-            "season": 2026,
+            "season": game["game_date"][:4],
             "stats": "season",
             "group": "pitching"
         }
     )
 
-    from pprint import pprint
-
-    print("Away:")
-    pprint(away_stats)
-    
-    print("Home:")
-    pprint(home_stats)
+    away_team_blown_saves = away_stats["stats"][0]["splits"][0]["stat"]["blownSaves"]
+    home_team_blown_saves = home_stats["stats"][0]["splits"][0]["stat"]["blownSaves"]
     
     feed_response = requests.get(
         f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
