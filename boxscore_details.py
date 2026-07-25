@@ -227,15 +227,15 @@ for game in schedule:
     response = requests.get(
         f"https://statsapi.mlb.com/api/v1/game/{gamePk}/boxscore"
     )
-
+    
     boxscore_json = response.json()
-
+    
     print(boxscore_json["teams"]["away"].keys())
     print(boxscore_json["teams"]["home"].keys())
     
-        feed_response = requests.get(
-            f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
-        )
+    feed_response = requests.get(
+        f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
+    )
     
     feed_json = feed_response.json()
 
