@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 03:31 PM",
+  "last_updated": "2026-07-25 03:39 PM",
   "games": [
     {
       "status": "Final",
@@ -265,6 +265,7 @@
       "away_pitching": [
         {
           "name": "Sugano",
+          "decision": "W,10-4",
           "ip": "5.1",
           "h": 6,
           "r": 2,
@@ -276,6 +277,7 @@
         },
         {
           "name": "Vodnik",
+          "decision": "H,5",
           "ip": "1.2",
           "h": 0,
           "r": 0,
@@ -287,6 +289,7 @@
         },
         {
           "name": "Senzatela",
+          "decision": "H,3",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -298,6 +301,7 @@
         },
         {
           "name": "Romano",
+          "decision": "S,8",
           "ip": "1.0",
           "h": 2,
           "r": 0,
@@ -311,6 +315,7 @@
       "home_pitching": [
         {
           "name": "Drohan",
+          "decision": "L,5-4",
           "ip": "6.0",
           "h": 6,
           "r": 5,
@@ -322,6 +327,7 @@
         },
         {
           "name": "Anderson, G",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -333,6 +339,7 @@
         },
         {
           "name": "Yoho",
+          "decision": "",
           "ip": "2.0",
           "h": 2,
           "r": 0,
@@ -659,6 +666,7 @@
       "away_pitching": [
         {
           "name": "Way",
+          "decision": "L,1-1",
           "ip": "1.0",
           "h": 3,
           "r": 2,
@@ -670,6 +678,7 @@
         },
         {
           "name": "Cameron",
+          "decision": "",
           "ip": "7.0",
           "h": 2,
           "r": 0,
@@ -683,6 +692,7 @@
       "home_pitching": [
         {
           "name": "Skubal",
+          "decision": "W,7-5",
           "ip": "7.1",
           "h": 4,
           "r": 1,
@@ -694,6 +704,7 @@
         },
         {
           "name": "Hanifee",
+          "decision": "H,3",
           "ip": "0.2",
           "h": 0,
           "r": 0,
@@ -705,6 +716,7 @@
         },
         {
           "name": "Jansen, K",
+          "decision": "S,12",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1041,6 +1053,7 @@
       "away_pitching": [
         {
           "name": "Boyd",
+          "decision": "",
           "ip": "7.0",
           "h": 7,
           "r": 1,
@@ -1052,6 +1065,7 @@
         },
         {
           "name": "Webb, J",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -1063,6 +1077,7 @@
         },
         {
           "name": "Thielbar",
+          "decision": "W,3-2",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1074,6 +1089,7 @@
         },
         {
           "name": "Hollowell",
+          "decision": "S,1",
           "ip": "1.0",
           "h": 0,
           "r": 1,
@@ -1087,6 +1103,7 @@
       "home_pitching": [
         {
           "name": "Jones",
+          "decision": "",
           "ip": "6.0",
           "h": 2,
           "r": 1,
@@ -1098,6 +1115,7 @@
         },
         {
           "name": "Dotel",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 0,
@@ -1109,6 +1127,7 @@
         },
         {
           "name": "Montgomery, M",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1120,6 +1139,7 @@
         },
         {
           "name": "Soto, G",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1131,6 +1151,7 @@
         },
         {
           "name": "Ram\u00edrez",
+          "decision": "L,6-3",
           "ip": "1.0",
           "h": 2,
           "r": 2,
@@ -1508,6 +1529,7 @@
       "away_pitching": [
         {
           "name": "Rodriguez, Ed",
+          "decision": "W,9-3",
           "ip": "6.0",
           "h": 7,
           "r": 2,
@@ -1519,6 +1541,7 @@
         },
         {
           "name": "Morillo, J",
+          "decision": "H,12",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1530,6 +1553,7 @@
         },
         {
           "name": "Ginkel",
+          "decision": "H,10",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1541,6 +1565,7 @@
         },
         {
           "name": "Sewald",
+          "decision": "S,24",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1554,6 +1579,7 @@
       "home_pitching": [
         {
           "name": "Palmquist",
+          "decision": "",
           "ip": "1.1",
           "h": 2,
           "r": 2,
@@ -1565,6 +1591,7 @@
         },
         {
           "name": "Littell",
+          "decision": "L,7-8",
           "ip": "5.0",
           "h": 4,
           "r": 1,
@@ -1576,6 +1603,7 @@
         },
         {
           "name": "Cosgrove",
+          "decision": "",
           "ip": "0.1",
           "h": 1,
           "r": 0,
@@ -1587,6 +1615,7 @@
         },
         {
           "name": "Ribalta",
+          "decision": "",
           "ip": "1.1",
           "h": 1,
           "r": 0,
@@ -1598,6 +1627,7 @@
         },
         {
           "name": "Kranick",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1949,6 +1979,7 @@
       "away_pitching": [
         {
           "name": "Schlittler",
+          "decision": "W,10-6",
           "ip": "7.1",
           "h": 3,
           "r": 0,
@@ -1960,6 +1991,7 @@
         },
         {
           "name": "Headrick",
+          "decision": "H,13",
           "ip": "0.2",
           "h": 1,
           "r": 0,
@@ -1971,6 +2003,7 @@
         },
         {
           "name": "Bednar",
+          "decision": "S,19",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -1984,6 +2017,7 @@
       "home_pitching": [
         {
           "name": "Luzardo",
+          "decision": "L,9-5",
           "ip": "7.0",
           "h": 3,
           "r": 1,
@@ -1995,6 +2029,7 @@
         },
         {
           "name": "Bowlan",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -2006,6 +2041,7 @@
         },
         {
           "name": "Alvarado",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -2411,6 +2447,7 @@
       "away_pitching": [
         {
           "name": "Holmes, G",
+          "decision": "",
           "ip": "5.0",
           "h": 6,
           "r": 3,
@@ -2422,6 +2459,7 @@
         },
         {
           "name": "Young, D",
+          "decision": "",
           "ip": "0.2",
           "h": 0,
           "r": 0,
@@ -2433,6 +2471,7 @@
         },
         {
           "name": "Kinley",
+          "decision": "",
           "ip": "0.1",
           "h": 0,
           "r": 0,
@@ -2444,6 +2483,7 @@
         },
         {
           "name": "Hern\u00e1ndez, E",
+          "decision": "W,1-0",
           "ip": "3.0",
           "h": 1,
           "r": 0,
@@ -2455,6 +2495,7 @@
         },
         {
           "name": "Lee, D",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 3,
@@ -2468,6 +2509,7 @@
       "home_pitching": [
         {
           "name": "Rogers, Tr",
+          "decision": "",
           "ip": "7.0",
           "h": 6,
           "r": 2,
@@ -2479,6 +2521,7 @@
         },
         {
           "name": "Garcia, Ri",
+          "decision": "BS,3",
           "ip": "1.0",
           "h": 1,
           "r": 1,
@@ -2490,6 +2533,7 @@
         },
         {
           "name": "Wells, T",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -2501,6 +2545,7 @@
         },
         {
           "name": "Kittredge",
+          "decision": "L,1-2",
           "ip": "0.2",
           "h": 2,
           "r": 4,
@@ -2512,6 +2557,7 @@
         },
         {
           "name": "Wolfram",
+          "decision": "",
           "ip": "0.1",
           "h": 1,
           "r": 0,
@@ -2849,6 +2895,7 @@
       "away_pitching": [
         {
           "name": "Sasaki",
+          "decision": "W,4-5",
           "ip": "7.0",
           "h": 3,
           "r": 1,
@@ -2860,6 +2907,7 @@
         },
         {
           "name": "Phillips, E",
+          "decision": "H,2",
           "ip": "1.0",
           "h": 1,
           "r": 1,
@@ -2871,6 +2919,7 @@
         },
         {
           "name": "Scott",
+          "decision": "S,16",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -2884,6 +2933,7 @@
       "home_pitching": [
         {
           "name": "Manaea",
+          "decision": "",
           "ip": "6.0",
           "h": 6,
           "r": 1,
@@ -2895,6 +2945,7 @@
         },
         {
           "name": "Raley, B",
+          "decision": "L,4-5",
           "ip": "1.0",
           "h": 2,
           "r": 1,
@@ -2906,6 +2957,7 @@
         },
         {
           "name": "Minter",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 2,
@@ -2917,6 +2969,7 @@
         },
         {
           "name": "P\u00e9rez, C",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -3247,6 +3300,7 @@
       "away_pitching": [
         {
           "name": "Cantillo",
+          "decision": "L,8-6",
           "ip": "3.2",
           "h": 8,
           "r": 5,
@@ -3258,6 +3312,7 @@
         },
         {
           "name": "Festa, M",
+          "decision": "",
           "ip": "1.2",
           "h": 2,
           "r": 1,
@@ -3269,6 +3324,7 @@
         },
         {
           "name": "Aleman",
+          "decision": "",
           "ip": "0.2",
           "h": 1,
           "r": 0,
@@ -3280,6 +3336,7 @@
         },
         {
           "name": "Herrin",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 1,
@@ -3291,6 +3348,7 @@
         },
         {
           "name": "Armstrong",
+          "decision": "",
           "ip": "0.2",
           "h": 1,
           "r": 3,
@@ -3302,6 +3360,7 @@
         },
         {
           "name": "Gaddis",
+          "decision": "",
           "ip": "0.1",
           "h": 1,
           "r": 1,
@@ -3315,6 +3374,7 @@
       "home_pitching": [
         {
           "name": "McClanahan",
+          "decision": "W,9-6",
           "ip": "5.0",
           "h": 2,
           "r": 1,
@@ -3326,6 +3386,7 @@
         },
         {
           "name": "Sulser",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -3337,6 +3398,7 @@
         },
         {
           "name": "Roycroft",
+          "decision": "S,1",
           "ip": "3.0",
           "h": 4,
           "r": 2,
@@ -3716,6 +3778,7 @@
       "away_pitching": [
         {
           "name": "M\u00e1rquez",
+          "decision": "",
           "ip": "2.1",
           "h": 3,
           "r": 1,
@@ -3727,6 +3790,7 @@
         },
         {
           "name": "Hart",
+          "decision": "",
           "ip": "2.0",
           "h": 2,
           "r": 0,
@@ -3738,6 +3802,7 @@
         },
         {
           "name": "Peralta, W",
+          "decision": "BS,2",
           "ip": "1.2",
           "h": 2,
           "r": 1,
@@ -3749,6 +3814,7 @@
         },
         {
           "name": "Rodriguez, B",
+          "decision": "",
           "ip": "0.2",
           "h": 2,
           "r": 0,
@@ -3760,6 +3826,7 @@
         },
         {
           "name": "Morejon",
+          "decision": "W,8-2",
           "ip": "1.1",
           "h": 0,
           "r": 0,
@@ -3771,6 +3838,7 @@
         },
         {
           "name": "Miller, M",
+          "decision": "S,26",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -3784,6 +3852,7 @@
       "home_pitching": [
         {
           "name": "Gusto",
+          "decision": "",
           "ip": "3.1",
           "h": 2,
           "r": 1,
@@ -3795,6 +3864,7 @@
         },
         {
           "name": "Gibson, C",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 1,
@@ -3806,6 +3876,7 @@
         },
         {
           "name": "Petersen",
+          "decision": "",
           "ip": "0.2",
           "h": 1,
           "r": 0,
@@ -3817,6 +3888,7 @@
         },
         {
           "name": "Bachar",
+          "decision": "",
           "ip": "1.2",
           "h": 0,
           "r": 0,
@@ -3828,6 +3900,7 @@
         },
         {
           "name": "Zuber",
+          "decision": "L,0-1",
           "ip": "0.2",
           "h": 2,
           "r": 2,
@@ -3839,6 +3912,7 @@
         },
         {
           "name": "King, Jo",
+          "decision": "",
           "ip": "0.2",
           "h": 0,
           "r": 0,
@@ -3850,6 +3924,7 @@
         },
         {
           "name": "Faucher",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -4241,6 +4316,7 @@
       "away_pitching": [
         {
           "name": "Yesavage",
+          "decision": "",
           "ip": "4.0",
           "h": 5,
           "r": 3,
@@ -4252,6 +4328,7 @@
         },
         {
           "name": "Fluharty",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -4263,6 +4340,7 @@
         },
         {
           "name": "Fisher",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 1,
@@ -4274,6 +4352,7 @@
         },
         {
           "name": "Hoffman, J",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -4285,6 +4364,7 @@
         },
         {
           "name": "Van Eyk",
+          "decision": "L,0-1",
           "ip": "0.1",
           "h": 4,
           "r": 2,
@@ -4296,6 +4376,7 @@
         },
         {
           "name": "Macko",
+          "decision": "",
           "ip": "0.2",
           "h": 0,
           "r": 0,
@@ -4309,6 +4390,7 @@
       "home_pitching": [
         {
           "name": "Sandoval",
+          "decision": "",
           "ip": "4.2",
           "h": 5,
           "r": 0,
@@ -4320,6 +4402,7 @@
         },
         {
           "name": "Guerrero",
+          "decision": "",
           "ip": "1.1",
           "h": 0,
           "r": 0,
@@ -4331,6 +4414,7 @@
         },
         {
           "name": "Weissert",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 3,
@@ -4342,6 +4426,7 @@
         },
         {
           "name": "Whitlock",
+          "decision": "W,6-1",
           "ip": "1.0",
           "h": 2,
           "r": 1,
@@ -4353,6 +4438,7 @@
         },
         {
           "name": "Chapman",
+          "decision": "S,24",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -4717,6 +4803,7 @@
       "away_pitching": [
         {
           "name": "Arrighetti",
+          "decision": "",
           "ip": "1.0",
           "h": 2,
           "r": 3,
@@ -4728,6 +4815,7 @@
         },
         {
           "name": "Blubaugh",
+          "decision": "",
           "ip": "2.0",
           "h": 1,
           "r": 0,
@@ -4739,6 +4827,7 @@
         },
         {
           "name": "Teng",
+          "decision": "W,5-6",
           "ip": "2.0",
           "h": 2,
           "r": 2,
@@ -4750,6 +4839,7 @@
         },
         {
           "name": "Sousa",
+          "decision": "H,2",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -4761,6 +4851,7 @@
         },
         {
           "name": "Abreu, B",
+          "decision": "H,6",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -4772,6 +4863,7 @@
         },
         {
           "name": "Okert",
+          "decision": "H,14",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -4783,6 +4875,7 @@
         },
         {
           "name": "Hader",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -4796,6 +4889,7 @@
       "home_pitching": [
         {
           "name": "Martin",
+          "decision": "",
           "ip": "5.0",
           "h": 6,
           "r": 4,
@@ -4807,6 +4901,7 @@
         },
         {
           "name": "Hudson, B",
+          "decision": "L,3-3",
           "ip": "0.2",
           "h": 3,
           "r": 4,
@@ -4818,6 +4913,7 @@
         },
         {
           "name": "Dom\u00ednguez",
+          "decision": "",
           "ip": "0.1",
           "h": 1,
           "r": 0,
@@ -4829,6 +4925,7 @@
         },
         {
           "name": "Richards, T",
+          "decision": "",
           "ip": "2.0",
           "h": 2,
           "r": 0,
@@ -4840,6 +4937,7 @@
         },
         {
           "name": "Murphy, C",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 1,
@@ -5204,6 +5302,7 @@
       "away_pitching": [
         {
           "name": "Miller, B",
+          "decision": "L,4-5",
           "ip": "5.1",
           "h": 6,
           "r": 5,
@@ -5215,6 +5314,7 @@
         },
         {
           "name": "Bazardo",
+          "decision": "",
           "ip": "0.2",
           "h": 2,
           "r": 0,
@@ -5226,6 +5326,7 @@
         },
         {
           "name": "Rucker",
+          "decision": "",
           "ip": "2.0",
           "h": 2,
           "r": 0,
@@ -5239,6 +5340,7 @@
       "home_pitching": [
         {
           "name": "Gore",
+          "decision": "",
           "ip": "5.0",
           "h": 7,
           "r": 3,
@@ -5250,6 +5352,7 @@
         },
         {
           "name": "Gray",
+          "decision": "W,5-0",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -5261,6 +5364,7 @@
         },
         {
           "name": "Junis",
+          "decision": "H,13",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -5272,6 +5376,7 @@
         },
         {
           "name": "Alexander, T",
+          "decision": "H,9",
           "ip": "0.2",
           "h": 1,
           "r": 0,
@@ -5283,6 +5388,7 @@
         },
         {
           "name": "Winn, C",
+          "decision": "H,9",
           "ip": "0.1",
           "h": 0,
           "r": 0,
@@ -5294,6 +5400,7 @@
         },
         {
           "name": "Latz",
+          "decision": "S,20",
           "ip": "1.0",
           "h": 1,
           "r": 1,
@@ -5616,6 +5723,7 @@
       "away_pitching": [
         {
           "name": "Lopez, J",
+          "decision": "W,5-4",
           "ip": "5.0",
           "h": 1,
           "r": 0,
@@ -5627,6 +5735,7 @@
         },
         {
           "name": "Hartlieb",
+          "decision": "H,1",
           "ip": "0.1",
           "h": 0,
           "r": 0,
@@ -5638,6 +5747,7 @@
         },
         {
           "name": "Suarez, J",
+          "decision": "H,3",
           "ip": "1.2",
           "h": 0,
           "r": 0,
@@ -5649,6 +5759,7 @@
         },
         {
           "name": "Alvarado",
+          "decision": "H,5",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -5660,6 +5771,7 @@
         },
         {
           "name": "Harris, H",
+          "decision": "S,8",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -5673,6 +5785,7 @@
       "home_pitching": [
         {
           "name": "Matthews",
+          "decision": "L,4-8",
           "ip": "6.0",
           "h": 3,
           "r": 2,
@@ -5684,6 +5797,7 @@
         },
         {
           "name": "Funderburk",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -5695,6 +5809,7 @@
         },
         {
           "name": "Adams",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -5706,6 +5821,7 @@
         },
         {
           "name": "Anderson",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -6066,6 +6182,7 @@
       "away_pitching": [
         {
           "name": "Lowder",
+          "decision": "",
           "ip": "5.0",
           "h": 1,
           "r": 2,
@@ -6077,6 +6194,7 @@
         },
         {
           "name": "Ferguson, C",
+          "decision": "",
           "ip": "0.2",
           "h": 0,
           "r": 0,
@@ -6088,6 +6206,7 @@
         },
         {
           "name": "Garcia, J",
+          "decision": "W,1-2",
           "ip": "0.1",
           "h": 0,
           "r": 0,
@@ -6099,6 +6218,7 @@
         },
         {
           "name": "Burke, B",
+          "decision": "H,12",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6110,6 +6230,7 @@
         },
         {
           "name": "Antone",
+          "decision": "H,5",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -6121,6 +6242,7 @@
         },
         {
           "name": "Pag\u00e1n",
+          "decision": "S,10",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6134,6 +6256,7 @@
       "home_pitching": [
         {
           "name": "May",
+          "decision": "",
           "ip": "6.0",
           "h": 7,
           "r": 1,
@@ -6145,6 +6268,7 @@
         },
         {
           "name": "Soriano, G",
+          "decision": "L,3-3",
           "ip": "1.0",
           "h": 3,
           "r": 2,
@@ -6156,6 +6280,7 @@
         },
         {
           "name": "Stanek",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6167,6 +6292,7 @@
         },
         {
           "name": "Gastelum, L",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 1,
@@ -6526,6 +6652,7 @@
       "away_pitching": [
         {
           "name": "Rodriguez, G",
+          "decision": "",
           "ip": "4.0",
           "h": 6,
           "r": 5,
@@ -6537,6 +6664,7 @@
         },
         {
           "name": "Suter",
+          "decision": "",
           "ip": "1.0",
           "h": 1,
           "r": 0,
@@ -6548,6 +6676,7 @@
         },
         {
           "name": "Fermin",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6559,6 +6688,7 @@
         },
         {
           "name": "Yates",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 1,
@@ -6570,6 +6700,7 @@
         },
         {
           "name": "Natera Jr.",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6581,6 +6712,7 @@
         },
         {
           "name": "Zeferjahn",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6592,6 +6724,7 @@
         },
         {
           "name": "Silseth",
+          "decision": "L,3-2",
           "ip": "0.1",
           "h": 2,
           "r": 1,
@@ -6605,6 +6738,7 @@
       "home_pitching": [
         {
           "name": "Webb, L",
+          "decision": "",
           "ip": "6.0",
           "h": 6,
           "r": 4,
@@ -6616,6 +6750,7 @@
         },
         {
           "name": "Smith, D",
+          "decision": "H,4",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6627,6 +6762,7 @@
         },
         {
           "name": "Foley",
+          "decision": "BS,1",
           "ip": "1.0",
           "h": 2,
           "r": 2,
@@ -6638,6 +6774,7 @@
         },
         {
           "name": "Miller, E",
+          "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
@@ -6649,6 +6786,7 @@
         },
         {
           "name": "Kilian",
+          "decision": "W,3-6",
           "ip": "1.0",
           "h": 1,
           "r": 0,
