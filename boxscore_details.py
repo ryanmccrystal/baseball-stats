@@ -103,6 +103,41 @@ def extract_boxscore_note(boxscore, label):
 
     return ""
 
+import re
+
+def extract_pitcher_notes(boxscore):
+
+    pitcher_notes = {}
+
+    in_pitching = False
+
+    for line in boxscore.splitlines():
+
+        # Start when we reach the pitching section
+        if "Pitchers" in line:
+            in_pitching = True
+            continue
+
+        # Stop when we reach the totals line
+        if in_pitching and line.strip().startswith("Totals"):
+            in_pitching = False
+
+        if not in_pitching:
+            continue
+
+        # Look for anything in parentheses
+        matches = re.findall(r"\((.*?)\)", line)
+
+        if not matches:
+            continue
+
+        # Pitcher's boxscore name is everything before the first "("
+        name = line.split("(")[0].strip()
+
+        pitcher_notes[name] = matches
+
+    return pitcher_notes
+
 for game in schedule:
 
     if game["status"] not in FINAL_STATUSES:
@@ -163,10 +198,6 @@ for game in schedule:
 
     boxscore_json = response.json()
 
-    import json
-
-    print(json.dumps(boxscore_json, indent=2))
-
     feed_response = requests.get(
         f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
     )
@@ -224,6 +255,10 @@ for game in schedule:
 
     # Formatted box score text
     boxscore = statsapi.boxscore(gamePk)
+    pitcher_notes = extract_pitcher_notes(boxscore)
+    
+    print(pitcher_notes)
+    
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
     game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
     game_info["hit_by_pitch"] = extract_boxscore_note(boxscore, "HBP")
