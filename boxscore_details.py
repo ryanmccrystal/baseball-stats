@@ -435,7 +435,7 @@ for game in schedule:
     
             pitchers.append(player)
     
-    pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
+   # pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
     
     for player in pitchers:
     
@@ -479,7 +479,7 @@ for game in schedule:
     
             pitchers.append(player)
     
-    pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
+  # pitchers.sort(key=lambda p: int(p["stats"]["pitching"]["battersFaced"]), reverse=True)
     
     for player in pitchers:
     
