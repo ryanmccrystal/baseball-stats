@@ -163,6 +163,10 @@ for game in schedule:
 
     boxscore_json = response.json()
 
+    import json
+
+    print(json.dumps(boxscore_json, indent=2))
+
     feed_response = requests.get(
         f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
     )
@@ -209,6 +213,7 @@ for game in schedule:
     }
 
     game_info = {
+        "blown_saves": [],
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "",
