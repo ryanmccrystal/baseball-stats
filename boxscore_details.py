@@ -230,6 +230,14 @@ for game in schedule:
 
     boxscore_json = response.json()
 
+    from pprint import pprint
+
+    print("Away team pitching:")
+    pprint(boxscore_json["teams"]["away"]["teamStats"]["pitching"])
+    
+    print("Home team pitching:")
+    pprint(boxscore_json["teams"]["home"]["teamStats"]["pitching"])
+
     feed_response = requests.get(
         f"https://statsapi.mlb.com/api/v1.1/game/{gamePk}/feed/live"
     )
@@ -289,7 +297,7 @@ for game in schedule:
     boxscore = statsapi.boxscore(gamePk)
     away_decisions, home_decisions, blown_saves = extract_pitcher_decisions(boxscore)
 
-    print(blown_saves)
+    game_info["blown_saves"] = blown_saves
     
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
     game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
