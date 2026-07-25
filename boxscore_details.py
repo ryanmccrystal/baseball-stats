@@ -109,6 +109,7 @@ def extract_pitcher_decisions(boxscore):
 
     away = {}
     home = {}
+    blown_saves = []
 
     in_pitching = False
 
@@ -150,7 +151,15 @@ def extract_pitcher_decisions(boxscore):
                 note = note.replace(", ", ",")
             
                 if note.startswith("BS"):
+
                     decision = "BS," + decision if decision else "BS"
+                
+                    player_total = note.split(",")[1].strip()
+                
+                    blown_saves.append({
+                        "pitcher": name,
+                        "player_total": player_total
+                    })
             
                 elif note.startswith(("W,", "L,", "H,", "S,")):
                     decision = (
@@ -159,7 +168,7 @@ def extract_pitcher_decisions(boxscore):
             
             decisions[name] = decision
 
-    return away, home
+    return away, home, blown_saves
 
 for game in schedule:
 
@@ -278,7 +287,9 @@ for game in schedule:
 
     # Formatted box score text
     boxscore = statsapi.boxscore(gamePk)
-    away_decisions, home_decisions = extract_pitcher_decisions(boxscore)
+    away_decisions, home_decisions, blown_saves = extract_pitcher_decisions(boxscore)
+
+    print(blown_saves)
     
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
     game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
