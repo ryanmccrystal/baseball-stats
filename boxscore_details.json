@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25 06:54 PM",
+  "last_updated": "2026-07-25 07:00 PM",
   "games": [
     {
       "status": "Final",
@@ -2649,7 +2649,8 @@
         "blown_saves": [
           {
             "pitcher": "Garcia, Ri",
-            "player_total": "3"
+            "player_total": "3",
+            "team_total": 14
           }
         ],
         "wild_pitches": "",
@@ -4017,7 +4018,8 @@
         "blown_saves": [
           {
             "pitcher": "Peralta, W",
-            "player_total": "2"
+            "player_total": "2",
+            "team_total": 14
           }
         ],
         "wild_pitches": "",
@@ -4533,7 +4535,8 @@
         "blown_saves": [
           {
             "pitcher": "Whitlock",
-            "player_total": "2"
+            "player_total": "2",
+            "team_total": 10
           }
         ],
         "wild_pitches": "Sandoval",
@@ -5037,7 +5040,8 @@
         "blown_saves": [
           {
             "pitcher": "Hudson, B",
-            "player_total": "3"
+            "player_total": "3",
+            "team_total": 20
           }
         ],
         "wild_pitches": "Teng",
@@ -6392,7 +6396,8 @@
         "blown_saves": [
           {
             "pitcher": "Soriano, G",
-            "player_total": "4"
+            "player_total": "4",
+            "team_total": 19
           }
         ],
         "wild_pitches": "Gastelum, L",
@@ -6905,7 +6910,8 @@
         "blown_saves": [
           {
             "pitcher": "Foley",
-            "player_total": "1"
+            "player_total": "1",
+            "team_total": 15
           }
         ],
         "wild_pitches": "Yates; Foley",
