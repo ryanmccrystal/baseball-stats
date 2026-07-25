@@ -264,22 +264,6 @@ for game in schedule:
     # Formatted box score text
     boxscore = statsapi.boxscore(gamePk)
     away_decisions, home_decisions = extract_pitcher_decisions(boxscore)
-
-    print(away_decisions)
-    print(home_decisions)
-    
-    in_pitching = False
-
-    for line in boxscore.splitlines():
-    
-        if "Pitchers" in line:
-            in_pitching = True
-    
-        if in_pitching:
-            print(repr(line))
-    
-        if in_pitching and line.strip().startswith("Totals"):
-            break
     
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
     game_info["intentional_walks"] = extract_boxscore_note(boxscore, "IBB")
@@ -538,6 +522,10 @@ for game in schedule:
         away_pitching.append({
     
             "name": player["person"]["boxscoreName"],
+            "decision": away_decisions.get(
+                player["person"]["boxscoreName"],
+                ""
+            ),
     
             "ip": pitching["inningsPitched"],
             "h": pitching["hits"],
@@ -586,6 +574,10 @@ for game in schedule:
         home_pitching.append({
     
             "name": player["person"]["boxscoreName"],
+            "decision": home_decisions.get(
+                player["person"]["boxscoreName"],
+                ""
+            ),
     
             "ip": pitching["inningsPitched"],
             "h": pitching["hits"],
