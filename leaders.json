@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 12:14 PM EDT",
+  "last_updated": "2026-07-26 12:20 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -14,7 +14,7 @@
       {
         "player": "D\u00edaz",
         "team": "Tbr",
-        "games": 100,
+        "games": 101,
         "ab": 389,
         "runs": 57,
         "hits": 119,
@@ -41,7 +41,7 @@
       {
         "player": "Simpson",
         "team": "Tbr",
-        "games": 98,
+        "games": 99,
         "ab": 362,
         "runs": 44,
         "hits": 106,
@@ -59,7 +59,7 @@
       {
         "player": "Caminero",
         "team": "Tbr",
-        "games": 104,
+        "games": 105,
         "ab": 396,
         "runs": 65,
         "hits": 113,
@@ -77,11 +77,11 @@
       {
         "player": "DeLauter",
         "team": "Cle",
-        "games": 88,
-        "ab": 331,
+        "games": 89,
+        "ab": 332,
         "runs": 35,
         "hits": 94,
-        "avg": ".284"
+        "avg": ".283"
       },
       {
         "player": "Aranda",
@@ -465,7 +465,7 @@
       {
         "player": "Rasmussen",
         "team": "Tbr",
-        "value": "3.28"
+        "value": "3.26"
       },
       {
         "player": "Gilbert",
