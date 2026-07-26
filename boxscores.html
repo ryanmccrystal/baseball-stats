@@ -1345,6 +1345,19 @@ fetch("./boxscore_details.json")
             // ----- Game Info -----
             
             html += `<div class="game-notes">`;
+
+            if (game.game_info.blown_saves.length) {
+
+                html += `<div><strong>BS:</strong> `;
+            
+                html += game.game_info.blown_saves
+                    .map(bs =>
+                        `${bs.pitcher} (${bs.player_total}), Team (${bs.team_total})`
+                    )
+                    .join("; ");
+            
+                html += `</div>`;
+            }
             
             if (game.game_info.wild_pitches) {
                 html += `<strong>WP:</strong> ${game.game_info.wild_pitches}. `;
