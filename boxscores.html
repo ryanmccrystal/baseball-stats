@@ -1269,7 +1269,7 @@ fetch("./boxscore_details.json")
                     <tr>
             
                         <td style="text-align:left">
-                            ${player.name}
+                            ${player.name}${player.decision ? `, ${player.decision}` : ""}
                         </td>
             
                         <td>${player.ip}</td>
@@ -1320,7 +1320,7 @@ fetch("./boxscore_details.json")
                     <tr>
             
                         <td style="text-align:left">
-                            ${player.name}
+                            ${player.name}${player.decision ? `, ${player.decision}` : ""}
                         </td>
             
                         <td>${player.ip}</td>
