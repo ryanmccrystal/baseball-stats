@@ -158,7 +158,7 @@ def extract_pitcher_decisions(boxscore):
                 
                     blown_saves.append({
                         "pitcher": name,
-                        "player_total": player_total
+                        "player_bs": int(player_total)
                     })
             
                 elif note.startswith(("W,", "L,", "H,", "S,")):
