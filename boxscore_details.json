@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26 12:57 PM",
+  "last_updated": "2026-07-26 01:04 PM",
   "games": [
     {
       "status": "Final",
@@ -431,8 +431,8 @@
         "blown_saves": [
           {
             "pitcher": "Finnegan",
-            "player_total": "7",
-            "team_total": 23
+            "player_bs": 7,
+            "team_bs": 23
           }
         ],
         "wild_pitches": "Mize; Waguespack",
@@ -3837,8 +3837,8 @@
         "blown_saves": [
           {
             "pitcher": "Garcia, Ri",
-            "player_total": "4",
-            "team_total": 15
+            "player_bs": 4,
+            "team_bs": 15
           }
         ],
         "wild_pitches": "",
