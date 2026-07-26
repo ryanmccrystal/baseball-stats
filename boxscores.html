@@ -1352,7 +1352,7 @@ fetch("./boxscore_details.json")
             
                 html += game.game_info.blown_saves
                     .map(bs =>
-                        `${bs.pitcher} (${bs.player_total}), Team (${bs.team_total})`
+                        `${bs.pitcher} (${bs.player_bs}), Team (${bs.team_bs})`
                     )
                     .join("; ");
             
