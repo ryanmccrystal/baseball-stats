@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 
 import requests
 import statsapi
+import re
 
 yesterday = datetime.now() - timedelta(days=1)
 
@@ -80,6 +81,18 @@ def split_team_name(full_name):
 
     return city, nickname
 
+def format_boxscore_name(name):
+
+    match = re.match(r"^(.+?),\s*([A-Za-z]+)$", name)
+
+    if not match:
+        return name
+
+    last = match.group(1)
+    first = match.group(2)
+
+    return f"{first}{last}"
+
 def extract_boxscore_note(boxscore, label):
 
     for line in boxscore.splitlines():
@@ -102,8 +115,6 @@ def extract_boxscore_note(boxscore, label):
             return note
 
     return ""
-
-import re
 
 def extract_pitcher_decisions(boxscore):
 
@@ -382,7 +393,9 @@ for game in schedule:
 
             "order": int(player["battingOrder"]),
 
-            "name": player["person"]["boxscoreName"],
+            "name": format_boxscore_name(
+                player["person"]["boxscoreName"]
+            ),
             "position": player["position"]["abbreviation"],
 
             "ab": batting["atBats"],
@@ -422,7 +435,9 @@ for game in schedule:
 
             "order": int(player["battingOrder"]),
 
-            "name": player["person"]["boxscoreName"],
+            "name": format_boxscore_name(
+                player["person"]["boxscoreName"]
+            ),
             "position": player["position"]["abbreviation"],
 
             "ab": batting["atBats"],
@@ -586,7 +601,9 @@ for game in schedule:
     
         away_pitching.append({
     
-            "name": player["person"]["boxscoreName"],
+            "name": format_boxscore_name(
+                player["person"]["boxscoreName"]
+            ),
             "decision": away_decisions.get(
                 player["person"]["boxscoreName"],
                 ""
@@ -638,7 +655,9 @@ for game in schedule:
     
         home_pitching.append({
     
-            "name": player["person"]["boxscoreName"],
+            "name": format_boxscore_name(
+                player["person"]["boxscoreName"]
+            ),
             "decision": home_decisions.get(
                 player["person"]["boxscoreName"],
                 ""
