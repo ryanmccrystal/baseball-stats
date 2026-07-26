@@ -326,8 +326,8 @@ for game in schedule:
     
         game_info["blown_saves"].append({
             "pitcher": bs["pitcher"],
-            "player_total": bs["player_total"],
-            "team_total": team_total
+            "player_bs": bs["player_bs"],
+            "team_bs": team_total
         })
     
     game_info["wild_pitches"] = extract_boxscore_note(boxscore, "WP")
