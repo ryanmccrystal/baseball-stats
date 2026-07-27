@@ -93,6 +93,30 @@ def format_boxscore_name(name):
 
     return f"{first}{last}"
 
+def fit_lineup_name(name, position, max_length):
+
+    full = f"{name} {position}"
+
+    if len(full) <= max_length:
+        return name
+
+    chars = list(name)
+
+    # Never remove the first character
+    for i in range(1, len(chars)):
+
+        if chars[i].lower() in "aeiou":
+            chars.pop(i)
+
+            shortened = "".join(chars)
+
+            if len(f"{shortened} {position}") <= max_length:
+                return shortened
+
+            return fit_lineup_name(shortened, position, max_length)
+
+    return "".join(chars)
+
 def extract_boxscore_note(boxscore, label):
 
     for line in boxscore.splitlines():
@@ -393,9 +417,17 @@ for game in schedule:
 
             "order": int(player["battingOrder"]),
 
-            "name": format_boxscore_name(
+            display_name = format_boxscore_name(
                 player["person"]["boxscoreName"]
-            ),
+            )
+            
+            display_name = fit_lineup_name(
+                display_name,
+                player["position"]["abbreviation"],
+                16
+            )
+            
+            "name": display_name,
             "position": player["position"]["abbreviation"],
 
             "ab": batting["atBats"],
@@ -435,9 +467,17 @@ for game in schedule:
 
             "order": int(player["battingOrder"]),
 
-            "name": format_boxscore_name(
+            display_name = format_boxscore_name(
                 player["person"]["boxscoreName"]
-            ),
+            )
+            
+            display_name = fit_lineup_name(
+                display_name,
+                player["position"]["abbreviation"],
+                16
+            )
+            
+            "name": display_name,
             "position": player["position"]["abbreviation"],
 
             "ab": batting["atBats"],
