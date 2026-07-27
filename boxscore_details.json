@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 04:31 PM",
+  "last_updated": "2026-07-27 04:53 PM",
   "games": [
     {
       "status": "Final",
@@ -890,7 +890,7 @@
       "away_batting": [
         {
           "order": 100,
-          "name": "Crw-Armstrong",
+          "name": "Crow-Armstrong",
           "position": "CF",
           "ab": 5,
           "r": 0,
@@ -1934,7 +1934,7 @@
         },
         {
           "order": 500,
-          "name": "Encrncn-Strnd",
+          "name": "Encarnacion-Strand",
           "position": "3B",
           "ab": 3,
           "r": 0,
@@ -5611,7 +5611,7 @@
         ],
         "runs": 5,
         "hits": 10,
-        "errors": 1
+        "errors": 2
       },
       "home": {
         "city": "St. Louis",
