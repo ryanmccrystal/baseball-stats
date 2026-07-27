@@ -563,7 +563,7 @@ function fitLineupName(name, position, maxLength) {
 function fitPitcherName(name, decision, maxLength) {
 
     let full = decision
-        ? `${name}, ${decision}`
+        ? `${name} ${decision}`
         : name;
 
     if (full.length <= maxLength) {
@@ -575,7 +575,7 @@ function fitPitcherName(name, decision, maxLength) {
     while (true) {
 
         full = decision
-            ? `${chars.join("")}, ${decision}`
+            ? `${chars.join("")} ${decision}`
             : chars.join("");
 
         if (full.length <= maxLength) {
