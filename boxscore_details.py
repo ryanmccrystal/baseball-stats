@@ -443,25 +443,23 @@ for game in schedule:
 
     home_batting = []
 
-    home_players = boxscore_json["teams"]["home"]["players"]
-
-    batters = []
-
-    for player in home_players.values():
-
-        batting_order = player.get("battingOrder")
-
-        if batting_order is None:
-            continue
-
-        batters.append(player)
-
-    batters.sort(key=lambda p: int(p["battingOrder"]))
-
-    for player in batters:
-
+        home_players = boxscore_json["teams"]["home"]["players"]
+        
+        batters = []
+        
+        for player in home_players.values():
+        
+            batting_order = player.get("battingOrder")
+        
+            if batting_order is None:
+                continue
+        
+            batters.append(player)
+        
+        batters.sort(key=lambda p: int(p["battingOrder"]))
+        
         for player in batters:
-
+        
             batting = player["stats"]["batting"]
             season = player["seasonStats"]["batting"]
         
@@ -475,7 +473,7 @@ for game in schedule:
                 16
             )
         
-            away_batting.append({
+            home_batting.append({
         
                 "order": int(player["battingOrder"]),
         
