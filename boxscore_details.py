@@ -409,25 +409,17 @@ for game in schedule:
     batters.sort(key=lambda p: int(p["battingOrder"]))
 
     for player in batters:
-    
+
         batting = player["stats"]["batting"]
         season = player["seasonStats"]["batting"]
-    
-        display_name = format_boxscore_name(
-            player["person"]["boxscoreName"]
-        )
-    
-        display_name = fit_lineup_name(
-            display_name,
-            player["position"]["abbreviation"],
-            16
-        )
     
         away_batting.append({
     
             "order": int(player["battingOrder"]),
     
-            "name": display_name,
+            "name": format_boxscore_name(
+                player["person"]["boxscoreName"]
+            ),
             "position": player["position"]["abbreviation"],
     
             "ab": batting["atBats"],
@@ -438,8 +430,8 @@ for game in schedule:
             "k": batting["strikeOuts"],
     
             "avg": season["avg"]
-
-    })
+    
+        })
 
     home_batting = []
 
@@ -459,25 +451,17 @@ for game in schedule:
     batters.sort(key=lambda p: int(p["battingOrder"]))
     
     for player in batters:
-    
+
         batting = player["stats"]["batting"]
         season = player["seasonStats"]["batting"]
-    
-        display_name = format_boxscore_name(
-            player["person"]["boxscoreName"]
-        )
-    
-        display_name = fit_lineup_name(
-            display_name,
-            player["position"]["abbreviation"],
-            16
-        )
     
         home_batting.append({
     
             "order": int(player["battingOrder"]),
     
-            "name": display_name,
+            "name": format_boxscore_name(
+                player["person"]["boxscoreName"]
+            ),
             "position": player["position"]["abbreviation"],
     
             "ab": batting["atBats"],
