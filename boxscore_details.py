@@ -443,53 +443,53 @@ for game in schedule:
 
     home_batting = []
 
-        home_players = boxscore_json["teams"]["home"]["players"]
-        
-        batters = []
-        
-        for player in home_players.values():
-        
-            batting_order = player.get("battingOrder")
-        
-            if batting_order is None:
-                continue
-        
-            batters.append(player)
-        
-        batters.sort(key=lambda p: int(p["battingOrder"]))
-        
-        for player in batters:
-        
-            batting = player["stats"]["batting"]
-            season = player["seasonStats"]["batting"]
-        
-            display_name = format_boxscore_name(
-                player["person"]["boxscoreName"]
-            )
-        
-            display_name = fit_lineup_name(
-                display_name,
-                player["position"]["abbreviation"],
-                16
-            )
-        
-            home_batting.append({
-        
-                "order": int(player["battingOrder"]),
-        
-                "name": display_name,
-                "position": player["position"]["abbreviation"],
-        
-                "ab": batting["atBats"],
-                "r": batting["runs"],
-                "h": batting["hits"],
-                "rbi": batting["rbi"],
-                "bb": batting["baseOnBalls"],
-                "k": batting["strikeOuts"],
-        
-                "avg": season["avg"]
-        
-            })
+    home_players = boxscore_json["teams"]["home"]["players"]
+    
+    batters = []
+    
+    for player in home_players.values():
+    
+        batting_order = player.get("battingOrder")
+    
+        if batting_order is None:
+            continue
+    
+        batters.append(player)
+    
+    batters.sort(key=lambda p: int(p["battingOrder"]))
+    
+    for player in batters:
+    
+        batting = player["stats"]["batting"]
+        season = player["seasonStats"]["batting"]
+    
+        display_name = format_boxscore_name(
+            player["person"]["boxscoreName"]
+        )
+    
+        display_name = fit_lineup_name(
+            display_name,
+            player["position"]["abbreviation"],
+            16
+        )
+    
+        home_batting.append({
+    
+            "order": int(player["battingOrder"]),
+    
+            "name": display_name,
+            "position": player["position"]["abbreviation"],
+    
+            "ab": batting["atBats"],
+            "r": batting["runs"],
+            "h": batting["hits"],
+            "rbi": batting["rbi"],
+            "bb": batting["baseOnBalls"],
+            "k": batting["strikeOuts"],
+    
+            "avg": season["avg"]
+    
+        })
 
     # -----------------------------
     # Build game notes
