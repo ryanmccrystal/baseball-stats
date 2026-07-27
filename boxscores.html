@@ -560,6 +560,48 @@ function fitLineupName(name, position, maxLength) {
 
 }    
 
+function fitPitcherName(name, decision, maxLength) {
+
+    let full = decision
+        ? `${name}, ${decision}`
+        : name;
+
+    if (full.length <= maxLength) {
+        return full;
+    }
+
+    let chars = name.split("");
+
+    while (true) {
+
+        full = decision
+            ? `${chars.join("")}, ${decision}`
+            : chars.join("");
+
+        if (full.length <= maxLength) {
+            return full;
+        }
+
+        let removed = false;
+
+        for (let i = 1; i < chars.length; i++) {
+
+            if ("aeiou".includes(chars[i].toLowerCase())) {
+                chars.splice(i, 1);
+                removed = true;
+                break;
+            }
+
+        }
+
+        if (!removed) {
+            return full;
+        }
+
+    }
+
+}    
+
 function createStandingsTable(title, teams, isWildCard = false) {
 
     let html = `
@@ -1314,7 +1356,11 @@ fetch("./boxscore_details.json")
                     <tr>
             
                         <td style="text-align:left">
-                            ${player.name}${player.decision ? `, ${player.decision}` : ""}
+                            ${fitPitcherName(
+                                player.name,
+                                player.decision,
+                                16
+                            )}
                         </td>
             
                         <td>${player.ip}</td>
@@ -1365,7 +1411,11 @@ fetch("./boxscore_details.json")
                     <tr>
             
                         <td style="text-align:left">
-                            ${player.name}${player.decision ? `, ${player.decision}` : ""}
+                            ${fitPitcherName(
+                                player.name,
+                                player.decision,
+                                16
+                            )}
                         </td>
             
                         <td>${player.ip}</td>
