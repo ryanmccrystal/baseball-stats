@@ -526,6 +526,40 @@
 
 <script>
 
+function fitLineupName(name, position, maxLength) {
+
+    let full = `${name} ${position}`;
+
+    if (full.length <= maxLength) {
+        return full;
+    }
+
+    let chars = name.split("");
+
+    while (`${chars.join("")} ${position}`.length > maxLength) {
+
+        let removed = false;
+
+        for (let i = 1; i < chars.length; i++) {
+
+            if ("aeiou".includes(chars[i].toLowerCase())) {
+                chars.splice(i, 1);
+                removed = true;
+                break;
+            }
+
+        }
+
+        if (!removed) {
+            break;
+        }
+
+    }
+
+    return `${chars.join("")} ${position}`;
+
+}    
+
 function createStandingsTable(title, teams, isWildCard = false) {
 
     let html = `
@@ -987,7 +1021,11 @@ fetch("./boxscore_details.json")
                 html += `
                     <tr>
                         <td style="text-align:left; padding-left:${isSub ? 10 : 0}px">
-                            ${player.name} ${player.position}
+                            ${fitLineupName(
+                                player.name,
+                                player.position,
+                                isSub ? 14 : 16
+                            )}
                         </td>
 
                         <td>${player.ab}</td>
@@ -1062,7 +1100,11 @@ fetch("./boxscore_details.json")
                 html += `
                     <tr>
                         <td style="text-align:left; padding-left:${isSub ? 10 : 0}px">
-                            ${player.name} ${player.position}
+                            ${fitLineupName(
+                                player.name,
+                                player.position,
+                                isSub ? 14 : 16
+                            )}
                         </td>
             
                         <td>${player.ab}</td>
