@@ -409,37 +409,37 @@ for game in schedule:
     batters.sort(key=lambda p: int(p["battingOrder"]))
 
     for player in batters:
-
+    
         batting = player["stats"]["batting"]
         season = player["seasonStats"]["batting"]
-
+    
+        display_name = format_boxscore_name(
+            player["person"]["boxscoreName"]
+        )
+    
+        display_name = fit_lineup_name(
+            display_name,
+            player["position"]["abbreviation"],
+            16
+        )
+    
         away_batting.append({
-
+    
             "order": int(player["battingOrder"]),
-
-            display_name = format_boxscore_name(
-                player["person"]["boxscoreName"]
-            )
-            
-            display_name = fit_lineup_name(
-                display_name,
-                player["position"]["abbreviation"],
-                16
-            )
-            
+    
             "name": display_name,
             "position": player["position"]["abbreviation"],
-
+    
             "ab": batting["atBats"],
             "r": batting["runs"],
             "h": batting["hits"],
             "rbi": batting["rbi"],
             "bb": batting["baseOnBalls"],
             "k": batting["strikeOuts"],
-
+    
             "avg": season["avg"]
 
-        })
+    })
 
     home_batting = []
 
@@ -460,36 +460,38 @@ for game in schedule:
 
     for player in batters:
 
-        batting = player["stats"]["batting"]
-        season = player["seasonStats"]["batting"]
+        for player in batters:
 
-        home_batting.append({
-
-            "order": int(player["battingOrder"]),
-
+            batting = player["stats"]["batting"]
+            season = player["seasonStats"]["batting"]
+        
             display_name = format_boxscore_name(
                 player["person"]["boxscoreName"]
             )
-            
+        
             display_name = fit_lineup_name(
                 display_name,
                 player["position"]["abbreviation"],
                 16
             )
-            
-            "name": display_name,
-            "position": player["position"]["abbreviation"],
-
-            "ab": batting["atBats"],
-            "r": batting["runs"],
-            "h": batting["hits"],
-            "rbi": batting["rbi"],
-            "bb": batting["baseOnBalls"],
-            "k": batting["strikeOuts"],
-
-            "avg": season["avg"]
-
-        })
+        
+            away_batting.append({
+        
+                "order": int(player["battingOrder"]),
+        
+                "name": display_name,
+                "position": player["position"]["abbreviation"],
+        
+                "ab": batting["atBats"],
+                "r": batting["runs"],
+                "h": batting["hits"],
+                "rbi": batting["rbi"],
+                "bb": batting["baseOnBalls"],
+                "k": batting["strikeOuts"],
+        
+                "avg": season["avg"]
+        
+            })
 
     # -----------------------------
     # Build game notes
