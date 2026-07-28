@@ -314,7 +314,7 @@
       "home_name": "Cardinals",
       "game_time": "2026-07-28T23:45:00Z",
       "away_pitcher": "Colin Rea",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Michael McGreevy",
       "away_stats": {
         "wins": 7,
         "losses": 7,
@@ -323,7 +323,14 @@
         "hand": "R",
         "team_record": "7-10"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 4,
+        "losses": 8,
+        "era": "3.07",
+        "k9": "5.8",
+        "hand": "R",
+        "team_record": "9-11"
+      }
     },
     {
       "away_name": "Astros",
