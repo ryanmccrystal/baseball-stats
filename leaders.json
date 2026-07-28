@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 07:53 PM EDT",
+  "last_updated": "2026-07-28 07:55 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -23,7 +23,7 @@
       {
         "player": "Clement",
         "team": "Tor",
-        "games": 104,
+        "games": 105,
         "ab": 402,
         "runs": 46,
         "hits": 119,
@@ -93,15 +93,6 @@
         "avg": ".283"
       },
       {
-        "player": "Antonacci",
-        "team": "Chw",
-        "games": 86,
-        "ab": 295,
-        "runs": 56,
-        "hits": 83,
-        "avg": ".281"
-      },
-      {
         "player": "DeLauter",
         "team": "Cle",
         "games": 91,
@@ -109,6 +100,15 @@
         "runs": 37,
         "hits": 95,
         "avg": ".281"
+      },
+      {
+        "player": "Antonacci",
+        "team": "Chw",
+        "games": 86,
+        "ab": 296,
+        "runs": 56,
+        "hits": 83,
+        "avg": ".280"
       }
     ],
     "homeRuns": [
@@ -554,7 +554,7 @@
       {
         "player": "Williams",
         "team": "Cle",
-        "value": 159
+        "value": 160
       },
       {
         "player": "Schlittler",
@@ -809,7 +809,7 @@
       {
         "player": "Abrams",
         "team": "Wsh",
-        "games": 103,
+        "games": 104,
         "ab": 386,
         "runs": 66,
         "hits": 114,
@@ -1202,7 +1202,7 @@
       {
         "player": "McGreevy",
         "team": "Stl",
-        "value": "3.06"
+        "value": "3.05"
       },
       {
         "player": "Ray",
