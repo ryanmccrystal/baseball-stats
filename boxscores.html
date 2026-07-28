@@ -236,23 +236,28 @@
             overflow: visible;
         }
 
-        /* Desktop only */
+        /* Regular iPad */
 
-        @media (min-width: 901px) {
-
+        @media (min-width: 901px) and (max-width: 1100px) {
+        
             .leader-columns {
                 column-count: 2;
                 column-fill: auto;
-                height: 667px;
+                height: 690px;
                 overflow: hidden;
             }
-
+        
         }
-
-        @media (min-width: 901px) and (max-width: 1100px) {
-
+        
+        /* Desktop */
+        
+        @media (min-width: 1101px) {
+        
             .leader-columns {
-                height: 690px;
+                column-count: 2;
+                column-fill: auto;
+                height: 670px;
+                overflow: hidden;
             }
         
         }
