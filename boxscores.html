@@ -75,6 +75,16 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 8px 16px;
+        
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 700px) {
+            #today-games {
+                grid-template-columns: 1fr;
+                max-width: 100%;
+            }
         }
 
         .note {
@@ -505,7 +515,7 @@
 <hr>
 
 <div class="pitcher-header-row">
-    <span>Today's Probable Pitchers</span>
+    <span>Today's Probable SP</span>
     <span>W-L</span>
     <span>ERA</span>
     <span>K/9</span>
