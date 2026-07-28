@@ -98,7 +98,7 @@
         "era": "4.78",
         "k9": "7.0",
         "hand": "R",
-        "team_record": "7-14"
+        "team_record": "8-13"
       },
       "home_stats": {
         "wins": 12,
@@ -114,16 +114,23 @@
       "home_name": "Reds",
       "game_time": "2026-07-28T23:10:00Z",
       "away_pitcher": "Gavin Williams",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Caleb Ferguson",
       "away_stats": {
         "wins": 10,
         "losses": 5,
-        "era": "3.78",
-        "k9": "11.1",
+        "era": "3.79",
+        "k9": "11.2",
         "hand": "R",
-        "team_record": "13-8"
+        "team_record": "13-9"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 1,
+        "losses": 0,
+        "era": "3.57",
+        "k9": "8.3",
+        "hand": "L",
+        "team_record": "1-0"
+      }
     },
     {
       "away_name": "Orioles",
@@ -134,18 +141,18 @@
       "away_stats": {
         "wins": 1,
         "losses": 3,
-        "era": "5.06",
-        "k9": "9.6",
+        "era": "6.50",
+        "k9": "9.5",
         "hand": "R",
-        "team_record": "3-3"
+        "team_record": "3-4"
       },
       "home_stats": {
         "wins": 5,
         "losses": 1,
-        "era": "1.95",
+        "era": "1.83",
         "k9": "8.2",
         "hand": "R",
-        "team_record": "8-2"
+        "team_record": "9-2"
       }
     },
     {
@@ -157,18 +164,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 1,
-        "era": "4.43",
+        "era": "4.24",
         "k9": "6.2",
         "hand": "R",
-        "team_record": "7-1"
+        "team_record": "8-1"
       },
       "home_stats": {
         "wins": 3,
         "losses": 8,
-        "era": "4.47",
-        "k9": "8.1",
+        "era": "4.66",
+        "k9": "8.0",
         "hand": "R",
-        "team_record": "7-12"
+        "team_record": "7-13"
       }
     },
     {
@@ -180,18 +187,18 @@
       "away_stats": {
         "wins": 3,
         "losses": 3,
-        "era": "4.05",
-        "k9": "5.4",
+        "era": "3.77",
+        "k9": "5.8",
         "hand": "R",
-        "team_record": "2-3"
+        "team_record": "3-3"
       },
       "home_stats": {
         "wins": 6,
         "losses": 7,
-        "era": "3.89",
-        "k9": "9.1",
+        "era": "3.81",
+        "k9": "9.4",
         "hand": "R",
-        "team_record": "9-7"
+        "team_record": "9-8"
       }
     },
     {
@@ -203,18 +210,18 @@
       "away_stats": {
         "wins": 3,
         "losses": 8,
-        "era": "5.82",
-        "k9": "9.3",
+        "era": "5.69",
+        "k9": "9.1",
         "hand": "R",
-        "team_record": "9-12"
+        "team_record": "9-13"
       },
       "home_stats": {
         "wins": 10,
         "losses": 6,
-        "era": "4.01",
-        "k9": "6.9",
+        "era": "3.90",
+        "k9": "7.0",
         "hand": "R",
-        "team_record": "13-9"
+        "team_record": "14-9"
       }
     },
     {
@@ -272,18 +279,18 @@
       "away_stats": {
         "wins": 4,
         "losses": 6,
-        "era": "4.36",
+        "era": "4.35",
         "k9": "7.2",
         "hand": "R",
-        "team_record": "10-11"
+        "team_record": "10-12"
       },
       "home_stats": {
         "wins": 9,
         "losses": 4,
-        "era": "3.69",
-        "k9": "10.1",
+        "era": "3.66",
+        "k9": "10.2",
         "hand": "R",
-        "team_record": "13-7"
+        "team_record": "13-8"
       }
     },
     {
@@ -303,10 +310,10 @@
       "home_stats": {
         "wins": 7,
         "losses": 4,
-        "era": "4.21",
-        "k9": "7.3",
+        "era": "4.17",
+        "k9": "7.5",
         "hand": "L",
-        "team_record": "11-8"
+        "team_record": "11-9"
       }
     },
     {
@@ -326,10 +333,10 @@
       "home_stats": {
         "wins": 4,
         "losses": 8,
-        "era": "3.07",
-        "k9": "5.8",
+        "era": "3.06",
+        "k9": "5.9",
         "hand": "R",
-        "team_record": "9-11"
+        "team_record": "9-12"
       }
     },
     {
@@ -429,7 +436,7 @@
       "home_name": "Dodgers",
       "game_time": "2026-07-29T02:10:00Z",
       "away_pitcher": "Luis Castillo",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Justin Wrobleski",
       "away_stats": {
         "wins": 3,
         "losses": 9,
@@ -438,7 +445,14 @@
         "hand": "R",
         "team_record": "5-11"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 11,
+        "losses": 2,
+        "era": "2.62",
+        "k9": "6.8",
+        "hand": "L",
+        "team_record": "12-4"
+      }
     }
   ]
 }
