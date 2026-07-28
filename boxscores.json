@@ -95,18 +95,18 @@
       "away_stats": {
         "wins": 4,
         "losses": 7,
-        "era": "4.60",
-        "k9": "7.1",
+        "era": "4.78",
+        "k9": "7.0",
         "hand": "R",
-        "team_record": "7-13"
+        "team_record": "7-14"
       },
       "home_stats": {
         "wins": 12,
         "losses": 1,
-        "era": "2.42",
-        "k9": "10.4",
+        "era": "2.40",
+        "k9": "10.2",
         "hand": "R",
-        "team_record": "15-4"
+        "team_record": "15-5"
       }
     },
     {
@@ -175,9 +175,16 @@
       "away_name": "Rangers",
       "home_name": "Rays",
       "game_time": "2026-07-28T22:40:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Cal Quantrill",
       "home_pitcher": "Griffin Jax",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 3,
+        "losses": 3,
+        "era": "4.05",
+        "k9": "5.4",
+        "hand": "R",
+        "team_record": "2-3"
+      },
       "home_stats": {
         "wins": 6,
         "losses": 7,

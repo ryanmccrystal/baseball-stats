@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 28, 2026 15:21 UTC",
+  "last_updated": "July 28, 2026 19:31 UTC",
   "standings": {
     "AL East": [
       {
@@ -319,8 +319,8 @@
           "value": ".282"
         },
         {
-          "name": "Chase DeLauter",
-          "team": "CLE",
+          "name": "Kevin McGonigle",
+          "team": "DET",
           "value": ".282"
         }
       ],
@@ -440,14 +440,14 @@
           "value": "29"
         },
         {
-          "name": "Chandler Simpson",
-          "team": "TBR",
+          "name": "Jos\u00e9 Ram\u00edrez",
+          "team": "CLE",
           "value": "26"
         },
         {
-          "name": "Jos\u00e9 Ram\u00edrez",
-          "team": "CLE",
-          "value": "24"
+          "name": "Chandler Simpson",
+          "team": "TBR",
+          "value": "26"
         },
         {
           "name": "Jos\u00e9 Caballero",
@@ -1200,13 +1200,13 @@
           "value": "17"
         },
         {
-          "name": "Joe Ryan",
-          "team": "MIN",
+          "name": "Slade Cecconi",
+          "team": "CLE",
           "value": "16"
         },
         {
-          "name": "Michael Wacha",
-          "team": "KCR",
+          "name": "Joe Ryan",
+          "team": "MIN",
           "value": "16"
         }
       ],
@@ -1429,14 +1429,14 @@
           "value": "82"
         },
         {
+          "name": "Sal Stewart",
+          "team": "CIN",
+          "value": "79"
+        },
+        {
           "name": "Jordan Walker",
           "team": "STL",
           "value": "77"
-        },
-        {
-          "name": "Sal Stewart",
-          "team": "CIN",
-          "value": "76"
         },
         {
           "name": "James Wood",
@@ -1677,9 +1677,9 @@
           "value": ".866"
         },
         {
-          "name": "Otto Lopez",
-          "team": "MIA",
-          "value": ".861"
+          "name": "Elly De La Cruz",
+          "team": "CIN",
+          "value": ".864"
         }
       ],
       "runs": [
@@ -1922,6 +1922,11 @@
           "value": "48"
         },
         {
+          "name": "Sal Stewart",
+          "team": "CIN",
+          "value": "45"
+        },
+        {
           "name": "Jordan Walker",
           "team": "STL",
           "value": "45"
@@ -1929,11 +1934,6 @@
         {
           "name": "Brandon Lowe",
           "team": "PIT",
-          "value": "44"
-        },
-        {
-          "name": "Sal Stewart",
-          "team": "CIN",
           "value": "44"
         },
         {
@@ -1958,7 +1958,7 @@
         {
           "name": "Chase Burns",
           "team": "CIN",
-          "value": "2.42"
+          "value": "2.40"
         },
         {
           "name": "Justin Wrobleski",
@@ -2085,14 +2085,14 @@
           "value": "134"
         },
         {
+          "name": "Chase Burns",
+          "team": "CIN",
+          "value": "128"
+        },
+        {
           "name": "Cade Cavalli",
           "team": "WSH",
           "value": "127"
-        },
-        {
-          "name": "Chase Burns",
-          "team": "CIN",
-          "value": "124"
         },
         {
           "name": "Zack Wheeler",
@@ -2137,14 +2137,14 @@
           "value": "1.10"
         },
         {
-          "name": "Chase Burns",
-          "team": "CIN",
-          "value": "1.11"
-        },
-        {
           "name": "Nolan McLean",
           "team": "NYM",
           "value": "1.11"
+        },
+        {
+          "name": "Chase Burns",
+          "team": "CIN",
+          "value": "1.12"
         },
         {
           "name": "Logan Webb",

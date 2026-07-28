@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 11:21 AM EDT",
+  "last_updated": "2026-07-28 03:32 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -84,15 +84,6 @@
         "avg": ".282"
       },
       {
-        "player": "DeLauter",
-        "team": "Cle",
-        "games": 89,
-        "ab": 333,
-        "runs": 35,
-        "hits": 94,
-        "avg": ".282"
-      },
-      {
         "player": "McGonigle",
         "team": "Det",
         "games": 103,
@@ -108,6 +99,15 @@
         "ab": 295,
         "runs": 56,
         "hits": 83,
+        "avg": ".281"
+      },
+      {
+        "player": "Greene",
+        "team": "Det",
+        "games": 106,
+        "ab": 384,
+        "runs": 56,
+        "hits": 108,
         "avg": ".281"
       }
     ],
@@ -378,7 +378,7 @@
       {
         "player": "Ram\u00edrez",
         "team": "Cle",
-        "value": 24
+        "value": 26
       },
       {
         "player": "Caballero",
@@ -890,6 +890,11 @@
         "value": 22
       },
       {
+        "player": "Stewart",
+        "team": "Cin",
+        "value": 22
+      },
+      {
         "player": "Harper",
         "team": "Phi",
         "value": 22
@@ -898,11 +903,6 @@
         "player": "Devers",
         "team": "Sfg",
         "value": 22
-      },
-      {
-        "player": "Soto",
-        "team": "Nym",
-        "value": 21
       }
     ],
     "rbi": [
@@ -912,14 +912,14 @@
         "value": 82
       },
       {
+        "player": "Stewart",
+        "team": "Cin",
+        "value": 79
+      },
+      {
         "player": "Walker",
         "team": "Stl",
         "value": 77
-      },
-      {
-        "player": "Stewart",
-        "team": "Cin",
-        "value": 76
       },
       {
         "player": "Wood",
@@ -1167,7 +1167,7 @@
       {
         "player": "Burns",
         "team": "Cin",
-        "value": "2.42"
+        "value": "2.40"
       },
       {
         "player": "Wrobleski",
@@ -1314,14 +1314,14 @@
         "value": 134
       },
       {
+        "player": "Burns",
+        "team": "Cin",
+        "value": 128
+      },
+      {
         "player": "Cavalli",
         "team": "Wsh",
         "value": 127
-      },
-      {
-        "player": "Burns",
-        "team": "Cin",
-        "value": 124
       },
       {
         "player": "Wheeler",
