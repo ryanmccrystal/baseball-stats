@@ -591,6 +591,15 @@ for game in schedule:
     elif game["status"] == "Suspended":
         games_display += " - susp"
 
+    if game["status"] == "Completed Early":
+        games_display += f" (F/{len(away_innings)})"
+    
+    elif game["status"] == "Suspended":
+        games_display += " - susp"
+    
+    elif len(away_innings) > 9:
+        games_display += f" ({len(away_innings)})"
+
     # -----------------------------
     # Away pitching
     # -----------------------------
