@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 08:09 PM EDT",
+  "last_updated": "2026-07-28 08:14 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -554,7 +554,7 @@
       {
         "player": "Williams",
         "team": "Cle",
-        "value": 163
+        "value": 164
       },
       {
         "player": "Schlittler",
@@ -811,7 +811,7 @@
         "team": "Wsh",
         "games": 104,
         "ab": 387,
-        "runs": 66,
+        "runs": 67,
         "hits": 115,
         "avg": ".297"
       },
@@ -1066,14 +1066,14 @@
         "value": 68
       },
       {
-        "player": "Wetherholt",
-        "team": "Stl",
+        "player": "Abrams",
+        "team": "Wsh",
         "value": 67
       },
       {
-        "player": "Abrams",
-        "team": "Wsh",
-        "value": 66
+        "player": "Wetherholt",
+        "team": "Stl",
+        "value": 67
       },
       {
         "player": "Walker",
@@ -1205,14 +1205,14 @@
         "value": "3.16"
       },
       {
-        "player": "McGreevy",
-        "team": "Stl",
-        "value": "3.20"
-      },
-      {
         "player": "King",
         "team": "Sdp",
         "value": "3.24"
+      },
+      {
+        "player": "McGreevy",
+        "team": "Stl",
+        "value": "3.26"
       }
     ],
     "wins": [
