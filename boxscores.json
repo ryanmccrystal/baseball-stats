@@ -146,18 +146,18 @@
       "away_stats": {
         "wins": 9,
         "losses": 5,
-        "era": "3.31",
+        "era": "3.26",
         "k9": "11.2",
         "hand": "L",
-        "team_record": "14-7"
+        "team_record": "14-8"
       },
       "home_stats": {
         "wins": 0,
         "losses": 2,
-        "era": "4.50",
-        "k9": "8.2",
+        "era": "4.66",
+        "k9": "8.1",
         "hand": "R",
-        "team_record": "3-4"
+        "team_record": "3-5"
       }
     },
     {
@@ -177,10 +177,10 @@
       "home_stats": {
         "wins": 2,
         "losses": 1,
-        "era": "3.72",
-        "k9": "10.4",
+        "era": "3.61",
+        "k9": "10.5",
         "hand": "R",
-        "team_record": "6-4"
+        "team_record": "6-5"
       }
     },
     {
@@ -249,16 +249,9 @@
       "away_name": "Brewers",
       "home_name": "Giants",
       "game_time": "2026-07-29T19:45:00Z",
-      "away_pitcher": "Shane Drohan",
+      "away_pitcher": "Thomas Pannone",
       "home_pitcher": "Logan Webb",
-      "away_stats": {
-        "wins": 5,
-        "losses": 4,
-        "era": "3.51",
-        "k9": "9.0",
-        "hand": "L",
-        "team_record": "6-5"
-      },
+      "away_stats": null,
       "home_stats": {
         "wins": 5,
         "losses": 7,
@@ -273,7 +266,7 @@
       "home_name": "Padres",
       "game_time": "2026-07-29T20:10:00Z",
       "away_pitcher": "Gabriel Hughes",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Kyle Hart",
       "away_stats": {
         "wins": 0,
         "losses": 2,
@@ -282,7 +275,14 @@
         "hand": "R",
         "team_record": "0-3"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 0,
+        "losses": 2,
+        "era": "5.21",
+        "k9": "7.8",
+        "hand": "L",
+        "team_record": "0-2"
+      }
     },
     {
       "away_name": "Rangers",

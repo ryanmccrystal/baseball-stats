@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 06:38 AM EDT",
+  "last_updated": "2026-07-29 12:51 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -215,14 +215,14 @@
         "value": 66
       },
       {
-        "player": "Aranda",
+        "player": "Caminero",
         "team": "Tbr",
         "value": 65
       },
       {
-        "player": "Caminero",
+        "player": "Aranda",
         "team": "Tbr",
-        "value": 64
+        "value": 65
       },
       {
         "player": "Bell",
@@ -737,11 +737,11 @@
       {
         "player": "Lopez",
         "team": "Mia",
-        "games": 104,
-        "ab": 415,
+        "games": 105,
+        "ab": 416,
         "runs": 64,
         "hits": 136,
-        "avg": ".328"
+        "avg": ".327"
       },
       {
         "player": "Arraez",
@@ -755,11 +755,11 @@
       {
         "player": "Gonzales",
         "team": "Pit",
-        "games": 102,
-        "ab": 387,
+        "games": 103,
+        "ab": 388,
         "runs": 59,
-        "hits": 122,
-        "avg": ".315"
+        "hits": 123,
+        "avg": ".317"
       },
       {
         "player": "Lee",
@@ -818,7 +818,7 @@
       {
         "player": "Edwards",
         "team": "Mia",
-        "games": 108,
+        "games": 109,
         "ab": 395,
         "runs": 51,
         "hits": 115,
@@ -981,7 +981,7 @@
       {
         "player": "Gonzales",
         "team": "Pit",
-        "value": 122
+        "value": 123
       },
       {
         "player": "Tatis",
@@ -1172,7 +1172,7 @@
       {
         "player": "Rodriguez",
         "team": "Ari",
-        "value": "2.64"
+        "value": "2.62"
       },
       {
         "player": "Meyer",
@@ -1207,7 +1207,7 @@
       {
         "player": "Luzardo",
         "team": "Phi",
-        "value": "3.31"
+        "value": "3.26"
       },
       {
         "player": "McLean",
@@ -1291,7 +1291,7 @@
       {
         "player": "Luzardo",
         "team": "Phi",
-        "value": 152
+        "value": 154
       },
       {
         "player": "Skenes",

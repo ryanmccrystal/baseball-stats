@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 29, 2026 10:37 UTC",
+  "last_updated": "July 29, 2026 16:51 UTC",
   "standings": {
     "AL East": [
       {
@@ -425,7 +425,7 @@
         {
           "name": "Junior Caminero",
           "team": "TBR",
-          "value": "64"
+          "value": "65"
         }
       ],
       "stolen_bases": [
@@ -1322,7 +1322,7 @@
         {
           "name": "Otto Lopez",
           "team": "MIA",
-          "value": ".328"
+          "value": ".327"
         },
         {
           "name": "Luis Arraez",
@@ -1332,7 +1332,7 @@
         {
           "name": "Nick Gonzales",
           "team": "PIT",
-          "value": ".315"
+          "value": ".317"
         },
         {
           "name": "Jung Hoo Lee",
@@ -1550,7 +1550,7 @@
         {
           "name": "Bryan Reynolds",
           "team": "PIT",
-          "value": ".383"
+          "value": ".382"
         },
         {
           "name": "Freddie Freeman",
@@ -1565,16 +1565,16 @@
         {
           "name": "Xavier Edwards",
           "team": "MIA",
-          "value": ".372"
-        },
-        {
-          "name": "Jake Bauers",
-          "team": "MIL",
-          "value": ".370"
+          "value": ".374"
         },
         {
           "name": "Nick Gonzales",
           "team": "PIT",
+          "value": ".371"
+        },
+        {
+          "name": "Jake Bauers",
+          "team": "MIL",
           "value": ".370"
         }
       ],
@@ -1748,7 +1748,7 @@
         {
           "name": "Nick Gonzales",
           "team": "PIT",
-          "value": "122"
+          "value": "123"
         },
         {
           "name": "Fernando Tatis Jr.",
@@ -1963,7 +1963,7 @@
         {
           "name": "Eduardo Rodriguez",
           "team": "ARI",
-          "value": "2.64"
+          "value": "2.62"
         },
         {
           "name": "Max Meyer",
@@ -2062,7 +2062,7 @@
         {
           "name": "Jes\u00fas Luzardo",
           "team": "PHI",
-          "value": "152"
+          "value": "154"
         },
         {
           "name": "Paul Skenes",
@@ -2174,6 +2174,11 @@
           "value": "125.1"
         },
         {
+          "name": "Jes\u00fas Luzardo",
+          "team": "PHI",
+          "value": "124.1"
+        },
+        {
           "name": "Foster Griffin",
           "team": "WSH",
           "value": "124.0"
@@ -2181,16 +2186,11 @@
         {
           "name": "Eduardo Rodriguez",
           "team": "ARI",
-          "value": "122.2"
+          "value": "123.2"
         },
         {
           "name": "Braxton Ashcraft",
           "team": "PIT",
-          "value": "122.1"
-        },
-        {
-          "name": "Jes\u00fas Luzardo",
-          "team": "PHI",
           "value": "122.1"
         },
         {
