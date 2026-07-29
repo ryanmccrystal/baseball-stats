@@ -154,7 +154,7 @@
       "home_stats": {
         "wins": 0,
         "losses": 2,
-        "era": "4.97",
+        "era": "5.45",
         "k9": "8.1",
         "hand": "R",
         "team_record": "3-5"
@@ -177,8 +177,8 @@
       "home_stats": {
         "wins": 2,
         "losses": 1,
-        "era": "3.47",
-        "k9": "10.4",
+        "era": "3.81",
+        "k9": "10.3",
         "hand": "R",
         "team_record": "6-5"
       }
@@ -192,10 +192,10 @@
       "away_stats": {
         "wins": 4,
         "losses": 5,
-        "era": "3.92",
+        "era": "3.87",
         "k9": "9.2",
         "hand": "R",
-        "team_record": "6-10"
+        "team_record": "6-11"
       },
       "home_stats": {
         "wins": 7,
@@ -215,15 +215,15 @@
       "away_stats": {
         "wins": 6,
         "losses": 7,
-        "era": "4.17",
+        "era": "4.14",
         "k9": "7.2",
         "hand": "L",
-        "team_record": "9-10"
+        "team_record": "9-11"
       },
       "home_stats": {
         "wins": 7,
         "losses": 5,
-        "era": "2.68",
+        "era": "2.67",
         "k9": "11.0",
         "hand": "L",
         "team_record": "9-7"
@@ -235,7 +235,14 @@
       "game_time": "2026-07-29T17:10:00Z",
       "away_pitcher": "AJ Smith-Shawver",
       "home_pitcher": "Sean Manaea",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 0,
+        "losses": 0,
+        "era": "0.00",
+        "k9": "0.0",
+        "hand": "R",
+        "team_record": "0-1"
+      },
       "home_stats": {
         "wins": 2,
         "losses": 5,

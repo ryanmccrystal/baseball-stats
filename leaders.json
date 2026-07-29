@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 01:19 PM EDT",
+  "last_updated": "2026-07-29 01:22 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -51,10 +51,10 @@
         "player": "McGonigle",
         "team": "Det",
         "games": 105,
-        "ab": 395,
+        "ab": 396,
         "runs": 66,
         "hits": 114,
-        "avg": ".289"
+        "avg": ".288"
       },
       {
         "player": "Contreras",
@@ -680,15 +680,6 @@
         "avg": ".296"
       },
       {
-        "player": "Abrams",
-        "team": "Wsh",
-        "games": 105,
-        "ab": 391,
-        "runs": 67,
-        "hits": 115,
-        "avg": ".294"
-      },
-      {
         "player": "Rumfield",
         "team": "Col",
         "games": 105,
@@ -696,6 +687,15 @@
         "runs": 46,
         "hits": 109,
         "avg": ".294"
+      },
+      {
+        "player": "Abrams",
+        "team": "Wsh",
+        "games": 105,
+        "ab": 392,
+        "runs": 67,
+        "hits": 115,
+        "avg": ".293"
       },
       {
         "player": "Edwards",

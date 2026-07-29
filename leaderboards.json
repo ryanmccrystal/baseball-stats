@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 29, 2026 17:18 UTC",
+  "last_updated": "July 29, 2026 17:22 UTC",
   "standings": {
     "AL East": [
       {
@@ -301,7 +301,7 @@
         {
           "name": "Kevin McGonigle",
           "team": "DET",
-          "value": ".289"
+          "value": ".288"
         },
         {
           "name": "Willson Contreras",
@@ -499,7 +499,7 @@
         {
           "name": "Kevin McGonigle",
           "team": "DET",
-          "value": ".393"
+          "value": ".392"
         },
         {
           "name": "Willson Contreras",
@@ -1355,14 +1355,14 @@
           "value": ".296"
         },
         {
-          "name": "CJ Abrams",
-          "team": "WSH",
-          "value": ".294"
-        },
-        {
           "name": "TJ Rumfield",
           "team": "COL",
           "value": ".294"
+        },
+        {
+          "name": "CJ Abrams",
+          "team": "WSH",
+          "value": ".293"
         },
         {
           "name": "Xavier Edwards",
@@ -1469,8 +1469,8 @@
           "value": "69"
         },
         {
-          "name": "Manny Machado",
-          "team": "SDP",
+          "name": "Bryce Harper",
+          "team": "PHI",
           "value": "64"
         }
       ],
@@ -1535,7 +1535,7 @@
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": ".396"
+          "value": ".397"
         },
         {
           "name": "Shohei Ohtani",
@@ -1582,21 +1582,21 @@
         {
           "name": "CJ Abrams",
           "team": "WSH",
-          "value": ".565"
-        },
-        {
-          "name": "Luis Garc\u00eda Jr.",
-          "team": "WSH",
-          "value": ".551"
+          "value": ".564"
         },
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": ".550"
+          "value": ".552"
         },
         {
           "name": "Hunter Goodman",
           "team": "COL",
+          "value": ".550"
+        },
+        {
+          "name": "Luis Garc\u00eda Jr.",
+          "team": "WSH",
           "value": ".550"
         },
         {
@@ -1622,7 +1622,7 @@
         {
           "name": "Matt Olson",
           "team": "ATL",
-          "value": ".523"
+          "value": ".522"
         },
         {
           "name": "Max Muncy",
@@ -1632,19 +1632,19 @@
       ],
       "ops": [
         {
+          "name": "James Wood",
+          "team": "WSH",
+          "value": ".949"
+        },
+        {
           "name": "Juan Soto",
           "team": "NYM",
           "value": ".947"
         },
         {
-          "name": "James Wood",
-          "team": "WSH",
-          "value": ".946"
-        },
-        {
           "name": "CJ Abrams",
           "team": "WSH",
-          "value": ".931"
+          "value": ".929"
         },
         {
           "name": "Shohei Ohtani",
@@ -1674,12 +1674,12 @@
         {
           "name": "Matt Olson",
           "team": "ATL",
-          "value": ".866"
+          "value": ".864"
         },
         {
           "name": "Luis Garc\u00eda Jr.",
           "team": "WSH",
-          "value": ".864"
+          "value": ".862"
         }
       ],
       "runs": [
@@ -1937,8 +1937,8 @@
           "value": "45"
         },
         {
-          "name": "Shohei Ohtani",
-          "team": "LAD",
+          "name": "Bryce Harper",
+          "team": "PHI",
           "value": "45"
         }
       ]
