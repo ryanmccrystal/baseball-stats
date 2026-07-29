@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29 01:02 PM EDT",
+  "last_updated": "2026-07-29 01:14 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -23,7 +23,7 @@
       {
         "player": "Clement",
         "team": "Tor",
-        "games": 105,
+        "games": 106,
         "ab": 406,
         "runs": 46,
         "hits": 120,
@@ -50,7 +50,7 @@
       {
         "player": "McGonigle",
         "team": "Det",
-        "games": 104,
+        "games": 105,
         "ab": 395,
         "runs": 66,
         "hits": 114,
@@ -664,7 +664,7 @@
       {
         "player": "Harris",
         "team": "Atl",
-        "games": 100,
+        "games": 101,
         "ab": 382,
         "runs": 53,
         "hits": 114,
@@ -682,7 +682,7 @@
       {
         "player": "Abrams",
         "team": "Wsh",
-        "games": 104,
+        "games": 105,
         "ab": 391,
         "runs": 67,
         "hits": 115,
@@ -701,10 +701,10 @@
         "player": "Edwards",
         "team": "Mia",
         "games": 109,
-        "ab": 395,
+        "ab": 396,
         "runs": 51,
         "hits": 115,
-        "avg": ".291"
+        "avg": ".290"
       }
     ],
     "homeRuns": [
@@ -875,13 +875,13 @@
         "value": 74
       },
       {
-        "player": "Olson",
-        "team": "Atl",
-        "value": 72
-      },
-      {
         "player": "Turner",
         "team": "Phi",
+        "value": 73
+      },
+      {
+        "player": "Olson",
+        "team": "Atl",
         "value": 72
       },
       {
@@ -986,7 +986,7 @@
       {
         "player": "Rodriguez",
         "team": "Ari",
-        "value": "2.60"
+        "value": "2.58"
       },
       {
         "player": "Meyer",

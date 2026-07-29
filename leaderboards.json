@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 29, 2026 17:01 UTC",
+  "last_updated": "July 29, 2026 17:14 UTC",
   "standings": {
     "AL East": [
       {
@@ -509,7 +509,7 @@
         {
           "name": "Taylor Ward",
           "team": "BAL",
-          "value": ".384"
+          "value": ".383"
         },
         {
           "name": "Jonathan Aranda",
@@ -1367,7 +1367,7 @@
         {
           "name": "Xavier Edwards",
           "team": "MIA",
-          "value": ".291"
+          "value": ".290"
         }
       ],
       "home_runs": [
@@ -1565,7 +1565,7 @@
         {
           "name": "Xavier Edwards",
           "team": "MIA",
-          "value": ".374"
+          "value": ".373"
         },
         {
           "name": "Nick Gonzales",
@@ -1694,13 +1694,13 @@
           "value": "74"
         },
         {
-          "name": "Matt Olson",
-          "team": "ATL",
-          "value": "72"
-        },
-        {
           "name": "Trea Turner",
           "team": "PHI",
+          "value": "73"
+        },
+        {
+          "name": "Matt Olson",
+          "team": "ATL",
           "value": "72"
         },
         {
@@ -1914,7 +1914,7 @@
         {
           "name": "Corbin Carroll",
           "team": "ARI",
-          "value": "48"
+          "value": "49"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1963,7 +1963,7 @@
         {
           "name": "Eduardo Rodriguez",
           "team": "ARI",
-          "value": "2.60"
+          "value": "2.58"
         },
         {
           "name": "Max Meyer",
@@ -2164,6 +2164,16 @@
           "value": "138.2"
         },
         {
+          "name": "Jes\u00fas Luzardo",
+          "team": "PHI",
+          "value": "126.1"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "team": "ARI",
+          "value": "125.2"
+        },
+        {
           "name": "Yoshinobu Yamamoto",
           "team": "LAD",
           "value": "125.2"
@@ -2172,16 +2182,6 @@
           "name": "Michael King",
           "team": "SDP",
           "value": "125.1"
-        },
-        {
-          "name": "Jes\u00fas Luzardo",
-          "team": "PHI",
-          "value": "125.1"
-        },
-        {
-          "name": "Eduardo Rodriguez",
-          "team": "ARI",
-          "value": "124.2"
         },
         {
           "name": "Foster Griffin",
