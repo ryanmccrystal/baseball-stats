@@ -128,7 +128,7 @@ def top12(players, stat):
         return sorted(
             qualified,
             key=lambda p: float(p["stat"]["era"])
-        )[:12]
+        )[:10]
 
     return sorted(
         players,
@@ -138,7 +138,7 @@ def top12(players, stat):
             else int(p["stat"][stat])
         ),
         reverse=True
-    )[:12]
+    )[:10]
 
 def display_name(player):
 
