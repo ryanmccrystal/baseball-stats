@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 07:57 PM EDT",
+  "last_updated": "2026-07-28 08:09 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -48,6 +48,15 @@
         "avg": ".294"
       },
       {
+        "player": "McGonigle",
+        "team": "Det",
+        "games": 104,
+        "ab": 393,
+        "runs": 65,
+        "hits": 113,
+        "avg": ".288"
+      },
+      {
         "player": "Contreras",
         "team": "Bos",
         "games": 98,
@@ -55,15 +64,6 @@
         "runs": 54,
         "hits": 98,
         "avg": ".287"
-      },
-      {
-        "player": "McGonigle",
-        "team": "Det",
-        "games": 104,
-        "ab": 392,
-        "runs": 65,
-        "hits": 112,
-        "avg": ".286"
       },
       {
         "player": "Arozarena",
@@ -259,7 +259,7 @@
       {
         "player": "McGonigle",
         "team": "Det",
-        "value": 112
+        "value": 113
       },
       {
         "player": "Simpson",
@@ -554,7 +554,7 @@
       {
         "player": "Williams",
         "team": "Cle",
-        "value": 160
+        "value": 163
       },
       {
         "player": "Schlittler",
@@ -572,17 +572,17 @@
         "value": 133
       },
       {
+        "player": "Bradley",
+        "team": "Min",
+        "value": 133
+      },
+      {
         "player": "deGrom",
         "team": "Tex",
         "value": 132
       },
       {
         "player": "Ryan",
-        "team": "Min",
-        "value": 131
-      },
-      {
-        "player": "Bradley",
         "team": "Min",
         "value": 131
       },
@@ -738,7 +738,7 @@
         "player": "Lopez",
         "team": "Mia",
         "games": 104,
-        "ab": 413,
+        "ab": 414,
         "runs": 64,
         "hits": 136,
         "avg": ".329"
@@ -756,10 +756,10 @@
         "player": "Gonzales",
         "team": "Pit",
         "games": 102,
-        "ab": 382,
+        "ab": 383,
         "runs": 58,
-        "hits": 120,
-        "avg": ".314"
+        "hits": 121,
+        "avg": ".316"
       },
       {
         "player": "Lee",
@@ -810,10 +810,10 @@
         "player": "Abrams",
         "team": "Wsh",
         "games": 104,
-        "ab": 386,
+        "ab": 387,
         "runs": 66,
-        "hits": 114,
-        "avg": ".295"
+        "hits": 115,
+        "avg": ".297"
       },
       {
         "player": "Edwards",
@@ -981,7 +981,7 @@
       {
         "player": "Gonzales",
         "team": "Pit",
-        "value": 120
+        "value": 121
       },
       {
         "player": "Freeman",
@@ -994,6 +994,11 @@
         "value": 116
       },
       {
+        "player": "Abrams",
+        "team": "Wsh",
+        "value": 115
+      },
+      {
         "player": "Edwards",
         "team": "Mia",
         "value": 115
@@ -1001,11 +1006,6 @@
       {
         "player": "Harris",
         "team": "Atl",
-        "value": 114
-      },
-      {
-        "player": "Abrams",
-        "team": "Wsh",
         "value": 114
       },
       {
@@ -1033,7 +1033,7 @@
       {
         "player": "Wood",
         "team": "Wsh",
-        "value": 96
+        "value": 97
       },
       {
         "player": "Reynolds",
@@ -1200,14 +1200,14 @@
         "value": "2.76"
       },
       {
-        "player": "McGreevy",
-        "team": "Stl",
-        "value": "3.05"
-      },
-      {
         "player": "Ray",
         "team": "Sfg",
         "value": "3.16"
+      },
+      {
+        "player": "McGreevy",
+        "team": "Stl",
+        "value": "3.20"
       },
       {
         "player": "King",

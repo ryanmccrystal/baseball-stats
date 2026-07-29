@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 28, 2026 23:57 UTC",
+  "last_updated": "July 29, 2026 00:09 UTC",
   "standings": {
     "AL East": [
       {
@@ -299,14 +299,14 @@
           "value": ".294"
         },
         {
+          "name": "Kevin McGonigle",
+          "team": "DET",
+          "value": ".288"
+        },
+        {
           "name": "Willson Contreras",
           "team": "BOS",
           "value": ".287"
-        },
-        {
-          "name": "Kevin McGonigle",
-          "team": "DET",
-          "value": ".286"
         },
         {
           "name": "Randy Arozarena",
@@ -499,7 +499,7 @@
         {
           "name": "Kevin McGonigle",
           "team": "DET",
-          "value": ".391"
+          "value": ".393"
         },
         {
           "name": "Willson Contreras",
@@ -712,7 +712,7 @@
         {
           "name": "Kevin McGonigle",
           "team": "DET",
-          "value": "112"
+          "value": "113"
         },
         {
           "name": "Jonathan Aranda",
@@ -1011,7 +1011,7 @@
         {
           "name": "Gavin Williams",
           "team": "CLE",
-          "value": "160"
+          "value": "163"
         },
         {
           "name": "Cam Schlittler",
@@ -1024,6 +1024,11 @@
           "value": "136"
         },
         {
+          "name": "Taj Bradley",
+          "team": "MIN",
+          "value": "133"
+        },
+        {
           "name": "Logan Gilbert",
           "team": "SEA",
           "value": "133"
@@ -1032,11 +1037,6 @@
           "name": "Jacob deGrom",
           "team": "TEX",
           "value": "132"
-        },
-        {
-          "name": "Taj Bradley",
-          "team": "MIN",
-          "value": "131"
         },
         {
           "name": "Joe Ryan",
@@ -1086,13 +1086,13 @@
           "value": "1.07"
         },
         {
-          "name": "Dylan Cease",
-          "team": "TOR",
-          "value": "1.09"
-        },
-        {
           "name": "Gavin Williams",
           "team": "CLE",
+          "value": "1.08"
+        },
+        {
+          "name": "Dylan Cease",
+          "team": "TOR",
           "value": "1.09"
         },
         {
@@ -1120,7 +1120,7 @@
         {
           "name": "Gavin Williams",
           "team": "CLE",
-          "value": "129.0"
+          "value": "130.0"
         },
         {
           "name": "Logan Gilbert",
@@ -1332,7 +1332,7 @@
         {
           "name": "Nick Gonzales",
           "team": "PIT",
-          "value": ".314"
+          "value": ".316"
         },
         {
           "name": "Jung Hoo Lee",
@@ -1362,7 +1362,7 @@
         {
           "name": "CJ Abrams",
           "team": "WSH",
-          "value": ".295"
+          "value": ".297"
         },
         {
           "name": "Xavier Edwards",
@@ -1535,7 +1535,7 @@
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": ".398"
+          "value": ".399"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1563,26 +1563,26 @@
           "value": ".380"
         },
         {
+          "name": "Nick Gonzales",
+          "team": "PIT",
+          "value": ".371"
+        },
+        {
           "name": "Jake Bauers",
           "team": "MIL",
           "value": ".370"
         },
         {
-          "name": "Xavier Edwards",
-          "team": "MIA",
-          "value": ".369"
-        },
-        {
-          "name": "Nick Gonzales",
-          "team": "PIT",
-          "value": ".369"
+          "name": "CJ Abrams",
+          "team": "WSH",
+          "value": ".370"
         }
       ],
       "slg": [
         {
           "name": "CJ Abrams",
           "team": "WSH",
-          "value": ".570"
+          "value": ".571"
         },
         {
           "name": "Hunter Goodman",
@@ -1602,7 +1602,7 @@
         {
           "name": "Luis Garc\u00eda Jr.",
           "team": "WSH",
-          "value": ".545"
+          "value": ".543"
         },
         {
           "name": "Juan Soto",
@@ -1627,14 +1627,14 @@
         {
           "name": "Jordan Walker",
           "team": "STL",
-          "value": ".508"
+          "value": ".506"
         }
       ],
       "ops": [
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": ".954"
+          "value": ".955"
         },
         {
           "name": "Juan Soto",
@@ -1644,7 +1644,7 @@
         {
           "name": "CJ Abrams",
           "team": "WSH",
-          "value": ".938"
+          "value": ".941"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1677,16 +1677,16 @@
           "value": ".866"
         },
         {
-          "name": "Otto Lopez",
-          "team": "MIA",
-          "value": ".858"
+          "name": "TJ Rumfield",
+          "team": "COL",
+          "value": ".857"
         }
       ],
       "runs": [
         {
           "name": "James Wood",
           "team": "WSH",
-          "value": "96"
+          "value": "97"
         },
         {
           "name": "Matt Olson",
@@ -1748,7 +1748,7 @@
         {
           "name": "Nick Gonzales",
           "team": "PIT",
-          "value": "120"
+          "value": "121"
         },
         {
           "name": "Freddie Freeman",
@@ -1761,14 +1761,14 @@
           "value": "116"
         },
         {
-          "name": "Xavier Edwards",
-          "team": "MIA",
+          "name": "CJ Abrams",
+          "team": "WSH",
           "value": "115"
         },
         {
-          "name": "CJ Abrams",
-          "team": "WSH",
-          "value": "114"
+          "name": "Xavier Edwards",
+          "team": "MIA",
+          "value": "115"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1991,9 +1991,9 @@
           "value": "2.76"
         },
         {
-          "name": "Michael McGreevy",
-          "team": "STL",
-          "value": "3.05"
+          "name": "Robbie Ray",
+          "team": "SFG",
+          "value": "3.16"
         }
       ],
       "wins": [
@@ -2156,7 +2156,7 @@
         {
           "name": "Sandy Alcantara",
           "team": "MIA",
-          "value": "148.2"
+          "value": "149.1"
         },
         {
           "name": "Cristopher S\u00e1nchez",
