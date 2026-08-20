@@ -348,6 +348,9 @@ for game in schedule:
 
     # Formatted box score text
     boxscore = statsapi.boxscore(gamePk)
+    
+    print(boxscore)
+    
     away_decisions, home_decisions, blown_saves = extract_pitcher_decisions(boxscore)
 
     game_info["blown_saves"] = []
