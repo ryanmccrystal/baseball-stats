@@ -483,15 +483,12 @@ for game in schedule:
     # -----------------------------
     
     # Team LOB from official MLB box score
-    lob_match = re.search(
-        r"Team LOB:\s*(\d+)\s+(\d+)",
-        boxscore
-    )
+    lob_values = re.findall(r"Team LOB:\s*(\d+)", boxscore)
     
-    if lob_match:
+    if len(lob_values) >= 2:
         notes["lob"] = {
-            away_nickname: int(lob_match.group(1)),
-            home_nickname: int(lob_match.group(2))
+            away_nickname: int(lob_values[0]),
+            home_nickname: int(lob_values[1])
         }
     
     for side in ["away", "home"]:
