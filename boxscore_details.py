@@ -482,19 +482,23 @@ for game in schedule:
     # Build game notes
     # -----------------------------
     
+    # Team LOB from official MLB box score
+    lob_match = re.search(
+        r"Team LOB:\s*(\d+)\s+(\d+)",
+        boxscore
+    )
+    
+    if lob_match:
+        notes["lob"] = {
+            away_nickname: int(lob_match.group(1)),
+            home_nickname: int(lob_match.group(2))
+        }
+    
     for side in ["away", "home"]:
     
         team = boxscore_json["teams"][side]
     
         team_name = nickname(team["team"]["name"])
-    
-        # Team LOB
-        lob = team["teamStats"]["batting"].get("leftOnBase", 0)
-    
-        if notes["lob"] is None:
-            notes["lob"] = {}
-    
-        notes["lob"][team_name] = lob
     
         for player in team["players"].values():
     
