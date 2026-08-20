@@ -487,8 +487,8 @@ for game in schedule:
     
     if len(lob_values) >= 2:
         notes["lob"] = {
-            away_nickname: int(lob_values[0]),
-            home_nickname: int(lob_values[1])
+            nickname(game["away_name"]): int(lob_values[0]),
+            nickname(game["home_name"]): int(lob_values[1])
         }
     
     for side in ["away", "home"]:
