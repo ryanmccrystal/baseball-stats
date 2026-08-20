@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20 11:45 PM",
+  "last_updated": "2026-08-20 11:56 PM",
   "games": [
     {
       "status": "Final",
@@ -463,7 +463,10 @@
           "Gonzales, N (13)",
           "Flores Jr. (1)"
         ],
-        "lob": null,
+        "lob": {
+          "Tigers": 7,
+          "Pirates": 8
+        },
         "doubles": [
           "McGonigle (22)",
           "Clark (3)"
@@ -940,7 +943,10 @@
         "errors": [
           "Song (1)"
         ],
-        "lob": null,
+        "lob": {
+          "Padres": 7,
+          "Mets": 5
+        },
         "doubles": [
           "Tatis Jr. (26)",
           "France, T (17)",
@@ -1421,7 +1427,10 @@
         "errors": [
           "Jarvis (7)"
         ],
-        "lob": null,
+        "lob": {
+          "Braves": 8,
+          "Twins": 7
+        },
         "doubles": [
           "Albies (23)",
           "Clemens (21)",
@@ -1857,7 +1866,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "White Sox": 3,
+          "Cubs": 10
+        },
         "doubles": [
           "Grichuk (20)",
           "Montgomery, B (11)",
@@ -2359,7 +2371,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "DBacks": 6,
+          "Red Sox": 9
+        },
         "doubles": [
           "Waldschmidt (14)",
           "Fernandez, Jo (9)",
@@ -2749,7 +2764,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "Marlins": 7,
+          "Phillies": 6
+        },
         "doubles": [
           "Turner (22)"
         ],
@@ -3235,7 +3253,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "Yankees": 7,
+          "Orioles": 7
+        },
         "doubles": [
           "Henderson (23)",
           "Taveras, L (13)"
@@ -3655,7 +3676,10 @@
         "errors": [
           "Adames (17)"
         ],
-        "lob": null,
+        "lob": {
+          "Giants": 8,
+          "Guardians": 6
+        },
         "doubles": [
           "Lee, J (27)",
           "Devers (31)",
@@ -4096,7 +4120,10 @@
         "errors": [
           "Jordan (5)"
         ],
-        "lob": null,
+        "lob": {
+          "Cardinals": 4,
+          "Reds": 11
+        },
         "doubles": [
           "Ferm\u00edn (13)",
           "Wetherholt (14)",
@@ -4575,7 +4602,10 @@
         "errors": [
           "Baker (1)"
         ],
-        "lob": null,
+        "lob": {
+          "Blue Jays": 6,
+          "Rays": 4
+        },
         "doubles": [
           "McAdoo (2)",
           "Palacios, R (12)",
@@ -5012,7 +5042,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "Athletics": 3,
+          "Royals": 8
+        },
         "doubles": [
           "McNeil (16)",
           "Perez, S (18)",
@@ -5467,7 +5500,10 @@
           "Raleigh (3)",
           "Rodden (1)"
         ],
-        "lob": null,
+        "lob": {
+          "Mariners": 8,
+          "Brewers": 8
+        },
         "doubles": [
           "Canzone (21)"
         ],
@@ -5902,7 +5938,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "Nationals": 5,
+          "Rangers": 7
+        },
         "doubles": [
           "Ortiz, A (2)",
           "Abrams (25)",
@@ -6380,7 +6419,10 @@
         "errors": [
           "V\u00e1zquez, C (1)"
         ],
-        "lob": null,
+        "lob": {
+          "Angels": 8,
+          "Astros": 4
+        },
         "doubles": [
           "Guzman, D (6)",
           "Altuve (16)"
@@ -6885,7 +6927,10 @@
       },
       "notes": {
         "errors": [],
-        "lob": null,
+        "lob": {
+          "Dodgers": 8,
+          "Rockies": 8
+        },
         "doubles": [
           "Freeman, F (30)",
           "Moniak (15)",
