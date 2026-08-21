@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21 12:04 AM",
+  "last_updated": "2026-08-21 12:09 AM",
   "games": [
     {
       "status": "Final",
@@ -464,8 +464,8 @@
           "Myers (1)"
         ],
         "lob": {
-          "Cardinals": 5,
-          "Reds": 6
+          "Cardinals": 6,
+          "Reds": 5
         },
         "doubles": [],
         "triples": [],
@@ -2608,8 +2608,8 @@
       "notes": {
         "errors": [],
         "lob": {
-          "Mariners": 6,
-          "Brewers": 9
+          "Mariners": 9,
+          "Brewers": 6
         },
         "doubles": [
           "Donovan (7)",
@@ -2655,8 +2655,8 @@
       }
     },
     {
-      "status": "Warmup",
-      "games_display": "Washington Nationals at Texas Rangers - warmup",
+      "status": "In Progress",
+      "games_display": "Washington Nationals at Texas Rangers - in progress",
       "away": {
         "city": "Washington",
         "nickname": "Nationals"
