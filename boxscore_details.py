@@ -487,8 +487,8 @@ for game in schedule:
     
     if len(lob_values) >= 2:
         notes["lob"] = {
-            nickname(boxscore_json["teams"]["away"]["team"]["name"]): int(lob_values[0]),
-            nickname(boxscore_json["teams"]["home"]["team"]["name"]): int(lob_values[1])
+            nickname(boxscore_json["teams"]["away"]["team"]["name"]): int(lob_values[1]),
+            nickname(boxscore_json["teams"]["home"]["team"]["name"]): int(lob_values[0])
         }
     
     for side in ["away", "home"]:
