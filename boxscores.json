@@ -45,23 +45,23 @@
     {
       "gamePk": 824802,
       "winner_name": "Yankees",
-      "winner_score": 3,
+      "winner_score": 6,
       "loser_name": "Orioles",
-      "loser_score": 0
+      "loser_score": 1
     },
     {
       "gamePk": 822861,
       "winner_name": "Rangers",
-      "winner_score": 0,
+      "winner_score": 2,
       "loser_name": "Nationals",
       "loser_score": 0
     },
     {
       "gamePk": 824153,
-      "winner_name": "Astros",
-      "winner_score": 0,
-      "loser_name": "Angels",
-      "loser_score": 0
+      "winner_name": "Angels",
+      "winner_score": 18,
+      "loser_name": "Astros",
+      "loser_score": 3
     }
   ],
   "today_games": [

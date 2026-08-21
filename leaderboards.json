@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 21, 2026 00:09 UTC",
+  "last_updated": "August 21, 2026 06:36 UTC",
   "standings": {
     "AL East": [
       {
@@ -10,9 +10,9 @@
       },
       {
         "team": "NYY",
-        "wins": 71,
+        "wins": 72,
         "losses": 55,
-        "gb": "4.5"
+        "gb": "4.0"
       },
       {
         "team": "BOS",
@@ -29,8 +29,8 @@
       {
         "team": "BAL",
         "wins": 61,
-        "losses": 66,
-        "gb": "15.0"
+        "losses": 67,
+        "gb": "15.5"
       }
     ],
     "AL Central": [
@@ -69,32 +69,32 @@
       {
         "team": "HOU",
         "wins": 64,
-        "losses": 63,
+        "losses": 64,
         "gb": "-"
       },
       {
         "team": "TEX",
-        "wins": 62,
+        "wins": 63,
         "losses": 65,
-        "gb": "2.0"
+        "gb": "1.0"
       },
       {
         "team": "SEA",
         "wins": 60,
         "losses": 68,
-        "gb": "4.5"
+        "gb": "4.0"
       },
       {
         "team": "LAA",
-        "wins": 50,
+        "wins": 51,
         "losses": 77,
-        "gb": "14.0"
+        "gb": "13.0"
       },
       {
         "team": "ATH",
         "wins": 49,
         "losses": 79,
-        "gb": "15.5"
+        "gb": "15.0"
       }
     ],
     "NL East": [
@@ -119,8 +119,8 @@
       {
         "team": "WSH",
         "wins": 61,
-        "losses": 67,
-        "gb": "14.0"
+        "losses": 68,
+        "gb": "14.5"
       },
       {
         "team": "NYM",
@@ -197,7 +197,7 @@
   "al_wildcard": [
     {
       "team": "NYY",
-      "wins": 71,
+      "wins": 72,
       "losses": 55,
       "gb": "-"
     },
@@ -214,15 +214,15 @@
       "gb": "-"
     },
     {
+      "team": "TEX",
+      "wins": 63,
+      "losses": 65,
+      "gb": "0.0"
+    },
+    {
       "team": "TOR",
       "wins": 63,
       "losses": 66,
-      "gb": "0.5"
-    },
-    {
-      "team": "TEX",
-      "wins": 62,
-      "losses": 65,
       "gb": "0.5"
     },
     {
@@ -276,7 +276,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": ".317"
+          "value": ".319"
         },
         {
           "name": "Chandler Simpson",
@@ -287,11 +287,6 @@
           "name": "Yandy D\u00edaz",
           "team": "TBR",
           "value": ".308"
-        },
-        {
-          "name": "Josh Jung",
-          "team": "TEX",
-          "value": ".294"
         },
         {
           "name": "Bobby Witt Jr.",
@@ -322,6 +317,11 @@
           "name": "Liam Hicks",
           "team": "TBR",
           "value": ".284"
+        },
+        {
+          "name": "Jonathan Aranda",
+          "team": "TBR",
+          "value": ".282"
         }
       ],
       "home_runs": [
@@ -398,14 +398,14 @@
           "value": "81"
         },
         {
-          "name": "Ben Rice",
+          "name": "Luis Garc\u00eda Jr.",
           "team": "NYY",
           "value": "80"
         },
         {
-          "name": "Luis Garc\u00eda Jr.",
+          "name": "Ben Rice",
           "team": "NYY",
-          "value": "79"
+          "value": "80"
         },
         {
           "name": "Josh Bell",
@@ -484,7 +484,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": ".430"
+          "value": ".432"
         },
         {
           "name": "Nick Kurtz",
@@ -536,12 +536,12 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": ".610"
+          "value": ".613"
         },
         {
-          "name": "Ben Rice",
+          "name": "Luis Garc\u00eda Jr.",
           "team": "NYY",
-          "value": ".534"
+          "value": ".541"
         },
         {
           "name": "Junior Caminero",
@@ -554,7 +554,7 @@
           "value": ".534"
         },
         {
-          "name": "Luis Garc\u00eda Jr.",
+          "name": "Ben Rice",
           "team": "NYY",
           "value": ".532"
         },
@@ -588,7 +588,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": "1.040"
+          "value": "1.045"
         },
         {
           "name": "Willson Contreras",
@@ -613,7 +613,7 @@
         {
           "name": "Ben Rice",
           "team": "NYY",
-          "value": ".878"
+          "value": ".876"
         },
         {
           "name": "Pete Alonso",
@@ -628,7 +628,7 @@
         {
           "name": "Luis Garc\u00eda Jr.",
           "team": "NYY",
-          "value": ".838"
+          "value": ".850"
         },
         {
           "name": "Miguel Vargas",
@@ -645,7 +645,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": "83"
+          "value": "84"
         },
         {
           "name": "Kevin McGonigle",
@@ -668,6 +668,11 @@
           "value": "78"
         },
         {
+          "name": "Zach Neto",
+          "team": "LAA",
+          "value": "78"
+        },
+        {
           "name": "Ben Rice",
           "team": "NYY",
           "value": "78"
@@ -675,11 +680,6 @@
         {
           "name": "Gunnar Henderson",
           "team": "BAL",
-          "value": "76"
-        },
-        {
-          "name": "Zach Neto",
-          "team": "LAA",
           "value": "76"
         },
         {
@@ -697,7 +697,7 @@
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": "144"
+          "value": "145"
         },
         {
           "name": "Chandler Simpson",
@@ -732,7 +732,7 @@
         {
           "name": "Pete Alonso",
           "team": "BAL",
-          "value": "128"
+          "value": "129"
         },
         {
           "name": "Brandon Nimmo",
@@ -772,6 +772,11 @@
           "value": "27"
         },
         {
+          "name": "Yordan Alvarez",
+          "team": "HOU",
+          "value": "26"
+        },
+        {
           "name": "Randy Arozarena",
           "team": "SEA",
           "value": "26"
@@ -785,11 +790,6 @@
           "name": "Bobby Witt Jr.",
           "team": "KCR",
           "value": "26"
-        },
-        {
-          "name": "Yordan Alvarez",
-          "team": "HOU",
-          "value": "25"
         }
       ],
       "triples": [
@@ -812,6 +812,11 @@
           "name": "Luis Garc\u00eda Jr.",
           "team": "NYY",
           "value": "5"
+        },
+        {
+          "name": "Ezequiel Duran",
+          "team": "TEX",
+          "value": "4"
         },
         {
           "name": "Gunnar Henderson",
@@ -837,18 +842,13 @@
           "name": "Cody Bellinger",
           "team": "NYY",
           "value": "3"
-        },
-        {
-          "name": "Isaac Collins",
-          "team": "KCR",
-          "value": "3"
         }
       ],
       "xbh": [
         {
           "name": "Yordan Alvarez",
           "team": "HOU",
-          "value": "61"
+          "value": "62"
         },
         {
           "name": "Miguel Vargas",
@@ -859,6 +859,11 @@
           "name": "Ben Rice",
           "team": "NYY",
           "value": "57"
+        },
+        {
+          "name": "Luis Garc\u00eda Jr.",
+          "team": "NYY",
+          "value": "53"
         },
         {
           "name": "Wilyer Abreu",
@@ -876,11 +881,6 @@
           "value": "52"
         },
         {
-          "name": "Luis Garc\u00eda Jr.",
-          "team": "NYY",
-          "value": "52"
-        },
-        {
           "name": "Ceddanne Rafaela",
           "team": "BOS",
           "value": "51"
@@ -891,9 +891,9 @@
           "value": "49"
         },
         {
-          "name": "Willson Contreras",
-          "team": "BOS",
-          "value": "48"
+          "name": "Zach Neto",
+          "team": "LAA",
+          "value": "49"
         }
       ]
     },
@@ -1034,6 +1034,11 @@
           "value": "157"
         },
         {
+          "name": "Jacob deGrom",
+          "team": "TEX",
+          "value": "157"
+        },
+        {
           "name": "Sean Burke",
           "team": "CWS",
           "value": "154"
@@ -1047,11 +1052,6 @@
           "name": "Parker Messick",
           "team": "CLE",
           "value": "152"
-        },
-        {
-          "name": "Jacob deGrom",
-          "team": "TEX",
-          "value": "147"
         }
       ],
       "whip": [
@@ -1239,7 +1239,7 @@
         {
           "name": "Jacob Latz",
           "team": "TEX",
-          "value": "24"
+          "value": "25"
         },
         {
           "name": "Paul Sewald",
