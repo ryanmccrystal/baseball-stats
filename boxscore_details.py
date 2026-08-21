@@ -483,12 +483,33 @@ for game in schedule:
     # -----------------------------
     
     # Team LOB from official MLB box score
-    lob_values = re.findall(r"Team LOB:\s*(\d+)", boxscore)
+    away_lob = None
+    home_lob = None
     
-    if len(lob_values) >= 2:
+    for line in boxscore.splitlines():
+    
+        parts = line.split("|")
+    
+        if len(parts) != 2:
+            continue
+    
+        left = parts[0]
+        right = parts[1]
+    
+        left_match = re.search(r"Team LOB:\s*(\d+)", left)
+        right_match = re.search(r"Team LOB:\s*(\d+)", right)
+    
+        if left_match:
+            away_lob = int(left_match.group(1))
+    
+        if right_match:
+            home_lob = int(right_match.group(1))
+    
+    if away_lob is not None and home_lob is not None:
+    
         notes["lob"] = {
-            nickname(boxscore_json["teams"]["away"]["team"]["name"]): int(lob_values[1]),
-            nickname(boxscore_json["teams"]["home"]["team"]["name"]): int(lob_values[0])
+            nickname(boxscore_json["teams"]["away"]["team"]["name"]): away_lob,
+            nickname(boxscore_json["teams"]["home"]["team"]["name"]): home_lob
         }
     
     for side in ["away", "home"]:
