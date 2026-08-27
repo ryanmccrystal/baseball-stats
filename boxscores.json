@@ -124,10 +124,10 @@
       "home_stats": {
         "wins": 2,
         "losses": 8,
-        "era": "5.82",
-        "k9": "8.8",
+        "era": "5.77",
+        "k9": "8.9",
         "hand": "R",
-        "team_record": "7-9"
+        "team_record": "7-10"
       }
     },
     {
@@ -135,7 +135,7 @@
       "home_name": "Cardinals",
       "game_time": "2026-08-27T18:15:00Z",
       "away_pitcher": "Trevor Rogers",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Gordon Graceffo",
       "away_stats": {
         "wins": 9,
         "losses": 8,
@@ -144,7 +144,14 @@
         "hand": "L",
         "team_record": "13-11"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 7,
+        "losses": 1,
+        "era": "3.13",
+        "k9": "5.4",
+        "hand": "R",
+        "team_record": "0-0"
+      }
     },
     {
       "away_name": "Astros",
