@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 01:13 PM EDT",
+  "last_updated": "2026-08-27 02:51 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -662,13 +662,22 @@
         "avg": ".301"
       },
       {
+        "player": "Burleson",
+        "team": "Stl",
+        "games": 134,
+        "ab": 507,
+        "runs": 77,
+        "hits": 148,
+        "avg": ".292"
+      },
+      {
         "player": "McCarthy",
         "team": "Col",
         "games": 119,
-        "ab": 430,
+        "ab": 432,
         "runs": 64,
         "hits": 126,
-        "avg": ".293"
+        "avg": ".292"
       },
       {
         "player": "Harris",
@@ -680,13 +689,13 @@
         "avg": ".291"
       },
       {
-        "player": "Burleson",
-        "team": "Stl",
-        "games": 133,
-        "ab": 506,
-        "runs": 76,
-        "hits": 147,
-        "avg": ".291"
+        "player": "Rumfield",
+        "team": "Col",
+        "games": 130,
+        "ab": 456,
+        "runs": 55,
+        "hits": 132,
+        "avg": ".289"
       },
       {
         "player": "Lee",
@@ -696,15 +705,6 @@
         "runs": 58,
         "hits": 133,
         "avg": ".289"
-      },
-      {
-        "player": "Rumfield",
-        "team": "Col",
-        "games": 130,
-        "ab": 455,
-        "runs": 55,
-        "hits": 131,
-        "avg": ".288"
       }
     ],
     "homeRuns": [
@@ -823,13 +823,13 @@
         "value": 160
       },
       {
-        "player": "Freeman",
-        "team": "Lad",
-        "value": 147
-      },
-      {
         "player": "Burleson",
         "team": "Stl",
+        "value": 148
+      },
+      {
+        "player": "Freeman",
+        "team": "Lad",
         "value": 147
       },
       {

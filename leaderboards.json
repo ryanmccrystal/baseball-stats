@@ -1,5 +1,5 @@
 {
-  "last_updated": "August 27, 2026 17:13 UTC",
+  "last_updated": "August 27, 2026 18:51 UTC",
   "standings": {
     "AL East": [
       {
@@ -561,7 +561,7 @@
         {
           "name": "Pete Alonso",
           "team": "BAL",
-          "value": ".516"
+          "value": ".515"
         },
         {
           "name": "Munetaka Murakami",
@@ -608,7 +608,7 @@
         {
           "name": "Pete Alonso",
           "team": "BAL",
-          "value": ".881"
+          "value": ".879"
         },
         {
           "name": "Nick Kurtz",
@@ -1345,9 +1345,14 @@
           "value": ".301"
         },
         {
+          "name": "Alec Burleson",
+          "team": "STL",
+          "value": ".292"
+        },
+        {
           "name": "Jake McCarthy",
           "team": "COL",
-          "value": ".293"
+          "value": ".292"
         },
         {
           "name": "Michael Harris II",
@@ -1355,19 +1360,14 @@
           "value": ".291"
         },
         {
-          "name": "Alec Burleson",
-          "team": "STL",
-          "value": ".291"
+          "name": "TJ Rumfield",
+          "team": "COL",
+          "value": ".289"
         },
         {
           "name": "Jung Hoo Lee",
           "team": "SFG",
           "value": ".289"
-        },
-        {
-          "name": "TJ Rumfield",
-          "team": "COL",
-          "value": ".288"
         }
       ],
       "home_runs": [
@@ -1555,7 +1555,7 @@
         {
           "name": "TJ Rumfield",
           "team": "COL",
-          "value": ".374"
+          "value": ".378"
         },
         {
           "name": "Pete Crow-Armstrong",
@@ -1620,13 +1620,13 @@
           "value": ".507"
         },
         {
-          "name": "Jordan Walker",
-          "team": "STL",
-          "value": ".502"
-        },
-        {
           "name": "Jake Bauers",
           "team": "MIL",
+          "value": ".501"
+        },
+        {
+          "name": "Max Muncy",
+          "team": "LAD",
           "value": ".501"
         }
       ],
@@ -1669,7 +1669,7 @@
         {
           "name": "CJ Abrams",
           "team": "WSH",
-          "value": ".870"
+          "value": ".872"
         },
         {
           "name": "Hunter Goodman",
@@ -1748,7 +1748,7 @@
         {
           "name": "Alec Burleson",
           "team": "STL",
-          "value": "147"
+          "value": "148"
         },
         {
           "name": "Freddie Freeman",
