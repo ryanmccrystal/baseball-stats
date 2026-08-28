@@ -83,18 +83,18 @@
       "away_stats": {
         "wins": 5,
         "losses": 8,
-        "era": "5.13",
-        "k9": "7.0",
+        "era": "5.14",
+        "k9": "7.1",
         "hand": "R",
-        "team_record": "10-10"
+        "team_record": "10-11"
       },
       "home_stats": {
         "wins": 7,
         "losses": 7,
-        "era": "5.17",
-        "k9": "7.8",
+        "era": "5.11",
+        "k9": "8.0",
         "hand": "L",
-        "team_record": "8-9"
+        "team_record": "9-9"
       }
     },
     {
@@ -193,9 +193,16 @@
       "away_name": "Mariners",
       "home_name": "Blue Jays",
       "game_time": "2026-08-28T23:15:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Emerson Hancock",
       "home_pitcher": "Dylan Cease",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 7,
+        "losses": 7,
+        "era": "3.37",
+        "k9": "8.4",
+        "hand": "R",
+        "team_record": "12-12"
+      },
       "home_stats": {
         "wins": 8,
         "losses": 5,

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28 02:06 PM EDT",
+  "last_updated": "2026-08-28 03:55 PM EDT",
   "al": {
     "battingAverage": [
       {
@@ -744,14 +744,14 @@
         "value": 29
       },
       {
-        "player": "Devers",
-        "team": "Sfg",
+        "player": "Stewart",
+        "team": "Cin",
         "value": 29
       },
       {
-        "player": "Stewart",
-        "team": "Cin",
-        "value": 28
+        "player": "Devers",
+        "team": "Sfg",
+        "value": 29
       },
       {
         "player": "Walker",
@@ -763,7 +763,7 @@
       {
         "player": "Stewart",
         "team": "Cin",
-        "value": 100
+        "value": 101
       },
       {
         "player": "Burleson",
@@ -855,7 +855,7 @@
       {
         "player": "Crow-Armstrong",
         "team": "Chc",
-        "value": 141
+        "value": 142
       },
       {
         "player": "Edwards",
