@@ -348,7 +348,7 @@
       "home_name": "Athletics",
       "game_time": "2026-08-29T01:40:00Z",
       "away_pitcher": "Brandon Young",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Jacob Lopez",
       "away_stats": {
         "wins": 9,
         "losses": 3,
@@ -357,7 +357,14 @@
         "hand": "R",
         "team_record": "17-5"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 5,
+        "losses": 4,
+        "era": "4.98",
+        "k9": "8.6",
+        "hand": "L",
+        "team_record": "8-10"
+      }
     },
     {
       "away_name": "DBacks",
