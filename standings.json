@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27 18:51 UTC",
+  "last_updated": "2026-08-28 13:56 UTC",
   "al": {
     "east": [
       {
@@ -22,15 +22,15 @@
         "city": "New York",
         "nickname": "Yankees",
         "wins": 75,
-        "losses": 57,
-        "pct": ".568",
-        "gb": "3.5",
+        "losses": 58,
+        "pct": ".564",
+        "gb": "4.0",
         "last10": "7-3",
-        "streak": "W1",
-        "home": "34-29",
+        "streak": "L1",
+        "home": "34-30",
         "away": "41-28",
         "oneRun": "16-19",
-        "runDiff": "+104"
+        "runDiff": "+100"
       },
       {
         "teamId": 111,
@@ -52,30 +52,30 @@
         "city": "Baltimore",
         "nickname": "Orioles",
         "wins": 65,
-        "losses": 68,
-        "pct": ".489",
-        "gb": "14.0",
-        "last10": "5-5",
-        "streak": "W2",
+        "losses": 69,
+        "pct": ".485",
+        "gb": "14.5",
+        "last10": "4-6",
+        "streak": "L1",
         "home": "34-34",
-        "away": "31-34",
+        "away": "31-35",
         "oneRun": "14-19",
-        "runDiff": "-22"
+        "runDiff": "-24"
       },
       {
         "teamId": 141,
         "city": "Toronto",
         "nickname": "Blue Jays",
         "wins": 65,
-        "losses": 69,
-        "pct": ".485",
-        "gb": "14.5",
-        "last10": "5-5",
-        "streak": "W1",
-        "home": "34-34",
+        "losses": 70,
+        "pct": ".481",
+        "gb": "15.0",
+        "last10": "4-6",
+        "streak": "L1",
+        "home": "34-35",
         "away": "31-35",
         "oneRun": "17-21",
-        "runDiff": "-54"
+        "runDiff": "-65"
       }
     ],
     "central": [
@@ -143,16 +143,16 @@
         "teamId": 118,
         "city": "Kansas City",
         "nickname": "Royals",
-        "wins": 59,
+        "wins": 60,
         "losses": 75,
-        "pct": ".440",
-        "gb": "11.5",
+        "pct": ".444",
+        "gb": "11.0",
         "last10": "9-1",
-        "streak": "L1",
+        "streak": "W1",
         "home": "36-30",
-        "away": "23-45",
+        "away": "24-45",
         "oneRun": "18-22",
-        "runDiff": "-92"
+        "runDiff": "-81"
       }
     ],
     "west": [
@@ -160,16 +160,16 @@
         "teamId": 117,
         "city": "Houston",
         "nickname": "Astros",
-        "wins": 66,
+        "wins": 67,
         "losses": 67,
-        "pct": ".496",
+        "pct": ".500",
         "gb": "-",
-        "last10": "3-7",
-        "streak": "L1",
+        "last10": "4-6",
+        "streak": "W1",
         "home": "33-35",
-        "away": "33-32",
+        "away": "34-32",
         "oneRun": "13-13",
-        "runDiff": "-48"
+        "runDiff": "-44"
       },
       {
         "teamId": 140,
@@ -178,7 +178,7 @@
         "wins": 66,
         "losses": 68,
         "pct": ".493",
-        "gb": "0.5",
+        "gb": "1.0",
         "last10": "5-5",
         "streak": "L2",
         "home": "36-29",
@@ -193,7 +193,7 @@
         "wins": 64,
         "losses": 70,
         "pct": ".478",
-        "gb": "2.5",
+        "gb": "3.0",
         "last10": "6-4",
         "streak": "L1",
         "home": "37-31",
@@ -208,7 +208,7 @@
         "wins": 53,
         "losses": 81,
         "pct": ".396",
-        "gb": "13.5",
+        "gb": "14.0",
         "last10": "4-6",
         "streak": "W2",
         "home": "25-41",
@@ -223,7 +223,7 @@
         "wins": 52,
         "losses": 82,
         "pct": ".388",
-        "gb": "14.5",
+        "gb": "15.0",
         "last10": "3-7",
         "streak": "L4",
         "home": "29-39",
@@ -236,8 +236,8 @@
       {
         "city": "New York",
         "wins": 75,
-        "losses": 57,
-        "pct": ".568",
+        "losses": 58,
+        "pct": ".564",
         "wcgb": "--"
       },
       {
@@ -264,16 +264,16 @@
       {
         "city": "Baltimore",
         "wins": 65,
-        "losses": 68,
-        "pct": ".489",
-        "wcgb": "2.5"
+        "losses": 69,
+        "pct": ".485",
+        "wcgb": "3.0"
       },
       {
         "city": "Toronto",
         "wins": 65,
-        "losses": 69,
-        "pct": ".485",
-        "wcgb": "3.0"
+        "losses": 70,
+        "pct": ".481",
+        "wcgb": "3.5"
       },
       {
         "city": "Minnesota",
@@ -298,10 +298,10 @@
       },
       {
         "city": "Kansas City",
-        "wins": 59,
+        "wins": 60,
         "losses": 75,
-        "pct": ".440",
-        "wcgb": "9.0"
+        "pct": ".444",
+        "wcgb": "8.5"
       },
       {
         "city": "Athletics",
@@ -325,16 +325,16 @@
         "teamId": 144,
         "city": "Atlanta",
         "nickname": "Braves",
-        "wins": 78,
+        "wins": 79,
         "losses": 55,
-        "pct": ".586",
+        "pct": ".590",
         "gb": "-",
         "last10": "5-5",
-        "streak": "W3",
-        "home": "44-23",
+        "streak": "W4",
+        "home": "45-23",
         "away": "34-32",
-        "oneRun": "21-19",
-        "runDiff": "+112"
+        "oneRun": "22-19",
+        "runDiff": "+113"
       },
       {
         "teamId": 143,
@@ -343,7 +343,7 @@
         "wins": 74,
         "losses": 60,
         "pct": ".552",
-        "gb": "4.5",
+        "gb": "5.0",
         "last10": "8-2",
         "streak": "W1",
         "home": "38-30",
@@ -358,7 +358,7 @@
         "wins": 68,
         "losses": 66,
         "pct": ".507",
-        "gb": "10.5",
+        "gb": "11.0",
         "last10": "5-5",
         "streak": "W1",
         "home": "42-27",
@@ -370,31 +370,31 @@
         "teamId": 120,
         "city": "Washington",
         "nickname": "Nationals",
-        "wins": 62,
+        "wins": 63,
         "losses": 73,
-        "pct": ".459",
+        "pct": ".463",
         "gb": "17.0",
-        "last10": "2-8",
-        "streak": "L2",
-        "home": "28-38",
+        "last10": "3-7",
+        "streak": "W1",
+        "home": "29-38",
         "away": "34-35",
         "oneRun": "13-19",
-        "runDiff": "+6"
+        "runDiff": "+12"
       },
       {
         "teamId": 121,
         "city": "New York",
         "nickname": "Mets",
         "wins": 60,
-        "losses": 73,
-        "pct": ".451",
-        "gb": "18.0",
-        "last10": "6-4",
-        "streak": "L1",
-        "home": "31-36",
+        "losses": 74,
+        "pct": ".448",
+        "gb": "19.0",
+        "last10": "5-5",
+        "streak": "L2",
+        "home": "31-37",
         "away": "29-37",
         "oneRun": "15-21",
-        "runDiff": "-46"
+        "runDiff": "-52"
       }
     ],
     "central": [
@@ -402,16 +402,16 @@
         "teamId": 158,
         "city": "Milwaukee",
         "nickname": "Brewers",
-        "wins": 82,
+        "wins": 83,
         "losses": 51,
-        "pct": ".617",
+        "pct": ".619",
         "gb": "-",
         "last10": "7-3",
-        "streak": "W1",
+        "streak": "W2",
         "home": "45-24",
-        "away": "37-27",
+        "away": "38-27",
         "oneRun": "21-18",
-        "runDiff": "+167"
+        "runDiff": "+173"
       },
       {
         "teamId": 112,
@@ -420,7 +420,7 @@
         "wins": 76,
         "losses": 58,
         "pct": ".567",
-        "gb": "6.5",
+        "gb": "7.0",
         "last10": "4-6",
         "streak": "L2",
         "home": "38-27",
@@ -432,16 +432,16 @@
         "teamId": 138,
         "city": "St. Louis",
         "nickname": "Cardinals",
-        "wins": 66,
+        "wins": 67,
         "losses": 68,
-        "pct": ".493",
+        "pct": ".496",
         "gb": "16.5",
         "last10": "3-7",
-        "streak": "L5",
-        "home": "32-36",
+        "streak": "W1",
+        "home": "33-36",
         "away": "34-32",
         "oneRun": "22-21",
-        "runDiff": "-15"
+        "runDiff": "-13"
       },
       {
         "teamId": 134,
@@ -450,7 +450,7 @@
         "wins": 65,
         "losses": 70,
         "pct": ".481",
-        "gb": "18.0",
+        "gb": "18.5",
         "last10": "5-5",
         "streak": "L1",
         "home": "34-32",
@@ -465,7 +465,7 @@
         "wins": 63,
         "losses": 71,
         "pct": ".470",
-        "gb": "19.5",
+        "gb": "20.0",
         "last10": "4-6",
         "streak": "W1",
         "home": "32-36",
@@ -480,15 +480,15 @@
         "city": "Los Angeles",
         "nickname": "Dodgers",
         "wins": 80,
-        "losses": 53,
-        "pct": ".602",
+        "losses": 54,
+        "pct": ".597",
         "gb": "-",
         "last10": "6-4",
-        "streak": "L2",
+        "streak": "L3",
         "home": "40-26",
-        "away": "40-27",
-        "oneRun": "26-20",
-        "runDiff": "+149"
+        "away": "40-28",
+        "oneRun": "26-21",
+        "runDiff": "+148"
       },
       {
         "teamId": 135,
@@ -497,7 +497,7 @@
         "wins": 72,
         "losses": 62,
         "pct": ".537",
-        "gb": "8.5",
+        "gb": "8.0",
         "last10": "6-4",
         "streak": "W1",
         "home": "41-28",
@@ -510,45 +510,45 @@
         "city": "Arizona",
         "nickname": "Diamondbacks",
         "wins": 71,
-        "losses": 63,
-        "pct": ".530",
+        "losses": 64,
+        "pct": ".526",
         "gb": "9.5",
         "last10": "5-5",
-        "streak": "W2",
+        "streak": "L1",
         "home": "40-29",
-        "away": "31-34",
+        "away": "31-35",
         "oneRun": "23-18",
-        "runDiff": "+5"
+        "runDiff": "0"
       },
       {
         "teamId": 137,
         "city": "San Francisco",
         "nickname": "Giants",
-        "wins": 54,
+        "wins": 55,
         "losses": 79,
-        "pct": ".406",
-        "gb": "26.0",
-        "last10": "3-7",
-        "streak": "L1",
-        "home": "31-34",
+        "pct": ".410",
+        "gb": "25.0",
+        "last10": "4-6",
+        "streak": "W1",
+        "home": "32-34",
         "away": "23-45",
         "oneRun": "11-24",
-        "runDiff": "-74"
+        "runDiff": "-69"
       },
       {
         "teamId": 115,
         "city": "Colorado",
         "nickname": "Rockies",
         "wins": 52,
-        "losses": 81,
-        "pct": ".391",
+        "losses": 82,
+        "pct": ".388",
         "gb": "28.0",
-        "last10": "3-7",
-        "streak": "W2",
+        "last10": "2-8",
+        "streak": "L1",
         "home": "27-38",
-        "away": "25-43",
+        "away": "25-44",
         "oneRun": "16-18",
-        "runDiff": "-132"
+        "runDiff": "-138"
       }
     ],
     "wildcard": [
@@ -576,9 +576,9 @@
       {
         "city": "Arizona",
         "wins": 71,
-        "losses": 63,
-        "pct": ".530",
-        "wcgb": "1.0"
+        "losses": 64,
+        "pct": ".526",
+        "wcgb": "1.5"
       },
       {
         "city": "Miami",
@@ -589,10 +589,10 @@
       },
       {
         "city": "St. Louis",
-        "wins": 66,
+        "wins": 67,
         "losses": 68,
-        "pct": ".493",
-        "wcgb": "6.0"
+        "pct": ".496",
+        "wcgb": "5.5"
       },
       {
         "city": "Pittsburgh",
@@ -610,31 +610,31 @@
       },
       {
         "city": "Washington",
-        "wins": 62,
+        "wins": 63,
         "losses": 73,
-        "pct": ".459",
-        "wcgb": "10.5"
+        "pct": ".463",
+        "wcgb": "10.0"
       },
       {
         "city": "New York",
         "wins": 60,
-        "losses": 73,
-        "pct": ".451",
-        "wcgb": "11.5"
+        "losses": 74,
+        "pct": ".448",
+        "wcgb": "12.0"
       },
       {
         "city": "San Francisco",
-        "wins": 54,
+        "wins": 55,
         "losses": 79,
-        "pct": ".406",
-        "wcgb": "17.5"
+        "pct": ".410",
+        "wcgb": "17.0"
       },
       {
         "city": "Colorado",
         "wins": 52,
-        "losses": 81,
-        "pct": ".391",
-        "wcgb": "19.5"
+        "losses": 82,
+        "pct": ".388",
+        "wcgb": "20.0"
       }
     ]
   }
