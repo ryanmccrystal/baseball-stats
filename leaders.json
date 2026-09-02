@@ -1,42 +1,42 @@
 {
-  "last_updated": "2026-09-01 09:07 AM EDT",
+  "last_updated": "2026-09-02 06:26 AM EDT",
   "al": {
     "battingAverage": [
       {
         "player": "Alvarez",
         "team": "Hou",
-        "games": 136,
-        "ab": 489,
+        "games": 137,
+        "ab": 491,
         "runs": 91,
         "hits": 155,
-        "avg": ".317"
+        "avg": ".316"
       },
       {
         "player": "Simpson",
         "team": "Tbr",
-        "games": 129,
-        "ab": 483,
-        "runs": 53,
-        "hits": 150,
-        "avg": ".311"
+        "games": 130,
+        "ab": 487,
+        "runs": 54,
+        "hits": 151,
+        "avg": ".310"
       },
       {
         "player": "D\u00edaz",
         "team": "Tbr",
-        "games": 132,
-        "ab": 523,
-        "runs": 78,
-        "hits": 157,
-        "avg": ".300"
+        "games": 133,
+        "ab": 527,
+        "runs": 80,
+        "hits": 159,
+        "avg": ".302"
       },
       {
         "player": "DeLauter",
         "team": "Cle",
-        "games": 115,
-        "ab": 427,
+        "games": 116,
+        "ab": 431,
         "runs": 55,
         "hits": 125,
-        "avg": ".293"
+        "avg": ".290"
       },
       {
         "player": "Hicks",
@@ -48,48 +48,48 @@
         "avg": ".290"
       },
       {
-        "player": "Witt",
-        "team": "Kan",
-        "games": 119,
-        "ab": 467,
-        "runs": 77,
-        "hits": 133,
-        "avg": ".285"
-      },
-      {
         "player": "Garc\u00eda",
         "team": "Nyy",
-        "games": 128,
-        "ab": 446,
+        "games": 129,
+        "ab": 451,
         "runs": 61,
-        "hits": 127,
-        "avg": ".285"
+        "hits": 129,
+        "avg": ".286"
       },
       {
-        "player": "Caglianone",
+        "player": "Witt",
         "team": "Kan",
-        "games": 126,
-        "ab": 457,
-        "runs": 64,
-        "hits": 130,
-        "avg": ".284"
-      },
-      {
-        "player": "Rafaela",
-        "team": "Bos",
-        "games": 133,
-        "ab": 529,
-        "runs": 67,
-        "hits": 150,
-        "avg": ".284"
+        "games": 120,
+        "ab": 470,
+        "runs": 77,
+        "hits": 134,
+        "avg": ".285"
       },
       {
         "player": "Caminero",
         "team": "Tbr",
-        "games": 137,
-        "ab": 522,
+        "games": 138,
+        "ab": 527,
         "runs": 85,
-        "hits": 147,
+        "hits": 149,
+        "avg": ".283"
+      },
+      {
+        "player": "Caglianone",
+        "team": "Kan",
+        "games": 127,
+        "ab": 460,
+        "runs": 64,
+        "hits": 130,
+        "avg": ".283"
+      },
+      {
+        "player": "Rafaela",
+        "team": "Bos",
+        "games": 134,
+        "ab": 532,
+        "runs": 67,
+        "hits": 150,
         "avg": ".282"
       }
     ],
@@ -120,12 +120,12 @@
         "value": 29
       },
       {
-        "player": "Murakami",
+        "player": "CMontgomery",
         "team": "Chw",
         "value": 29
       },
       {
-        "player": "CMontgomery",
+        "player": "Murakami",
         "team": "Chw",
         "value": 29
       },
@@ -164,7 +164,7 @@
       {
         "player": "Caminero",
         "team": "Tbr",
-        "value": 87
+        "value": 88
       },
       {
         "player": "Rice",
@@ -201,7 +201,7 @@
       {
         "player": "D\u00edaz",
         "team": "Tbr",
-        "value": 157
+        "value": 159
       },
       {
         "player": "Alvarez",
@@ -211,7 +211,7 @@
       {
         "player": "Simpson",
         "team": "Tbr",
-        "value": 150
+        "value": 151
       },
       {
         "player": "Rafaela",
@@ -221,11 +221,16 @@
       {
         "player": "Caminero",
         "team": "Tbr",
-        "value": 147
+        "value": 149
       },
       {
         "player": "Clement",
         "team": "Tor",
+        "value": 141
+      },
+      {
+        "player": "McGonigle",
+        "team": "Det",
         "value": 141
       },
       {
@@ -234,26 +239,21 @@
         "value": 140
       },
       {
-        "player": "McGonigle",
-        "team": "Det",
+        "player": "Alonso",
+        "team": "Bal",
         "value": 140
       },
       {
-        "player": "Alonso",
-        "team": "Bal",
-        "value": 139
-      },
-      {
-        "player": "Witt",
-        "team": "Kan",
-        "value": 133
+        "player": "Nimmo",
+        "team": "Tex",
+        "value": 137
       }
     ],
     "runs": [
       {
         "player": "Vargas",
         "team": "Chw",
-        "value": 92
+        "value": 93
       },
       {
         "player": "Alvarez",
@@ -263,12 +263,17 @@
       {
         "player": "Arozarena",
         "team": "Sea",
-        "value": 88
+        "value": 89
       },
       {
         "player": "Neto",
         "team": "Laa",
-        "value": 87
+        "value": 88
+      },
+      {
+        "player": "Rice",
+        "team": "Nyy",
+        "value": 86
       },
       {
         "player": "Caminero",
@@ -276,14 +281,9 @@
         "value": 85
       },
       {
-        "player": "Rice",
-        "team": "Nyy",
-        "value": 85
-      },
-      {
         "player": "McGonigle",
         "team": "Det",
-        "value": 84
+        "value": 85
       },
       {
         "player": "Alonso",
@@ -298,7 +298,7 @@
       {
         "player": "D\u00edaz",
         "team": "Tbr",
-        "value": 78
+        "value": 80
       }
     ],
     "stolenBases": [
@@ -315,7 +315,7 @@
       {
         "player": "Witt",
         "team": "Kan",
-        "value": 36
+        "value": 37
       },
       {
         "player": "Ram\u00edrez",
@@ -385,6 +385,11 @@
         "value": "2.99"
       },
       {
+        "player": "Burke",
+        "team": "Chw",
+        "value": "3.20"
+      },
+      {
         "player": "Griffin",
         "team": "Cle",
         "value": "3.21"
@@ -393,11 +398,6 @@
         "player": "Montero",
         "team": "Det",
         "value": "3.24"
-      },
-      {
-        "player": "Burke",
-        "team": "Chw",
-        "value": "3.32"
       },
       {
         "player": "Wacha",
@@ -427,13 +427,13 @@
         "value": 13
       },
       {
-        "player": "Schlittler",
-        "team": "Nyy",
-        "value": 12
-      },
-      {
         "player": "Williams",
         "team": "Cle",
+        "value": 13
+      },
+      {
+        "player": "Schlittler",
+        "team": "Nyy",
         "value": 12
       },
       {
@@ -466,7 +466,7 @@
       {
         "player": "Williams",
         "team": "Cle",
-        "value": 204
+        "value": 217
       },
       {
         "player": "Schlittler",
@@ -484,6 +484,16 @@
         "value": 174
       },
       {
+        "player": "Gore",
+        "team": "Tex",
+        "value": 169
+      },
+      {
+        "player": "Burke",
+        "team": "Chw",
+        "value": 167
+      },
+      {
         "player": "deGrom",
         "team": "Tex",
         "value": 167
@@ -494,18 +504,8 @@
         "value": 166
       },
       {
-        "player": "Gore",
-        "team": "Tex",
-        "value": 165
-      },
-      {
         "player": "Messick",
         "team": "Cle",
-        "value": 161
-      },
-      {
-        "player": "Burke",
-        "team": "Chw",
         "value": 161
       }
     ],
@@ -538,7 +538,7 @@
       {
         "player": "Latz",
         "team": "Tex",
-        "value": 27
+        "value": 28
       },
       {
         "player": "Mu\u00f1oz",
@@ -575,7 +575,7 @@
       {
         "player": "Gaddis",
         "team": "Cle",
-        "value": 27
+        "value": 28
       },
       {
         "player": "Bazardo",
@@ -585,7 +585,7 @@
       {
         "player": "Headrick",
         "team": "Nyy",
-        "value": 23
+        "value": 24
       },
       {
         "player": "Sabrowski",
@@ -619,92 +619,92 @@
       {
         "player": "Arraez",
         "team": "Phi",
-        "games": 130,
-        "ab": 519,
+        "games": 131,
+        "ab": 523,
         "runs": 63,
-        "hits": 164,
-        "avg": ".316"
+        "hits": 166,
+        "avg": ".317"
       },
       {
         "player": "Gonzales",
         "team": "Pit",
-        "games": 128,
-        "ab": 482,
-        "runs": 66,
-        "hits": 148,
-        "avg": ".307"
+        "games": 129,
+        "ab": 487,
+        "runs": 67,
+        "hits": 151,
+        "avg": ".310"
       },
       {
         "player": "Lopez",
         "team": "Mia",
-        "games": 134,
-        "ab": 538,
-        "runs": 80,
-        "hits": 164,
+        "games": 135,
+        "ab": 541,
+        "runs": 81,
+        "hits": 165,
         "avg": ".305"
       },
       {
         "player": "Freeman",
         "team": "Lad",
-        "games": 133,
-        "ab": 503,
-        "runs": 68,
+        "games": 134,
+        "ab": 505,
+        "runs": 69,
         "hits": 153,
-        "avg": ".304"
+        "avg": ".303"
       },
       {
         "player": "Moreno",
         "team": "Ari",
-        "games": 108,
-        "ab": 389,
+        "games": 109,
+        "ab": 393,
         "runs": 58,
         "hits": 118,
-        "avg": ".303"
+        "avg": ".300"
       },
       {
         "player": "Harris",
         "team": "Atl",
-        "games": 132,
-        "ab": 502,
-        "runs": 65,
-        "hits": 149,
-        "avg": ".297"
+        "games": 133,
+        "ab": 506,
+        "runs": 66,
+        "hits": 150,
+        "avg": ".296"
       },
       {
         "player": "Rumfield",
         "team": "Col",
-        "games": 134,
-        "ab": 469,
-        "runs": 55,
-        "hits": 136,
+        "games": 135,
+        "ab": 472,
+        "runs": 56,
+        "hits": 137,
         "avg": ".290"
       },
       {
         "player": "McCarthy",
         "team": "Col",
-        "games": 123,
-        "ab": 450,
+        "games": 124,
+        "ab": 455,
         "runs": 66,
-        "hits": 130,
-        "avg": ".289"
+        "hits": 132,
+        "avg": ".290"
+      },
+      {
+        "player": "Walker",
+        "team": "Stl",
+        "games": 135,
+        "ab": 527,
+        "runs": 88,
+        "hits": 152,
+        "avg": ".288"
       },
       {
         "player": "Lee",
         "team": "Sfg",
-        "games": 126,
-        "ab": 475,
-        "runs": 61,
+        "games": 127,
+        "ab": 480,
+        "runs": 62,
         "hits": 137,
-        "avg": ".288"
-      },
-      {
-        "player": "Burleson",
-        "team": "Stl",
-        "games": 137,
-        "ab": 521,
-        "runs": 78,
-        "hits": 150,
-        "avg": ".288"
+        "avg": ".285"
       }
     ],
     "homeRuns": [
@@ -734,6 +734,11 @@
         "value": 31
       },
       {
+        "player": "Devers",
+        "team": "Sfg",
+        "value": 31
+      },
+      {
         "player": "Ohtani",
         "team": "Lad",
         "value": 30
@@ -744,11 +749,6 @@
         "value": 30
       },
       {
-        "player": "Devers",
-        "team": "Sfg",
-        "value": 30
-      },
-      {
         "player": "Abrams",
         "team": "Wsh",
         "value": 29
@@ -756,7 +756,7 @@
       {
         "player": "Lowe",
         "team": "Pit",
-        "value": 28
+        "value": 29
       }
     ],
     "rbi": [
@@ -773,12 +773,12 @@
       {
         "player": "Walker",
         "team": "Stl",
-        "value": 97
+        "value": 99
       },
       {
         "player": "Abrams",
         "team": "Wsh",
-        "value": 92
+        "value": 94
       },
       {
         "player": "Crow-Armstrong",
@@ -788,25 +788,25 @@
       {
         "player": "Lowe",
         "team": "Pit",
-        "value": 82
+        "value": 83
       },
       {
         "player": "Schwarber",
         "team": "Phi",
+        "value": 83
+      },
+      {
+        "player": "Devers",
+        "team": "Sfg",
         "value": 82
       },
       {
+        "player": "Harris",
+        "team": "Atl",
+        "value": 80
+      },
+      {
         "player": "Ohtani",
-        "team": "Lad",
-        "value": 80
-      },
-      {
-        "player": "Suzuki",
-        "team": "Chc",
-        "value": 80
-      },
-      {
-        "player": "Pages",
         "team": "Lad",
         "value": 80
       }
@@ -815,17 +815,37 @@
       {
         "player": "Arraez",
         "team": "Phi",
-        "value": 164
+        "value": 166
       },
       {
         "player": "Lopez",
         "team": "Mia",
-        "value": 164
+        "value": 165
       },
       {
         "player": "Freeman",
         "team": "Lad",
         "value": 153
+      },
+      {
+        "player": "Walker",
+        "team": "Stl",
+        "value": 152
+      },
+      {
+        "player": "Tatis",
+        "team": "Sdp",
+        "value": 152
+      },
+      {
+        "player": "Gonzales",
+        "team": "Pit",
+        "value": 151
+      },
+      {
+        "player": "Harris",
+        "team": "Atl",
+        "value": 150
       },
       {
         "player": "Burleson",
@@ -838,29 +858,9 @@
         "value": 150
       },
       {
-        "player": "Tatis",
-        "team": "Sdp",
-        "value": 150
-      },
-      {
-        "player": "Harris",
-        "team": "Atl",
-        "value": 149
-      },
-      {
-        "player": "Walker",
-        "team": "Stl",
-        "value": 149
-      },
-      {
-        "player": "Gonzales",
-        "team": "Pit",
-        "value": 148
-      },
-      {
-        "player": "Edwards",
-        "team": "Mia",
-        "value": 141
+        "player": "Stewart",
+        "team": "Cin",
+        "value": 143
       }
     ],
     "runs": [
@@ -877,12 +877,22 @@
       {
         "player": "Olson",
         "team": "Atl",
-        "value": 93
+        "value": 94
       },
       {
         "player": "Reynolds",
         "team": "Pit",
-        "value": 89
+        "value": 92
+      },
+      {
+        "player": "Walker",
+        "team": "Stl",
+        "value": 88
+      },
+      {
+        "player": "Ohtani",
+        "team": "Lad",
+        "value": 88
       },
       {
         "player": "Wetherholt",
@@ -892,27 +902,17 @@
       {
         "player": "Turner",
         "team": "Phi",
-        "value": 87
-      },
-      {
-        "player": "Walker",
-        "team": "Stl",
-        "value": 86
-      },
-      {
-        "player": "Ohtani",
-        "team": "Lad",
-        "value": 86
+        "value": 88
       },
       {
         "player": "Suzuki",
         "team": "Chc",
-        "value": 84
+        "value": 85
       },
       {
         "player": "Harper",
         "team": "Phi",
-        "value": 84
+        "value": 85
       }
     ],
     "stolenBases": [
@@ -942,19 +942,14 @@
         "value": 29
       },
       {
+        "player": "Abrams",
+        "team": "Wsh",
+        "value": 27
+      },
+      {
         "player": "McCarthy",
         "team": "Col",
         "value": 26
-      },
-      {
-        "player": "Abrams",
-        "team": "Wsh",
-        "value": 26
-      },
-      {
-        "player": "De La Cruz",
-        "team": "Cin",
-        "value": 24
       },
       {
         "player": "Cruz",
@@ -962,8 +957,13 @@
         "value": 24
       },
       {
-        "player": "Merrill",
-        "team": "Sdp",
+        "player": "De La Cruz",
+        "team": "Cin",
+        "value": 24
+      },
+      {
+        "player": "Stott",
+        "team": "Phi",
         "value": 24
       }
     ],
@@ -979,11 +979,6 @@
         "value": "2.06"
       },
       {
-        "player": "Rodriguez",
-        "team": "Ari",
-        "value": "2.50"
-      },
-      {
         "player": "S\u00e1nchez",
         "team": "Phi",
         "value": "2.52"
@@ -994,19 +989,24 @@
         "value": "2.56"
       },
       {
+        "player": "Rodriguez",
+        "team": "Ari",
+        "value": "2.59"
+      },
+      {
         "player": "Burns",
         "team": "Cin",
         "value": "2.79"
       },
       {
+        "player": "Luzardo",
+        "team": "Phi",
+        "value": "3.02"
+      },
+      {
         "player": "McLean",
         "team": "Nym",
         "value": "3.06"
-      },
-      {
-        "player": "Luzardo",
-        "team": "Phi",
-        "value": "3.09"
       },
       {
         "player": "King",
@@ -1051,6 +1051,11 @@
         "value": 13
       },
       {
+        "player": "Luzardo",
+        "team": "Phi",
+        "value": 13
+      },
+      {
         "player": "Ashby",
         "team": "Mil",
         "value": 13
@@ -1064,11 +1069,6 @@
         "player": "Yamamoto",
         "team": "Lad",
         "value": 12
-      },
-      {
-        "player": "Luzardo",
-        "team": "Phi",
-        "value": 12
       }
     ],
     "strikeOuts": [
@@ -1080,12 +1080,17 @@
       {
         "player": "Luzardo",
         "team": "Phi",
-        "value": 203
+        "value": 209
       },
       {
         "player": "S\u00e1nchez",
         "team": "Phi",
         "value": 202
+      },
+      {
+        "player": "Skenes",
+        "team": "Pit",
+        "value": 179
       },
       {
         "player": "Sale",
@@ -1096,11 +1101,6 @@
         "player": "Cavalli",
         "team": "Wsh",
         "value": 177
-      },
-      {
-        "player": "Skenes",
-        "team": "Pit",
-        "value": 175
       },
       {
         "player": "McLean",
@@ -1157,7 +1157,7 @@
       {
         "player": "Pag\u00e1n",
         "team": "Cin",
-        "value": 19
+        "value": 20
       },
       {
         "player": "Fairbanks",
@@ -1198,8 +1198,8 @@
       },
       {
         "player": "Romero",
-        "team": "Stl",
-        "value": 20
+        "team": "Mil",
+        "value": 21
       },
       {
         "player": "Soriano",
@@ -1209,7 +1209,7 @@
       {
         "player": "Uribe",
         "team": "Mil",
-        "value": 18
+        "value": 19
       },
       {
         "player": "Vesia",
@@ -1222,8 +1222,8 @@
         "value": 17
       },
       {
-        "player": "Weaver",
-        "team": "Pit",
+        "player": "Adam",
+        "team": "Sdp",
         "value": 17
       }
     ]
