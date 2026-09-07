@@ -196,9 +196,16 @@
       "away_name": "DBacks",
       "home_name": "Royals",
       "game_time": "2026-09-07T18:10:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Derek Law",
       "home_pitcher": "Noah Cameron",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 0,
+        "losses": 0,
+        "era": "1.93",
+        "k9": "5.8",
+        "hand": "R",
+        "team_record": "0-0"
+      },
       "home_stats": {
         "wins": 9,
         "losses": 8,
