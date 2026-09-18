@@ -177,9 +177,16 @@
       "away_name": "Phillies",
       "home_name": "Mets",
       "game_time": "2026-09-18T23:15:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Andrew Painter",
       "home_pitcher": "Zac Thornton",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 3,
+        "losses": 9,
+        "era": "5.54",
+        "k9": "7.8",
+        "hand": "R",
+        "team_record": "8-13"
+      },
       "home_stats": {
         "wins": 4,
         "losses": 5,
