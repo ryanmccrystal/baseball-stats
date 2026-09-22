@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 10:51 AM EDT",
+  "last_updated": "2026-09-22 06:48 AM EDT",
   "al": {
     "battingAverage": [
       {
@@ -50,11 +50,11 @@
       {
         "player": "Greene",
         "team": "Det",
-        "games": 135,
-        "ab": 494,
-        "runs": 77,
+        "games": 136,
+        "ab": 497,
+        "runs": 78,
         "hits": 141,
-        "avg": ".285"
+        "avg": ".284"
       },
       {
         "player": "Rafaela",
@@ -105,14 +105,14 @@
         "value": 40
       },
       {
+        "player": "Alonso",
+        "team": "Bal",
+        "value": 40
+      },
+      {
         "player": "Rice",
         "team": "Nyy",
         "value": 39
-      },
-      {
-        "player": "Alonso",
-        "team": "Bal",
-        "value": 38
       },
       {
         "player": "Vargas",
@@ -149,7 +149,7 @@
       {
         "player": "Alonso",
         "team": "Bal",
-        "value": 105
+        "value": 108
       },
       {
         "player": "Alvarez",
@@ -229,6 +229,11 @@
         "value": 156
       },
       {
+        "player": "Alonso",
+        "team": "Bal",
+        "value": 156
+      },
+      {
         "player": "Arozarena",
         "team": "Sea",
         "value": 154
@@ -236,11 +241,6 @@
       {
         "player": "Naylor",
         "team": "Sea",
-        "value": 154
-      },
-      {
-        "player": "Alonso",
-        "team": "Bal",
         "value": 154
       },
       {
@@ -288,7 +288,7 @@
       {
         "player": "Alonso",
         "team": "Bal",
-        "value": 92
+        "value": 94
       },
       {
         "player": "D\u00edaz",
@@ -872,7 +872,7 @@
       {
         "player": "Wood",
         "team": "Wsh",
-        "value": 103
+        "value": 104
       },
       {
         "player": "Reynolds",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 14:51 UTC",
+  "last_updated": "2026-09-22 10:48 UTC",
   "al": {
     "east": [
       {
@@ -52,30 +52,30 @@
         "city": "Toronto",
         "nickname": "Blue Jays",
         "wins": 77,
-        "losses": 79,
-        "pct": ".494",
-        "gb": "18.5",
+        "losses": 80,
+        "pct": ".490",
+        "gb": "19.0",
         "last10": "4-6",
-        "streak": "W1",
+        "streak": "L1",
         "home": "40-38",
-        "away": "37-41",
-        "oneRun": "19-23",
-        "runDiff": "-42"
+        "away": "37-42",
+        "oneRun": "19-24",
+        "runDiff": "-43"
       },
       {
         "teamId": 110,
         "city": "Baltimore",
         "nickname": "Orioles",
-        "wins": 75,
+        "wins": 76,
         "losses": 81,
-        "pct": ".481",
-        "gb": "20.5",
+        "pct": ".484",
+        "gb": "20.0",
         "last10": "5-5",
-        "streak": "L3",
-        "home": "36-42",
+        "streak": "W1",
+        "home": "37-42",
         "away": "39-39",
-        "oneRun": "17-24",
-        "runDiff": "-31"
+        "oneRun": "18-24",
+        "runDiff": "-30"
       }
     ],
     "central": [
@@ -110,34 +110,34 @@
         "runDiff": "+42"
       },
       {
+        "teamId": 116,
+        "city": "Detroit",
+        "nickname": "Tigers",
+        "wins": 74,
+        "losses": 83,
+        "pct": ".471",
+        "gb": "7.5",
+        "last10": "6-4",
+        "streak": "W1",
+        "home": "40-36",
+        "away": "34-47",
+        "oneRun": "15-27",
+        "runDiff": "+75"
+      },
+      {
         "teamId": 142,
         "city": "Minnesota",
         "nickname": "Twins",
         "wins": 73,
-        "losses": 83,
-        "pct": ".468",
-        "gb": "8.0",
+        "losses": 84,
+        "pct": ".465",
+        "gb": "8.5",
         "last10": "4-6",
-        "streak": "W1",
+        "streak": "L1",
         "home": "40-38",
-        "away": "33-45",
+        "away": "33-46",
         "oneRun": "17-23",
-        "runDiff": "-64"
-      },
-      {
-        "teamId": 116,
-        "city": "Detroit",
-        "nickname": "Tigers",
-        "wins": 73,
-        "losses": 83,
-        "pct": ".468",
-        "gb": "8.0",
-        "last10": "6-4",
-        "streak": "L2",
-        "home": "39-36",
-        "away": "34-47",
-        "oneRun": "15-27",
-        "runDiff": "+68"
+        "runDiff": "-67"
       },
       {
         "teamId": 118,
@@ -255,13 +255,6 @@
         "wcgb": "--"
       },
       {
-        "city": "Toronto",
-        "wins": 77,
-        "losses": 79,
-        "pct": ".494",
-        "wcgb": "3.0"
-      },
-      {
         "city": "Houston",
         "wins": 77,
         "losses": 79,
@@ -269,25 +262,25 @@
         "wcgb": "3.0"
       },
       {
-        "city": "Baltimore",
-        "wins": 75,
-        "losses": 81,
-        "pct": ".481",
-        "wcgb": "5.0"
+        "city": "Toronto",
+        "wins": 77,
+        "losses": 80,
+        "pct": ".490",
+        "wcgb": "3.5"
       },
       {
-        "city": "Minnesota",
-        "wins": 73,
-        "losses": 83,
-        "pct": ".468",
-        "wcgb": "7.0"
+        "city": "Baltimore",
+        "wins": 76,
+        "losses": 81,
+        "pct": ".484",
+        "wcgb": "4.5"
       },
       {
         "city": "Detroit",
-        "wins": 73,
+        "wins": 74,
         "losses": 83,
-        "pct": ".468",
-        "wcgb": "7.0"
+        "pct": ".471",
+        "wcgb": "6.5"
       },
       {
         "city": "Seattle",
@@ -295,6 +288,13 @@
         "losses": 83,
         "pct": ".468",
         "wcgb": "7.0"
+      },
+      {
+        "city": "Minnesota",
+        "wins": 73,
+        "losses": 84,
+        "pct": ".465",
+        "wcgb": "7.5"
       },
       {
         "city": "Kansas City",
@@ -371,15 +371,15 @@
         "city": "Washington",
         "nickname": "Nationals",
         "wins": 73,
-        "losses": 83,
-        "pct": ".468",
-        "gb": "19.0",
+        "losses": 84,
+        "pct": ".465",
+        "gb": "19.5",
         "last10": "6-4",
-        "streak": "L1",
+        "streak": "L2",
         "home": "37-41",
-        "away": "36-42",
+        "away": "36-43",
         "oneRun": "17-22",
-        "runDiff": "+12"
+        "runDiff": "+5"
       },
       {
         "teamId": 121,
@@ -524,16 +524,16 @@
         "teamId": 137,
         "city": "San Francisco",
         "nickname": "Giants",
-        "wins": 64,
+        "wins": 65,
         "losses": 92,
-        "pct": ".410",
-        "gb": "32.0",
+        "pct": ".414",
+        "gb": "31.5",
         "last10": "3-7",
-        "streak": "L3",
-        "home": "36-39",
+        "streak": "W1",
+        "home": "37-39",
         "away": "28-53",
         "oneRun": "16-27",
-        "runDiff": "-84"
+        "runDiff": "-81"
       },
       {
         "teamId": 115,
@@ -604,9 +604,9 @@
       {
         "city": "Washington",
         "wins": 73,
-        "losses": 83,
-        "pct": ".468",
-        "wcgb": "13.0"
+        "losses": 84,
+        "pct": ".465",
+        "wcgb": "13.5"
       },
       {
         "city": "Cincinnati",
@@ -624,10 +624,10 @@
       },
       {
         "city": "San Francisco",
-        "wins": 64,
+        "wins": 65,
         "losses": 92,
-        "pct": ".410",
-        "wcgb": "22.0"
+        "pct": ".414",
+        "wcgb": "21.5"
       },
       {
         "city": "Colorado",
