@@ -166,9 +166,16 @@
       "away_name": "Cubs",
       "home_name": "Red Sox",
       "game_time": "2026-09-27T19:05:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Shota Imanaga",
       "home_pitcher": "TBD",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 11,
+        "losses": 10,
+        "era": "3.74",
+        "k9": "8.9",
+        "hand": "L",
+        "team_record": "17-14"
+      },
       "home_stats": null
     },
     {
