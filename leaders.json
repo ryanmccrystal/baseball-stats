@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30 10:38 AM EDT",
+  "last_updated": "2026-10-01 08:15 AM EDT",
   "al": {
     "battingAverage": [
       {
@@ -48,6 +48,15 @@
         "avg": ".287"
       },
       {
+        "player": "Rafaela",
+        "team": "Bos",
+        "games": 138,
+        "ab": 541,
+        "runs": 67,
+        "hits": 154,
+        "avg": ".285"
+      },
+      {
         "player": "Hicks",
         "team": "Tbr",
         "games": 142,
@@ -55,15 +64,6 @@
         "runs": 66,
         "hits": 136,
         "avg": ".284"
-      },
-      {
-        "player": "Rafaela",
-        "team": "Bos",
-        "games": 138,
-        "ab": 541,
-        "runs": 67,
-        "hits": 153,
-        "avg": ".283"
       },
       {
         "player": "Keaschall",
@@ -768,7 +768,7 @@
       {
         "player": "Stewart",
         "team": "Cin",
-        "value": 111
+        "value": 112
       },
       {
         "player": "Crow-Armstrong",

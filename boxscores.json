@@ -1,126 +1,43 @@
 {
   "games": [
     {
-      "gamePk": 849845,
-      "winner_name": "Braves",
-      "winner_score": 5,
-      "loser_name": "Phillies",
+      "gamePk": 849841,
+      "winner_name": "Phillies",
+      "winner_score": 4,
+      "loser_name": "Braves",
       "loser_score": 3
     },
     {
-      "gamePk": 849849,
+      "gamePk": 849846,
       "winner_name": "White Sox",
-      "winner_score": 6,
+      "winner_score": 7,
       "loser_name": "Astros",
       "loser_score": 3
     },
     {
-      "gamePk": 849851,
+      "gamePk": 849848,
       "winner_name": "Yankees",
       "winner_score": 9,
       "loser_name": "Red Sox",
-      "loser_score": 0
+      "loser_score": 2
     },
     {
-      "gamePk": 849843,
+      "gamePk": 849842,
       "winner_name": "Padres",
-      "winner_score": 8,
+      "winner_score": 4,
       "loser_name": "Cubs",
-      "loser_score": 0
+      "loser_score": 1
     }
   ],
   "today_games": [
     {
       "away_name": "Phillies",
       "home_name": "Braves",
-      "game_time": "2026-09-30T18:00:00Z",
-      "away_pitcher": "Cristopher S\u00e1nchez",
-      "home_pitcher": "Tyler Mahle",
-      "away_stats": {
-        "wins": 18,
-        "losses": 7,
-        "era": "2.91",
-        "k9": "10.0",
-        "hand": "L",
-        "team_record": "23-10"
-      },
-      "home_stats": {
-        "wins": 7,
-        "losses": 10,
-        "era": "3.99",
-        "k9": "8.3",
-        "hand": "R",
-        "team_record": "12-15"
-      }
-    },
-    {
-      "away_name": "White Sox",
-      "home_name": "Astros",
-      "game_time": "2026-09-30T21:00:00Z",
-      "away_pitcher": "Sean Burke",
-      "home_pitcher": "Hunter Brown",
-      "away_stats": {
-        "wins": 11,
-        "losses": 7,
-        "era": "3.34",
-        "k9": "9.7",
-        "hand": "R",
-        "team_record": "15-12"
-      },
-      "home_stats": {
-        "wins": 6,
-        "losses": 4,
-        "era": "3.19",
-        "k9": "10.4",
-        "hand": "R",
-        "team_record": "9-11"
-      }
-    },
-    {
-      "away_name": "Red Sox",
-      "home_name": "Yankees",
-      "game_time": "2026-10-01T00:00:00Z",
-      "away_pitcher": "Sonny Gray",
-      "home_pitcher": "Max Fried",
-      "away_stats": {
-        "wins": 18,
-        "losses": 5,
-        "era": "2.72",
-        "k9": "7.9",
-        "hand": "R",
-        "team_record": "21-8"
-      },
-      "home_stats": {
-        "wins": 5,
-        "losses": 5,
-        "era": "2.80",
-        "k9": "8.3",
-        "hand": "L",
-        "team_record": "11-9"
-      }
-    },
-    {
-      "away_name": "Cubs",
-      "home_name": "Padres",
-      "game_time": "2026-10-01T02:00:00Z",
-      "away_pitcher": "Kevin Gausman",
-      "home_pitcher": "Nick Pivetta",
-      "away_stats": {
-        "wins": 9,
-        "losses": 12,
-        "era": "4.51",
-        "k9": "9.3",
-        "hand": "R",
-        "team_record": "14-18"
-      },
-      "home_stats": {
-        "wins": 3,
-        "losses": 2,
-        "era": "2.86",
-        "k9": "10.9",
-        "hand": "R",
-        "team_record": "6-2"
-      }
+      "game_time": "2026-10-02T00:00:00Z",
+      "away_pitcher": "TBD",
+      "home_pitcher": "TBD",
+      "away_stats": null,
+      "home_stats": null
     }
   ]
 }
