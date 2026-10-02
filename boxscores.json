@@ -1,43 +1,12 @@
 {
   "games": [
     {
-      "gamePk": 849841,
-      "winner_name": "Phillies",
-      "winner_score": 4,
-      "loser_name": "Braves",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 849846,
-      "winner_name": "White Sox",
-      "winner_score": 7,
-      "loser_name": "Astros",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 849848,
-      "winner_name": "Yankees",
-      "winner_score": 9,
-      "loser_name": "Red Sox",
+      "gamePk": 849844,
+      "winner_name": "Braves",
+      "winner_score": 6,
+      "loser_name": "Phillies",
       "loser_score": 2
-    },
-    {
-      "gamePk": 849842,
-      "winner_name": "Padres",
-      "winner_score": 4,
-      "loser_name": "Cubs",
-      "loser_score": 1
     }
   ],
-  "today_games": [
-    {
-      "away_name": "Phillies",
-      "home_name": "Braves",
-      "game_time": "2026-10-02T00:00:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "TBD",
-      "away_stats": null,
-      "home_stats": null
-    }
-  ]
+  "today_games": []
 }
