@@ -1,12 +1,90 @@
 {
-  "games": [
+  "games": [],
+  "today_games": [
     {
-      "gamePk": 849844,
-      "winner_name": "Braves",
-      "winner_score": 6,
-      "loser_name": "Phillies",
-      "loser_score": 2
+      "away_name": "White Sox",
+      "home_name": "Guardians",
+      "game_time": "2026-10-03T17:00:00Z",
+      "away_pitcher": "Hagen Smith",
+      "home_pitcher": "Parker Messick",
+      "away_stats": {
+        "wins": 3,
+        "losses": 3,
+        "era": "1.29",
+        "k9": "13.2",
+        "hand": "L",
+        "team_record": "0-1"
+      },
+      "home_stats": {
+        "wins": 12,
+        "losses": 9,
+        "era": "2.56",
+        "k9": "9.3",
+        "hand": "L",
+        "team_record": "18-14"
+      }
+    },
+    {
+      "away_name": "Braves",
+      "home_name": "Dodgers",
+      "game_time": "2026-10-03T20:00:00Z",
+      "away_pitcher": "TBD",
+      "home_pitcher": "Tarik Skubal",
+      "away_stats": null,
+      "home_stats": {
+        "wins": 12,
+        "losses": 7,
+        "era": "2.72",
+        "k9": "10.6",
+        "hand": "L",
+        "team_record": "17-9"
+      }
+    },
+    {
+      "away_name": "Yankees",
+      "home_name": "Rays",
+      "game_time": "2026-10-03T22:30:00Z",
+      "away_pitcher": "Gerrit Cole",
+      "home_pitcher": "Drew Rasmussen",
+      "away_stats": {
+        "wins": 10,
+        "losses": 9,
+        "era": "3.61",
+        "k9": "9.3",
+        "hand": "R",
+        "team_record": "11-11"
+      },
+      "home_stats": {
+        "wins": 16,
+        "losses": 5,
+        "era": "2.67",
+        "k9": "9.1",
+        "hand": "R",
+        "team_record": "21-9"
+      }
+    },
+    {
+      "away_name": "Padres",
+      "home_name": "Brewers",
+      "game_time": "2026-10-04T00:30:00Z",
+      "away_pitcher": "Robbie Ray",
+      "home_pitcher": "Jacob Misiorowski",
+      "away_stats": {
+        "wins": 13,
+        "losses": 8,
+        "era": "3.59",
+        "k9": "7.6",
+        "hand": "L",
+        "team_record": "18-12"
+      },
+      "home_stats": {
+        "wins": 16,
+        "losses": 5,
+        "era": "1.80",
+        "k9": "13.0",
+        "hand": "R",
+        "team_record": "22-8"
+      }
     }
-  ],
-  "today_games": []
+  ]
 }
