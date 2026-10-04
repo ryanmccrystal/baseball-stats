@@ -1,89 +1,72 @@
 {
-  "games": [],
+  "games": [
+    {
+      "gamePk": 849829,
+      "winner_name": "White Sox",
+      "winner_score": 3,
+      "loser_name": "Guardians",
+      "loser_score": 0
+    },
+    {
+      "gamePk": 849828,
+      "winner_name": "Dodgers",
+      "winner_score": 5,
+      "loser_name": "Braves",
+      "loser_score": 3
+    },
+    {
+      "gamePk": 849835,
+      "winner_name": "Rays",
+      "winner_score": 1,
+      "loser_name": "Yankees",
+      "loser_score": 0
+    },
+    {
+      "gamePk": 849830,
+      "winner_name": "Brewers",
+      "winner_score": 3,
+      "loser_name": "Padres",
+      "loser_score": 2
+    }
+  ],
   "today_games": [
     {
-      "away_name": "White Sox",
-      "home_name": "Guardians",
-      "game_time": "2026-10-03T17:00:00Z",
-      "away_pitcher": "Hagen Smith",
-      "home_pitcher": "Parker Messick",
+      "away_name": "Padres",
+      "home_name": "Brewers",
+      "game_time": "2026-10-04T20:00:00Z",
+      "away_pitcher": "Michael King",
+      "home_pitcher": "Logan Henderson",
       "away_stats": {
-        "wins": 3,
-        "losses": 3,
-        "era": "1.29",
-        "k9": "13.2",
-        "hand": "L",
-        "team_record": "0-1"
+        "wins": 12,
+        "losses": 10,
+        "era": "3.21",
+        "k9": "7.7",
+        "hand": "R",
+        "team_record": "15-17"
       },
       "home_stats": {
-        "wins": 12,
-        "losses": 9,
-        "era": "2.56",
-        "k9": "9.3",
-        "hand": "L",
-        "team_record": "18-14"
+        "wins": 11,
+        "losses": 3,
+        "era": "2.47",
+        "k9": "10.1",
+        "hand": "R",
+        "team_record": "14-4"
       }
     },
     {
       "away_name": "Braves",
       "home_name": "Dodgers",
-      "game_time": "2026-10-03T20:00:00Z",
+      "game_time": "2026-10-05T00:00:00Z",
       "away_pitcher": "TBD",
-      "home_pitcher": "Tarik Skubal",
+      "home_pitcher": "Blake Snell",
       "away_stats": null,
       "home_stats": {
-        "wins": 12,
-        "losses": 7,
-        "era": "2.72",
-        "k9": "10.6",
+        "wins": 4,
+        "losses": 1,
+        "era": "1.90",
+        "k9": "11.6",
         "hand": "L",
-        "team_record": "17-9"
-      }
-    },
-    {
-      "away_name": "Yankees",
-      "home_name": "Rays",
-      "game_time": "2026-10-03T22:30:00Z",
-      "away_pitcher": "Gerrit Cole",
-      "home_pitcher": "Drew Rasmussen",
-      "away_stats": {
-        "wins": 10,
-        "losses": 9,
-        "era": "3.61",
-        "k9": "9.3",
-        "hand": "R",
-        "team_record": "11-11"
-      },
-      "home_stats": {
-        "wins": 16,
-        "losses": 5,
-        "era": "2.67",
-        "k9": "9.1",
-        "hand": "R",
-        "team_record": "21-9"
-      }
-    },
-    {
-      "away_name": "Padres",
-      "home_name": "Brewers",
-      "game_time": "2026-10-04T00:30:00Z",
-      "away_pitcher": "Robbie Ray",
-      "home_pitcher": "Jacob Misiorowski",
-      "away_stats": {
-        "wins": 13,
-        "losses": 8,
-        "era": "3.59",
-        "k9": "7.6",
-        "hand": "L",
-        "team_record": "18-12"
-      },
-      "home_stats": {
-        "wins": 16,
-        "losses": 5,
-        "era": "1.80",
-        "k9": "13.0",
-        "hand": "R",
-        "team_record": "22-8"
+        "team_record": "6-3"
       }
     }
   ]
