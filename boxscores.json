@@ -1,72 +1,65 @@
 {
   "games": [
     {
-      "gamePk": 849829,
-      "winner_name": "White Sox",
-      "winner_score": 3,
-      "loser_name": "Guardians",
-      "loser_score": 0
-    },
-    {
-      "gamePk": 849828,
-      "winner_name": "Dodgers",
-      "winner_score": 5,
-      "loser_name": "Braves",
+      "gamePk": 849825,
+      "winner_name": "Brewers",
+      "winner_score": 4,
+      "loser_name": "Padres",
       "loser_score": 3
     },
     {
-      "gamePk": 849835,
-      "winner_name": "Rays",
-      "winner_score": 1,
-      "loser_name": "Yankees",
-      "loser_score": 0
-    },
-    {
-      "gamePk": 849830,
-      "winner_name": "Brewers",
+      "gamePk": 849823,
+      "winner_name": "Braves",
       "winner_score": 3,
-      "loser_name": "Padres",
+      "loser_name": "Dodgers",
       "loser_score": 2
     }
   ],
   "today_games": [
     {
-      "away_name": "Padres",
-      "home_name": "Brewers",
-      "game_time": "2026-10-04T20:00:00Z",
-      "away_pitcher": "Michael King",
-      "home_pitcher": "Logan Henderson",
+      "away_name": "White Sox",
+      "home_name": "Guardians",
+      "game_time": "2026-10-05T21:00:00Z",
+      "away_pitcher": "Anthony Kay",
+      "home_pitcher": "Gavin Williams",
       "away_stats": {
-        "wins": 12,
-        "losses": 10,
-        "era": "3.21",
-        "k9": "7.7",
-        "hand": "R",
-        "team_record": "15-17"
+        "wins": 10,
+        "losses": 9,
+        "era": "4.44",
+        "k9": "7.3",
+        "hand": "L",
+        "team_record": "17-14"
       },
       "home_stats": {
-        "wins": 11,
-        "losses": 3,
-        "era": "2.47",
-        "k9": "10.1",
+        "wins": 14,
+        "losses": 8,
+        "era": "3.76",
+        "k9": "12.1",
         "hand": "R",
-        "team_record": "14-4"
+        "team_record": "20-12"
       }
     },
     {
-      "away_name": "Braves",
-      "home_name": "Dodgers",
-      "game_time": "2026-10-05T00:00:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "Blake Snell",
-      "away_stats": null,
+      "away_name": "Yankees",
+      "home_name": "Rays",
+      "game_time": "2026-10-06T00:00:00Z",
+      "away_pitcher": "Cam Schlittler",
+      "home_pitcher": "Freddy Peralta",
+      "away_stats": {
+        "wins": 14,
+        "losses": 6,
+        "era": "1.95",
+        "k9": "11.1",
+        "hand": "R",
+        "team_record": "21-12"
+      },
       "home_stats": {
-        "wins": 4,
-        "losses": 1,
-        "era": "1.90",
-        "k9": "11.6",
-        "hand": "L",
-        "team_record": "6-3"
+        "wins": 10,
+        "losses": 11,
+        "era": "4.42",
+        "k9": "8.3",
+        "hand": "R",
+        "team_record": "18-14"
       }
     }
   ]
