@@ -1,65 +1,65 @@
 {
   "games": [
     {
-      "gamePk": 849825,
-      "winner_name": "Brewers",
+      "gamePk": 849834,
+      "winner_name": "White Sox",
       "winner_score": 4,
-      "loser_name": "Padres",
+      "loser_name": "Guardians",
       "loser_score": 3
     },
     {
-      "gamePk": 849823,
-      "winner_name": "Braves",
-      "winner_score": 3,
-      "loser_name": "Dodgers",
+      "gamePk": 849839,
+      "winner_name": "Rays",
+      "winner_score": 5,
+      "loser_name": "Yankees",
       "loser_score": 2
     }
   ],
   "today_games": [
     {
-      "away_name": "White Sox",
-      "home_name": "Guardians",
-      "game_time": "2026-10-05T21:00:00Z",
-      "away_pitcher": "Anthony Kay",
-      "home_pitcher": "Gavin Williams",
+      "away_name": "Dodgers",
+      "home_name": "Braves",
+      "game_time": "2026-10-06T22:00:00Z",
+      "away_pitcher": "Yoshinobu Yamamoto",
+      "home_pitcher": "Chris Sale",
       "away_stats": {
-        "wins": 10,
+        "wins": 14,
         "losses": 9,
-        "era": "4.44",
-        "k9": "7.3",
-        "hand": "L",
-        "team_record": "17-14"
+        "era": "2.53",
+        "k9": "8.8",
+        "hand": "R",
+        "team_record": "18-10"
       },
       "home_stats": {
         "wins": 14,
-        "losses": 8,
-        "era": "3.76",
-        "k9": "12.1",
-        "hand": "R",
-        "team_record": "20-12"
+        "losses": 9,
+        "era": "2.16",
+        "k9": "11.1",
+        "hand": "L",
+        "team_record": "17-10"
       }
     },
     {
-      "away_name": "Yankees",
-      "home_name": "Rays",
-      "game_time": "2026-10-06T00:00:00Z",
-      "away_pitcher": "Cam Schlittler",
-      "home_pitcher": "Freddy Peralta",
+      "away_name": "Brewers",
+      "home_name": "Padres",
+      "game_time": "2026-10-07T01:30:00Z",
+      "away_pitcher": "Dustin May",
+      "home_pitcher": "Nick Pivetta",
       "away_stats": {
-        "wins": 14,
-        "losses": 6,
-        "era": "1.95",
-        "k9": "11.1",
+        "wins": 7,
+        "losses": 9,
+        "era": "4.70",
+        "k9": "8.9",
         "hand": "R",
-        "team_record": "21-12"
+        "team_record": "15-16"
       },
       "home_stats": {
-        "wins": 10,
-        "losses": 11,
-        "era": "4.42",
-        "k9": "8.3",
+        "wins": 3,
+        "losses": 2,
+        "era": "2.86",
+        "k9": "10.9",
         "hand": "R",
-        "team_record": "18-14"
+        "team_record": "6-2"
       }
     }
   ]
