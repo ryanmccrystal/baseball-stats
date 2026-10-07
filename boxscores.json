@@ -1,65 +1,104 @@
 {
   "games": [
     {
-      "gamePk": 849834,
-      "winner_name": "White Sox",
-      "winner_score": 4,
-      "loser_name": "Guardians",
-      "loser_score": 3
+      "gamePk": 849819,
+      "winner_name": "Dodgers",
+      "winner_score": 3,
+      "loser_name": "Braves",
+      "loser_score": 1
     },
     {
-      "gamePk": 849839,
-      "winner_name": "Rays",
-      "winner_score": 5,
-      "loser_name": "Yankees",
-      "loser_score": 2
+      "gamePk": 849826,
+      "winner_name": "Padres",
+      "winner_score": 4,
+      "loser_name": "Brewers",
+      "loser_score": 3
     }
   ],
   "today_games": [
     {
-      "away_name": "Dodgers",
-      "home_name": "Braves",
-      "game_time": "2026-10-06T22:00:00Z",
-      "away_pitcher": "Yoshinobu Yamamoto",
-      "home_pitcher": "Chris Sale",
+      "away_name": "Guardians",
+      "home_name": "White Sox",
+      "game_time": "2026-10-07T20:00:00Z",
+      "away_pitcher": "Daniel Espino",
+      "home_pitcher": "Sean Newcomb",
       "away_stats": {
-        "wins": 14,
-        "losses": 9,
-        "era": "2.53",
-        "k9": "8.8",
+        "wins": 0,
+        "losses": 0,
+        "era": "4.11",
+        "k9": "14.7",
         "hand": "R",
-        "team_record": "18-10"
+        "team_record": "2-1"
       },
       "home_stats": {
-        "wins": 14,
-        "losses": 9,
-        "era": "2.16",
-        "k9": "11.1",
+        "wins": 2,
+        "losses": 5,
+        "era": "3.09",
+        "k9": "8.4",
         "hand": "L",
-        "team_record": "17-10"
+        "team_record": "5-1"
+      }
+    },
+    {
+      "away_name": "Dodgers",
+      "home_name": "Braves",
+      "game_time": "2026-10-07T22:00:00Z",
+      "away_pitcher": "Tyler Glasnow",
+      "home_pitcher": "Tyler Mahle",
+      "away_stats": {
+        "wins": 5,
+        "losses": 2,
+        "era": "3.53",
+        "k9": "11.9",
+        "hand": "R",
+        "team_record": "9-4"
+      },
+      "home_stats": {
+        "wins": 7,
+        "losses": 10,
+        "era": "3.99",
+        "k9": "8.3",
+        "hand": "R",
+        "team_record": "12-15"
+      }
+    },
+    {
+      "away_name": "Rays",
+      "home_name": "Yankees",
+      "game_time": "2026-10-08T00:00:00Z",
+      "away_pitcher": "Nick Martinez",
+      "home_pitcher": "Max Fried",
+      "away_stats": {
+        "wins": 15,
+        "losses": 6,
+        "era": "3.10",
+        "k9": "5.5",
+        "hand": "R",
+        "team_record": "22-9"
+      },
+      "home_stats": {
+        "wins": 5,
+        "losses": 5,
+        "era": "2.80",
+        "k9": "8.3",
+        "hand": "L",
+        "team_record": "11-9"
       }
     },
     {
       "away_name": "Brewers",
       "home_name": "Padres",
-      "game_time": "2026-10-07T01:30:00Z",
-      "away_pitcher": "Dustin May",
-      "home_pitcher": "Nick Pivetta",
-      "away_stats": {
-        "wins": 7,
-        "losses": 9,
-        "era": "4.70",
-        "k9": "8.9",
-        "hand": "R",
-        "team_record": "15-16"
-      },
+      "game_time": "2026-10-08T02:00:00Z",
+      "away_pitcher": "TBD",
+      "home_pitcher": "Walker Buehler",
+      "away_stats": null,
       "home_stats": {
-        "wins": 3,
-        "losses": 2,
-        "era": "2.86",
-        "k9": "10.9",
+        "wins": 9,
+        "losses": 6,
+        "era": "4.63",
+        "k9": "7.7",
         "hand": "R",
-        "team_record": "6-2"
+        "team_record": "22-10"
       }
     }
   ]

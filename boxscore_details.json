@@ -1,99 +1,233 @@
 {
-  "last_updated": "2026-10-06 02:45 PM",
+  "last_updated": "2026-10-07 12:29 PM",
   "games": [
     {
       "status": "Final",
-      "games_display": "White Sox 4, Guardians 3",
-      "headline": "White Sox 4, Guardians 3",
-      "boxscore": "------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nWhite Sox Batters                        AB   R   H  RBI BB   K  LOB AVG   OPS  | Guardians Batters                        AB   R   H  RBI BB   K  LOB AVG   OPS \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n1 Antonacci  LF                           4   0   0   0   0   1   2  .167 .536  | 1 Kwan  CF                                4   1   1   0   0   0   0  .143 .393 \n2 Teel  C                                 4   1   1   0   0   2   1  .235 .513  | 2 Ram\u00edrez, Jo  3B                         3   1   0   0   1   2   0  .000 .250 \n3 Vargas, M  3B                           2   1   1   0   2   0   0  .154 .543  | 3 DeLauter  RF                            4   1   2   0   0   0   2  .250 .500 \n4 Murakami  1B                            4   0   1   1   0   1   2  .250 .716  | 4 Adell  DH                               3   0   1   1   1   2   1  .143 .679 \n5 Benintendi  DH                          2   0   0   0   0   2   2  .200 .629  | 5 Lowe, N  1B                             4   0   0   1   0   1   3  .167 .619 \n    a-Grichuk  DH                         1   1   0   0   1   1   0  .333 .762  | 6 Mart\u00ednez, A  LF                         4   0   0   0   0   2   2  .000 .000 \n6 Peters  CF                              2   0   0   0   0   1   2  .273 .606  | 7 Bazzana  2B                             3   0   0   0   1   1   2  .143 .536 \n    b-Pham  PH                            1   0   0   0   0   0   2  .000 .250  | 8 Bailey  C                               4   0   0   0   0   1   1  .200 .400 \n    Doyle, B  CF                          1   0   0   0   0   0   0  .167 .334  | 9 Rocchio  SS                             3   0   0   0   0   0   1  .000 .167 \n7 Montgomery, B  RF                       4   1   1   2   0   2   2  .200 .467  |                                                                                \n8 Meidroth  2B                            4   0   2   1   0   1   0  .400 1.038 |                                                                                \n9 Montgomery, C  SS                       3   0   0   0   1   2   2  .250 .983  |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                   32   4   6   4   4  13  15             | Totals                                   32   3   4   2   3   9  12            \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\na-Walked for Benintendi in the 6th.                                             |                                                                                \nb-Flied out for Peters in the 6th.                                              |                                                                                \n                                                                                |                                                                                \nBATTING                                                                         | BATTING                                                                        \n2B: Montgomery, B (1, Sabrowski).                                               | 3B: Adell (1, Taylor, G).                                                      \nTB: Meidroth 2; Montgomery, B 2; Murakami; Teel; Vargas, M.                     | TB: Adell 3; DeLauter 2; Kwan.                                                 \nRBI: Meidroth (5); Montgomery, B 2 (2); Murakami (4).                           | RBI: Adell (1); Lowe, N (1).                                                   \n2-out RBI: Montgomery, B 2; Meidroth.                                           | 2-out RBI: Adell.                                                              \nRunners left in scoring position, 2 out: Montgomery, C; Montgomery, B.          | Runners left in scoring position, 2 out: Lowe, N; Bazzana.                     \nGIDP: Antonacci.                                                                | Team RISP: 0-for-5.                                                            \nTeam RISP: 3-for-8.                                                             | Team LOB: 5.                                                                   \nTeam LOB: 5.                                                                    |                                                                                \n                                                                                | FIELDING                                                                       \nFIELDING                                                                        | E: Gaddis (1, pickoff).                                                        \nE: Newcomb, S (1, throw).                                                       | DP: (Bazzana-Rocchio-Lowe, N).                                                 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nWhite Sox Pitchers                           IP   H   R  ER  BB   K  HR   ERA   | Guardians Pitchers                           IP   H   R  ER  BB   K  HR   ERA  \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nKay                                         0.1   1   2   1   1   0   0   3.86  | Williams, G                                 5.0   4   2   2   3  11   0   3.60 \nNewcomb, S                                  2.0   1   0   0   1   3   0   6.00  | Sabrowski  (L, 0-1)(BS, 1)                  0.2   1   2   2   1   0   0  11.57 \nBurke, S  (W, 1-0)                          5.1   1   1   1   1   6   0   3.86  | Gaddis                                      1.0   1   0   0   0   1   0   0.00 \nTaylor, G  (S, 2)                           1.1   1   0   0   0   0   0   0.00  | Armstrong                                   1.1   0   0   0   0   1   0   0.00 \n                                                                                | Smith, C                                    1.0   0   0   0   0   0   0   0.00 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                      9.0   4   3   2   3   9   0         | Totals                                      9.0   6   4   4   4  13   0        \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nWP: Sabrowski.                                                                                                                                                   \nIBB: Adell (by Newcomb, S).                                                                                                                                      \nPitch timer violations: Newcomb, S (pitcher).                                                                                                                    \nABS Challenge: Bailey (Ball-Confirmed); Antonacci (Strike-Confirmed).                                                                                            \nPitches-strikes: Kay 17-8; Newcomb, S 40-24; Burke, S 83-53; Taylor, G 7-7; Williams, G 98-59; Sabrowski 11-4; Gaddis 17-10; Armstrong 16-12; Smith, C 5-5.      \nGroundouts-flyouts: Kay 1-0; Newcomb, S 3-1; Burke, S 4-4; Taylor, G 1-3; Williams, G 2-1; Sabrowski 1-1; Gaddis 0-0; Armstrong 2-1; Smith, C 2-0.               \nBatters faced: Kay 3; Newcomb, S 9; Burke, S 18; Taylor, G 5; Williams, G 21; Sabrowski 4; Gaddis 4; Armstrong 4; Smith, C 3.                                    \nInherited runners-scored: Newcomb, S 2-2; Burke, S 1-0; Taylor, G 1-1; Sabrowski 1-1; Gaddis 1-1.                                                                \nUmpires: HP: Gabe Morales. 1B: Todd Tichenor. 2B: Jansen Visconti. 3B: Vic Carapazza. LF: Tom Hanahan. RF: Cory Blaser.                                          \nWeather: 61 degrees, Clear.                                                                                                                                      \nWind: 13 mph, In From CF.                                                                                                                                        \nFirst pitch: 5:04 PM.                                                                                                                                            \nT: 3:06.                                                                                                                                                         \nAtt: 32,050.                                                                                                                                                     \nVenue: Progressive Field.                                                                                                                                        \nOctober 5, 2026                                                                                                                                                  \n-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n",
+      "games_display": "Dodgers 3, Braves 1",
+      "headline": "Dodgers 3, Braves 1",
+      "boxscore": "------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nDodgers Batters                          AB   R   H  RBI BB   K  LOB AVG   OPS  | Braves Batters                           AB   R   H  RBI BB   K  LOB AVG   OPS \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n1 Betts  SS                               5   0   2   0   0   1   1  .300 .762  | 1 Baldwin, D  C                           4   0   0   1   0   2   2  .130 .405 \n2 Freeman, F  1B                          4   1   1   1   1   1   2  .364 1.371 | 2 Acu\u00f1a Jr.  DH                           3   0   0   0   1   1   2  .143 .451 \n3 Hern\u00e1ndez, T  LF                        4   0   0   0   0   0   2  .167 .584  | 3 Olson  1B                               4   0   1   0   0   2   1  .174 .535 \n    b-Muncy  3B                           1   0   0   0   0   1   1  .250 1.250 | 4 Albies  2B                              4   0   1   0   0   2   1  .250 1.123\n4 Smith, W  C                             4   0   1   0   0   3   2  .083 .166  | 5 Harris II  CF                           4   0   1   0   0   0   2  .375 1.025\n5 Ohtani  DH                              2   0   0   0   1   1   2  .200 .473  | 6 Dub\u00f3n  SS                               4   1   1   0   0   0   2  .217 .541 \n6 Rojas, M  2B                            3   0   0   0   0   1   3  .250 .750  | 7 Thomas, L  RF                           3   0   1   0   0   2   1  .167 .334 \n    a-Edman  2B                           1   0   0   0   0   0   1  .000 .143  |     b-Yastrzemski  PH                     1   0   0   0   0   0   1  .091 .182 \n7 Pages, A  CF                            4   1   2   0   0   1   1  .182 .432  | 8 Riley, A  3B                            3   0   0   0   0   2   2  .105 .555 \n8 Tucker  RF                              4   0   1   0   0   1   3  .333 .916  | 9 Kim, Ha  SS                             1   0   0   0   0   0   0  .000 .286 \n9 Hern\u00e1ndez, E  LF                        4   1   1   2   0   2   2  .250 1.250 |     a-Tellez  PH                          0   0   0   0   1   0   0  .000 .667 \n                                                                                |     1-Hicklen  LF                         1   0   0   0   0   1   0  .000 .000 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                   36   3   8   3   2  12  20             | Totals                                   32   1   5   1   2  12  14            \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\na-Popped out for Rojas, M in the 8th.                                           | a-Walked for Kim, Ha in the 5th.                                               \nb-Struck out for Hern\u00e1ndez, T in the 9th.                                       | b-Grounded out for Thomas, L in the 9th.                                       \n                                                                                | 1-Ran for Tellez in the 5th.                                                   \n                                                                                |                                                                                \nBATTING                                                                         | BATTING                                                                        \nHR: Hern\u00e1ndez, E (1, 4th inning off Sale, 1 on, 1 out); Freeman, F (2, 4th      | 2B: Albies (1, D\u00edaz).                                                          \n    inning off Sale, 0 on, 2 out).                                              | TB: Albies 2; Dub\u00f3n; Harris II; Olson; Thomas, L.                              \nTB: Betts 2; Freeman, F 4; Hern\u00e1ndez, E 4; Pages, A 2; Smith, W; Tucker.        | RBI: Baldwin, D (2).                                                           \nRBI: Freeman, F (2); Hern\u00e1ndez, E 2 (2).                                        | Runners left in scoring position, 2 out: Acu\u00f1a Jr. 2; Yastrzemski.             \n2-out RBI: Freeman, F.                                                          | Team RISP: 0-for-6.                                                            \nRunners left in scoring position, 2 out: Rojas, M 2; Hern\u00e1ndez, E; Ohtani.      | Team LOB: 6.                                                                   \nTeam RISP: 0-for-4.                                                             |                                                                                \nTeam LOB: 9.                                                                    | FIELDING                                                                       \n                                                                                | E: Kim, Ha (1, fielding); Baldwin, D (1, catcher interference).                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nDodgers Pitchers                             IP   H   R  ER  BB   K  HR   ERA   | Braves Pitchers                              IP   H   R  ER  BB   K  HR   ERA  \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nYamamoto  (W, 1-0)                          7.0   4   1   1   1  10   0   1.29  | Sale  (L, 0-1)                              5.0   7   3   3   0   7   2   4.26 \nScott  (H, 1)                               1.0   0   0   0   1   2   0  10.80  | Dodd                                        1.0   1   0   0   0   2   0   1.93 \nD\u00edaz  (S, 1)                                1.0   1   0   0   0   0   0   0.00  | Lee, D                                      1.0   0   0   0   0   1   0   5.40 \n                                                                                | Suter                                       1.0   0   0   0   1   0   0   0.00 \n                                                                                | Iglesias, R                                 1.0   0   0   0   1   2   0   0.00 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                      9.0   5   1   1   2  12   0         | Totals                                      9.0   8   3   3   2  12   2        \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nABS Challenge: Acu\u00f1a Jr. (Strike-Confirmed); Ohtani (Strike-Confirmed).                                                                                          \nPitches-strikes: Yamamoto 98-62; Scott 19-12; D\u00edaz 19-13; Sale 95-62; Dodd 17-11; Lee, D 9-7; Suter 21-12; Iglesias, R 22-13.                                    \nGroundouts-flyouts: Yamamoto 6-3; Scott 1-0; D\u00edaz 2-1; Sale 3-4; Dodd 0-1; Lee, D 1-1; Suter 1-0; Iglesias, R 0-0.                                               \nBatters faced: Yamamoto 26; Scott 4; D\u00edaz 4; Sale 24; Dodd 4; Lee, D 3; Suter 4; Iglesias, R 4.                                                                  \nUmpires: HP: James Hoye. 1B: Tripp Gibson. 2B: Jim Wolf. 3B: Mike Estabrook. LF: Roberto Ortiz. RF: Chris Guccione.                                              \nWeather: 75 degrees, Clear.                                                                                                                                      \nWind: 6 mph, L To R.                                                                                                                                             \nFirst pitch: 6:11 PM.                                                                                                                                            \nT: 2:56.                                                                                                                                                         \nAtt: 42,420.                                                                                                                                                     \nVenue: Truist Park.                                                                                                                                              \nOctober 6, 2026                                                                                                                                                  \n-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n",
       "away_batting": [
         {
           "order": 100,
-          "name": "Antonacci",
+          "name": "Betts",
+          "position": "SS",
+          "ab": 5,
+          "r": 0,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".300"
+        },
+        {
+          "order": 200,
+          "name": "FFreeman",
+          "position": "1B",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 1,
+          "avg": ".364"
+        },
+        {
+          "order": 300,
+          "name": "THern\u00e1ndez",
           "position": "LF",
           "ab": 4,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
-          "k": 1,
+          "k": 0,
           "avg": ".167"
         },
         {
-          "order": 200,
-          "name": "Teel",
-          "position": "C",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "k": 2,
-          "avg": ".235"
-        },
-        {
-          "order": 300,
-          "name": "MVargas",
+          "order": 301,
+          "name": "Muncy",
           "position": "3B",
-          "ab": 2,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 2,
-          "k": 0,
-          "avg": ".154"
-        },
-        {
-          "order": 400,
-          "name": "Murakami",
-          "position": "1B",
-          "ab": 4,
+          "ab": 1,
           "r": 0,
-          "h": 1,
-          "rbi": 1,
+          "h": 0,
+          "rbi": 0,
           "bb": 0,
           "k": 1,
           "avg": ".250"
         },
         {
+          "order": 400,
+          "name": "WSmith",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 3,
+          "avg": ".083"
+        },
+        {
           "order": 500,
-          "name": "Benintendi",
+          "name": "Ohtani",
           "position": "DH",
           "ab": 2,
           "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 2,
-          "avg": ".200"
-        },
-        {
-          "order": 501,
-          "name": "Grichuk",
-          "position": "DH",
-          "ab": 1,
-          "r": 1,
           "h": 0,
           "rbi": 0,
           "bb": 1,
           "k": 1,
-          "avg": ".333"
+          "avg": ".200"
         },
         {
           "order": 600,
-          "name": "Peters",
-          "position": "CF",
-          "ab": 2,
+          "name": "MRojas",
+          "position": "2B",
+          "ab": 3,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
           "k": 1,
-          "avg": ".273"
+          "avg": ".250"
         },
         {
           "order": 601,
-          "name": "Pham",
+          "name": "Edman",
+          "position": "2B",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".000"
+        },
+        {
+          "order": 700,
+          "name": "APages",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".182"
+        },
+        {
+          "order": 800,
+          "name": "Tucker",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".333"
+        },
+        {
+          "order": 900,
+          "name": "EHern\u00e1ndez",
+          "position": "LF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
+          "bb": 0,
+          "k": 2,
+          "avg": ".250"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "DBaldwin",
+          "position": "C",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 0,
+          "k": 2,
+          "avg": ".130"
+        },
+        {
+          "order": 200,
+          "name": "Acu\u00f1a Jr.",
+          "position": "DH",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".143"
+        },
+        {
+          "order": 300,
+          "name": "Olson",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".174"
+        },
+        {
+          "order": 400,
+          "name": "Albies",
+          "position": "2B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".250"
+        },
+        {
+          "order": 500,
+          "name": "Harris II",
+          "position": "CF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".375"
+        },
+        {
+          "order": 600,
+          "name": "Dub\u00f3n",
+          "position": "SS",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".217"
+        },
+        {
+          "order": 700,
+          "name": "LThomas",
+          "position": "RF",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".167"
+        },
+        {
+          "order": 701,
+          "name": "Yastrzemski",
           "position": "PH",
           "ab": 1,
           "r": 0,
@@ -101,800 +235,212 @@
           "rbi": 0,
           "bb": 0,
           "k": 0,
-          "avg": ".000"
+          "avg": ".091"
         },
         {
-          "order": 602,
-          "name": "BDoyle",
-          "position": "CF",
+          "order": 800,
+          "name": "ARiley",
+          "position": "3B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".105"
+        },
+        {
+          "order": 900,
+          "name": "HaKim",
+          "position": "SS",
           "ab": 1,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
           "k": 0,
-          "avg": ".167"
-        },
-        {
-          "order": 700,
-          "name": "BMontgomery",
-          "position": "RF",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 2,
-          "bb": 0,
-          "k": 2,
-          "avg": ".200"
-        },
-        {
-          "order": 800,
-          "name": "Meidroth",
-          "position": "2B",
-          "ab": 4,
-          "r": 0,
-          "h": 2,
-          "rbi": 1,
-          "bb": 0,
-          "k": 1,
-          "avg": ".400"
-        },
-        {
-          "order": 900,
-          "name": "CMontgomery",
-          "position": "SS",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "k": 2,
-          "avg": ".250"
-        }
-      ],
-      "home_batting": [
-        {
-          "order": 100,
-          "name": "Kwan",
-          "position": "CF",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".143"
-        },
-        {
-          "order": 200,
-          "name": "JoRam\u00edrez",
-          "position": "3B",
-          "ab": 3,
-          "r": 1,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "k": 2,
           "avg": ".000"
         },
         {
-          "order": 300,
-          "name": "DeLauter",
-          "position": "RF",
-          "ab": 4,
-          "r": 1,
-          "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".250"
-        },
-        {
-          "order": 400,
-          "name": "Adell",
-          "position": "DH",
-          "ab": 3,
-          "r": 0,
-          "h": 1,
-          "rbi": 1,
-          "bb": 1,
-          "k": 2,
-          "avg": ".143"
-        },
-        {
-          "order": 500,
-          "name": "NLowe",
-          "position": "1B",
-          "ab": 4,
+          "order": 901,
+          "name": "Tellez",
+          "position": "PH",
+          "ab": 0,
           "r": 0,
           "h": 0,
-          "rbi": 1,
-          "bb": 0,
-          "k": 1,
-          "avg": ".167"
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".000"
         },
         {
-          "order": 600,
-          "name": "AMart\u00ednez",
+          "order": 902,
+          "name": "Hicklen",
           "position": "LF",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 2,
-          "avg": ".000"
-        },
-        {
-          "order": 700,
-          "name": "Bazzana",
-          "position": "2B",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "k": 1,
-          "avg": ".143"
-        },
-        {
-          "order": 800,
-          "name": "Bailey",
-          "position": "C",
-          "ab": 4,
+          "ab": 1,
           "r": 0,
           "h": 0,
           "rbi": 0,
           "bb": 0,
           "k": 1,
-          "avg": ".200"
-        },
-        {
-          "order": 900,
-          "name": "Rocchio",
-          "position": "SS",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
           "avg": ".000"
         }
       ],
       "away_pitching": [
         {
-          "name": "Kay",
-          "decision": "",
-          "ip": "0.1",
-          "h": 1,
-          "r": 2,
-          "er": 1,
-          "bb": 1,
-          "k": 0,
-          "np": 17,
-          "era": "3.86"
-        },
-        {
-          "name": "SNewcomb",
-          "decision": "",
-          "ip": "2.0",
-          "h": 1,
-          "r": 0,
-          "er": 0,
-          "bb": 1,
-          "k": 3,
-          "np": 40,
-          "era": "6.00"
-        },
-        {
-          "name": "SBurke",
+          "name": "Yamamoto",
           "decision": "W,1-0",
-          "ip": "5.1",
-          "h": 1,
+          "ip": "7.0",
+          "h": 4,
           "r": 1,
           "er": 1,
           "bb": 1,
-          "k": 6,
-          "np": 83,
-          "era": "3.86"
+          "k": 10,
+          "np": 98,
+          "era": "1.29"
         },
         {
-          "name": "GTaylor",
-          "decision": "S,2",
-          "ip": "1.1",
+          "name": "Scott",
+          "decision": "H,1",
+          "ip": "1.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
+          "bb": 1,
+          "k": 2,
+          "np": 19,
+          "era": "10.80"
+        },
+        {
+          "name": "D\u00edaz",
+          "decision": "S,1",
+          "ip": "1.0",
           "h": 1,
           "r": 0,
           "er": 0,
           "bb": 0,
           "k": 0,
-          "np": 7,
+          "np": 19,
           "era": "0.00"
         }
       ],
       "home_pitching": [
         {
-          "name": "GWilliams",
-          "decision": "",
+          "name": "Sale",
+          "decision": "L,0-1",
           "ip": "5.0",
-          "h": 4,
-          "r": 2,
-          "er": 2,
-          "bb": 3,
-          "k": 11,
-          "np": 98,
-          "era": "3.60"
+          "h": 7,
+          "r": 3,
+          "er": 3,
+          "bb": 0,
+          "k": 7,
+          "np": 95,
+          "era": "4.26"
         },
         {
-          "name": "Sabrowski",
-          "decision": "BS,L,0-1",
-          "ip": "0.2",
+          "name": "Dodd",
+          "decision": "",
+          "ip": "1.0",
           "h": 1,
-          "r": 2,
-          "er": 2,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 2,
+          "np": 17,
+          "era": "1.93"
+        },
+        {
+          "name": "DLee",
+          "decision": "",
+          "ip": "1.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 1,
+          "np": 9,
+          "era": "5.40"
+        },
+        {
+          "name": "Suter",
+          "decision": "",
+          "ip": "1.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
           "bb": 1,
           "k": 0,
-          "np": 11,
-          "era": "11.57"
-        },
-        {
-          "name": "Gaddis",
-          "decision": "",
-          "ip": "1.0",
-          "h": 1,
-          "r": 0,
-          "er": 0,
-          "bb": 0,
-          "k": 1,
-          "np": 17,
+          "np": 21,
           "era": "0.00"
         },
         {
-          "name": "Armstrong",
-          "decision": "",
-          "ip": "1.1",
-          "h": 0,
-          "r": 0,
-          "er": 0,
-          "bb": 0,
-          "k": 1,
-          "np": 16,
-          "era": "0.00"
-        },
-        {
-          "name": "CSmith",
+          "name": "RIglesias",
           "decision": "",
           "ip": "1.0",
           "h": 0,
           "r": 0,
           "er": 0,
-          "bb": 0,
-          "k": 0,
-          "np": 5,
+          "bb": 1,
+          "k": 2,
+          "np": 22,
           "era": "0.00"
         }
       ],
       "away": {
-        "city": "Chicago",
-        "nickname": "White Sox",
+        "city": "Los Angeles",
+        "nickname": "Dodgers",
         "innings": [
           0,
           0,
-          0,
-          1,
           0,
           3,
           0,
           0,
-          0
-        ],
-        "runs": 4,
-        "hits": 6,
-        "errors": 1
-      },
-      "home": {
-        "city": "Cleveland",
-        "nickname": "Guardians",
-        "innings": [
-          2,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          1,
           0
         ],
         "runs": 3,
-        "hits": 4,
-        "errors": 1
-      },
-      "notes": {
-        "errors": [
-          "Newcomb, S (1)",
-          "Gaddis (1)"
-        ],
-        "lob": {
-          "White Sox": 5,
-          "Guardians": 5
-        },
-        "doubles": [
-          "Montgomery, B (1)"
-        ],
-        "triples": [
-          "Adell (1)"
-        ],
-        "home_runs": [],
-        "stolen_bases": [],
-        "caught_stealing": [],
-        "gidp": [
-          "Antonacci"
-        ],
-        "sac_hits": [],
-        "sac_flies": []
-      },
-      "game_info": {
-        "blown_saves": [
-          {
-            "pitcher": "Sabrowski",
-            "player_bs": 1,
-            "team_bs": 18
-          }
-        ],
-        "wild_pitches": "Sabrowski",
-        "intentional_walks": "Adell (by Newcomb, S)",
-        "hit_by_pitch": "",
-        "umpires": "HP Gabe Morales, 1B Todd Tichenor, 2B Jansen Visconti, 3B Vic Carapazza, LF: Tom Hanahan, RF: Cory Blaser",
-        "time": "3:06",
-        "attendance": "32,050"
-      }
-    },
-    {
-      "status": "Final",
-      "games_display": "Rays 5, Yankees 2",
-      "headline": "Rays 5, Yankees 2",
-      "boxscore": "------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nYankees Batters                          AB   R   H  RBI BB   K  LOB AVG   OPS  | Rays Batters                             AB   R   H  RBI BB   K  LOB AVG   OPS \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n1 Rice  DH                                3   2   2   2   1   0   0  .467 1.889 | 1 D\u00edaz, Y  DH                             4   1   1   0   1   1   0  .250 .583 \n2 Bellinger  LF                           4   0   1   0   0   0   3  .235 .647  |     1-Mateo  DH                           0   0   0   0   0   0   0  .000 .000 \n3 Garc\u00eda Jr., L  1B                       4   0   0   0   0   2   1  .231 .693  | 2 Aranda  1B                              5   1   2   0   0   0   3  .333 1.000\n    Caballero  3B                         0   0   0   0   0   0   0  .000 .000  | 3 Caminero  3B                            4   1   2   0   0   0   1  .333 1.000\n4 Jones, S  RF                            4   0   0   0   0   1   1  .133 .321  | 4 Hicks, L  C                             3   0   0   1   0   0   2  .167 .619 \n5 Lombard Jr.  SS                         4   0   0   0   0   1   1  .267 .534  | 5 Simpson  LF                             4   1   1   1   0   0   2  .125 .250 \n6 Chisholm Jr.  2B                        4   0   0   0   0   1   0  .222 .586  | 6 Mesa Jr.  RF                            3   0   0   0   1   1   5  .167 .453 \n7 Grisham  CF                             3   0   0   0   0   0   0  .200 .473  | 7 DeLuca  CF                              4   1   1   0   0   0   4  .143 .429 \n8 Wells, A  C                             3   0   1   0   0   2   0  .417 .940  | 8 Palacios, R  2B                         4   0   1   2   0   1   1  .286 .715 \n9 McMahon  3B                             1   0   0   0   1   0   0  .143 .476  | 9 Walls  SS                               4   0   0   0   0   1   2  .000 .000 \n    a-Goldschmidt  1B                     1   0   0   0   0   0   0  .000 .286  |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                   31   2   4   2   2   7   6             | Totals                                   35   5   8   4   2   4  20            \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\na-Popped out for McMahon in the 8th.                                            | 1-Ran for D\u00edaz, Y in the 8th.                                                  \n                                                                                |                                                                                \nBATTING                                                                         | BATTING                                                                        \n2B: Wells, A (2, Peralta, F).                                                   | 2B: DeLuca (1, Schlittler); Caminero (1, Schlittler).                          \nHR: Rice 2 (4, 4th inning off Peralta, F, 0 on, 0 out, 8th inning off Seymour,  | TB: Aranda 2; Caminero 3; DeLuca 2; D\u00edaz, Y; Palacios, R; Simpson.             \n    I, 0 on, 1 out).                                                            | RBI: Hicks, L (1); Palacios, R 2 (2); Simpson (1).                             \nTB: Bellinger; Rice 8; Wells, A 2.                                              | 2-out RBI: Palacios, R 2.                                                      \nRBI: Rice 2 (8).                                                                | Runners left in scoring position, 2 out: Aranda; Mesa Jr.; DeLuca 3.           \nRunners left in scoring position, 2 out: Bellinger 2.                           | Team RISP: 1-for-13.                                                           \nTeam RISP: 0-for-1.                                                             | Team LOB: 9.                                                                   \nTeam LOB: 4.                                                                    |                                                                                \n                                                                                |                                                                                \nFIELDING                                                                        |                                                                                \nE: McMahon (1, fielding); Chisholm Jr. (1, throw); Wells, A (1, catcher         |                                                                                \n    interference); Lombard Jr. (1, throw).                                      |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nYankees Pitchers                             IP   H   R  ER  BB   K  HR   ERA   | Rays Pitchers                                IP   H   R  ER  BB   K  HR   ERA  \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nSchlittler  (L, 1-1)                        4.1   6   4   2   1   2   0   1.69  | Peralta, F                                  4.2   3   1   1   1   3   1   1.93 \nHeadrick                                    0.2   1   1   0   0   1   0   0.00  | Booser  (W, 1-0)                            0.1   0   0   0   1   0   0   0.00 \nSchreiber                                   1.0   0   0   0   0   1   0   0.00  | Seymour, I  (H, 1)                          3.0   1   1   1   0   4   1   3.00 \nWeathers                                    0.2   0   0   0   1   0   0   0.00  | Baker  (S, 2)                               1.0   0   0   0   0   0   0   0.00 \nBlackburn, P                                1.0   0   0   0   0   0   0   0.00  |                                                                                \nBednar                                      0.1   1   0   0   0   0   0   0.00  |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                      8.0   8   5   2   2   4   0         | Totals                                      9.0   4   2   2   2   7   2        \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nABS Challenge: Jones, S (Strike-Overturned to Ball); Hicks, L (Ball-Overturned to Strike).                                                                       \nPitches-strikes: Schlittler 76-56; Headrick 18-13; Schreiber 15-10; Weathers 13-7; Blackburn, P 12-7; Bednar 3-2; Peralta, F 66-43; Booser 8-4; Seymour, I 41-27;\n    Baker 9-6.                                                                                                                                                   \nGroundouts-flyouts: Schlittler 10-0; Headrick 1-1; Schreiber 1-0; Weathers 1-1; Blackburn, P 3-0; Bednar 0-1; Peralta, F 3-4; Booser 0-1; Seymour, I 2-1; Baker  \n    3-0.                                                                                                                                                         \nBatters faced: Schlittler 23; Headrick 4; Schreiber 3; Weathers 3; Blackburn, P 3; Bednar 2; Peralta, F 18; Booser 2; Seymour, I 10; Baker 3.                    \nInherited runners-scored: Headrick 1-1; Blackburn, P 1-0; Booser 2-0.                                                                                            \nUmpires: HP: Jeremie Rehak. 1B: Dan Bellino. 2B: Ben May. 3B: D.J. Reyburn. LF: Ryan Wills. RF: Shane Livensparger.                                              \nWeather: 72 degrees, Dome.                                                                                                                                       \nWind: 0 mph, None.                                                                                                                                               \nFirst pitch: 8:10 PM.                                                                                                                                            \nT: 3:02.                                                                                                                                                         \nAtt: 40,226.                                                                                                                                                     \nVenue: Tropicana Field.                                                                                                                                          \nOctober 5, 2026                                                                                                                                                  \n-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n",
-      "away_batting": [
-        {
-          "order": 100,
-          "name": "Rice",
-          "position": "DH",
-          "ab": 3,
-          "r": 2,
-          "h": 2,
-          "rbi": 2,
-          "bb": 1,
-          "k": 0,
-          "avg": ".467"
-        },
-        {
-          "order": 200,
-          "name": "Bellinger",
-          "position": "LF",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".235"
-        },
-        {
-          "order": 300,
-          "name": "LGarc\u00eda Jr.",
-          "position": "1B",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 2,
-          "avg": ".231"
-        },
-        {
-          "order": 301,
-          "name": "Caballero",
-          "position": "3B",
-          "ab": 0,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".000"
-        },
-        {
-          "order": 400,
-          "name": "SJones",
-          "position": "RF",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 1,
-          "avg": ".133"
-        },
-        {
-          "order": 500,
-          "name": "Lombard Jr.",
-          "position": "SS",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 1,
-          "avg": ".267"
-        },
-        {
-          "order": 600,
-          "name": "Chisholm Jr.",
-          "position": "2B",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 1,
-          "avg": ".222"
-        },
-        {
-          "order": 700,
-          "name": "Grisham",
-          "position": "CF",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".200"
-        },
-        {
-          "order": 800,
-          "name": "AWells",
-          "position": "C",
-          "ab": 3,
-          "r": 0,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "k": 2,
-          "avg": ".417"
-        },
-        {
-          "order": 900,
-          "name": "McMahon",
-          "position": "3B",
-          "ab": 1,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "k": 0,
-          "avg": ".143"
-        },
-        {
-          "order": 901,
-          "name": "Goldschmidt",
-          "position": "1B",
-          "ab": 1,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".000"
-        }
-      ],
-      "home_batting": [
-        {
-          "order": 100,
-          "name": "YD\u00edaz",
-          "position": "DH",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 1,
-          "k": 1,
-          "avg": ".250"
-        },
-        {
-          "order": 101,
-          "name": "Mateo",
-          "position": "DH",
-          "ab": 0,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".000"
-        },
-        {
-          "order": 200,
-          "name": "Aranda",
-          "position": "1B",
-          "ab": 5,
-          "r": 1,
-          "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".333"
-        },
-        {
-          "order": 300,
-          "name": "Caminero",
-          "position": "3B",
-          "ab": 4,
-          "r": 1,
-          "h": 2,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".333"
-        },
-        {
-          "order": 400,
-          "name": "LHicks",
-          "position": "C",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 1,
-          "bb": 0,
-          "k": 0,
-          "avg": ".167"
-        },
-        {
-          "order": 500,
-          "name": "Simpson",
-          "position": "LF",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 1,
-          "bb": 0,
-          "k": 0,
-          "avg": ".125"
-        },
-        {
-          "order": 600,
-          "name": "Mesa Jr.",
-          "position": "RF",
-          "ab": 3,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 1,
-          "k": 1,
-          "avg": ".167"
-        },
-        {
-          "order": 700,
-          "name": "DeLuca",
-          "position": "CF",
-          "ab": 4,
-          "r": 1,
-          "h": 1,
-          "rbi": 0,
-          "bb": 0,
-          "k": 0,
-          "avg": ".143"
-        },
-        {
-          "order": 800,
-          "name": "RPalacios",
-          "position": "2B",
-          "ab": 4,
-          "r": 0,
-          "h": 1,
-          "rbi": 2,
-          "bb": 0,
-          "k": 1,
-          "avg": ".286"
-        },
-        {
-          "order": 900,
-          "name": "Walls",
-          "position": "SS",
-          "ab": 4,
-          "r": 0,
-          "h": 0,
-          "rbi": 0,
-          "bb": 0,
-          "k": 1,
-          "avg": ".000"
-        }
-      ],
-      "away_pitching": [
-        {
-          "name": "Schlittler",
-          "decision": "L,1-1",
-          "ip": "4.1",
-          "h": 6,
-          "r": 4,
-          "er": 2,
-          "bb": 1,
-          "k": 2,
-          "np": 76,
-          "era": "1.69"
-        },
-        {
-          "name": "Headrick",
-          "decision": "",
-          "ip": "0.2",
-          "h": 1,
-          "r": 1,
-          "er": 0,
-          "bb": 0,
-          "k": 1,
-          "np": 18,
-          "era": "0.00"
-        },
-        {
-          "name": "Schreiber",
-          "decision": "",
-          "ip": "1.0",
-          "h": 0,
-          "r": 0,
-          "er": 0,
-          "bb": 0,
-          "k": 1,
-          "np": 15,
-          "era": "0.00"
-        },
-        {
-          "name": "Weathers",
-          "decision": "",
-          "ip": "0.2",
-          "h": 0,
-          "r": 0,
-          "er": 0,
-          "bb": 1,
-          "k": 0,
-          "np": 13,
-          "era": "0.00"
-        },
-        {
-          "name": "PBlackburn",
-          "decision": "",
-          "ip": "1.0",
-          "h": 0,
-          "r": 0,
-          "er": 0,
-          "bb": 0,
-          "k": 0,
-          "np": 12,
-          "era": "0.00"
-        },
-        {
-          "name": "Bednar",
-          "decision": "",
-          "ip": "0.1",
-          "h": 1,
-          "r": 0,
-          "er": 0,
-          "bb": 0,
-          "k": 0,
-          "np": 3,
-          "era": "0.00"
-        }
-      ],
-      "home_pitching": [
-        {
-          "name": "FPeralta",
-          "decision": "",
-          "ip": "4.2",
-          "h": 3,
-          "r": 1,
-          "er": 1,
-          "bb": 1,
-          "k": 3,
-          "np": 66,
-          "era": "1.93"
-        },
-        {
-          "name": "Booser",
-          "decision": "W,1-0",
-          "ip": "0.1",
-          "h": 0,
-          "r": 0,
-          "er": 0,
-          "bb": 1,
-          "k": 0,
-          "np": 8,
-          "era": "0.00"
-        },
-        {
-          "name": "ISeymour",
-          "decision": "H,1",
-          "ip": "3.0",
-          "h": 1,
-          "r": 1,
-          "er": 1,
-          "bb": 0,
-          "k": 4,
-          "np": 41,
-          "era": "3.00"
-        },
-        {
-          "name": "Baker",
-          "decision": "S,2",
-          "ip": "1.0",
-          "h": 0,
-          "r": 0,
-          "er": 0,
-          "bb": 0,
-          "k": 0,
-          "np": 9,
-          "era": "0.00"
-        }
-      ],
-      "away": {
-        "city": "New York",
-        "nickname": "Yankees",
-        "innings": [
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0
-        ],
-        "runs": 2,
-        "hits": 4,
-        "errors": 3
-      },
-      "home": {
-        "city": "Tampa Bay",
-        "nickname": "Rays",
-        "innings": [
-          1,
-          0,
-          0,
-          0,
-          4,
-          0,
-          0,
-          0,
-          0
-        ],
-        "runs": 5,
         "hits": 8,
         "errors": 0
       },
+      "home": {
+        "city": "Atlanta",
+        "nickname": "Braves",
+        "innings": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "runs": 1,
+        "hits": 5,
+        "errors": 2
+      },
       "notes": {
         "errors": [
-          "McMahon (1)",
-          "Wells, A (1)",
-          "Chisholm Jr. (1)",
-          "Lombard Jr. (1)"
+          "Baldwin, D (1)",
+          "Kim, Ha (1)"
         ],
         "lob": {
-          "Yankees": 4,
-          "Rays": 9
+          "Dodgers": 9,
+          "Braves": 6
         },
         "doubles": [
-          "Wells, A (2)",
-          "DeLuca (1)",
-          "Caminero (1)"
+          "Albies (1)"
         ],
         "triples": [],
         "home_runs": [
-          "Rice (4)"
+          "Hern\u00e1ndez, E (1)",
+          "Freeman, F (2)"
         ],
         "stolen_bases": [
-          "Simpson (1)",
-          "DeLuca (1)",
-          "Mesa Jr. (1)"
+          "Tucker (2)"
         ],
         "caught_stealing": [],
         "gidp": [],
@@ -906,9 +452,484 @@
         "wild_pitches": "",
         "intentional_walks": "",
         "hit_by_pitch": "",
-        "umpires": "HP Jeremie Rehak, 1B Dan Bellino, 2B Ben May, 3B D.J, Reyburn, LF: Ryan Wills, RF: Shane Livensparger",
-        "time": "3:02",
-        "attendance": "40,226"
+        "umpires": "HP James Hoye, 1B Tripp Gibson, 2B Jim Wolf, 3B Mike Estabrook, LF: Roberto Ortiz, RF: Chris Guccione",
+        "time": "2:56",
+        "attendance": "42,420"
+      }
+    },
+    {
+      "status": "Final",
+      "games_display": "Padres 4, Brewers 3",
+      "headline": "Padres 4, Brewers 3",
+      "boxscore": "------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nBrewers Batters                          AB   R   H  RBI BB   K  LOB AVG   OPS  | Padres Batters                           AB   R   H  RBI BB   K  LOB AVG   OPS \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n1 Chourio, J  LF                          4   0   0   1   0   1   2  .167 .631  | 1 Tatis Jr.  RF                           4   0   0   1   0   1   1  .143 .468 \n2 Bauers  1B                              4   0   0   0   1   4   1  .182 .490  | 2 Merrill  CF                             4   1   1   0   0   2   1  .300 .633 \n3 Contreras, Wm  C                        4   2   3   1   1   0   0  .364 1.371 | 3 Machado, M  3B                          3   0   1   1   1   0   0  .375 1.212\n    1-Lara  PR                            0   0   0   0   0   0   0  .000 .250  | 4 France, T  1B                           4   0   0   0   0   1   2  .368 .850 \n4 Turang  2B                              4   0   1   0   1   1   3  .091 .322  | 5 Salas  C                                3   0   0   0   1   1   0  .143 .365 \n5 Yelich  DH                              4   0   2   1   1   0   2  .400 1.000 | 6 Bogaerts  SS                            3   1   1   0   0   1   1  .353 1.009\n6 Mitchell  CF                            4   0   0   0   0   3   4  .182 .432  | 7 Harris, D  LF                           2   0   0   0   0   1   1  .176 .398 \n7 Pratt  SS                               4   1   2   0   0   0   1  .273 .546  |     a-Andujar  PH                         1   0   0   0   0   0   0  .000 .000 \n8 Frelick  RF                             4   0   1   0   0   0   2  .333 .833  |     1-Bowen  LF                           0   0   0   0   0   0   0  .000 .000 \n9 Ortiz, J  3B                            2   0   1   0   0   0   2  .167 .334  | 8 Taylor, S  DH                           3   1   1   0   0   0   1  .286 .572 \n    a-Hamilton, D  3B                     1   0   1   0   0   0   0  .250 .500  | 9 Cronenworth  2B                         2   1   2   1   0   0   0  .200 .650 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                   35   3  11   3   4   9  17             | Totals                                   29   4   6   3   2   7   7            \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\na-Singled for Ortiz, J in the 8th.                                              | a-Reached on error for Harris, D in the 6th.                                   \n1-Ran for Contreras, Wm in the 9th.                                             | 1-Ran for Andujar in the 6th.                                                  \n                                                                                |                                                                                \nBATTING                                                                         | BATTING                                                                        \nHR: Contreras, Wm (2, 4th inning off Pivetta, 0 on, 0 out).                     | HR: Cronenworth (1, 5th inning off Romero, J, 0 on, 0 out).                    \nTB: Contreras, Wm 6; Frelick; Hamilton, D; Ortiz, J; Pratt 2; Turang; Yelich 2. | TB: Bogaerts; Cronenworth 5; Machado, M; Merrill; Taylor, S.                   \nRBI: Chourio, J (5); Contreras, Wm (2); Yelich (1).                             | RBI: Cronenworth (2); Machado, M (3); Tatis Jr. (2).                           \n2-out RBI: Yelich.                                                              | 2-out RBI: Machado, M.                                                         \nRunners left in scoring position, 2 out: Mitchell; Ortiz, J 2; Turang 2.        | SAC: Cronenworth.                                                              \nSAC: Ortiz, J.                                                                  | Team RISP: 1-for-3.                                                            \nSF: Chourio, J.                                                                 | Team LOB: 4.                                                                   \nGIDP: Yelich.                                                                   |                                                                                \nTeam RISP: 2-for-7.                                                             | FIELDING                                                                       \nTeam LOB: 11.                                                                   | DP: (Bogaerts-France, T).                                                      \n                                                                                |                                                                                \nFIELDING                                                                        |                                                                                \nE: Pratt (2, throw).                                                            |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nBrewers Pitchers                             IP   H   R  ER  BB   K  HR   ERA   | Padres Pitchers                              IP   H   R  ER  BB   K  HR   ERA  \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nMay                                         3.0   3   2   2   2   3   0   6.00  | Pivetta                                     4.1   5   2   2   0   4   1   3.52 \nRomero, J  (L, 0-1)                         1.2   1   1   1   0   2   1   3.86  | Adam                                        0.1   1   0   0   1   0   0   0.00 \nSenzatela                                   1.0   1   1   0   0   1   0   0.00  | Matsui  (W, 1-0)                            1.0   1   0   0   1   1   0   0.00 \nHall, D                                     1.1   1   0   0   0   1   0   0.00  | Rodriguez, B  (H, 2)                        1.1   3   1   1   0   3   0   1.80 \nUribe                                       1.0   0   0   0   0   0   0   0.00  | King, M  (S, 1)                             2.0   1   0   0   2   1   0   0.64 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                      8.0   6   4   3   2   7   1         | Totals                                      9.0  11   3   3   4   9   1        \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nWP: Hall, D.                                                                                                                                                     \nABS Challenge: Contreras, Wm 3 (Ball-Confirmed, Ball-Overturned to Strike, Strike-Confirmed); Salas 2 (Ball-Confirmed, Ball-Confirmed); Ortiz, J                 \n    (Strike-Overturned to Ball).                                                                                                                                 \nPitches-strikes: May 52-27; Romero, J 30-22; Senzatela 14-10; Hall, D 29-18; Uribe 7-6; Pivetta 69-51; Adam 13-8; Matsui 23-14; Rodriguez, B 21-16; King, M      \n    40-25.                                                                                                                                                       \nGroundouts-flyouts: May 4-2; Romero, J 1-1; Senzatela 1-0; Hall, D 3-0; Uribe 3-0; Pivetta 4-4; Adam 0-1; Matsui 2-0; Rodriguez, B 0-1; King, M 3-0.             \nBatters faced: May 14; Romero, J 6; Senzatela 4; Hall, D 5; Uribe 3; Pivetta 18; Adam 3; Matsui 5; Rodriguez, B 7; King, M 8.                                    \nInherited runners-scored: Romero, J 1-0; Hall, D 1-1; Adam 2-1; Matsui 3-0; Rodriguez, B 2-0.                                                                    \nUmpires: HP: Alfonso M\u00e1rquez. 1B: Nic Lentz. 2B: Quinn Wolcott. 3B: Brennan Miller. LF: Nick Mahrley. RF: Lance Barrett.                                         \nWeather: 82 degrees, Clear.                                                                                                                                      \nWind: 9 mph, In From LF.                                                                                                                                         \nFirst pitch: 6:39 PM.                                                                                                                                            \nT: 3:22.                                                                                                                                                         \nAtt: 47,708.                                                                                                                                                     \nVenue: Petco Park.                                                                                                                                               \nOctober 6, 2026                                                                                                                                                  \n-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n",
+      "away_batting": [
+        {
+          "order": 100,
+          "name": "JChourio",
+          "position": "LF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".167"
+        },
+        {
+          "order": 200,
+          "name": "Bauers",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 4,
+          "avg": ".182"
+        },
+        {
+          "order": 300,
+          "name": "WmContreras",
+          "position": "C",
+          "ab": 4,
+          "r": 2,
+          "h": 3,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".364"
+        },
+        {
+          "order": 301,
+          "name": "Lara",
+          "position": "PR",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".000"
+        },
+        {
+          "order": 400,
+          "name": "Turang",
+          "position": "2B",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".091"
+        },
+        {
+          "order": 500,
+          "name": "Yelich",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".400"
+        },
+        {
+          "order": 600,
+          "name": "Mitchell",
+          "position": "CF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 3,
+          "avg": ".182"
+        },
+        {
+          "order": 700,
+          "name": "Pratt",
+          "position": "SS",
+          "ab": 4,
+          "r": 1,
+          "h": 2,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".273"
+        },
+        {
+          "order": 800,
+          "name": "Frelick",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".333"
+        },
+        {
+          "order": 900,
+          "name": "JOrtiz",
+          "position": "3B",
+          "ab": 2,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".167"
+        },
+        {
+          "order": 901,
+          "name": "DHamilton",
+          "position": "3B",
+          "ab": 1,
+          "r": 0,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".250"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "Tatis Jr.",
+          "position": "RF",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".143"
+        },
+        {
+          "order": 200,
+          "name": "Merrill",
+          "position": "CF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 2,
+          "avg": ".300"
+        },
+        {
+          "order": 300,
+          "name": "MMachado",
+          "position": "3B",
+          "ab": 3,
+          "r": 0,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".375"
+        },
+        {
+          "order": 400,
+          "name": "TFrance",
+          "position": "1B",
+          "ab": 4,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".368"
+        },
+        {
+          "order": 500,
+          "name": "Salas",
+          "position": "C",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".143"
+        },
+        {
+          "order": 600,
+          "name": "Bogaerts",
+          "position": "SS",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".353"
+        },
+        {
+          "order": 700,
+          "name": "DHarris",
+          "position": "LF",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".176"
+        },
+        {
+          "order": 701,
+          "name": "Andujar",
+          "position": "PH",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".000"
+        },
+        {
+          "order": 702,
+          "name": "Bowen",
+          "position": "LF",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".000"
+        },
+        {
+          "order": 800,
+          "name": "STaylor",
+          "position": "DH",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".286"
+        },
+        {
+          "order": 900,
+          "name": "Cronenworth",
+          "position": "2B",
+          "ab": 2,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".200"
+        }
+      ],
+      "away_pitching": [
+        {
+          "name": "May",
+          "decision": "",
+          "ip": "3.0",
+          "h": 3,
+          "r": 2,
+          "er": 2,
+          "bb": 2,
+          "k": 3,
+          "np": 52,
+          "era": "6.00"
+        },
+        {
+          "name": "JRomero",
+          "decision": "L,0-1",
+          "ip": "1.2",
+          "h": 1,
+          "r": 1,
+          "er": 1,
+          "bb": 0,
+          "k": 2,
+          "np": 30,
+          "era": "3.86"
+        },
+        {
+          "name": "Senzatela",
+          "decision": "",
+          "ip": "1.0",
+          "h": 1,
+          "r": 1,
+          "er": 0,
+          "bb": 0,
+          "k": 1,
+          "np": 14,
+          "era": "0.00"
+        },
+        {
+          "name": "DHall",
+          "decision": "",
+          "ip": "1.1",
+          "h": 1,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 1,
+          "np": 29,
+          "era": "0.00"
+        },
+        {
+          "name": "Uribe",
+          "decision": "",
+          "ip": "1.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 0,
+          "np": 7,
+          "era": "0.00"
+        }
+      ],
+      "home_pitching": [
+        {
+          "name": "Pivetta",
+          "decision": "",
+          "ip": "4.1",
+          "h": 5,
+          "r": 2,
+          "er": 2,
+          "bb": 0,
+          "k": 4,
+          "np": 69,
+          "era": "3.52"
+        },
+        {
+          "name": "Adam",
+          "decision": "",
+          "ip": "0.1",
+          "h": 1,
+          "r": 0,
+          "er": 0,
+          "bb": 1,
+          "k": 0,
+          "np": 13,
+          "era": "0.00"
+        },
+        {
+          "name": "Matsui",
+          "decision": "W,1-0",
+          "ip": "1.0",
+          "h": 1,
+          "r": 0,
+          "er": 0,
+          "bb": 1,
+          "k": 1,
+          "np": 23,
+          "era": "0.00"
+        },
+        {
+          "name": "BRodriguez",
+          "decision": "H,2",
+          "ip": "1.1",
+          "h": 3,
+          "r": 1,
+          "er": 1,
+          "bb": 0,
+          "k": 3,
+          "np": 21,
+          "era": "1.80"
+        },
+        {
+          "name": "MKing",
+          "decision": "S,1",
+          "ip": "2.0",
+          "h": 1,
+          "r": 0,
+          "er": 0,
+          "bb": 2,
+          "k": 1,
+          "np": 40,
+          "era": "0.64"
+        }
+      ],
+      "away": {
+        "city": "Milwaukee",
+        "nickname": "Brewers",
+        "innings": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "runs": 3,
+        "hits": 11,
+        "errors": 1
+      },
+      "home": {
+        "city": "San Diego",
+        "nickname": "Padres",
+        "innings": [
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "runs": 4,
+        "hits": 6,
+        "errors": 0
+      },
+      "notes": {
+        "errors": [
+          "Pratt (2)"
+        ],
+        "lob": {
+          "Brewers": 11,
+          "Padres": 4
+        },
+        "doubles": [],
+        "triples": [],
+        "home_runs": [
+          "Contreras, Wm (2)",
+          "Cronenworth (1)"
+        ],
+        "stolen_bases": [
+          "Merrill (2)",
+          "Taylor, S (1)"
+        ],
+        "caught_stealing": [
+          "Bowen (1)"
+        ],
+        "gidp": [
+          "Yelich"
+        ],
+        "sac_hits": [
+          "Ortiz, J",
+          "Cronenworth"
+        ],
+        "sac_flies": [
+          "Chourio, J"
+        ]
+      },
+      "game_info": {
+        "blown_saves": [],
+        "wild_pitches": "Hall, D",
+        "intentional_walks": "",
+        "hit_by_pitch": "",
+        "umpires": "HP Alfonso M\u00e1rquez, 1B Nic Lentz, 2B Quinn Wolcott, 3B Brennan Miller, LF: Nick Mahrley, RF: Lance Barrett",
+        "time": "3:22",
+        "attendance": "47,708"
       }
     }
   ]
