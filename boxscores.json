@@ -1,57 +1,12 @@
 {
   "games": [
     {
-      "gamePk": 849833,
+      "gamePk": 849832,
       "winner_name": "Guardians",
       "winner_score": 9,
       "loser_name": "White Sox",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 849822,
-      "winner_name": "Dodgers",
-      "winner_score": 4,
-      "loser_name": "Braves",
-      "loser_score": 1
-    },
-    {
-      "gamePk": 849838,
-      "winner_name": "Rays",
-      "winner_score": 4,
-      "loser_name": "Yankees",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 849827,
-      "winner_name": "Brewers",
-      "winner_score": 3,
-      "loser_name": "Padres",
-      "loser_score": 1
+      "loser_score": 5
     }
   ],
-  "today_games": [
-    {
-      "away_name": "Guardians",
-      "home_name": "White Sox",
-      "game_time": "2026-10-09T00:00:00Z",
-      "away_pitcher": "Parker Messick",
-      "home_pitcher": "Hagen Smith",
-      "away_stats": {
-        "wins": 12,
-        "losses": 9,
-        "era": "2.56",
-        "k9": "9.3",
-        "hand": "L",
-        "team_record": "18-14"
-      },
-      "home_stats": {
-        "wins": 3,
-        "losses": 3,
-        "era": "1.29",
-        "k9": "13.2",
-        "hand": "L",
-        "team_record": "0-1"
-      }
-    }
-  ]
+  "today_games": []
 }
