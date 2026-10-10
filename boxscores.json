@@ -1,12 +1,28 @@
 {
-  "games": [
+  "games": [],
+  "today_games": [
     {
-      "gamePk": 849832,
-      "winner_name": "Guardians",
-      "winner_score": 9,
-      "loser_name": "White Sox",
-      "loser_score": 5
+      "away_name": "White Sox",
+      "home_name": "Guardians",
+      "game_time": "2026-10-11T00:00:00Z",
+      "away_pitcher": "Sean Burke",
+      "home_pitcher": "Gavin Williams",
+      "away_stats": {
+        "wins": 11,
+        "losses": 7,
+        "era": "3.34",
+        "k9": "9.7",
+        "hand": "R",
+        "team_record": "15-12"
+      },
+      "home_stats": {
+        "wins": 14,
+        "losses": 8,
+        "era": "3.76",
+        "k9": "12.1",
+        "hand": "R",
+        "team_record": "20-12"
+      }
     }
-  ],
-  "today_games": []
+  ]
 }
