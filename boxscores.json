@@ -1,27 +1,35 @@
 {
-  "games": [],
+  "games": [
+    {
+      "gamePk": 849831,
+      "winner_name": "Guardians",
+      "winner_score": 2,
+      "loser_name": "White Sox",
+      "loser_score": 0
+    }
+  ],
   "today_games": [
     {
-      "away_name": "White Sox",
-      "home_name": "Guardians",
-      "game_time": "2026-10-11T00:00:00Z",
-      "away_pitcher": "Sean Burke",
-      "home_pitcher": "Gavin Williams",
+      "away_name": "Dodgers",
+      "home_name": "Brewers",
+      "game_time": "2026-10-12T00:00:00Z",
+      "away_pitcher": "Tarik Skubal",
+      "home_pitcher": "Jacob Misiorowski",
       "away_stats": {
-        "wins": 11,
+        "wins": 12,
         "losses": 7,
-        "era": "3.34",
-        "k9": "9.7",
-        "hand": "R",
-        "team_record": "15-12"
+        "era": "2.72",
+        "k9": "10.6",
+        "hand": "L",
+        "team_record": "17-9"
       },
       "home_stats": {
-        "wins": 14,
-        "losses": 8,
-        "era": "3.76",
-        "k9": "12.1",
+        "wins": 16,
+        "losses": 5,
+        "era": "1.80",
+        "k9": "13.0",
         "hand": "R",
-        "team_record": "20-12"
+        "team_record": "22-8"
       }
     }
   ]
