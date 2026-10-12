@@ -1,35 +1,58 @@
 {
   "games": [
     {
-      "gamePk": 849831,
-      "winner_name": "Guardians",
+      "gamePk": 849809,
+      "winner_name": "Brewers",
       "winner_score": 2,
-      "loser_name": "White Sox",
-      "loser_score": 0
+      "loser_name": "Dodgers",
+      "loser_score": 1
     }
   ],
   "today_games": [
     {
-      "away_name": "Dodgers",
-      "home_name": "Brewers",
-      "game_time": "2026-10-12T00:00:00Z",
-      "away_pitcher": "Tarik Skubal",
-      "home_pitcher": "Jacob Misiorowski",
+      "away_name": "Guardians",
+      "home_name": "Rays",
+      "game_time": "2026-10-13T00:00:00Z",
+      "away_pitcher": "Foster Griffin",
+      "home_pitcher": "Drew Rasmussen",
       "away_stats": {
-        "wins": 12,
-        "losses": 7,
-        "era": "2.72",
-        "k9": "10.6",
+        "wins": 15,
+        "losses": 6,
+        "era": "3.60",
+        "k9": "8.2",
         "hand": "L",
-        "team_record": "17-9"
+        "team_record": "22-9"
       },
       "home_stats": {
         "wins": 16,
         "losses": 5,
-        "era": "1.80",
-        "k9": "13.0",
+        "era": "2.67",
+        "k9": "9.1",
         "hand": "R",
-        "team_record": "22-8"
+        "team_record": "21-9"
+      }
+    },
+    {
+      "away_name": "Dodgers",
+      "home_name": "Brewers",
+      "game_time": "2026-10-12T21:00:00Z",
+      "away_pitcher": "Yoshinobu Yamamoto",
+      "home_pitcher": "Logan Henderson",
+      "away_stats": {
+        "wins": 14,
+        "losses": 9,
+        "era": "2.53",
+        "k9": "8.8",
+        "hand": "R",
+        "team_record": "18-10"
+      },
+      "home_stats": {
+        "wins": 11,
+        "losses": 3,
+        "era": "2.47",
+        "k9": "10.1",
+        "hand": "R",
+        "team_record": "14-4"
       }
     }
   ]
