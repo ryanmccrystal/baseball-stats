@@ -1,58 +1,42 @@
 {
   "games": [
     {
-      "gamePk": 849809,
+      "gamePk": 849820,
+      "winner_name": "Guardians",
+      "winner_score": 7,
+      "loser_name": "Rays",
+      "loser_score": 3
+    },
+    {
+      "gamePk": 849812,
       "winner_name": "Brewers",
-      "winner_score": 2,
+      "winner_score": 7,
       "loser_name": "Dodgers",
-      "loser_score": 1
+      "loser_score": 4
     }
   ],
   "today_games": [
     {
       "away_name": "Guardians",
       "home_name": "Rays",
-      "game_time": "2026-10-13T00:00:00Z",
-      "away_pitcher": "Foster Griffin",
-      "home_pitcher": "Drew Rasmussen",
+      "game_time": "2026-10-14T00:00:00Z",
+      "away_pitcher": "Parker Messick",
+      "home_pitcher": "Freddy Peralta",
       "away_stats": {
-        "wins": 15,
-        "losses": 6,
-        "era": "3.60",
-        "k9": "8.2",
-        "hand": "L",
-        "team_record": "22-9"
-      },
-      "home_stats": {
-        "wins": 16,
-        "losses": 5,
-        "era": "2.67",
-        "k9": "9.1",
-        "hand": "R",
-        "team_record": "21-9"
-      }
-    },
-    {
-      "away_name": "Dodgers",
-      "home_name": "Brewers",
-      "game_time": "2026-10-12T21:00:00Z",
-      "away_pitcher": "Yoshinobu Yamamoto",
-      "home_pitcher": "Logan Henderson",
-      "away_stats": {
-        "wins": 14,
+        "wins": 12,
         "losses": 9,
-        "era": "2.53",
-        "k9": "8.8",
-        "hand": "R",
-        "team_record": "18-10"
+        "era": "2.56",
+        "k9": "9.3",
+        "hand": "L",
+        "team_record": "18-14"
       },
       "home_stats": {
-        "wins": 11,
-        "losses": 3,
-        "era": "2.47",
-        "k9": "10.1",
+        "wins": 10,
+        "losses": 11,
+        "era": "4.42",
+        "k9": "8.3",
         "hand": "R",
-        "team_record": "14-4"
+        "team_record": "18-14"
       }
     }
   ]
