@@ -1,42 +1,35 @@
 {
   "games": [
     {
-      "gamePk": 849820,
-      "winner_name": "Guardians",
-      "winner_score": 7,
-      "loser_name": "Rays",
-      "loser_score": 3
-    },
-    {
-      "gamePk": 849812,
-      "winner_name": "Brewers",
-      "winner_score": 7,
-      "loser_name": "Dodgers",
-      "loser_score": 4
+      "gamePk": 849813,
+      "winner_name": "Rays",
+      "winner_score": 3,
+      "loser_name": "Guardians",
+      "loser_score": 1
     }
   ],
   "today_games": [
     {
-      "away_name": "Guardians",
-      "home_name": "Rays",
-      "game_time": "2026-10-14T00:00:00Z",
-      "away_pitcher": "Parker Messick",
-      "home_pitcher": "Freddy Peralta",
+      "away_name": "Brewers",
+      "home_name": "Dodgers",
+      "game_time": "2026-10-15T00:00:00Z",
+      "away_pitcher": "Robert Gasser",
+      "home_pitcher": "Blake Snell",
       "away_stats": {
-        "wins": 12,
-        "losses": 9,
-        "era": "2.56",
-        "k9": "9.3",
+        "wins": 5,
+        "losses": 5,
+        "era": "3.87",
+        "k9": "8.5",
         "hand": "L",
-        "team_record": "18-14"
+        "team_record": "13-7"
       },
       "home_stats": {
-        "wins": 10,
-        "losses": 11,
-        "era": "4.42",
-        "k9": "8.3",
-        "hand": "R",
-        "team_record": "18-14"
+        "wins": 4,
+        "losses": 1,
+        "era": "1.90",
+        "k9": "11.6",
+        "hand": "L",
+        "team_record": "6-3"
       }
     }
   ]
