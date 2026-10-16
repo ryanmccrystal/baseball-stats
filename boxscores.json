@@ -1,52 +1,36 @@
 {
   "games": [
     {
-      "gamePk": 849811,
+      "gamePk": 849818,
+      "winner_name": "Guardians",
+      "winner_score": 3,
+      "loser_name": "Rays",
+      "loser_score": 2
+    },
+    {
+      "gamePk": 849810,
       "winner_name": "Brewers",
       "winner_score": 6,
       "loser_name": "Dodgers",
-      "loser_score": 2
+      "loser_score": 4
     }
   ],
   "today_games": [
     {
       "away_name": "Rays",
       "home_name": "Guardians",
-      "game_time": "2026-10-15T17:00:00Z",
-      "away_pitcher": "Griffin Jax",
-      "home_pitcher": "Gavin Williams",
+      "game_time": "2026-10-17T00:00:00Z",
+      "away_pitcher": "Nick Martinez",
+      "home_pitcher": "TBD",
       "away_stats": {
-        "wins": 8,
-        "losses": 10,
-        "era": "3.53",
-        "k9": "9.3",
+        "wins": 15,
+        "losses": 6,
+        "era": "3.10",
+        "k9": "5.5",
         "hand": "R",
-        "team_record": "13-10"
+        "team_record": "22-9"
       },
-      "home_stats": {
-        "wins": 14,
-        "losses": 8,
-        "era": "3.76",
-        "k9": "12.1",
-        "hand": "R",
-        "team_record": "20-12"
-      }
-    },
-    {
-      "away_name": "Brewers",
-      "home_name": "Dodgers",
-      "game_time": "2026-10-16T00:00:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "Tyler Glasnow",
-      "away_stats": null,
-      "home_stats": {
-        "wins": 5,
-        "losses": 2,
-        "era": "3.53",
-        "k9": "11.9",
-        "hand": "R",
-        "team_record": "9-4"
-      }
+      "home_stats": null
     }
   ]
 }
