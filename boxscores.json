@@ -1,27 +1,20 @@
 {
   "games": [
     {
-      "gamePk": 849818,
+      "gamePk": 849817,
       "winner_name": "Guardians",
-      "winner_score": 3,
+      "winner_score": "0",
       "loser_name": "Rays",
-      "loser_score": 2
-    },
-    {
-      "gamePk": 849810,
-      "winner_name": "Brewers",
-      "winner_score": 6,
-      "loser_name": "Dodgers",
-      "loser_score": 4
+      "loser_score": "0"
     }
   ],
   "today_games": [
     {
       "away_name": "Rays",
       "home_name": "Guardians",
-      "game_time": "2026-10-17T00:00:00Z",
+      "game_time": "2026-10-18T00:00:00Z",
       "away_pitcher": "Nick Martinez",
-      "home_pitcher": "TBD",
+      "home_pitcher": "Shawn Armstrong",
       "away_stats": {
         "wins": 15,
         "losses": 6,
@@ -30,7 +23,14 @@
         "hand": "R",
         "team_record": "22-9"
       },
-      "home_stats": null
+      "home_stats": {
+        "wins": 2,
+        "losses": 1,
+        "era": "4.58",
+        "k9": "8.7",
+        "hand": "R",
+        "team_record": "0-0"
+      }
     }
   ]
 }
