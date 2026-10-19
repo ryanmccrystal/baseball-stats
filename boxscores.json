@@ -13,9 +13,16 @@
       "away_name": "Guardians",
       "home_name": "Rays",
       "game_time": "2026-10-20T00:08:00Z",
-      "away_pitcher": "TBD",
+      "away_pitcher": "Shawn Armstrong",
       "home_pitcher": "Freddy Peralta",
-      "away_stats": null,
+      "away_stats": {
+        "wins": 2,
+        "losses": 1,
+        "era": "4.58",
+        "k9": "8.7",
+        "hand": "R",
+        "team_record": "0-0"
+      },
       "home_stats": {
         "wins": 10,
         "losses": 11,
