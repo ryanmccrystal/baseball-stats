@@ -1,36 +1,12 @@
 {
   "games": [
     {
-      "gamePk": 849817,
+      "gamePk": 849815,
       "winner_name": "Rays",
-      "winner_score": 3,
+      "winner_score": 7,
       "loser_name": "Guardians",
-      "loser_score": 1
+      "loser_score": 3
     }
   ],
-  "today_games": [
-    {
-      "away_name": "Guardians",
-      "home_name": "Rays",
-      "game_time": "2026-10-20T00:08:00Z",
-      "away_pitcher": "Shawn Armstrong",
-      "home_pitcher": "Freddy Peralta",
-      "away_stats": {
-        "wins": 2,
-        "losses": 1,
-        "era": "4.58",
-        "k9": "8.7",
-        "hand": "R",
-        "team_record": "0-0"
-      },
-      "home_stats": {
-        "wins": 10,
-        "losses": 11,
-        "era": "4.42",
-        "k9": "8.3",
-        "hand": "R",
-        "team_record": "18-14"
-      }
-    }
-  ]
+  "today_games": []
 }
