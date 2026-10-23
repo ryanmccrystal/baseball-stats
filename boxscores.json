@@ -1,4 +1,28 @@
 {
   "games": [],
-  "today_games": []
+  "today_games": [
+    {
+      "away_name": "Rays",
+      "home_name": "Brewers",
+      "game_time": "2026-10-24T00:00:00Z",
+      "away_pitcher": "Nick Martinez",
+      "home_pitcher": "Jacob Misiorowski",
+      "away_stats": {
+        "wins": 15,
+        "losses": 6,
+        "era": "3.10",
+        "k9": "5.5",
+        "hand": "R",
+        "team_record": "22-9"
+      },
+      "home_stats": {
+        "wins": 16,
+        "losses": 5,
+        "era": "1.80",
+        "k9": "13.0",
+        "hand": "R",
+        "team_record": "22-8"
+      }
+    }
+  ]
 }
