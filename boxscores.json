@@ -1,27 +1,35 @@
 {
-  "games": [],
+  "games": [
+    {
+      "gamePk": 849805,
+      "winner_name": "Brewers",
+      "winner_score": 3,
+      "loser_name": "Rays",
+      "loser_score": 2
+    }
+  ],
   "today_games": [
     {
       "away_name": "Rays",
       "home_name": "Brewers",
-      "game_time": "2026-10-24T00:00:00Z",
-      "away_pitcher": "Nick Martinez",
-      "home_pitcher": "Jacob Misiorowski",
+      "game_time": "2026-10-25T00:00:00Z",
+      "away_pitcher": "Drew Rasmussen",
+      "home_pitcher": "Logan Henderson",
       "away_stats": {
-        "wins": 15,
-        "losses": 6,
-        "era": "3.10",
-        "k9": "5.5",
-        "hand": "R",
-        "team_record": "22-9"
-      },
-      "home_stats": {
         "wins": 16,
         "losses": 5,
-        "era": "1.80",
-        "k9": "13.0",
+        "era": "2.67",
+        "k9": "9.1",
         "hand": "R",
-        "team_record": "22-8"
+        "team_record": "21-9"
+      },
+      "home_stats": {
+        "wins": 11,
+        "losses": 3,
+        "era": "2.47",
+        "k9": "10.1",
+        "hand": "R",
+        "team_record": "14-4"
       }
     }
   ]
