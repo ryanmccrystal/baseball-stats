@@ -1,12 +1,28 @@
 {
-  "games": [
+  "games": [],
+  "today_games": [
     {
-      "gamePk": 849802,
-      "winner_name": "Brewers",
-      "winner_score": 5,
-      "loser_name": "Rays",
-      "loser_score": 4
+      "away_name": "Brewers",
+      "home_name": "Rays",
+      "game_time": "2026-10-27T00:00:00Z",
+      "away_pitcher": "Robert Gasser",
+      "home_pitcher": "Freddy Peralta",
+      "away_stats": {
+        "wins": 5,
+        "losses": 5,
+        "era": "3.87",
+        "k9": "8.5",
+        "hand": "L",
+        "team_record": "13-7"
+      },
+      "home_stats": {
+        "wins": 10,
+        "losses": 11,
+        "era": "4.42",
+        "k9": "8.3",
+        "hand": "R",
+        "team_record": "18-14"
+      }
     }
-  ],
-  "today_games": []
+  ]
 }
