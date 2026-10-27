@@ -1,4 +1,502 @@
 {
-  "last_updated": "2026-10-26 02:51 PM",
-  "games": []
+  "last_updated": "2026-10-27 11:26 AM",
+  "games": [
+    {
+      "status": "Final",
+      "games_display": "Brewers 10, Rays 1",
+      "headline": "Brewers 10, Rays 1",
+      "boxscore": "------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nBrewers Batters                          AB   R   H  RBI BB   K  LOB AVG   OPS  | Rays Batters                             AB   R   H  RBI BB   K  LOB AVG   OPS \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n1 Chourio, J  LF                          5   2   4   1   0   1   0  .286 .737  | 1 D\u00edaz, Y  DH                             4   0   2   1   0   0   0  .269 .777 \n2 Bauers  1B                              4   1   0   0   1   1   3  .243 .768  | 2 Vilade  1B                              2   0   0   0   0   1   1  .111 .717 \n3 Yelich  DH                              3   1   2   1   1   0   0  .314 .800  |     a-Aranda  1B                          2   0   0   0   0   0   1  .295 .753 \n    b-Vaughn  DH                          1   0   0   0   0   0   0  .250 .775  | 3 Simpson  LF                             3   0   0   0   0   0   1  .250 .596 \n4 Contreras, Wm  C                        5   1   3   1   0   1   2  .419 1.141 | 4 Caminero  3B                            3   0   0   0   0   0   0  .256 .752 \n    S\u00e1nchez  C                            0   0   0   0   0   0   0  .000 .500  | 5 Williamson  2B                          3   0   0   0   0   1   0  .067 .289 \n5 Turang  2B                              5   1   3   2   0   0   3  .263 .838  | 6 DeLuca  CF                              3   0   0   0   0   1   0  .195 .453 \n6 Mitchell  CF                            3   1   1   1   1   2   2  .200 .689  | 7 Mesa Jr.  RF                            2   0   0   0   1   0   0  .154 .481 \n    c-Lara  CF                            1   0   0   0   0   0   1  .091 .258  | 8 Fortes  C                               2   0   0   0   0   0   1  .000 .000 \n7 Pratt  SS                               5   1   1   2   0   2   4  .275 .635  |     b-Mullins  PH                         1   1   1   0   0   0   0  .400 1.400\n8 Frelick  RF                             4   1   1   1   0   0   1  .269 .798  | 9 Walls  SS                               2   0   0   0   0   1   0  .125 .347 \n9 Hamilton, D  3B                         3   1   1   1   0   0   0  .350 .931  |     c-Mateo  PH                           1   0   0   0   0   1   1  .000 .000 \n    a-Ortiz, J  3B                        2   0   0   0   0   0   2  .105 .210  |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                   41  10  16  10   3   7  18             | Totals                                   28   1   3   1   1   5   5            \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\na-Grounded out for Hamilton, D in the 7th.                                      | a-Popped out for Vilade in the 7th.                                            \nb-Flied out for Yelich in the 8th.                                              | b-Singled for Fortes in the 9th.                                               \nc-Popped out for Mitchell in the 9th.                                           | c-Struck out for Walls in the 9th.                                             \n                                                                                |                                                                                \nBATTING                                                                         | BATTING                                                                        \n2B: Pratt (2, Booser); Frelick (1, Booser); Chourio, J (1, Sulser); Turang (3,  | 2B: D\u00edaz, Y (5, Woodruff).                                                     \n    Matz).                                                                      | TB: D\u00edaz, Y 3; Mullins.                                                        \nTB: Chourio, J 5; Contreras, Wm 3; Frelick 2; Hamilton, D; Mitchell; Pratt 2;   | RBI: D\u00edaz, Y (5).                                                              \n    Turang 4; Yelich 2.                                                         | 2-out RBI: D\u00edaz, Y.                                                            \nRBI: Chourio, J (9); Contreras, Wm (8); Frelick (4); Hamilton, D (4); Mitchell  | Runners left in scoring position, 2 out: Aranda.                               \n    (5); Pratt 2 (3); Turang 2 (4); Yelich (5).                                 | GIDP: Fortes.                                                                  \n2-out RBI: Mitchell; Hamilton, D; Frelick; Turang 2; Pratt 2; Chourio, J.       | Team RISP: 1-for-2.                                                            \nRunners left in scoring position, 2 out: Ortiz, J; Bauers; Turang 2; Pratt.     | Team LOB: 1.                                                                   \nTeam RISP: 9-for-18.                                                            |                                                                                \nTeam LOB: 8.                                                                    | FIELDING                                                                       \n                                                                                | E: Caminero (2, throw).                                                        \nFIELDING                                                                        | Outfield assists: Mesa Jr. (Contreras, Wm at 2nd base).                        \nDP: (Turang-Pratt-Bauers).                                                      |                                                                                \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nBrewers Pitchers                             IP   H   R  ER  BB   K  HR   ERA   | Rays Pitchers                                IP   H   R  ER  BB   K  HR   ERA  \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nGasser  (W, 1-0)                            6.0   1   0   0   1   3   0   0.60  | Peralta, F  (L, 2-1)                        4.2   7   5   5   3   4   0   2.95 \nSenzatela                                   2.0   0   0   0   0   1   0   0.00  | Booser                                      0.0   4   4   4   0   0   0   6.00 \nWoodruff                                    1.0   2   1   1   0   1   0   9.00  | Sulser                                      1.1   4   1   1   0   1   0  15.43 \n                                                                                | Cleavinger                                  1.0   0   0   0   0   1   0   0.00 \n                                                                                | Wells, T                                    1.0   0   0   0   0   1   0   9.00 \n                                                                                | Matz                                        1.0   1   0   0   0   0   0   1.80 \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nTotals                                      9.0   3   1   1   1   5   0         | Totals                                      9.0  16  10  10   3   7   0        \n------------------------------------------------------------------------------- | -------------------------------------------------------------------------------\nHBP: Frelick (by Matz).                                                                                                                                          \nABS Challenge: Fortes 4 (Ball-Confirmed, Ball-Overturned to Strike, Ball-Overturned to Strike, Ball-Overturned to Strike); Contreras, Wm 4 (Ball-Overturned to   \n    Strike, Ball-Overturned to Strike, Ball-Overturned to Strike, Ball-Overturned to Strike).                                                                    \nPitches-strikes: Gasser 75-50; Senzatela 26-20; Woodruff 18-13; Peralta, F 87-50; Booser 12-7; Sulser 32-19; Cleavinger 11-8; Wells, T 16-12; Matz 17-12.        \nGroundouts-flyouts: Gasser 7-2; Senzatela 1-3; Woodruff 1-0; Peralta, F 2-1; Booser 0-0; Sulser 1-2; Cleavinger 1-0; Wells, T 0-2; Matz 0-2.                     \nBatters faced: Gasser 18; Senzatela 6; Woodruff 5; Peralta, F 22; Booser 4; Sulser 8; Cleavinger 3; Wells, T 3; Matz 5.                                          \nInherited runners-scored: Booser 3-3; Sulser 1-1.                                                                                                                \nUmpires: HP: Nic Lentz. 1B: Vic Carapazza. 2B: Dan Bellino. 3B: Tripp Gibson. LF: Gabe Morales. RF: Jim Wolf.                                                    \nWeather: 70 degrees, Dome.                                                                                                                                       \nWind: 0 mph, None.                                                                                                                                               \nFirst pitch: 8:10 PM.                                                                                                                                            \nT: 3:00.                                                                                                                                                         \nAtt: 40,388.                                                                                                                                                     \nVenue: Tropicana Field.                                                                                                                                          \nOctober 26, 2026                                                                                                                                                 \n-----------------------------------------------------------------------------------------------------------------------------------------------------------------\n",
+      "away_batting": [
+        {
+          "order": 100,
+          "name": "JChourio",
+          "position": "LF",
+          "ab": 5,
+          "r": 2,
+          "h": 4,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".286"
+        },
+        {
+          "order": 200,
+          "name": "Bauers",
+          "position": "1B",
+          "ab": 4,
+          "r": 1,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 1,
+          "avg": ".243"
+        },
+        {
+          "order": 300,
+          "name": "Yelich",
+          "position": "DH",
+          "ab": 3,
+          "r": 1,
+          "h": 2,
+          "rbi": 1,
+          "bb": 1,
+          "k": 0,
+          "avg": ".314"
+        },
+        {
+          "order": 301,
+          "name": "Vaughn",
+          "position": "DH",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".250"
+        },
+        {
+          "order": 400,
+          "name": "WmContreras",
+          "position": "C",
+          "ab": 5,
+          "r": 1,
+          "h": 3,
+          "rbi": 1,
+          "bb": 0,
+          "k": 1,
+          "avg": ".419"
+        },
+        {
+          "order": 401,
+          "name": "S\u00e1nchez",
+          "position": "C",
+          "ab": 0,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".000"
+        },
+        {
+          "order": 500,
+          "name": "Turang",
+          "position": "2B",
+          "ab": 5,
+          "r": 1,
+          "h": 3,
+          "rbi": 2,
+          "bb": 0,
+          "k": 0,
+          "avg": ".263"
+        },
+        {
+          "order": 600,
+          "name": "Mitchell",
+          "position": "CF",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 1,
+          "k": 2,
+          "avg": ".200"
+        },
+        {
+          "order": 601,
+          "name": "Lara",
+          "position": "CF",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".091"
+        },
+        {
+          "order": 700,
+          "name": "Pratt",
+          "position": "SS",
+          "ab": 5,
+          "r": 1,
+          "h": 1,
+          "rbi": 2,
+          "bb": 0,
+          "k": 2,
+          "avg": ".275"
+        },
+        {
+          "order": 800,
+          "name": "Frelick",
+          "position": "RF",
+          "ab": 4,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".269"
+        },
+        {
+          "order": 900,
+          "name": "DHamilton",
+          "position": "3B",
+          "ab": 3,
+          "r": 1,
+          "h": 1,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".350"
+        },
+        {
+          "order": 901,
+          "name": "JOrtiz",
+          "position": "3B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".105"
+        }
+      ],
+      "home_batting": [
+        {
+          "order": 100,
+          "name": "YD\u00edaz",
+          "position": "DH",
+          "ab": 4,
+          "r": 0,
+          "h": 2,
+          "rbi": 1,
+          "bb": 0,
+          "k": 0,
+          "avg": ".269"
+        },
+        {
+          "order": 200,
+          "name": "Vilade",
+          "position": "1B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".111"
+        },
+        {
+          "order": 201,
+          "name": "Aranda",
+          "position": "1B",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".295"
+        },
+        {
+          "order": 300,
+          "name": "Simpson",
+          "position": "LF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".250"
+        },
+        {
+          "order": 400,
+          "name": "Caminero",
+          "position": "3B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".256"
+        },
+        {
+          "order": 500,
+          "name": "Williamson",
+          "position": "2B",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".067"
+        },
+        {
+          "order": 600,
+          "name": "DeLuca",
+          "position": "CF",
+          "ab": 3,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".195"
+        },
+        {
+          "order": 700,
+          "name": "Mesa Jr.",
+          "position": "RF",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 1,
+          "k": 0,
+          "avg": ".154"
+        },
+        {
+          "order": 800,
+          "name": "Fortes",
+          "position": "C",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".000"
+        },
+        {
+          "order": 801,
+          "name": "Mullins",
+          "position": "PH",
+          "ab": 1,
+          "r": 1,
+          "h": 1,
+          "rbi": 0,
+          "bb": 0,
+          "k": 0,
+          "avg": ".400"
+        },
+        {
+          "order": 900,
+          "name": "Walls",
+          "position": "SS",
+          "ab": 2,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".125"
+        },
+        {
+          "order": 901,
+          "name": "Mateo",
+          "position": "PH",
+          "ab": 1,
+          "r": 0,
+          "h": 0,
+          "rbi": 0,
+          "bb": 0,
+          "k": 1,
+          "avg": ".000"
+        }
+      ],
+      "away_pitching": [
+        {
+          "name": "Gasser",
+          "decision": "W,1-0",
+          "ip": "6.0",
+          "h": 1,
+          "r": 0,
+          "er": 0,
+          "bb": 1,
+          "k": 3,
+          "np": 75,
+          "era": "0.60"
+        },
+        {
+          "name": "Senzatela",
+          "decision": "",
+          "ip": "2.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 1,
+          "np": 26,
+          "era": "0.00"
+        },
+        {
+          "name": "Woodruff",
+          "decision": "",
+          "ip": "1.0",
+          "h": 2,
+          "r": 1,
+          "er": 1,
+          "bb": 0,
+          "k": 1,
+          "np": 18,
+          "era": "9.00"
+        }
+      ],
+      "home_pitching": [
+        {
+          "name": "FPeralta",
+          "decision": "L,2-1",
+          "ip": "4.2",
+          "h": 7,
+          "r": 5,
+          "er": 5,
+          "bb": 3,
+          "k": 4,
+          "np": 87,
+          "era": "2.95"
+        },
+        {
+          "name": "Booser",
+          "decision": "",
+          "ip": "0.0",
+          "h": 4,
+          "r": 4,
+          "er": 4,
+          "bb": 0,
+          "k": 0,
+          "np": 12,
+          "era": "6.00"
+        },
+        {
+          "name": "Sulser",
+          "decision": "",
+          "ip": "1.1",
+          "h": 4,
+          "r": 1,
+          "er": 1,
+          "bb": 0,
+          "k": 1,
+          "np": 32,
+          "era": "15.43"
+        },
+        {
+          "name": "Cleavinger",
+          "decision": "",
+          "ip": "1.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 1,
+          "np": 11,
+          "era": "0.00"
+        },
+        {
+          "name": "TWells",
+          "decision": "",
+          "ip": "1.0",
+          "h": 0,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 1,
+          "np": 16,
+          "era": "9.00"
+        },
+        {
+          "name": "Matz",
+          "decision": "",
+          "ip": "1.0",
+          "h": 1,
+          "r": 0,
+          "er": 0,
+          "bb": 0,
+          "k": 0,
+          "np": 17,
+          "era": "1.80"
+        }
+      ],
+      "away": {
+        "city": "Milwaukee",
+        "nickname": "Brewers",
+        "innings": [
+          0,
+          0,
+          2,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
+        "runs": 10,
+        "hits": 16,
+        "errors": 0
+      },
+      "home": {
+        "city": "Tampa Bay",
+        "nickname": "Rays",
+        "innings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "runs": 1,
+        "hits": 3,
+        "errors": 1
+      },
+      "notes": {
+        "errors": [
+          "Caminero (2)"
+        ],
+        "lob": {
+          "Brewers": 8,
+          "Rays": 1
+        },
+        "doubles": [
+          "Pratt (2)",
+          "Chourio, J (1)",
+          "Frelick (1)",
+          "Turang (3)",
+          "D\u00edaz, Y (5)"
+        ],
+        "triples": [],
+        "home_runs": [],
+        "stolen_bases": [
+          "Chourio, J (3)"
+        ],
+        "caught_stealing": [
+          "Mitchell (1)",
+          "Simpson (1)"
+        ],
+        "gidp": [
+          "Fortes"
+        ],
+        "sac_hits": [],
+        "sac_flies": []
+      },
+      "game_info": {
+        "blown_saves": [],
+        "wild_pitches": "",
+        "intentional_walks": "",
+        "hit_by_pitch": "Frelick (by Matz)",
+        "umpires": "HP Nic Lentz, 1B Vic Carapazza, 2B Dan Bellino, 3B Tripp Gibson, LF: Gabe Morales, RF: Jim Wolf",
+        "time": "3:00",
+        "attendance": "40,388"
+      }
+    }
+  ]
 }
