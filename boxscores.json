@@ -1,29 +1,29 @@
 {
   "games": [
     {
-      "gamePk": 849804,
-      "winner_name": "Brewers",
-      "winner_score": 10,
-      "loser_name": "Rays",
-      "loser_score": 1
+      "gamePk": 849803,
+      "winner_name": "Rays",
+      "winner_score": 4,
+      "loser_name": "Brewers",
+      "loser_score": 3
     }
   ],
   "today_games": [
     {
       "away_name": "Brewers",
       "home_name": "Rays",
-      "game_time": "2026-10-28T00:00:00Z",
-      "away_pitcher": "TBD",
-      "home_pitcher": "Griffin Jax",
-      "away_stats": null,
-      "home_stats": {
-        "wins": 8,
-        "losses": 10,
-        "era": "3.53",
-        "k9": "9.3",
+      "game_time": "2026-10-29T00:00:00Z",
+      "away_pitcher": "Jacob Misiorowski",
+      "home_pitcher": "TBD",
+      "away_stats": {
+        "wins": 16,
+        "losses": 5,
+        "era": "1.80",
+        "k9": "13.0",
         "hand": "R",
-        "team_record": "13-10"
-      }
+        "team_record": "22-8"
+      },
+      "home_stats": null
     }
   ]
 }
